@@ -45,3 +45,12 @@ class JDM_API:
         response = requests.get(url)
         response.raise_for_status()
         return response.json()
+
+    def get_relation_types(self):
+        """
+        Récupère tous les types de relations (rtid, name, nom_etendu, info)
+        """
+        url = f"{self.base_url}/relations_types"
+        response = requests.get(url)
+        response.raise_for_status()
+        return response.json()

@@ -49,3 +49,12 @@ class VM:
         retourne les relations à partir d'un node
         """
         return self.jdm_api.get_relations_from(node_name)
+
+    def fetch_relation_name_by_type_id(self, type_id):
+        """
+        Retourne le nom (gpname) d'une relation à partir de son id
+        """
+        relations = self.jdm_api.get_relation_types()
+        for relation in relations:
+            if relation["id"] == type_id:
+                return relation["name"]
