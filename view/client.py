@@ -46,6 +46,8 @@ def print_relations_between_terms(name1, name2):
             rel_type_name = vm.fetch_relation_name_by_type_id(rel_type_id)
             rel_id = rel["id"]
             print(f"{name1} --({rel_type_name})--> {name2} (relation id: {rel_id})")
+            #pour cette relation, on essaie d'obtenir les annotations :
+            
     else:
         print("Aucune relation trouvée entre les deux termes.")
         
@@ -60,7 +62,6 @@ def infer(name1, relation, name2):
     
     4. Faire un classement des scores pour donner la raison principale d'inférence (pour commencer. Ensuite on peut imaginer d'autres idées pour trouver la meilleure inférence que juste prendre celle de poids max)
     """
-    
 
 if __name__ == "__main__":
     print("\n Mises en forme possible:")
