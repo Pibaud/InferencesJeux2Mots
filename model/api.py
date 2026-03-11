@@ -10,13 +10,11 @@ class JDM_API:
         response.raise_for_status()
         return response.json()
 
-
     def get_node_by_id(self, node_id):
         url = f"{self.base_url}/node_by_id/{node_id}"
         response = requests.get(url)
         response.raise_for_status()
         return response.json()
-
 
 
     def get_relations_from_to(self,node1_name,node2_name):
@@ -45,6 +43,12 @@ class JDM_API:
         response = requests.get(url)
         response.raise_for_status()
         return response.json()
+    
+    def get_relations_from_by_id(self, node_id):
+        url = f"{self.base_url}/relations/from_by_id/{node_id}"
+        response = requests.get(url)
+        response.raise_for_status()
+        return response.json
 
     def get_relation_types(self):
         """
