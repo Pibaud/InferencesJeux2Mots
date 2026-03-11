@@ -63,11 +63,19 @@ def infer(name1, relation, name2):
     
 
 if __name__ == "__main__":
-    print("\nFormulez votre requête sous la forme : <terme1> <relation> <terme2>")
-    print('Par exemple, pour : "un chat peut-il griffer ?" écrivez : "chat r_agent-1 griffer"')
+    print("\n Mises en forme possible:")
+    print("\n- Chercher relations entre 2 termes: <terme1> <terme2>")
+    print('\n   Par exemple : "quelles sont les relations entre chat et griffer ?" écrivez : "chat griffer"')
+    print("\n- Chercher si une relation existe entre deux termes: <terme1> <relation> <terme2>")
+    print('\n   Par exemple : "un chat peut-il griffer ?" écrivez : "chat griffer"')
     query = input("\nVotre requête : ").strip().split()
-    if len(query) == 3:
+    if len(query) == 2:
+            name, name2 = query
+            print_relations_between_terms(name, name2)
+    elif len(query) == 3:
         name, relation, name2 = query
-        print_relations_between_terms(name, name2)
+        pass
     else:
-        print("Format de requête invalide. Veuillez écrire : <terme1> <relation> <terme2>")
+        print("Format de requête invalide. Veuillez écrire :<mode> <terme1> <relation> <terme2>")
+
+        
