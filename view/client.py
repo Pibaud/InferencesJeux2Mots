@@ -24,13 +24,14 @@ def print_relations_between_terms(name1, name2):
     if relations and "relations" in relations:
         print(f"--- Relations entre '{name1}' et '{name2}' ---")
         for rel in relations["relations"]:
+            print(rel)
             rel_type_id = rel["type"]
             rel_type_name = api.get_relation_name_by_type_id(rel_type_id)
             rel_id = rel["id"]
             print(f"{name1} --({rel_type_name})--> {name2} (relation id: {rel_id})")
             #pour cette relation, on essaie d'obtenir les annotations : ajouter ":r" avant l'id donc ":r12345"
             rel_node_name = f":r{rel_id}"
-            annotations = api.get_relations_from(rel_node_name)
+            annotations = api.get_relations_from(rel_node_name) #r_annotation est une relation d'id 998
             print(f"Annotations pour la relation '{rel_type_name}' dont le nom du noeud qui la représente est {rel_node_name} :")
             print(annotations)
     else:

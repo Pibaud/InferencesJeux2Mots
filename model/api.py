@@ -24,6 +24,7 @@ class JDM_API:
         data =  response.json().get('id')
         os.makedirs(dossier, exist_ok=True) 
     
+        os.makedirs(dossier, exist_ok=True)
         with open(path_complet, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
         return data
@@ -41,6 +42,7 @@ class JDM_API:
         response = requests.get(url, params=kwargs)
         response.raise_for_status()
         data = response.json()
+        os.makedirs(dossier, exist_ok=True)
         with open(path_complet, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
         return data
@@ -58,6 +60,7 @@ class JDM_API:
         response.raise_for_status()
         
         data =  response.json()
+        os.makedirs(dossier, exist_ok=True)
         with open(path_complet, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
         return data
@@ -71,12 +74,12 @@ class JDM_API:
             with open(path_complet, 'r', encoding='utf-8') as f:
                 data = json.load(f)
                 return data
-            
         
         response = requests.get(url)
         response.raise_for_status()
-        data =  response.json
+        data =  response.json()
 
+        os.makedirs(dossier, exist_ok=True)
         with open(path_complet, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
 
@@ -99,6 +102,14 @@ class JDM_API:
         response.raise_for_status()
         data= response.json()
 
+        os.makedirs(dossier, exist_ok=True)
         with open(path_complet, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
         return data
+    
+    def get_relation_name_by_type_id(self, type_id):
+        relation_types = self.get_relation_types()
+        for rt in relation_types:
+            if rt["id"] == type_id:
+                return rt["name"]
+        return None
