@@ -113,3 +113,23 @@ class JDM_API:
             if rt["id"] == type_id:
                 return rt["name"]
         return None
+    
+    def get_relations_from(self, node_name):
+        url = f"{self.base_url}/relations/from/{node_name}"
+        md5String = hashlib.md5(url.encode()).hexdigest()
+        dossier = "cache/relationsFromByName/"
+        path_complet = os.path.join(dossier,(md5String+".json"))
+        if os.path.isfile(path_complet):
+            with open(path_complet, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                return data
+        
+        response = requests.get(url)
+        response.raise_for_status()
+        data =  response.json()
+
+        os.makedirs(dossier, exist_ok=True)
+        with open(path_complet, 'w', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, indent=4)
+
+        return data
