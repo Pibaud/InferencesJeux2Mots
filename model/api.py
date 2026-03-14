@@ -28,6 +28,27 @@ class JDM_API:
         with open(path_complet, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
         return data
+    
+    def get_node_by_id(self, node_id):
+        url = f"{self.base_url}/node_by_id/{node_id}"
+        md5String = hashlib.md5(url.encode()).hexdigest()
+        dossier = "cache/nodeById/"
+        path_complet = os.path.join(dossier, (md5String + ".json"))
+        
+        if os.path.isfile(path_complet):
+            with open(path_complet, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                return data
+        
+        response = requests.get(url)
+        response.raise_for_status()
+        data = response.json()
+        
+        os.makedirs(dossier, exist_ok=True)
+        with open(path_complet, 'w', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, indent=4)
+            
+        return data
 
     def get_relations_from_to_by_id(self, node1_id, node2_id, **kwargs):
         url = f"{self.base_url}/relations/from_by_id/{node1_id}/to_by_id/{node2_id}"
@@ -53,13 +74,27 @@ class JDM_API:
         dossier = "cache/refinements/"
         path_complet = os.path.join(dossier,(md5String+".json"))
         if os.path.isfile(path_complet):
-            with open(path_complet, 'r', encoding='utf-8') as f:
-                data = json.load(f)
-                return data
-        response = requests.get(url)
-        response.raise_for_status()
-        
-        data =  response.json()
+            try:
+                with open(path_complet, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                    return data
+            except (json.JSONDecodeError, OSError):
+                # Cache corrompu: on tente un nouvel appel API.
+                pass
+
+        try:
+            response = requests.get(url, timeout=10)
+            response.raise_for_status()
+            data = response.json()
+        except requests.HTTPError as e:
+            # Le endpoint /refinements renvoie parfois 500: on degrade proprement.
+            if e.response is not None and e.response.status_code >= 500:
+                return {"nodes": []}
+            raise
+        except (requests.RequestException, ValueError):
+            # Erreur reseau ou JSON invalide: on evite de faire planter l'UI.
+            return {"nodes": []}
+
         os.makedirs(dossier, exist_ok=True)
         with open(path_complet, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
@@ -118,6 +153,26 @@ class JDM_API:
         url = f"{self.base_url}/relations/from/{node_name}"
         md5String = hashlib.md5(url.encode()).hexdigest()
         dossier = "cache/relationsFromByName/"
+        path_complet = os.path.join(dossier,(md5String+".json"))
+        if os.path.isfile(path_complet):
+            with open(path_complet, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                return data
+        
+        response = requests.get(url)
+        response.raise_for_status()
+        data =  response.json()
+
+        os.makedirs(dossier, exist_ok=True)
+        with open(path_complet, 'w', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, indent=4)
+
+        return data
+    
+    def get_relations_from_to(self, node_name1, node_name2):
+        url = f"{self.base_url}/relations/from/{node_name1}/to/{node_name2}"
+        md5String = hashlib.md5(url.encode()).hexdigest()
+        dossier = "cache/relationsFromToByName/"
         path_complet = os.path.join(dossier,(md5String+".json"))
         if os.path.isfile(path_complet):
             with open(path_complet, 'r', encoding='utf-8') as f:
