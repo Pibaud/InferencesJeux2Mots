@@ -120,7 +120,7 @@ class JDM_API:
 
         return data
     
-    def et_relations_from_by_id(self, node_id, types_ids):
+    def get_relations_from_by_id(self, node_id, types_ids):
         url = f"{self.base_url}/relations/from_by_id/{node_id}?types_ids={types_ids}"
         md5String = hashlib.md5((url + str(types_ids)).encode()).hexdigest()
         dossier = "cache/relationsFromById/"+str(types_ids)+"/"
