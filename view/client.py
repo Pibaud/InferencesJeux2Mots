@@ -110,21 +110,53 @@ def relation_weight_between_terms(name1,relation, name2):
                     return rel["w"]
         return None
 
-def inference_inductive(name1, name2):
-    """
-    Vérifie s'il existe une relation inductive entre name1 et name2
-    """
-    node1 = api.get_node_id_by_name(name1)
-    node2 = api.get_node_id_by_name(name2)
-    print(f"id de {name1} : {node1}, id de {name2} : {node2}")
-    relations = api.get_relations_from_to_by_id(node1, node2)
-    if relations and "relations" in relations:
-        for rel in relations["relations"]:
-            rel_type_id = rel["type"]
-            rel_type_name = api.get_relation_name_by_type_id(rel_type_id)
-            if rel_type_name == "transitive":
-                return True
-    return False
+def inference_deductive(name1, name2, depth=0, max_depth=3):
+    if depth > max_depth:
+        return None
+
+    id1 = api.get_node_id_by_name(name1)
+    id2 = api.get_node_id_by_name(name2)
+    
+    if not id1 or not id2:
+        return None
+
+    print(f"{'  ' * depth}🔍 Test déductif : {name1} -> {name2} ?")
+
+    # 1. Vérification directe (Is-A)
+    direct_rel = api.get_relations_from_to_by_id(id1, id2, types_ids=3)
+    if direct_rel and "relations" in direct_rel and len(direct_rel["relations"]) > 0:
+        if direct_rel["relations"][0]["w"] > 0:
+            return direct_rel["relations"]
+
+    # 2. Récupération des parents (Is-A)
+    parents_data = api.get_relations_from_by_id(id1, types_ids=3)
+    
+    if parents_data and "relations" in parents_data:
+        # TRI PAR POIDS DÉCROISSANT
+        all_rels = sorted(parents_data["relations"], key=lambda x: x["w"], reverse=True)
+        
+        # ON NE GARDE QUE LES 5 MEILLEURS TERMES
+        top_rels = all_rels[:5]
+        
+        nodes_info = {n['id']: n['name'] for n in parents_data.get('nodes', [])}
+
+        for rel in top_rels:
+            if rel["w"] <= 0: continue
+            
+            parent_id = rel["node2"]
+            parent_name = nodes_info.get(parent_id)
+            
+            if parent_name:
+                # On évite de remonter vers des termes trop génériques ou inutiles
+                if parent_name.lower() in ["science", "sciences", "technique", "militaire"]:
+                    continue
+                
+                result = inference_deductive(parent_name, name2, depth + 1, max_depth)
+                if result:
+                    return result
+
+    return None
+
 
 def print_relation_weight_between_terms(name1,relation,name2):
     print(f"--- Poids de la relation '{relation}' entre '{name1}' et '{name2}' ---")
@@ -202,7 +234,8 @@ if __name__ == "__main__":
             if (name=="R"):
                 print_refinements(name2)
             else:    
-                print_relations_between_terms(name, name2)
+                print(inference_deductive(name, name2))
+                #print_relations_between_terms(name, name2)
     elif len(query) == 3:
         name, relation, name2 = query
         inferences = infer(name,relation,name2)    
