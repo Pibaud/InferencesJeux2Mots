@@ -100,37 +100,30 @@ class JDM_API:
             json.dump(data, f, ensure_ascii=False, indent=4)
         return data
 
-    def get_relations_from_by_id(self, node_id):
+    def get_relations_from_by_id(self, node_id, types_ids=None,min_weight=None):
         url = f"{self.base_url}/relations/from_by_id/{node_id}"
-        md5String = hashlib.md5(url.encode()).hexdigest()
-        dossier = "cache/relationsFrom/"
-        path_complet = os.path.join(dossier,(md5String+".json"))
-        if os.path.isfile(path_complet):
-            with open(path_complet, 'r', encoding='utf-8') as f:
-                data = json.load(f)
-                return data
-        
-        response = requests.get(url)
-        response.raise_for_status()
-        data =  response.json()
+        query = {}
+        if types_ids is not None:
+            query["types_ids"] = types_ids
+        if min_weight is not None:
+            query["min_weight"] = min_weight
+        query["limit"] = 350 
 
-        os.makedirs(dossier, exist_ok=True)
-        with open(path_complet, 'w', encoding='utf-8') as f:
-            json.dump(data, f, ensure_ascii=False, indent=4)
+        cache_key = f"{url}|types_ids={types_ids}&min_weight={min_weight}&limit={350}"
+        md5String = hashlib.md5(cache_key.encode()).hexdigest()
 
-        return data
-    
-    def get_relations_from_by_id(self, node_id, types_ids):
-        url = f"{self.base_url}/relations/from_by_id/{node_id}?types_ids={types_ids}"
-        md5String = hashlib.md5((url + str(types_ids)).encode()).hexdigest()
-        dossier = "cache/relationsFromById/"+str(types_ids)+"/"
+        if types_ids is None:
+            dossier = "cache/relationsFromById/"
+        else:
+            dossier = "cache/relationsFromById/" + str(types_ids) + "/"
+
         path_complet = os.path.join(dossier, (md5String + ".json"))
         if os.path.isfile(path_complet):
             with open(path_complet, 'r', encoding='utf-8') as f:
                 data = json.load(f)
                 return data
 
-        response = requests.get(url)
+        response = requests.get(url, params=query)
         response.raise_for_status()
         data = response.json()
 
