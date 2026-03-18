@@ -300,7 +300,8 @@ if __name__ == "__main__":
                 print_refinements(name2)
            
             else:    
-                print_relations_between_terms(name, name2)
+                print(inference_deductive(name, name2))
+                #print_relations_between_terms(name, name2)
     elif len(query) == 3:
         name, relation, name2 = query
         inferences = infer(name,relation,name2)    
