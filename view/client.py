@@ -75,24 +75,16 @@ def print_relations_between_terms(name1, name2):
     else:
         print("Aucune relation trouvée entre les deux termes.")
 
-def inference_deductive(name1, name2, relation_name):
+def inference_deductive(name1, name2, relation_name, relation_id, rafs1=None, rafs2=None):
     """
     Vérifie par déduction avec gestion des raffinements et calcul de poids par moyenne géométrique.
     """
-    # 1. On récupère les raffinements (le terme lui-même est inclus s'il est type 1)
-    rafs1 = get_refinements(name1)
-    rafs2 = get_refinements(name2)
     
     # Si get_refinements ne renvoie rien, on travaille sur les noms bruts
     if not rafs1: rafs1 = [{"name": name1, "id": api.get_node_id_by_name(name1)}]
     if not rafs2: rafs2 = [{"name": name2, "id": api.get_node_id_by_name(name2)}]
 
     results = []
-    all_types = api.get_relation_types()
-    target_rel_id = next((rt["id"] for rt in all_types if rt["name"] == relation_name), None)
-
-    if not target_rel_id:
-        return []
 
     # 2. On boucle sur tous les couples de raffinements possibles
     for r1 in rafs1:
@@ -120,7 +112,7 @@ def inference_deductive(name1, name2, relation_name):
                     continue
 
                 # Chercher la relation cible entre le Parent et le raffinement de name2
-                res2 = api.get_relations_from_to_by_id(parent_id, id2, types_ids=target_rel_id)
+                res2 = api.get_relations_from_to_by_id(parent_id, id2, types_ids=relation_id)
                 
                 if res2 and res2.get("relations"):
                     for rel_target in res2["relations"]:
@@ -140,7 +132,6 @@ def inference_deductive(name1, name2, relation_name):
                                 "annotations": annotations,
                                 "méthode": "Inférence déductive par r_isa"
                             })
-    
     return results
         
 def get_annotations_by_rel_id(rel_id):
@@ -193,23 +184,119 @@ def getSpécifiques(node_name):
     spécifiques.sort(key= lambda x : x["poids"],reverse=True)
     return spécifiques
 
-def inferences_inductives(name1,relation, name2):
-    print(f"----------Spécifiques de {name1}-------------\n")
+def inference_inductive(name1,relation, name2, reponse):
+    print(f"----------Inférences inductives de {name1} --({relation})--> {name2}-------------\n")
     spec = getSpécifiques(name1)[0:20]
+
+
+    raw_spec = getSpécifiques(name1)
+    if raw_spec is None:
+        return None
+
+    # --- Nettoyage des doublons ---
+    unique_specs = {}
+    for item in raw_spec:
+        term_lower = item["specifique"].lower()
+        weight = item["poids"]
+        valence = 1 if weight >= 0 else -1
+        key = (term_lower, valence)
+        
+        if key not in unique_specs:
+            unique_specs[key] = item
+        else:
+            if abs(weight) > abs(unique_specs[key]["poids"]):
+                unique_specs[key] = item
+
+    # On récupère les 20 premiers après filtrage
+    spec = list(unique_specs.values())[0:20]
+    # ------------------------------
+
+
     inferences = []
-    notString = ""
-    for s in spec:
-        z = s["specifique"]
-        poidsSpecCible = relation_weight_between_terms(z,relation,name2)
-        if (poidsSpecCible!=None):
-            inferences.append([
-                {"terme1":name1, "relation":"r_hypo", "terme2":z, "poids":s["poids"]},
-                {"terme1":z,"relation":relation,"terme2":name2,"poids":poidsSpecCible}
-                ])
-            
-    return inferences
-            
-#printInferencesList(liste):
+    if (spec==None):
+        return None
+    if (reponse!=None):    
+
+
+        
+
+        for s in spec:
+            z = s["specifique"]
+            poidsSpecCible = relation_weight_between_terms(z,relation,name2)
+            if (poidsSpecCible!=None):
+                if (reponse==True and poidsSpecCible>0):
+                    inferences.append({"réponse":reponse,"inférences": [
+                        {"terme1":name1, "relation":"r_hypo", "terme2":z, "poids":s["poids"]},
+                        {"terme1":z,"relation":relation,"terme2":name2,"poids":poidsSpecCible}
+                        ]})
+                if  (reponse==False and poidsSpecCible<0):
+                    inferences.append({"réponse":reponse,"inférences": [
+                        {"terme1":name1, "relation":"r_hypo", "terme2":z, "poids":s["poids"]},
+                        {"terme1":z,"relation":"not "+relation,"terme2":name2,"poids":poidsSpecCible}
+                        ]})
+                
+        return inferences
+    else:
+        print("---------------------Détermination de la réponse probable via induction----------------------------")
+        total = 0
+        for s in spec:
+            z = s["specifique"]
+            poidsSpecCible = relation_weight_between_terms(z,relation,name2)
+            if (poidsSpecCible!=None):
+                if (poidsSpecCible>0):
+                    total +=1
+                    inferences.append({"réponse":reponse,"inférences": [
+                        {"terme1":name1, "relation":"r_hypo", "terme2":z, "poids":s["poids"]},
+                        {"terme1":z,"relation":relation,"terme2":name2,"poids":poidsSpecCible}
+                        ]})
+                else:
+                    inferences.append({"réponse":reponse,"inférences": [
+                        {"terme1":name1, "relation":"r_hypo", "terme2":z, "poids":s["poids"]},
+                        {"terme1":z,"relation":"not "+relation,"terme2":name2,"poids":poidsSpecCible}
+                        ]})
+                
+        decision = False if (total<len(spec)) else True
+        infDécidées = []
+        for z in inferences:
+            z["réponse"] = decision
+   
+            if (decision and z["inférences"][-1]["poids"]>0) or (decision==False and z["inférences"][-1]["poids"]<0):
+                infDécidées.append(z)
+
+        return inferences
+
+
+def inference_inductive_lemma(name1,relation,name2,reponse):
+    infBase = inference_inductive(name1,relation,name2,reponse)
+    if (len(infBase)>0): return infBase
+
+    lemmaName1 = get_lemmas(name1)  
+    lemmaName2 = get_lemmas(name2)
+    for z in lemmaName1:
+        for zz in lemmaName2:
+            inflem = inference_inductive(z["lemma"],relation,zz["lemma"],reponse)
+            if len(inflem)>0:
+                for zzz in inflem:
+                    inflem.insert(0,{"terme1":name1,"relation":"lemma","terme2":z["lemma"],"poids":z["poids"]})
+                    inflem.append({"terme1":name2,"relation":"lemma","terme2":zz["lemma"],"poids":zz["poids"]})
+                    return inflem
+    
+    
+
+
+def printInferencesList(retourInf):
+    listeInf = retourInf["inférences"]
+    reponseBool = retourInf["réponse"]
+    i=1
+    stri = f"{listeInf[0]["terme1"]} ({listeInf[-1]["relation"]}) {listeInf[-1]["terme2"]}" if reponseBool else f"{listeInf[0]["terme1"]} ({listeInf[-1]["relation"].replace("not ","")}) {listeInf[-1]["terme2"]}"
+    if reponseBool==True :stri+=  " oui | " 
+    else: stri+=  " non | "
+    for inf in listeInf:
+        stri += (inf["terme1"]+" "+inf["relation"]+" "+inf["terme2"])
+        if i!=len(listeInf):
+            stri+=("  &  ")
+        i+=1
+    print(stri)
 
 
 def print_relation_weight_between_terms(name1,relation,name2):
@@ -239,7 +326,33 @@ def print_refinements(name):
             print(f"- {raf['name']} (id: {raf['id']})")
     else:
         print("Aucun raffinement trouvé pour ce terme.")
-        
+
+def get_lemmas(name):
+    node1 = api.get_node_id_by_name(name)
+    relations = api.get_relations_from_by_id(node1,19,0)
+    lemmas = []
+    if relations and "relations" in relations:
+        for rel in relations["relations"]:
+            if rel["w"]>0:
+                name2 = api.get_node_by_id(rel["node2"])["name"].split(">")[0]
+                if name2[0]!=":":
+                    lemmas.append({"lemma":name2,"poids":rel["w"]})
+ 
+    lemmas.sort(key= lambda x : x["poids"],reverse=True)
+    return lemmas
+    
+
+
+
+def print_lemmas(name):
+    print(f"----------------lématisés de {name}------------------ ")
+    lemmas = get_lemmas(name)
+    for z in lemmas:
+        print(f"{z["lemma"]}")
+    pass
+
+
+
 def get_annotations_between_terms(name1, rel, name2):
     relations = api.get_relations_from_to(name1, name2)
     
@@ -251,9 +364,114 @@ def get_annotations_between_terms(name1, rel, name2):
             if rel_type_name == relation:
                 return get_annotations_by_rel_id(rel_id)
             
-def inference_transitive(name1, rel, name2):
-    transitive_relations_ids = [6, 8, 9, 15, 41, 42, 52, 57, 61, 73, 74] # id des relations transitives (ex: r_isa)
-    return
+def inference_synonymique_double(name1, name2, relation_name, relation_id, rafs1=None, rafs2=None):
+    # Initialisation des listes si None
+    if not rafs1: rafs1 = [{"name": name1, "id": api.get_node_id_by_name(name1)}]
+    if not rafs2: rafs2 = [{"name": name2, "id": api.get_node_id_by_name(name2)}]
+
+    results = []
+
+    for r1 in rafs1:
+        # Expansion synonymes Terme 1 (Top 4)
+        syns1 = api.get_top_synonyms(r1["id"], limit=4) 
+        # On ajoute le terme lui-même à la liste pour tester Terme1 -> Syn(Terme2)
+        syns1.append({"id": r1["id"], "name": r1["name"], "w": 100}) # Poids arbitraire max pour le mot lui-même
+
+        for r2 in rafs2:
+            # Expansion synonymes Terme 2 (Top 4)
+            syns2 = api.get_top_synonyms(r2["id"], limit=4)
+            syns2.append({"id": r2["id"], "name": r2["name"], "w": 100})
+
+            for s1 in syns1:
+                for s2 in syns2:
+                    # On évite de tester le cas Direct (déjà fait dans infer())
+                    if s1["id"] == r1["id"] and s2["id"] == r2["id"]: continue
+
+                    res = api.get_relations_from_to_by_id(s1["id"], s2["id"], types_ids=relation_id)
+                    
+                    if res and res.get("relations"):
+                        for rel in res["relations"]:
+                            if rel["w"] > 0:
+                                # On calcule le score
+                                score = math.pow(s1["w"] * rel["w"] * s2["w"], 1/3)
+                                
+                                # CRUCIAL : On récupère les annotations (même vides) pour éviter le crash
+                                annotations = get_annotations_by_rel_id(rel["id"])
+                                
+                                results.append({
+                                    "terme1": r1["name"],
+                                    "relation": f"{relation_name} (via {s1['name']} et {s2['name']})",
+                                    "terme2": r2["name"],
+                                    "poids": score,
+                                    "annotations": annotations, # Ajoute cette ligne !
+                                    "méthode": "Expansion synonymique double"
+                                })
+    results.sort(key=lambda x: x["poids"], reverse=True)
+    return results[:10]
+            
+def inference_transitive(name1, relation_name, relation_id, name2, rafs1, rafs2):
+    transitive_relations_ids = [6, 8, 9, 15, 41, 42, 52, 57, 61, 73, 74, 83, 109, 111, 112, 124, 125, 151]
+    
+    if relation_id in transitive_relations_ids:
+        res = []
+        for r1 in rafs1:
+            # 1. Récupération des relations sortantes
+            resultats_api = api.get_relations_from_by_id(r1["id"], types_ids=relation_id)
+            relations_brutes = resultats_api.get("relations", [])
+            
+            # 2. NETTOYAGE : On ignore les éléments qui sont None ou mal formatés
+            relations_propres = [rel for rel in relations_brutes if isinstance(rel, dict)]
+            
+            # 3. TRI par poids décroissant
+            # Utilisation de sorted() pour créer une nouvelle liste
+            # Utilisation de .get("w", 0) pour éviter un crash si le poids est absent
+            relations_triees = sorted(relations_propres, key=lambda x: x.get("w", 0), reverse=True)
+            
+            # 4. COUPURE (Pruning) : On ne garde que le Top N
+            relations_intermediaires = relations_triees[:3]
+            
+            for r2 in rafs2:
+                for rel_inter in relations_intermediaires:
+                    node_intermediaire = rel_inter["node2"]
+                    
+                    # 5. Appel API pour le deuxième maillon
+                    resultats_api_2 = api.get_relations_from_to_by_id(node_intermediaire, r2["id"], types_ids=relation_id)
+                    relations_finales = resultats_api_2.get("relations", [])
+                    
+                    for rel_finale in relations_finales:
+                        if rel_finale["type"] == relation_id:
+                            w1 = rel_inter["w"]
+                            w2 = rel_finale["w"]
+                            
+                            produit = w1 * w2
+                            signe = 1 if produit >= 0 else -1
+                            poids_final = math.sqrt(abs(produit)) * signe
+                            
+                            if w1 < 0 or w2 < 0:
+                                poids_final *= 0.5
+                                
+                            annotations = get_annotations_by_rel_id(rel_finale["id"])
+                            res.append({
+                                "terme1": r1["name"], 
+                                "relation": f"{relation_name} (via {api.get_node_by_id(node_intermediaire)['name']})", 
+                                "terme2": r2["name"], 
+                                "poids": poids_final, 
+                                "annotations": annotations, 
+                                "méthode": "Inférence transitive"
+                            })
+                            
+        # --- NOUVEAU BLOC DE FILTRAGE ET DE TRI ---
+        
+        # 1. Filtrer : On ne garde que les dictionnaires dont la liste 'annotations' n'est pas vide
+        res_anotes = [inference for inference in res if inference.get("annotations")]
+        
+        # 2. Trier : On classe ces résultats de qualité par leur poids final (décroissant)
+        res_tries = sorted(res_anotes, key=lambda x: x["poids"], reverse=True)
+        
+        # 3. Couper : On retourne uniquement le Top 10
+        return res_tries[:10]
+        
+    return None
 
 def infer(name1, relation, name2):
     """
@@ -270,6 +488,12 @@ def infer(name1, relation, name2):
     
     print(f"--- Inférence pour la relation '{relation}' entre '{name1}' et '{name2}' ---")
     
+    all_types = api.get_relation_types()
+    relation_id = next((rt["id"] for rt in all_types if rt["name"] == relation), None)
+
+    if not relation_id:
+        return []
+    
     print("1. Parallélisation des raffinements de name1 et name2")
     raffinements_name1 = get_refinements(name1)
     raffinements_name2 = get_refinements(name2)
@@ -284,27 +508,46 @@ def infer(name1, relation, name2):
                 annotations = get_annotations_between_terms(raf1['name'], relation, raf2['name'])
                 inferences.append({"terme1":raf1['name'], "relation":relation, "terme2":raf2['name'], "poids":weight, "annotations":annotations,"méthode":"Inférence directe"})
                 
-    
     # INférence déductive
-    inferences += inference_deductive(name1, name2, relation)           
+    inferences += inference_deductive(name1, name2, relation, relation_id, raffinements_name1, raffinements_name2)
+    
+    # Inférence transitive
+    inferences_inductives = inference_transitive(name1, relation, relation_id, name2, raffinements_name1, raffinements_name2)
+    if inferences_inductives:
+        inferences += inferences_inductives
+
+    #inference synonymique double
+    inferences_synonymiques = inference_synonymique_double(name1, name2, relation, relation_id, raffinements_name1, raffinements_name2)
+    if inferences_synonymiques:
+        inferences += inferences_synonymiques
+
+    
     return inferences
 
 if __name__ == "__main__":
     query = interface.messageDépart()
-    if len(query)==1 and (query[0]=="S"):
-                print(inference_inductive("chat","r_carac","tigré"))
-                
+    if len(query)==4 and (query[0]=="S"):
+                S=_,name, relation ,name2 = query
+                poidsTest = relation_weight_between_terms(name,relation,name2)
+                reponseTest = None
+                if (poidsTest!=None):
+                    reponseTest = poidsTest>0
+                for z in inference_inductive_lemma(name,relation,name2,reponseTest):
+                    printInferencesList(z)
+
     elif len(query) == 2:
             name, name2 = query
             if (name=="R"):
                 print_refinements(name2)
-           
-            else:    
+            if (name=="L"):
+                print_lemmas(name2)
+
+            else:
                 print(inference_deductive(name, name2))
                 #print_relations_between_terms(name, name2)
     elif len(query) == 3:
         name, relation, name2 = query
-        inferences = infer(name,relation,name2)    
+        inferences = infer(name,relation,name2)
         # Ordonner les inférences par poids décroissant
         inferences.sort(key=lambda x: x["poids"], reverse=True)
         for inf in inferences:

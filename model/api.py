@@ -201,3 +201,34 @@ class JDM_API:
             json.dump(data, f, ensure_ascii=False, indent=4)
 
         return data
+    
+    def get_top_synonyms(self, node_id, limit=4):
+        """
+        Récupère les meilleurs synonymes (type 5) d'un noeud par son ID.
+        Renvoie une liste de dictionnaires [{'id': id, 'name': nom, 'w': poids}, ...]
+        """
+        # On utilise la méthode existante pour récupérer les relations de type 5
+        data = self.get_relations_from_by_id(node_id, types_ids=5)
+        
+        if not data or "relations" not in data:
+            return []
+
+        # Création d'un dictionnaire local pour mapper les ID aux noms des noeuds
+        # (L'API renvoie les détails des noeuds cibles dans la section "nodes")
+        nodes_lookup = {n['id']: n['name'] for n in data.get('nodes', [])}
+
+        # Filtrage et Tri des relations par poids décroissant
+        # On ne garde que les poids positifs
+        syn_relations = [r for r in data["relations"] if r["w"] > 0]
+        sorted_syns = sorted(syn_relations, key=lambda x: x["w"], reverse=True)
+
+        top_synonyms = []
+        for rel in sorted_syns[:limit]:
+            syn_id = rel["node2"]
+            top_synonyms.append({
+                "id": syn_id,
+                "name": nodes_lookup.get(syn_id, "Inconnu"),
+                "w": rel["w"]
+            })
+
+        return top_synonyms

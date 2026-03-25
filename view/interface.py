@@ -6,6 +6,8 @@ def messageDépart():
     print('\n   Par exemple : "un chat peut-il griffer ?" écrivez : "chat r_agent-1 griffer"')
     print("\n- Chercher les raffinements d'un terme: R <terme>")
     print('\n   Par exemple : R kiwi')
+    print("\n Lemmatisés d'un mot: L <terme>")
+    print("\n   Par exemple : L kiwi")
     query = input("\nVotre requête : ").strip().split()
     return query
 
