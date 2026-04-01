@@ -100,14 +100,14 @@ class JDM_API:
             json.dump(data, f, ensure_ascii=False, indent=4)
         return data
 
-    def get_relations_from_by_id(self, node_id, types_ids=None,min_weight=None):
+    def get_relations_from_by_id(self, node_id, types_ids=None,min_weight=None,limit=300):
         url = f"{self.base_url}/relations/from_by_id/{node_id}"
         query = {}
         if types_ids is not None:
             query["types_ids"] = types_ids
         if min_weight is not None:
             query["min_weight"] = min_weight
-        query["limit"] = 350 
+        query["limit"] = limit
 
         cache_key = f"{url}|types_ids={types_ids}&min_weight={min_weight}&limit={350}"
         md5String = hashlib.md5(cache_key.encode()).hexdigest()
