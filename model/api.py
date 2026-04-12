@@ -109,7 +109,7 @@ class JDM_API:
             query["min_weight"] = min_weight
         query["limit"] = limit
 
-        cache_key = f"{url}|types_ids={types_ids}&min_weight={min_weight}&limit={350}"
+        cache_key = f"{url}|types_ids={types_ids}&min_weight={min_weight}&limit={limit}"
         md5String = hashlib.md5(cache_key.encode()).hexdigest()
 
         if types_ids is None:
