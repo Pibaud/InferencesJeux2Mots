@@ -11,6 +11,7 @@ import os
 import hashlib
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from model.api import JDM_API
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # Créez l'instance ici
 api = JDM_API()
@@ -251,16 +252,16 @@ def inference_inductive(name1,relation, name2, reponse):
                         {"terme1":name1, "relation":"r_hypo", "terme2":z, "poids":s["poids"]},
                         {"terme1":z,"relation":relation,"terme2":name2,"poids":poidsSpecCible}
                         ],
-                        "poids":s["poids"]+poidsSpecCible,
+                        "poids":math.sqrt(s["poids"] * poidsSpecCible),
                         "annotations": get_annotations_by_rel_id(relation_id),
                         "méthode": "Inférence inductive par r_hypo"
-                                })
+                                }) 
                 if  (reponse==False and poidsSpecCible<0):
                     inferences.append({"réponse":reponse,"inférences": [
                         {"terme1":name1, "relation":"r_hypo", "terme2":z, "poids":s["poids"]},
                         {"terme1":z,"relation":"not "+relation,"terme2":name2,"poids":poidsSpecCible}
                         ],
-                         "poids":s["poids"]+poidsSpecCible,
+                         "poids":-math.sqrt(s["poids"] * abs(poidsSpecCible)),
                         "annotations": get_annotations_by_rel_id(relation_id),
                         "méthode": "Inférence inductive par r_hypo"})
             if len(inferences)>=nbInferencesInductives: return inferences
@@ -278,7 +279,7 @@ def inference_inductive(name1,relation, name2, reponse):
                         {"terme1":name1, "relation":"r_hypo", "terme2":z, "poids":s["poids"]},
                         {"terme1":z,"relation":relation,"terme2":name2,"poids":poidsSpecCible}
                         ],
-                        "poids":s["poids"]+poidsSpecCible,
+                        "poids":math.sqrt(s["poids"] * abs(poidsSpecCible)),
                         "annotations": get_annotations_by_rel_id(relation_id),
                         "méthode": "Inférence inductive par r_hypo"})
                 else:
@@ -286,7 +287,7 @@ def inference_inductive(name1,relation, name2, reponse):
                         {"terme1":name1, "relation":"r_hypo", "terme2":z, "poids":s["poids"]},
                         {"terme1":z,"relation":"not "+relation,"terme2":name2,"poids":poidsSpecCible}
                         ],
-                        "poids":s["poids"]+poidsSpecCible,
+                        "poids":-math.sqrt(s["poids"] * abs(poidsSpecCible)),
                         "annotations": get_annotations_by_rel_id(relation_id),
                         "méthode": "Inférence inductive par r_hypo"})
                 
@@ -578,8 +579,7 @@ def inference_transitive(name1, relation_name, relation_id, name2, res_inf_direc
         
     return None
 
-#à creuser: véhicule r_agent-1 écraser != véhicule r_agent-1 écrase car       lemma -> raffinements != raffinements -> lemma
-def infer(name1, relation, name2):
+
     """
     Fait les inférences néccessaires pour affirmer ou réfuter la relation <name1> <relation> <name2>
     1. Paralléliser les étapes suivantes pour chaque raffinement (ne pas oublier qu'un terme raffiné peut lui-même être raffiné 
@@ -589,6 +589,9 @@ def infer(name1, relation, name2):
     
     3. Faire un classement des scores pour donner la raison principale d'inférence (pour commencer. Ensuite on peut imaginer d'autres idées pour trouver la meilleure inférence que juste prendre celle de poids max)
     """
+""" 
+#à creuser: véhicule r_agent-1 écraser != véhicule r_agent-1 écrase car       lemma -> raffinements != raffinements -> lemma
+def infer(name1, relation, name2):
     
     inferences = []
     
@@ -636,33 +639,100 @@ def infer(name1, relation, name2):
                 zzzz = infer_on_lemma(raf1["name"], relation ,raf2["name"], res_inf_directe,inftemp)    
                 if zzzz : inferences += zzzz
                 
-    # Initialisation par défaut
+                
+    
 
-    #FAIRE BOUCLE POUR RAFS
-
-
-    """ 
-        # INférence déductive
-        inferences +=  inference_deductive(name1, relation,name2, res_inf_directe)
-        # Inférence transitive
-        inferences_transitives = inference_transitive(name1, relation, name2, res_inf_directe)
-        if inferences_transitives:
-            inferences += inferences_transitives
-
-        #inferences goat
-        inferences_goat = inference_inductive_lemma(name1,relation,name2,res_inf_directe)
-        if (inferences_goat):
-            inferences += inferences_goat """
-
-    #inference synonymique double
-    '''inferences_synonymiques = inference_synonymique_double(name1, name2, relation, relation_id, raffinements_name1, raffinements_name2, res_inf_directe)
-    if inferences_synonymiques:
-        inferences += inferences_synonymiques'''
-
+    #faire inference synonymique double
 
 
     inferences = sorted(inferences, key=lambda x: x.get("poids", 0), reverse=True)
     return inferences
+
+
+
+ """
+
+
+
+
+def infer_parallel(name1, relation, name2, max_workers=10):
+    """
+    Version parallélisée de la fonction infer pour aller + vite
+    """
+    all_types = api.get_relation_types()
+    relation_id = next((rt["id"] for rt in all_types if rt["name"] == relation), None)
+    
+    if not relation_id:
+        print(f"Erreur : Relation '{relation}' inconnue.")
+        return []
+
+    # 1. Récupération des raffinements
+    print(f"--- Optimisation : Recherche parallèle pour '{relation}' ---")
+    rafs1 = get_refinements(name1) or [api.get_node_by_id(api.get_node_id_by_name(name1))]
+    rafs2 = get_refinements(name2) or [api.get_node_by_id(api.get_node_id_by_name(name2))]
+
+    #orienter la recherche
+    res_inf_directe = resultatInferenceDirecte(name1, relation, name2)
+    
+    results = []
+
+    # 2. Définition de l'unité de travail pour un couple de raffinements
+    def process_pair(r1, r2):
+        pair_results = []
+        n1, n2 = r1['name'], r2['name']
+        
+        # --- Stratégie : Inférence Directe ---
+        weight = relation_weight_between_terms(n1, relation, n2)
+        if weight is not None:
+            pair_results.append({
+                "réponse": weight > 0,
+                "inférences": [{"terme1": n1, "relation": relation, "terme2": n2, "poids": weight}],
+                "poids": weight,
+                "annotations": get_annotations_between_terms(n1, relation, n2) or [],
+                "méthode": "Inférence directe"
+            })
+        
+        # --- Stratégies Indirectes (Déduction, Induction, Transitivité) ---
+        # On réutilise ta logique 'infer_on_lemma' pour chaque stratégie
+        strategies = [
+            (inference_deductive, "Déductive"),
+            (inference_inductive, "Inductive"),
+            (inference_transitive, "Transitive")
+        ]
+        
+        for strategy_func, label in strategies:
+            try:
+                # Note : on passe res_inf_directe pour guider l'inférence
+                res_strat = infer_on_lemma(n1, relation, n2, res_inf_directe, strategy_func)
+                if res_strat:
+                    pair_results.extend(res_strat)
+            except Exception as e:
+                print(f"Erreur sur stratégie {label} pour {n1}/{n2} : {e}")
+                
+        return pair_results
+
+    # 3. Exécution parallèle avec ThreadPoolExecutor
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        # On crée une liste de tâches pour chaque combinaison de raffinements
+        futures = {executor.submit(process_pair, r1, r2): (r1, r2) for r1 in rafs1 for r2 in rafs2}
+        
+        for future in as_completed(futures):
+            try:
+                data = future.result()
+                if data:
+                    results.extend(data)
+            except Exception as e:
+                pair = futures[future]
+                print(f"Le thread a crashé pour le couple {pair} : {e}")
+
+    # 4. Nettoyage et tri final
+    # On trie par poids absolu pour mettre en avant les certitudes (positives ou négatives)
+    results = sorted(results, key=lambda x: abs(x.get("poids", 0)), reverse=True)
+    
+    return results
+
+
+
 
 if __name__ == "__main__":
     query = interface.messageDépart()
@@ -681,12 +751,12 @@ if __name__ == "__main__":
                 
     elif len(query) == 3:
         name, relation, name2 = query
-        inferences = infer(name,relation,name2)
+        #inferences = infer_parallel(name,relation,name2)
         # Ordonner les inférences par poids décroissant
-        inferences.sort(key=lambda x: x["poids"], reverse=True)
+        #inferences.sort(key=lambda x: x["poids"], reverse=True)
         '''for inf in inferences:
             print(f"Poids: {inf["poids"]} : {inf["terme1"]} --({inf["relation"]})--> {inf["terme2"]} Méthode: {inf["méthode"]}, Annotations: {inf["annotations"]}")'''
-        for z in infer(name,relation,name2):
+        for z in infer_parallel(name,relation,name2):
             printInferencesList(z)  
             print("\n")
         #print(infer(name,relation,name2))
