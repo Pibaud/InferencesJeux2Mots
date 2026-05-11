@@ -82,7 +82,7 @@ def inference_deductive(name1, relation_name,name2, res_inf_directe=None, rafs1=
     """
     all_types = api.get_relation_types()
 
-    relation_id = next((rt["id"] for rt in all_types if rt["name"] == relation), None)
+    relation_id = next((rt["id"] for rt in all_types if rt["name"] == relation_name), None)
 
     #print(f"----------Inférences déductives de {name1} --({relation_name})--> {name2}----------en sachant que c'est {res_inf_directe}\n")
     
@@ -187,7 +187,7 @@ def relation_weight_between_terms(name1,relation, name2):
 
 
 def getSpécifiques(node_name):
-    maxSpes = 55 #On peut augmenter un peu
+    maxSpes = 25 #On peut augmenter un peu
     node1 = api.get_node_id_by_name(node_name)
     relations = api.get_relations_from_by_id(node1, 8, 0, maxSpes)
     spécifiques = []
@@ -225,7 +225,7 @@ def inference_inductive(name1,relation, name2, reponse):
     relation_id = next((rt["id"] for rt in all_types if rt["name"] == relation), None)
 
     nbInferencesInductives = 5
-    maxSpecs = 55
+    maxSpecs = 25
     #print(f"----------Inférences inductives de {name1} --({relation})--> {name2}-------------\n")
     spec = getSpécifiques(name1)
 
@@ -375,31 +375,53 @@ def infer_on_lemma(name1,relation,name2,reponse,fonction):
                     if name1!=z["lemma"]: zzz["inférences"].insert(0,{"terme1":name1,"relation":"r_lemma","terme2":z["lemma"],"poids":z["poids"]})
                     if name2!=zz["lemma"]: zzz["inférences"].append({"terme1":name2,"relation":"r_lemma","terme2":zz["lemma"],"poids":zz["poids"]})
                 return inflem
-    
-
-
 def printInferencesList(retourInf):
     listeInf = retourInf["inférences"]
     reponseBool = retourInf["réponse"]
-    i=1
-    lastElem = listeInf[-1]
-    if (lastElem["relation"]=="r_lemma"):lastElem = listeInf[-2]
-
-    stri = f"{listeInf[0]["terme1"]} ({lastElem["relation"]}) {lastElem["terme2"]}" if reponseBool else f"{listeInf[0]["terme1"]} ({lastElem["relation"].replace("not ","")}) {lastElem["terme2"]}"
     
-    if reponseBool==True :stri+=  " oui | " 
-    elif reponseBool==False: stri+=  " non | "
-    else: stri+=  " ??? | " 
-    for inf in listeInf:
-        if inf["poids"]!=None and inf["poids"]<0:stri += (inf["terme1"]+" not "+inf["relation"]+" "+inf["terme2"])
-        else:stri += (inf["terme1"]+" "+inf["relation"]+" "+inf["terme2"])
-        if i!=len(listeInf):
-            stri+=("  &  ")
-        i+=1
-    stri += f"\n   -> Poids:{retourInf["poids"]} | Méthode: {retourInf["méthode"]} | Annotations: "
-    for zzzz in retourInf["annotations"]:stri += f" {zzzz} "
-    print(stri)
+    # --- LOGIQUE DE LA RELATION EFFICACE ---
+    # Si la chaîne a plus d'un élément et que le dernier est un retour (raffinement/lemme inv)
+    # On prend l'avant-dernière étape. Sinon, on prend la dernière.
+    if len(listeInf) > 1 and listeInf[-1]["relation"] in ['r_raff_inv', 'r_lemma_inv']:
+        step_efficace = listeInf[-2]
+    else:
+        step_efficace = listeInf[-1]
+            
+    main_rel = step_efficace["relation"]
+    
+    # Nettoyage et gestion du "not" pour le résumé de tête
+    if not reponseBool:
+        if not main_rel.startswith("not "):
+            main_rel = "not " + main_rel
+    else:
+        main_rel = main_rel.replace("not ", "")
 
+    # Termes extrêmes (les vrais mots de la requête utilisateur)
+    t1 = listeInf[0]["terme1"]
+    t2 = listeInf[-1]["terme2"]
+
+    stri = f"{t1} ({main_rel}) {t2} "
+    stri += "oui | " if reponseBool else "non | "
+    
+    # Affichage de la chaîne technique complète pour le détail
+    steps_str = []
+    for inf in listeInf:
+        rel = inf["relation"]
+        
+        # --- GESTION DU POIDS NÉGATIF ---
+        # Si le poids est strictement inférieur à 0, on ajoute "not " 
+        # (à condition qu'il n'y soit pas déjà)
+        if inf.get("poids") is not None and inf["poids"] < 0:
+            if not rel.startswith("not "):
+                rel = "not " + rel
+                
+        steps_str.append(f"{inf['terme1']} {rel} {inf['terme2']}")
+    
+    stri += "  &  ".join(steps_str)
+    stri += f"\n   -> Poids:{retourInf['poids']:.4f} | Méthode: {retourInf['méthode']}"
+    if retourInf.get("annotations"):
+        stri += " | Annotations: " + " ".join([f"{a[0]}" for a in retourInf["annotations"]])
+    print(stri)
 
 def print_relation_weight_between_terms(name1,relation,name2):
     print(f"--- Poids de la relation '{relation}' entre '{name1}' et '{name2}' ---")
@@ -522,7 +544,7 @@ def inference_transitive(name1, relation_name, relation_id, name2, res_inf_direc
     #print(f"----------Inférences par transitivité de {name1} --({relation_name})--> {name2}-------------\n")
     all_types = api.get_relation_types()
 
-    relation_id = next((rt["id"] for rt in all_types if rt["name"] == relation), None)
+    relation_id = next((rt["id"] for rt in all_types if rt["name"] == relation_name), None)
 
     transitive_relations_ids = [6, 8, 9, 15, 41, 42, 52, 57, 61, 73, 74, 83, 109, 111, 112, 124, 125, 151]
     if not rafs1: rafs1 = [{"name": name1, "id": api.get_node_id_by_name(name1)}]
@@ -673,7 +695,8 @@ def infer(name1, relation, name2):
  """
 
 
-def infer_parallel(name1, relation, name2, max_workers=5):
+
+def infer_parallel(name1, relation, name2, max_workers=10):
     all_types = api.get_relation_types()
     relation_id = next((rt["id"] for rt in all_types if rt["name"] == relation), None)
     if not relation_id: return []
@@ -682,14 +705,26 @@ def infer_parallel(name1, relation, name2, max_workers=5):
     
     def prepare_refs(word):
         unique_nodes = {}
+        # 1. Récupération des lemmes
         lemmes = get_lemmas(word) or [{"lemma": word, "poids": 100}]
         for z in lemmes:
             l_name = z["lemma"]
             l_id = api.get_node_id_by_name(l_name)
             if l_id:
-                if l_id not in unique_nodes: unique_nodes[l_id] = {"id": l_id, "name": l_name}
+                path = []
+                # Si le lemme est différent du mot d'origine, on enregistre l'étape
+                if l_name.lower() != word.lower():
+                    path.append({"terme1": word, "relation": "r_lemma", "terme2": l_name, "poids": z["poids"]})
+                
+                if l_id not in unique_nodes:
+                    unique_nodes[l_id] = {"id": l_id, "name": l_name, "path": path}
+                
+                # 2. Récupération des raffinements du lemme
                 for raf in get_refinements(l_name):
-                    if raf['id'] not in unique_nodes: unique_nodes[raf['id']] = raf
+                    if raf['id'] not in unique_nodes:
+                        # On combine le chemin du lemme avec l'étape de raffinement
+                        new_path = list(path) + [{"terme1": l_name, "relation": "r_raff", "terme2": raf['name'], "poids": 100}]
+                        unique_nodes[raf['id']] = {"id": raf['id'], "name": raf['name'], "path": new_path}
         return list(unique_nodes.values())
 
     rafs1, rafs2 = prepare_refs(name1), prepare_refs(name2)
@@ -704,25 +739,59 @@ def infer_parallel(name1, relation, name2, max_workers=5):
             else: vague_secondaire.append(pair)
 
     def process_pair(r1, r2, weight, relation, global_rep):
+        # --- FILTRE ABSOLU ---
+        # Si on a une certitude sur le mot de base (ex: Autruche = False)
+        # Et que le couple local contredit cela (ex: Oiseau = True)
+        # On arrête tout immédiatement pour ne pas polluer les résultats.
+        if global_rep is not None and weight is not None:
+            local_rep = (weight > 0)
+            if local_rep != global_rep:
+                return [] 
+
         n1, n2 = r1['name'], r2['name']
-        pair_results = []
-        local_rep = (weight > 0) if weight is not None else global_rep
+        path1 = r1.get('path', [])
+        path2 = r2.get('path', [])
         
+        # Inversion du chemin de la cible pour la lecture
+        path2_inv = []
+        for step in reversed(path2):
+            path2_inv.append({
+                "terme1": step["terme2"], 
+                "relation": step["relation"] + "_inv", 
+                "terme2": step["terme1"], 
+                "poids": step["poids"]
+            })
+
+        pair_results = []
+        
+        # On force les stratégies à chercher dans le sens du global_rep
+        local_rep = global_rep if global_rep is not None else ((weight > 0) if weight is not None else None)
+        
+        # Fonction utilitaire pour "décorer" l'inférence avec les transformations
+        def add_transformation_steps(inf_list):
+            for res in inf_list:
+                res["inférences"] = path1 + res["inférences"] + path2_inv
+            return inf_list
+
+        # Inférence directe locale
         if weight is not None:
-            pair_results.append({
+            direct_res = [{
                 "réponse": weight > 0,
                 "inférences": [{"terme1": n1, "relation": relation, "terme2": n2, "poids": weight}],
                 "poids": weight,
                 "annotations": get_annotations_between_terms(n1, relation, n2) or [],
                 "méthode": "Inférence directe"
-            })
+            }]
+            pair_results.extend(add_transformation_steps(direct_res))
         
-        # APPEL DIRECT DES STRATÉGIES (On évite infer_on_lemma qui crée des doublons)
+        # Exécution des stratégies indirectes
         for strategy_func in [inference_deductive, inference_inductive, inference_transitive]:
             try:
                 res_strat = strategy_func(n1, relation, n2, local_rep)
-                if res_strat: pair_results.extend(res_strat)
+                if res_strat:
+                    pair_results.extend(add_transformation_steps(res_strat))
             except Exception: pass
+            
         return pair_results
 
     def execute_wave(pairs):
@@ -748,7 +817,72 @@ def infer_parallel(name1, relation, name2, max_workers=5):
             unique_results.append(r)
             seen.add(sig)
 
-    return sorted(unique_results, key=lambda x: abs(x.get("poids", 0)), reverse=True)
+
+
+
+
+    annotation_map = {
+            "peu pertinent": -0.2,
+            "pertinent": 0.3,
+            "possible": 0.15,
+            "très pertinent": 0.3,
+            "contrastif" : 0.4,
+            "non spécifique": -0.2
+        }
+    
+    processed_results = []
+    seen = set()
+
+    for r in results:
+        # Dédoublonnage par signature (pour éviter les doublons de threads)
+        sig = "|".join([f"{i['terme1']}-{i['relation']}-{i['terme2']}" for i in r['inférences']])
+        if sig in seen: continue
+        seen.add(sig)
+
+        # 2. Pénalités pour perte du mot de base (0.1 pour lemme, 0.1 pour raffinement)
+        if any(step['relation'] in ['r_lemma', 'r_lemma_inv'] for step in r['inférences']):
+            r['poids'] -= 0.5
+        if any(step['relation'] in ['r_raff', 'r_raff_inv'] for step in r['inférences']):
+            r['poids'] -= 0.5
+
+        # 3. Ajustement par Annotations
+        if r.get('annotations'):
+            for ann, _ in r['annotations']:
+                r['poids'] += annotation_map.get(ann.lower(), 0.0)
+
+        processed_results.append(r)
+
+    if not processed_results: return []
+
+    # 4. Normalisation entre 0 et 1 (division par le plus haut poids trouvé en valeur absolue)
+    max_abs = max(abs(r['poids']) for r in processed_results)
+    if max_abs > 0:
+        for r in processed_results:
+            # On normalise la force de la preuve (poids) entre 0 et 1
+            # Note : On conserve l'info de la réponse (True/False) séparément
+            r['poids'] = abs(r['poids']) / max_abs
+
+    # 5. Sélection des 2 meilleurs résultats par stratégie
+    final_selection = []
+    strat_counters = {}
+    
+    # On trie d'abord par poids (déjà normalisé)
+    processed_results.sort(key=lambda x: x['poids'], reverse=True)
+
+    for r in processed_results:
+        strat = r['méthode']
+        strat_counters[strat] = strat_counters.get(strat, 0) + 1
+        
+        if strat_counters[strat] <= 2:
+            final_selection.append(r)
+
+    # Tri final global pour l'affichage
+    return sorted(final_selection, key=lambda x: x['poids'], reverse=True)
+
+
+
+
+    #return sorted(unique_results, key=lambda x: abs(x.get("poids", 0)), reverse=True)
 
 
 
@@ -778,7 +912,20 @@ if __name__ == "__main__":
         #inferences.sort(key=lambda x: x["poids"], reverse=True)
         '''for inf in inferences:
             print(f"Poids: {inf["poids"]} : {inf["terme1"]} --({inf["relation"]})--> {inf["terme2"]} Méthode: {inf["méthode"]}, Annotations: {inf["annotations"]}")'''
+        already_printed = False
         for z in infer_parallel(name,relation,name2):
+            #selon z["réponse"] afficher si on part du postulat que la relation est vraie, fausse ou NSPP 
+            if not already_printed:
+                print("\n")
+                match z["réponse"]:
+                    case True:
+                            print("Justifications en partant du principe que la relation est vraie :")
+                    case False:
+                            print("Justifications en partant du principe que la relation est fausse :")
+                    case _:
+                        print("Justifications positives ou négatives en partant du principe que la relation est indéterminée :")
+                already_printed = True
+                    
             printInferencesList(z)  
             print("\n")
         #print(infer(name,relation,name2))
