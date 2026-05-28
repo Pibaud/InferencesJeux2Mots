@@ -1,0 +1,49 @@
+{
+    "nodes": [
+        {
+            "id": 40355,
+            "name": "continent",
+            "type": 1,
+            "w": 4832
+        },
+        {
+            "id": 130188,
+            "name": "Québec",
+            "type": 1,
+            "w": 4234
+        }
+    ],
+    "relations": [
+        {
+            "id": 539968824,
+            "node1": 130188,
+            "node2": 40355,
+            "type": 15,
+            "w": -25.0
+        }
+    ],
+    "request": {
+        "types_ids": null,
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:54:04.048762",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 1,
+        "max_relation_weight": -25.0,
+        "duration": "0:00:00.001374"
+    }
+}

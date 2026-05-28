@@ -1,0 +1,364 @@
+{
+    "nodes": [
+        {
+            "id": 233094,
+            "name": "artillerie auto-tractée",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 9246043,
+            "name": "Artillerie d'Assaut",
+            "type": 777,
+            "w": 0
+        },
+        {
+            "id": 11029971,
+            "name": "artillerie lourde à grande puissance",
+            "type": 777,
+            "w": 25
+        },
+        {
+            "id": 356901,
+            "name": "grosse artillerie",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 233888,
+            "name": "artillerie navale",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 11029795,
+            "name": "artillerie française pendant la Première Guerre mondiale",
+            "type": 777,
+            "w": 25
+        },
+        {
+            "id": 322834,
+            "name": "artillerie antiaérienne",
+            "type": 1,
+            "w": 72
+        },
+        {
+            "id": 336658,
+            "name": "artillerie de siège",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 336656,
+            "name": "artillerie de marine",
+            "type": 1,
+            "w": 53
+        },
+        {
+            "id": 336664,
+            "name": "artillerie à longue portée",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 336667,
+            "name": "artillerie portée",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 336655,
+            "name": "artillerie atomique",
+            "type": 1,
+            "w": 51
+        },
+        {
+            "id": 336666,
+            "name": "artillerie montée",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 336662,
+            "name": "artillerie sol-sol",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 336657,
+            "name": "artillerie de mer",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 336663,
+            "name": "artillerie volante",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 336661,
+            "name": "artillerie sol-air",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 336659,
+            "name": "artillerie de terre",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 336665,
+            "name": "artillerie de place",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 336660,
+            "name": "artillerie légère",
+            "type": 1,
+            "w": 55
+        },
+        {
+            "id": 1644928,
+            "name": "artillerie côtière",
+            "type": 777,
+            "w": 25
+        },
+        {
+            "id": 336654,
+            "name": "artillerie anti-aérienne",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 260238,
+            "name": "artillerie lourde",
+            "type": 1,
+            "w": 103
+        },
+        {
+            "id": 259936,
+            "name": "artillerie de campagne",
+            "type": 1,
+            "w": 65
+        },
+        {
+            "id": 5625386,
+            "name": "artillerie médiévale",
+            "type": 777,
+            "w": 25
+        },
+        {
+            "id": 109899,
+            "name": "artillerie",
+            "type": 1,
+            "w": 527
+        }
+    ],
+    "relations": [
+        {
+            "id": 779393488,
+            "node1": 109899,
+            "node2": 233094,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 23853916,
+            "node1": 109899,
+            "node2": 233888,
+            "type": 8,
+            "w": 32.0
+        },
+        {
+            "id": 31702728,
+            "node1": 109899,
+            "node2": 259936,
+            "type": 8,
+            "w": 30.0
+        },
+        {
+            "id": 31703613,
+            "node1": 109899,
+            "node2": 260238,
+            "type": 8,
+            "w": 32.0
+        },
+        {
+            "id": 9881134,
+            "node1": 109899,
+            "node2": 322834,
+            "type": 8,
+            "w": 67.0
+        },
+        {
+            "id": 30182429,
+            "node1": 109899,
+            "node2": 336654,
+            "type": 8,
+            "w": 36.0
+        },
+        {
+            "id": 14073851,
+            "node1": 109899,
+            "node2": 336655,
+            "type": 8,
+            "w": 32.0
+        },
+        {
+            "id": 33204546,
+            "node1": 109899,
+            "node2": 336656,
+            "type": 8,
+            "w": 27.0
+        },
+        {
+            "id": 33205499,
+            "node1": 109899,
+            "node2": 336657,
+            "type": 8,
+            "w": 30.0
+        },
+        {
+            "id": 33206332,
+            "node1": 109899,
+            "node2": 336658,
+            "type": 8,
+            "w": 35.0
+        },
+        {
+            "id": 14002924,
+            "node1": 109899,
+            "node2": 336659,
+            "type": 8,
+            "w": 26.0
+        },
+        {
+            "id": 14002079,
+            "node1": 109899,
+            "node2": 336660,
+            "type": 8,
+            "w": 29.0
+        },
+        {
+            "id": 30182428,
+            "node1": 109899,
+            "node2": 336661,
+            "type": 8,
+            "w": 30.0
+        },
+        {
+            "id": 30182427,
+            "node1": 109899,
+            "node2": 336662,
+            "type": 8,
+            "w": 26.0
+        },
+        {
+            "id": 33200452,
+            "node1": 109899,
+            "node2": 336663,
+            "type": 8,
+            "w": 34.0
+        },
+        {
+            "id": 33200442,
+            "node1": 109899,
+            "node2": 336664,
+            "type": 8,
+            "w": 31.0
+        },
+        {
+            "id": 33204291,
+            "node1": 109899,
+            "node2": 336665,
+            "type": 8,
+            "w": 34.0
+        },
+        {
+            "id": 14045224,
+            "node1": 109899,
+            "node2": 336666,
+            "type": 8,
+            "w": 34.0
+        },
+        {
+            "id": 28695153,
+            "node1": 109899,
+            "node2": 336667,
+            "type": 8,
+            "w": 28.0
+        },
+        {
+            "id": 723277016,
+            "node1": 109899,
+            "node2": 356901,
+            "type": 8,
+            "w": 39.0
+        },
+        {
+            "id": 33225764,
+            "node1": 109899,
+            "node2": 1644928,
+            "type": 8,
+            "w": 28.0
+        },
+        {
+            "id": 248477876,
+            "node1": 109899,
+            "node2": 5625386,
+            "type": 8,
+            "w": 29.0
+        },
+        {
+            "id": 370089581,
+            "node1": 109899,
+            "node2": 9246043,
+            "type": 8,
+            "w": 11.0
+        },
+        {
+            "id": 279683615,
+            "node1": 109899,
+            "node2": 11029795,
+            "type": 8,
+            "w": 24.0
+        },
+        {
+            "id": 280293110,
+            "node1": 109899,
+            "node2": 11029971,
+            "type": 8,
+            "w": 28.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            8
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T18:11:44.502772",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 25,
+        "max_relation_weight": 67.0,
+        "#nodes": 26,
+        "duration": "0:00:00.007218"
+    }
+}

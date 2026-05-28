@@ -1,0 +1,364 @@
+{
+    "nodes": [
+        {
+            "id": 256165643,
+            "name": "palatine de la veine faciale",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 256165631,
+            "name": "palatine supérieure",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 256165632,
+            "name": "palatine inférieure",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 256165633,
+            "name": "palatine postérieure",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 256165634,
+            "name": "palatine antérieure",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 256165635,
+            "name": "palatine transversale",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 256165636,
+            "name": "palatine moyenne",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 256165638,
+            "name": "palatine descendante",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 256165639,
+            "name": "palatine accessoire",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 256165637,
+            "name": "palatine latérale",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 256165641,
+            "name": "palatine de la veine jugulaire interne",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 256165642,
+            "name": "palatine de la carotide interne",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 256165644,
+            "name": "palatine de la veine ophtalmique inférieure",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 256165645,
+            "name": "palatine de la veine ophtalmique supérieure",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 256165646,
+            "name": "palatine de la veine maxillaire",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 256165647,
+            "name": "palatine de la veine temporale superficielle",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 256165648,
+            "name": "palatine de la veine auriculaire postérieure",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 256165649,
+            "name": "palatine de la veine rétro-mandibulaire",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 256165650,
+            "name": "palatine de la veine linguale",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 256165651,
+            "name": "palatine de la veine thyroïdienne supérieure",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 256165652,
+            "name": "palatine de la veine thyroïdienne inférieure",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 256165640,
+            "name": "palatine de la trompe d'Eustache",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 16839423,
+            "name": "en:or palate with mucous cysts of lower lip",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 1850252,
+            "name": "fente labiopalatine et kystes muqueux de la lèvre inférieure",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 16839422,
+            "name": "en:cleft lip and",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 149496,
+            "name": "palatine",
+            "type": 1,
+            "w": 58
+        }
+    ],
+    "relations": [
+        {
+            "id": 435490798,
+            "node1": 149496,
+            "node2": 1850252,
+            "type": 8,
+            "w": 3.0
+        },
+        {
+            "id": 778288941,
+            "node1": 149496,
+            "node2": 16839422,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 778288937,
+            "node1": 149496,
+            "node2": 16839423,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790215260,
+            "node1": 149496,
+            "node2": 256165631,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790215256,
+            "node1": 149496,
+            "node2": 256165632,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790215259,
+            "node1": 149496,
+            "node2": 256165633,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790215226,
+            "node1": 149496,
+            "node2": 256165634,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790215261,
+            "node1": 149496,
+            "node2": 256165635,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790215258,
+            "node1": 149496,
+            "node2": 256165636,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790215257,
+            "node1": 149496,
+            "node2": 256165637,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790215255,
+            "node1": 149496,
+            "node2": 256165638,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790215225,
+            "node1": 149496,
+            "node2": 256165639,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790215228,
+            "node1": 149496,
+            "node2": 256165640,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790215238,
+            "node1": 149496,
+            "node2": 256165641,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790215227,
+            "node1": 149496,
+            "node2": 256165642,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790215236,
+            "node1": 149496,
+            "node2": 256165643,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790215243,
+            "node1": 149496,
+            "node2": 256165644,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790215245,
+            "node1": 149496,
+            "node2": 256165645,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790215240,
+            "node1": 149496,
+            "node2": 256165646,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790215251,
+            "node1": 149496,
+            "node2": 256165647,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790215229,
+            "node1": 149496,
+            "node2": 256165648,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790215246,
+            "node1": 149496,
+            "node2": 256165649,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790215239,
+            "node1": 149496,
+            "node2": 256165650,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790215253,
+            "node1": 149496,
+            "node2": 256165651,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790215252,
+            "node1": 149496,
+            "node2": 256165652,
+            "type": 8,
+            "w": 25.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            8
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T18:11:34.477900",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 25,
+        "max_relation_weight": 25.0,
+        "#nodes": 26,
+        "duration": "0:00:00.004068"
+    }
+}

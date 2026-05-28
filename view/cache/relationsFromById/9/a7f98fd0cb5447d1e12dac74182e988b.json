@@ -1,0 +1,78 @@
+{
+    "nodes": [
+        {
+            "id": 205124,
+            "name": "parties du corps",
+            "type": 1,
+            "w": 92
+        },
+        {
+            "id": 74846,
+            "name": "corps",
+            "type": 1,
+            "w": 19771
+        },
+        {
+            "id": 157827,
+            "name": "partie du corps",
+            "type": 1,
+            "w": 321
+        },
+        {
+            "id": 213452,
+            "name": "terme d'affection",
+            "type": 1,
+            "w": 24
+        }
+    ],
+    "relations": [
+        {
+            "id": 479983016,
+            "node1": 213452,
+            "node2": 74846,
+            "type": 9,
+            "w": -25.0
+        },
+        {
+            "id": 479983018,
+            "node1": 213452,
+            "node2": 157827,
+            "type": 9,
+            "w": -125.0
+        },
+        {
+            "id": 479985363,
+            "node1": 213452,
+            "node2": 205124,
+            "type": 9,
+            "w": -103.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            9
+        ],
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:50:22.620893",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 3,
+        "max_relation_weight": -25.0,
+        "#nodes": 4,
+        "duration": "0:00:00.001255"
+    }
+}

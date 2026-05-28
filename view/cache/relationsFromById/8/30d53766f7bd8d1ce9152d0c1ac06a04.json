@@ -1,0 +1,364 @@
+{
+    "nodes": [
+        {
+            "id": 97,
+            "name": "Lépide",
+            "type": 1,
+            "w": 263
+        },
+        {
+            "id": 63235,
+            "name": "mammifère",
+            "type": 1,
+            "w": 4472
+        },
+        {
+            "id": 21,
+            "name": "Marcel Gotlieb Gotlib",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 150,
+            "name": "chat",
+            "type": 1,
+            "w": 8050
+        },
+        {
+            "id": 134,
+            "name": "vannier",
+            "type": 1,
+            "w": 76
+        },
+        {
+            "id": 32,
+            "name": "Alexander Roslin",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 11,
+            "name": "Lasker-Schüler",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 10,
+            "name": "Porcellis",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 154,
+            "name": "Jan Lenica",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 169,
+            "name": "Nicolas Schöffer",
+            "type": 1,
+            "w": 56
+        },
+        {
+            "id": 65,
+            "name": "Sophie Rostopchine",
+            "type": 1,
+            "w": 62
+        },
+        {
+            "id": 15,
+            "name": "sir Sacheverell Sitwell",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 43,
+            "name": "écrivassier",
+            "type": 1,
+            "w": 56
+        },
+        {
+            "id": 166,
+            "name": "admoniteur",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 3,
+            "name": "Stoph",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 54,
+            "name": "Robert Surcouf",
+            "type": 1,
+            "w": 56
+        },
+        {
+            "id": 151,
+            "name": "uniforme",
+            "type": 1,
+            "w": 3102
+        },
+        {
+            "id": 177,
+            "name": "congréganiste",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 86,
+            "name": "ure",
+            "type": 1,
+            "w": 53
+        },
+        {
+            "id": 157,
+            "name": "Émile Bernard",
+            "type": 1,
+            "w": 51
+        },
+        {
+            "id": 113,
+            "name": "tarpan",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 143,
+            "name": "Papadhópoulos",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 35,
+            "name": "sans-abri",
+            "type": 1,
+            "w": 306
+        },
+        {
+            "id": 38,
+            "name": "exaspérant",
+            "type": 1,
+            "w": 118
+        },
+        {
+            "id": 74,
+            "name": "bourriquet",
+            "type": 1,
+            "w": 52
+        },
+        {
+            "id": 60,
+            "name": "bleu",
+            "type": 1,
+            "w": 7797
+        }
+    ],
+    "relations": [
+        {
+            "id": 1284908228,
+            "node1": 63235,
+            "node2": 3,
+            "type": 8,
+            "w": 20.0
+        },
+        {
+            "id": 1274585193,
+            "node1": 63235,
+            "node2": 10,
+            "type": 8,
+            "w": 20.0
+        },
+        {
+            "id": 1274582678,
+            "node1": 63235,
+            "node2": 11,
+            "type": 8,
+            "w": 20.0
+        },
+        {
+            "id": 1284614163,
+            "node1": 63235,
+            "node2": 15,
+            "type": 8,
+            "w": 20.0
+        },
+        {
+            "id": 1274584862,
+            "node1": 63235,
+            "node2": 21,
+            "type": 8,
+            "w": 20.0
+        },
+        {
+            "id": 1274585220,
+            "node1": 63235,
+            "node2": 32,
+            "type": 8,
+            "w": 20.0
+        },
+        {
+            "id": 1206126156,
+            "node1": 63235,
+            "node2": 35,
+            "type": 8,
+            "w": 20.0
+        },
+        {
+            "id": 1206007242,
+            "node1": 63235,
+            "node2": 38,
+            "type": 8,
+            "w": 20.0
+        },
+        {
+            "id": 1075790867,
+            "node1": 63235,
+            "node2": 43,
+            "type": 8,
+            "w": 20.0
+        },
+        {
+            "id": 1284614001,
+            "node1": 63235,
+            "node2": 54,
+            "type": 8,
+            "w": 20.0
+        },
+        {
+            "id": 606021930,
+            "node1": 63235,
+            "node2": 60,
+            "type": 8,
+            "w": 2.0
+        },
+        {
+            "id": 1270388280,
+            "node1": 63235,
+            "node2": 65,
+            "type": 8,
+            "w": 20.0
+        },
+        {
+            "id": 311770830,
+            "node1": 63235,
+            "node2": 74,
+            "type": 8,
+            "w": 34.0
+        },
+        {
+            "id": 243669615,
+            "node1": 63235,
+            "node2": 86,
+            "type": 8,
+            "w": 30.0
+        },
+        {
+            "id": 1206248277,
+            "node1": 63235,
+            "node2": 97,
+            "type": 8,
+            "w": 20.0
+        },
+        {
+            "id": 9844387,
+            "node1": 63235,
+            "node2": 113,
+            "type": 8,
+            "w": 60.0
+        },
+        {
+            "id": 1206085926,
+            "node1": 63235,
+            "node2": 134,
+            "type": 8,
+            "w": 20.0
+        },
+        {
+            "id": 1284908017,
+            "node1": 63235,
+            "node2": 143,
+            "type": 8,
+            "w": 20.0
+        },
+        {
+            "id": 130839,
+            "node1": 63235,
+            "node2": 150,
+            "type": 8,
+            "w": 370.0
+        },
+        {
+            "id": 1075792976,
+            "node1": 63235,
+            "node2": 151,
+            "type": 8,
+            "w": 20.0
+        },
+        {
+            "id": 1206232753,
+            "node1": 63235,
+            "node2": 154,
+            "type": 8,
+            "w": 20.0
+        },
+        {
+            "id": 1206248995,
+            "node1": 63235,
+            "node2": 157,
+            "type": 8,
+            "w": 20.0
+        },
+        {
+            "id": 1206239403,
+            "node1": 63235,
+            "node2": 166,
+            "type": 8,
+            "w": 20.0
+        },
+        {
+            "id": 1075793896,
+            "node1": 63235,
+            "node2": 169,
+            "type": 8,
+            "w": 20.0
+        },
+        {
+            "id": 1206126244,
+            "node1": 63235,
+            "node2": 177,
+            "type": 8,
+            "w": 20.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            8
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T18:11:31.952042",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 25,
+        "max_relation_weight": 370.0,
+        "#nodes": 26,
+        "duration": "0:00:00.006492"
+    }
+}

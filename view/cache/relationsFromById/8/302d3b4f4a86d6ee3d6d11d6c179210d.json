@@ -1,0 +1,364 @@
+{
+    "nodes": [
+        {
+            "id": 3756319,
+            "name": "kiwi coupé en morceaux",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 3363845,
+            "name": "kiwi gold farci",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 31864,
+            "name": "kiwi",
+            "type": 1,
+            "w": 1052
+        },
+        {
+            "id": 9491673,
+            "name": "kiwi taillé en billes",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 9491677,
+            "name": "kiwi taillé en quartiers",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 9491679,
+            "name": "kiwi taillé en rondelles",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 12099634,
+            "name": "kiwi vert ract d8 (recombinant) ac ige classification rast",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 9491675,
+            "name": "kiwi taillé en dés",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 12110003,
+            "name": "kiwi vert ract d8 (recombinant) ag",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 196524581,
+            "name": "kiwi doré",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 193492,
+            "name": "kiwi austral",
+            "type": 1,
+            "w": 52
+        },
+        {
+            "id": 193493,
+            "name": "kiwi d'Okarito",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 315543,
+            "name": "kiwi de Mantell",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 11456120,
+            "name": "Kiwi austral",
+            "type": 777,
+            "w": 25
+        },
+        {
+            "id": 12099626,
+            "name": "kiwi ac igg classification rast",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 12099624,
+            "name": "kiwi ac ige classification rast",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 12099628,
+            "name": "kiwi activation des basophiles",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 12099630,
+            "name": "kiwi vert nact d1 (natif) ac ige classification rast",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 12110000,
+            "name": "kiwi vert nact d1 (natif) ag",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 12110002,
+            "name": "kiwi vert nact d5 (natif) ag",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 193494,
+            "name": "kiwi d'Owen",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 193495,
+            "name": "kiwi roa",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 3752825,
+            "name": "kiwi écrasé",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 12110001,
+            "name": "kiwi vert nact d2 (natif) ag",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 3758868,
+            "name": "kiwi pelé et coupé en fines tranches",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 6409806,
+            "name": "oiseau kiwi",
+            "type": 1,
+            "w": 25
+        }
+    ],
+    "relations": [
+        {
+            "id": 14037415,
+            "node1": 31864,
+            "node2": 193492,
+            "type": 8,
+            "w": 41.0
+        },
+        {
+            "id": 790119628,
+            "node1": 31864,
+            "node2": 193493,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 9869118,
+            "node1": 31864,
+            "node2": 193494,
+            "type": 8,
+            "w": 65.0
+        },
+        {
+            "id": 790119688,
+            "node1": 31864,
+            "node2": 193495,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790119635,
+            "node1": 31864,
+            "node2": 315543,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790119679,
+            "node1": 31864,
+            "node2": 3363845,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790119711,
+            "node1": 31864,
+            "node2": 3752825,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790119625,
+            "node1": 31864,
+            "node2": 3756319,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790119685,
+            "node1": 31864,
+            "node2": 3758868,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 1266353166,
+            "node1": 31864,
+            "node2": 6409806,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 248833326,
+            "node1": 31864,
+            "node2": 9491673,
+            "type": 8,
+            "w": 34.0
+        },
+        {
+            "id": 248833085,
+            "node1": 31864,
+            "node2": 9491675,
+            "type": 8,
+            "w": 31.0
+        },
+        {
+            "id": 248833294,
+            "node1": 31864,
+            "node2": 9491677,
+            "type": 8,
+            "w": 32.0
+        },
+        {
+            "id": 248827775,
+            "node1": 31864,
+            "node2": 9491679,
+            "type": 8,
+            "w": 32.0
+        },
+        {
+            "id": 298958866,
+            "node1": 31864,
+            "node2": 11456120,
+            "type": 8,
+            "w": 15.0
+        },
+        {
+            "id": 790119614,
+            "node1": 31864,
+            "node2": 12099624,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790119615,
+            "node1": 31864,
+            "node2": 12099626,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790119619,
+            "node1": 31864,
+            "node2": 12099628,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790119696,
+            "node1": 31864,
+            "node2": 12099630,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790119700,
+            "node1": 31864,
+            "node2": 12099634,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790119697,
+            "node1": 31864,
+            "node2": 12110000,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790119698,
+            "node1": 31864,
+            "node2": 12110001,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790119699,
+            "node1": 31864,
+            "node2": 12110002,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790119701,
+            "node1": 31864,
+            "node2": 12110003,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790119671,
+            "node1": 31864,
+            "node2": 196524581,
+            "type": 8,
+            "w": 25.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            8
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T19:20:28.594279",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 25,
+        "max_relation_weight": 65.0,
+        "#nodes": 26,
+        "duration": "0:00:00.001409"
+    }
+}

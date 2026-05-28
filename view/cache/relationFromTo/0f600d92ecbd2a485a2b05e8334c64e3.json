@@ -1,0 +1,49 @@
+{
+    "nodes": [
+        {
+            "id": 167847,
+            "name": "déplacement aérien",
+            "type": 1,
+            "w": 57
+        },
+        {
+            "id": 140176,
+            "name": "oiseau",
+            "type": 1,
+            "w": 11979
+        }
+    ],
+    "relations": [
+        {
+            "id": 796713024,
+            "node1": 140176,
+            "node2": 167847,
+            "type": 0,
+            "w": 28.0
+        }
+    ],
+    "request": {
+        "types_ids": null,
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T19:20:27.743519",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 1,
+        "max_relation_weight": 28.0,
+        "duration": "0:00:00.001408"
+    }
+}

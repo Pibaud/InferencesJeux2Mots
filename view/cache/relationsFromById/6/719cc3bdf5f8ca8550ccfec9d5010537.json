@@ -1,0 +1,143 @@
+{
+    "nodes": [
+        {
+            "id": 3224813,
+            "name": "animal volant",
+            "type": 1,
+            "w": 4
+        },
+        {
+            "id": 1655534,
+            "name": "c&oelig;lomate",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 71624,
+            "name": "être vivant",
+            "type": 1,
+            "w": 2968
+        },
+        {
+            "id": 234036,
+            "name": "être vivant>123933",
+            "type": 1,
+            "w": 325
+        },
+        {
+            "id": 17559,
+            "name": "animal",
+            "type": 1,
+            "w": 20562
+        },
+        {
+            "id": 468707848,
+            "name": "nom d'amour",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 213452,
+            "name": "terme d'affection",
+            "type": 1,
+            "w": 24
+        },
+        {
+            "id": 7487277,
+            "name": "en:term",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 144149,
+            "name": "terme",
+            "type": 1,
+            "w": 21675
+        }
+    ],
+    "relations": [
+        {
+            "id": 479980747,
+            "node1": 213452,
+            "node2": 17559,
+            "type": 6,
+            "w": -30.0
+        },
+        {
+            "id": 479986377,
+            "node1": 213452,
+            "node2": 71624,
+            "type": 6,
+            "w": -30.0
+        },
+        {
+            "id": 27809995,
+            "node1": 213452,
+            "node2": 144149,
+            "type": 6,
+            "w": 54.0
+        },
+        {
+            "id": 479986380,
+            "node1": 213452,
+            "node2": 234036,
+            "type": 6,
+            "w": -30.0
+        },
+        {
+            "id": 479986371,
+            "node1": 213452,
+            "node2": 1655534,
+            "type": 6,
+            "w": -25.0
+        },
+        {
+            "id": 479987331,
+            "node1": 213452,
+            "node2": 3224813,
+            "type": 6,
+            "w": -208.0
+        },
+        {
+            "id": 692306463,
+            "node1": 213452,
+            "node2": 7487277,
+            "type": 6,
+            "w": 27.0
+        },
+        {
+            "id": 1244854899,
+            "node1": 213452,
+            "node2": 468707848,
+            "type": 6,
+            "w": 26.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            6
+        ],
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:50:05.711430",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 8,
+        "max_relation_weight": 54.0,
+        "#nodes": 9,
+        "duration": "0:00:00.001219"
+    }
+}

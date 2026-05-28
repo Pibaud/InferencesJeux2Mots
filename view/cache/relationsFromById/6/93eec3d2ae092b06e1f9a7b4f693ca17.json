@@ -1,0 +1,416 @@
+{
+    "nodes": [
+        {
+            "id": 145186,
+            "name": "évènement",
+            "type": 1,
+            "w": 1331
+        },
+        {
+            "id": 683864,
+            "name": "entreprise>171870",
+            "type": 1,
+            "w": 30
+        },
+        {
+            "id": 217105,
+            "name": "substance chimique",
+            "type": 1,
+            "w": 323
+        },
+        {
+            "id": 180584,
+            "name": "composé chimique",
+            "type": 1,
+            "w": 180
+        },
+        {
+            "id": 223918,
+            "name": "composé aromatique",
+            "type": 1,
+            "w": 12
+        },
+        {
+            "id": 224895,
+            "name": "entreprise>146272",
+            "type": 1,
+            "w": 246
+        },
+        {
+            "id": 15229,
+            "name": "aéronautique",
+            "type": 1,
+            "w": 3806
+        },
+        {
+            "id": 130400,
+            "name": "maladie",
+            "type": 1,
+            "w": 19664
+        },
+        {
+            "id": 52119,
+            "name": "langue",
+            "type": 1,
+            "w": 16515
+        },
+        {
+            "id": 30030,
+            "name": "entreprise",
+            "type": 1,
+            "w": 13470
+        },
+        {
+            "id": 102118,
+            "name": "technologie",
+            "type": 1,
+            "w": 34759
+        },
+        {
+            "id": 164496,
+            "name": "unité de mesure",
+            "type": 1,
+            "w": 286
+        },
+        {
+            "id": 3461,
+            "name": "vent",
+            "type": 1,
+            "w": 11749
+        },
+        {
+            "id": 3695,
+            "name": "art",
+            "type": 1,
+            "w": 22282
+        },
+        {
+            "id": 112929,
+            "name": "action",
+            "type": 1,
+            "w": 25139
+        },
+        {
+            "id": 85087,
+            "name": "ingénierie",
+            "type": 1,
+            "w": 1484
+        },
+        {
+            "id": 525659343,
+            "name": "sport de l'air",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 319694,
+            "name": "processus pathologique",
+            "type": 1,
+            "w": 19
+        },
+        {
+            "id": 164997,
+            "name": "composé organique",
+            "type": 1,
+            "w": 214
+        },
+        {
+            "id": 378875,
+            "name": "science appliquée",
+            "type": 1,
+            "w": 57
+        },
+        {
+            "id": 43280,
+            "name": "tumeur",
+            "type": 1,
+            "w": 1126
+        },
+        {
+            "id": 38334831,
+            "name": "sciences et procédés des avions",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 2357462,
+            "name": "substance phytosanitaire",
+            "type": 1,
+            "w": 4
+        },
+        {
+            "id": 567841,
+            "name": "sciences appliquées",
+            "type": 777,
+            "w": 352
+        },
+        {
+            "id": 501433140,
+            "name": "technologies de l'air",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 7335522,
+            "name": "en:technology",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 178480,
+            "name": "maladie infectieuse",
+            "type": 1,
+            "w": 685
+        },
+        {
+            "id": 11236992,
+            "name": "domaine technique",
+            "type": 1,
+            "w": 40
+        },
+        {
+            "id": 80973,
+            "name": "science",
+            "type": 1,
+            "w": 18007
+        },
+        {
+            "id": 118876,
+            "name": "industrie",
+            "type": 1,
+            "w": 8830
+        }
+    ],
+    "relations": [
+        {
+            "id": 590665952,
+            "node1": 15229,
+            "node2": 3461,
+            "type": 6,
+            "w": -25.0
+        },
+        {
+            "id": 83468575,
+            "node1": 15229,
+            "node2": 3695,
+            "type": 6,
+            "w": -28.0
+        },
+        {
+            "id": 109501598,
+            "node1": 15229,
+            "node2": 30030,
+            "type": 6,
+            "w": -43.0
+        },
+        {
+            "id": 590665957,
+            "node1": 15229,
+            "node2": 43280,
+            "type": 6,
+            "w": -25.0
+        },
+        {
+            "id": 590665963,
+            "node1": 15229,
+            "node2": 52119,
+            "type": 6,
+            "w": -25.0
+        },
+        {
+            "id": 1284204228,
+            "node1": 15229,
+            "node2": 80973,
+            "type": 6,
+            "w": -26.0
+        },
+        {
+            "id": 1228313571,
+            "node1": 15229,
+            "node2": 85087,
+            "type": 6,
+            "w": 36.0
+        },
+        {
+            "id": 1228313595,
+            "node1": 15229,
+            "node2": 102118,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 664935302,
+            "node1": 15229,
+            "node2": 112929,
+            "type": 6,
+            "w": -25.0
+        },
+        {
+            "id": 1228329049,
+            "node1": 15229,
+            "node2": 118876,
+            "type": 6,
+            "w": -37.0
+        },
+        {
+            "id": 590665955,
+            "node1": 15229,
+            "node2": 130400,
+            "type": 6,
+            "w": -25.0
+        },
+        {
+            "id": 590665953,
+            "node1": 15229,
+            "node2": 145186,
+            "type": 6,
+            "w": -25.0
+        },
+        {
+            "id": 590665951,
+            "node1": 15229,
+            "node2": 164496,
+            "type": 6,
+            "w": -25.0
+        },
+        {
+            "id": 590665948,
+            "node1": 15229,
+            "node2": 164997,
+            "type": 6,
+            "w": -25.0
+        },
+        {
+            "id": 590665956,
+            "node1": 15229,
+            "node2": 178480,
+            "type": 6,
+            "w": -25.0
+        },
+        {
+            "id": 590665949,
+            "node1": 15229,
+            "node2": 180584,
+            "type": 6,
+            "w": -25.0
+        },
+        {
+            "id": 590665947,
+            "node1": 15229,
+            "node2": 217105,
+            "type": 6,
+            "w": -25.0
+        },
+        {
+            "id": 590665950,
+            "node1": 15229,
+            "node2": 223918,
+            "type": 6,
+            "w": -25.0
+        },
+        {
+            "id": 109501599,
+            "node1": 15229,
+            "node2": 224895,
+            "type": 6,
+            "w": -34.0
+        },
+        {
+            "id": 591121899,
+            "node1": 15229,
+            "node2": 319694,
+            "type": 6,
+            "w": -25.0
+        },
+        {
+            "id": 1228313572,
+            "node1": 15229,
+            "node2": 378875,
+            "type": 6,
+            "w": 35.0
+        },
+        {
+            "id": 1281324671,
+            "node1": 15229,
+            "node2": 567841,
+            "type": 6,
+            "w": -26.0
+        },
+        {
+            "id": 612624234,
+            "node1": 15229,
+            "node2": 683864,
+            "type": 6,
+            "w": -31.0
+        },
+        {
+            "id": 590665945,
+            "node1": 15229,
+            "node2": 2357462,
+            "type": 6,
+            "w": -25.0
+        },
+        {
+            "id": 414292689,
+            "node1": 15229,
+            "node2": 7335522,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 1222483398,
+            "node1": 15229,
+            "node2": 11236992,
+            "type": 6,
+            "w": 35.0
+        },
+        {
+            "id": 1245858605,
+            "node1": 15229,
+            "node2": 38334831,
+            "type": 6,
+            "w": -26.0
+        },
+        {
+            "id": 1283091474,
+            "node1": 15229,
+            "node2": 501433140,
+            "type": 6,
+            "w": -25.0
+        },
+        {
+            "id": 1260810700,
+            "node1": 15229,
+            "node2": 525659343,
+            "type": 6,
+            "w": 26.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            6
+        ],
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:48:57.751675",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 29,
+        "max_relation_weight": 36.0,
+        "#nodes": 30,
+        "duration": "0:00:00.020575"
+    }
+}

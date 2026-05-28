@@ -1,0 +1,186 @@
+{
+    "nodes": [
+        {
+            "id": 73827,
+            "name": "voler",
+            "type": 1,
+            "w": 5832,
+            "c": 0,
+            "level": 66.3195,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T17:02:30"
+        },
+        {
+            "id": 102641,
+            "name": "voleur",
+            "type": 1,
+            "w": 2481,
+            "c": 0,
+            "level": 47.3138,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T14:10:16"
+        },
+        {
+            "id": 58321,
+            "name": "malhonnêteté",
+            "type": 1,
+            "w": 207,
+            "c": 0,
+            "level": 53.5932,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T18:29:33"
+        },
+        {
+            "id": 167847,
+            "name": "déplacement aérien",
+            "type": 1,
+            "w": 57,
+            "c": 0,
+            "level": 199.0,
+            "infoid": null,
+            "creationdate": "2016-12-02",
+            "touchdate": "2026-05-25T11:55:51"
+        },
+        {
+            "id": 195882,
+            "name": "aller vite",
+            "type": 1,
+            "w": 380,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2009-11-10",
+            "touchdate": "2026-05-28T13:35:35"
+        }
+    ],
+    "refinements": [
+        {
+            "id": 17628368,
+            "name": "voler>58321>111539",
+            "type": 1,
+            "w": 25,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2022-05-18",
+            "touchdate": "2026-05-25T03:08:02"
+        },
+        {
+            "id": 213857,
+            "name": "voler>167847",
+            "type": 1,
+            "w": 296,
+            "c": 0,
+            "level": 225.185,
+            "infoid": null,
+            "creationdate": "2010-01-03",
+            "touchdate": "2026-05-28T15:21:46",
+            "refinement": "déplacement aérien"
+        },
+        {
+            "id": 4470331,
+            "name": "voler>102641",
+            "type": 1,
+            "w": 26,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2017-02-20",
+            "touchdate": "2026-05-21T08:37:45",
+            "refinement": "voleur"
+        },
+        {
+            "id": 213856,
+            "name": "voler>58321",
+            "type": 1,
+            "w": 188,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2010-01-03",
+            "touchdate": "2026-05-28T14:13:22",
+            "refinement": "malhonnêteté"
+        },
+        {
+            "id": 17628372,
+            "name": "voler>58321>17628371",
+            "type": 1,
+            "w": 4,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2022-05-18",
+            "touchdate": "2026-05-26T07:53:40"
+        },
+        {
+            "id": 332301,
+            "name": "voler>102641>75782",
+            "type": 1,
+            "w": 50,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2014-06-20",
+            "touchdate": "2025-10-16T21:43:19"
+        },
+        {
+            "id": 332302,
+            "name": "voler>102641>111539",
+            "type": 1,
+            "w": 50,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2014-06-20",
+            "touchdate": "2025-10-16T21:50:59"
+        },
+        {
+            "id": 17628369,
+            "name": "voler>58321>137420",
+            "type": 1,
+            "w": 25,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2022-05-18",
+            "touchdate": "2026-05-26T07:53:40"
+        },
+        {
+            "id": 261299,
+            "name": "voler>195882",
+            "type": 1,
+            "w": 62,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2013-02-03",
+            "touchdate": "2026-05-28T14:13:22",
+            "refinement": "aller vite"
+        },
+        {
+            "id": 332300,
+            "name": "voler>102641>137420",
+            "type": 1,
+            "w": 66,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2014-06-20",
+            "touchdate": "2026-05-26T05:19:57"
+        },
+        {
+            "id": 17628370,
+            "name": "voler>58321>75782",
+            "type": 1,
+            "w": 25,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2022-05-18",
+            "touchdate": "2026-05-26T07:53:40"
+        }
+    ]
+}

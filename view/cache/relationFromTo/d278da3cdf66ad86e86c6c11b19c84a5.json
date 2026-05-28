@@ -1,0 +1,56 @@
+{
+    "nodes": [
+        {
+            "id": 59328,
+            "name": "réacteur",
+            "type": 1,
+            "w": 1751
+        },
+        {
+            "id": 46728,
+            "name": "chimie",
+            "type": 1,
+            "w": 6512
+        }
+    ],
+    "relations": [
+        {
+            "id": 89067890,
+            "node1": 59328,
+            "node2": 46728,
+            "type": 0,
+            "w": 133.0
+        },
+        {
+            "id": 56380258,
+            "node1": 59328,
+            "node2": 46728,
+            "type": 3,
+            "w": 384.0
+        }
+    ],
+    "request": {
+        "types_ids": null,
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T19:18:37.461704",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 2,
+        "max_relation_weight": 384.0,
+        "duration": "0:00:00.001949"
+    }
+}

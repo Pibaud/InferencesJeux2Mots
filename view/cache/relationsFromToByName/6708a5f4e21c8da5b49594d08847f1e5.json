@@ -1,0 +1,102 @@
+{
+    "nodes": [
+        {
+            "id": 97756,
+            "name": "avion",
+            "type": 1,
+            "w": 11045,
+            "c": 0,
+            "level": 78.6924,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T18:23:25"
+        },
+        {
+            "id": 101610,
+            "name": "atterrir",
+            "type": 1,
+            "w": 665,
+            "c": 0,
+            "level": 50.899,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T14:13:40"
+        }
+    ],
+    "relations": [
+        {
+            "id": 366249724,
+            "node1": 97756,
+            "node2": 101610,
+            "type": 0,
+            "w": 640.88
+        },
+        {
+            "id": 256855,
+            "node1": 97756,
+            "node2": 101610,
+            "type": 24,
+            "w": 187.0
+        },
+        {
+            "id": 356919,
+            "node1": 97756,
+            "node2": 101610,
+            "type": 25,
+            "w": 140.0
+        },
+        {
+            "id": 899855670,
+            "node1": 97756,
+            "node2": 101610,
+            "type": 26,
+            "w": 160.0
+        },
+        {
+            "id": 272380,
+            "node1": 97756,
+            "node2": 101610,
+            "type": 30,
+            "w": 60.0
+        },
+        {
+            "id": 20013503,
+            "node1": 97756,
+            "node2": 101610,
+            "type": 41,
+            "w": 51.0
+        },
+        {
+            "id": 1222219636,
+            "node1": 97756,
+            "node2": 101610,
+            "type": 138,
+            "w": -40.0
+        }
+    ],
+    "request": {
+        "types_ids": null,
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:28:59.791831",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "node1": "avion",
+        "node2": "atterrir",
+        "#relations": 7,
+        "max_relation_weight": 640.88,
+        "duration": "0:00:00.002694"
+    }
+}

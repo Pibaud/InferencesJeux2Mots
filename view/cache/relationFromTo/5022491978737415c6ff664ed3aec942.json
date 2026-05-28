@@ -1,0 +1,51 @@
+{
+    "nodes": [
+        {
+            "id": 77735,
+            "name": "Europe",
+            "type": 1,
+            "w": 19844
+        },
+        {
+            "id": 160615,
+            "name": "Union Européenne",
+            "type": 1,
+            "w": 1057
+        }
+    ],
+    "relations": [
+        {
+            "id": 369366809,
+            "node1": 160615,
+            "node2": 77735,
+            "type": 15,
+            "w": 11.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            15
+        ],
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T19:11:31.566022",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 1,
+        "max_relation_weight": 11.0,
+        "duration": "0:00:00.001164"
+    }
+}

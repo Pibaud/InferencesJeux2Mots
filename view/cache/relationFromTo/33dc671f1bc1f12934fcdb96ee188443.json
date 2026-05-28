@@ -1,0 +1,56 @@
+{
+    "nodes": [
+        {
+            "id": 15229,
+            "name": "aéronautique",
+            "type": 1,
+            "w": 3806
+        },
+        {
+            "id": 164,
+            "name": "vaisseau spatial",
+            "type": 1,
+            "w": 273
+        }
+    ],
+    "relations": [
+        {
+            "id": 629884786,
+            "node1": 164,
+            "node2": 15229,
+            "type": 0,
+            "w": 15.0
+        },
+        {
+            "id": 568928836,
+            "node1": 164,
+            "node2": 15229,
+            "type": 3,
+            "w": 44.0
+        }
+    ],
+    "request": {
+        "types_ids": null,
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:30:28.271160",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 2,
+        "max_relation_weight": 44.0,
+        "duration": "0:00:00.001513"
+    }
+}

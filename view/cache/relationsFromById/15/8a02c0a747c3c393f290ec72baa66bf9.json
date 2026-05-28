@@ -1,0 +1,338 @@
+{
+    "nodes": [
+        {
+            "id": 466562377,
+            "name": "région Languedoc-Roussillon",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 77735,
+            "name": "Europe",
+            "type": 1,
+            "w": 19844
+        },
+        {
+            "id": 458723,
+            "name": "héraultais",
+            "type": 1,
+            "w": 51
+        },
+        {
+            "id": 137391,
+            "name": "Afrique",
+            "type": 1,
+            "w": 7091
+        },
+        {
+            "id": 87987,
+            "name": "France",
+            "type": 1,
+            "w": 48202
+        },
+        {
+            "id": 136681,
+            "name": "Hérault",
+            "type": 1,
+            "w": 1896
+        },
+        {
+            "id": 51028,
+            "name": "Languedoc-Roussillon",
+            "type": 1,
+            "w": 1506
+        },
+        {
+            "id": 458724,
+            "name": "département de l'Hérault",
+            "type": 777,
+            "w": 53
+        },
+        {
+            "id": 1315038,
+            "name": "province>171869",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 417306,
+            "name": "héraultaise",
+            "type": 1,
+            "w": 61
+        },
+        {
+            "id": 132461,
+            "name": "Occitanie",
+            "type": 1,
+            "w": 1142
+        },
+        {
+            "id": 153141,
+            "name": "Languedoc Roussillon",
+            "type": 1,
+            "w": 55
+        },
+        {
+            "id": 2780344,
+            "name": "Languedoc-Roussillon-Midi-Pyrénées",
+            "type": 1,
+            "w": 26
+        },
+        {
+            "id": 124100,
+            "name": "Montpellier",
+            "type": 1,
+            "w": 3794
+        },
+        {
+            "id": 173170,
+            "name": "Hexagone",
+            "type": 1,
+            "w": 2420
+        },
+        {
+            "id": 255337372,
+            "name": "région Occitanie",
+            "type": 1,
+            "w": 735
+        },
+        {
+            "id": 130581,
+            "name": "Orly",
+            "type": 1,
+            "w": 169
+        },
+        {
+            "id": 1658983,
+            "name": "Sud de la France",
+            "type": 1,
+            "w": 30
+        },
+        {
+            "id": 271513,
+            "name": "sud de la France",
+            "type": 1,
+            "w": 371
+        },
+        {
+            "id": 20713,
+            "name": "planète",
+            "type": 1,
+            "w": 10763
+        },
+        {
+            "id": 233194,
+            "name": "France>22243",
+            "type": 1,
+            "w": 289
+        },
+        {
+            "id": 80373,
+            "name": "province",
+            "type": 1,
+            "w": 4509
+        },
+        {
+            "id": 145735,
+            "name": "nation",
+            "type": 1,
+            "w": 7096
+        },
+        {
+            "id": 2337371,
+            "name": "France>146881",
+            "type": 1,
+            "w": 25
+        }
+    ],
+    "relations": [
+        {
+            "id": 8503383,
+            "node1": 124100,
+            "node2": 20713,
+            "type": 15,
+            "w": -14.0
+        },
+        {
+            "id": 9002801,
+            "node1": 124100,
+            "node2": 51028,
+            "type": 15,
+            "w": 927.0
+        },
+        {
+            "id": 8443517,
+            "node1": 124100,
+            "node2": 77735,
+            "type": 15,
+            "w": 43.0
+        },
+        {
+            "id": 8549053,
+            "node1": 124100,
+            "node2": 80373,
+            "type": 15,
+            "w": 40.0
+        },
+        {
+            "id": 1745806,
+            "node1": 124100,
+            "node2": 87987,
+            "type": 15,
+            "w": 89.0
+        },
+        {
+            "id": 8554995,
+            "node1": 124100,
+            "node2": 130581,
+            "type": 15,
+            "w": -14.0
+        },
+        {
+            "id": 93260708,
+            "node1": 124100,
+            "node2": 132461,
+            "type": 15,
+            "w": 49.0
+        },
+        {
+            "id": 12474833,
+            "node1": 124100,
+            "node2": 136681,
+            "type": 15,
+            "w": 963.0
+        },
+        {
+            "id": 8802154,
+            "node1": 124100,
+            "node2": 137391,
+            "type": 15,
+            "w": -5.0
+        },
+        {
+            "id": 8543779,
+            "node1": 124100,
+            "node2": 145735,
+            "type": 15,
+            "w": -34.0
+        },
+        {
+            "id": 18562716,
+            "node1": 124100,
+            "node2": 153141,
+            "type": 15,
+            "w": 29.0
+        },
+        {
+            "id": 13674988,
+            "node1": 124100,
+            "node2": 173170,
+            "type": 15,
+            "w": 34.0
+        },
+        {
+            "id": 11746126,
+            "node1": 124100,
+            "node2": 233194,
+            "type": 15,
+            "w": 75.0
+        },
+        {
+            "id": 13802281,
+            "node1": 124100,
+            "node2": 271513,
+            "type": 15,
+            "w": 34.0
+        },
+        {
+            "id": 17490632,
+            "node1": 124100,
+            "node2": 417306,
+            "type": 15,
+            "w": 34.0
+        },
+        {
+            "id": 16111465,
+            "node1": 124100,
+            "node2": 458723,
+            "type": 15,
+            "w": 34.0
+        },
+        {
+            "id": 16111473,
+            "node1": 124100,
+            "node2": 458724,
+            "type": 15,
+            "w": 34.0
+        },
+        {
+            "id": 605763089,
+            "node1": 124100,
+            "node2": 1315038,
+            "type": 15,
+            "w": 32.0
+        },
+        {
+            "id": 92682960,
+            "node1": 124100,
+            "node2": 1658983,
+            "type": 15,
+            "w": 1.0
+        },
+        {
+            "id": 104951763,
+            "node1": 124100,
+            "node2": 2337371,
+            "type": 15,
+            "w": 15.0
+        },
+        {
+            "id": 72938264,
+            "node1": 124100,
+            "node2": 2780344,
+            "type": 15,
+            "w": 42.0
+        },
+        {
+            "id": 1239486301,
+            "node1": 124100,
+            "node2": 255337372,
+            "type": 15,
+            "w": 27.0
+        },
+        {
+            "id": 1158161044,
+            "node1": 124100,
+            "node2": 466562377,
+            "type": 15,
+            "w": 25.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            15
+        ],
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:54:05.439422",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 23,
+        "max_relation_weight": 963.0,
+        "#nodes": 24,
+        "duration": "0:00:00.005961"
+    }
+}

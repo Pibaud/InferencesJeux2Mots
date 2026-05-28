@@ -1,0 +1,364 @@
+{
+    "nodes": [
+        {
+            "id": 2467222,
+            "name": "Québec inc.",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 5794639,
+            "name": "prix Rapsat-Lelièvre",
+            "type": 777,
+            "w": 0
+        },
+        {
+            "id": 153737077,
+            "name": "Québec Amérique",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 241360859,
+            "name": "Québec Nordiques",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 255467312,
+            "name": "Québec littéraire",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 259475662,
+            "name": "Québec moderne",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 261215799,
+            "name": "Québec en ligne",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 261215793,
+            "name": "Québec en hiver",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 261215796,
+            "name": "Québec sans frontières",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 261215797,
+            "name": "Québec en chiffres",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 261215798,
+            "name": "Québec en images",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 261215800,
+            "name": "Québec en direct",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 261215801,
+            "name": "Québec en détails",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 261215802,
+            "name": "Québec en action",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 261215803,
+            "name": "Québec en couleurs",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 261215804,
+            "name": "Québec en fête",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 261215805,
+            "name": "Québec en primeur",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 261215806,
+            "name": "Québec en vedette",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 261215807,
+            "name": "Québec en tête",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 261215808,
+            "name": "Québec en mouvement",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 261215809,
+            "name": "Québec en région",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 241360857,
+            "name": "Québec City",
+            "type": 1,
+            "w": 26
+        },
+        {
+            "id": 261215794,
+            "name": "Québec en été",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 96168038,
+            "name": "Guerre de la Conquête",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 9959581,
+            "name": "guerre de la Conquête",
+            "type": 777,
+            "w": 25
+        },
+        {
+            "id": 130188,
+            "name": "Québec",
+            "type": 1,
+            "w": 4234
+        }
+    ],
+    "relations": [
+        {
+            "id": 790136816,
+            "node1": 130188,
+            "node2": 2467222,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 294719600,
+            "node1": 130188,
+            "node2": 5794639,
+            "type": 8,
+            "w": 19.0
+        },
+        {
+            "id": 382818775,
+            "node1": 130188,
+            "node2": 9959581,
+            "type": 8,
+            "w": 26.0
+        },
+        {
+            "id": 933732137,
+            "node1": 130188,
+            "node2": 96168038,
+            "type": 8,
+            "w": 20.0
+        },
+        {
+            "id": 790136780,
+            "node1": 130188,
+            "node2": 153737077,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790136781,
+            "node1": 130188,
+            "node2": 241360857,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790136782,
+            "node1": 130188,
+            "node2": 241360859,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790136817,
+            "node1": 130188,
+            "node2": 255467312,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790136818,
+            "node1": 130188,
+            "node2": 259475662,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790136797,
+            "node1": 130188,
+            "node2": 261215793,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790136815,
+            "node1": 130188,
+            "node2": 261215794,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790136819,
+            "node1": 130188,
+            "node2": 261215796,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790136786,
+            "node1": 130188,
+            "node2": 261215797,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790136798,
+            "node1": 130188,
+            "node2": 261215798,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790136800,
+            "node1": 130188,
+            "node2": 261215799,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790136789,
+            "node1": 130188,
+            "node2": 261215800,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790136790,
+            "node1": 130188,
+            "node2": 261215801,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790136783,
+            "node1": 130188,
+            "node2": 261215802,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790136787,
+            "node1": 130188,
+            "node2": 261215803,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790136793,
+            "node1": 130188,
+            "node2": 261215804,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790136806,
+            "node1": 130188,
+            "node2": 261215805,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790136814,
+            "node1": 130188,
+            "node2": 261215806,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790136813,
+            "node1": 130188,
+            "node2": 261215807,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790136802,
+            "node1": 130188,
+            "node2": 261215808,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790136807,
+            "node1": 130188,
+            "node2": 261215809,
+            "type": 8,
+            "w": 25.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            8
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T18:54:10.331058",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 25,
+        "max_relation_weight": 26.0,
+        "#nodes": 26,
+        "duration": "0:00:00.001315"
+    }
+}

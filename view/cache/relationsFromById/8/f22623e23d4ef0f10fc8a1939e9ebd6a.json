@@ -1,0 +1,364 @@
+{
+    "nodes": [
+        {
+            "id": 339942,
+            "name": "bourrasque de neige",
+            "type": 1,
+            "w": 52
+        },
+        {
+            "id": 14627085,
+            "name": "rafale de 3 coups",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15196445,
+            "name": "en:flurry of snow",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15197963,
+            "name": "rafale de balles",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15200603,
+            "name": "en:rain squall",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 15281735,
+            "name": "en:burst of machine-gun fire",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 15281733,
+            "name": "tir de mitraillette",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 15281734,
+            "name": "en:machine-gun fire",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15291795,
+            "name": "rafale d'applaudissements",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 15346399,
+            "name": "rafale d'octets",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15346396,
+            "name": "rafale de neige",
+            "type": 1,
+            "w": 27
+        },
+        {
+            "id": 251643819,
+            "name": "rafale de photos",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 2373375,
+            "name": "rafale descendante",
+            "type": 777,
+            "w": 25
+        },
+        {
+            "id": 183963,
+            "name": "rafale d'artillerie",
+            "type": 1,
+            "w": 51
+        },
+        {
+            "id": 375160,
+            "name": "rafale de pluie",
+            "type": 1,
+            "w": 51
+        },
+        {
+            "id": 230209,
+            "name": "rafale psychique",
+            "type": 666,
+            "w": 50
+        },
+        {
+            "id": 375162,
+            "name": "rafale de mitraillette",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 14627083,
+            "name": "rafale de trois coups",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15267348,
+            "name": "rafale de tweets",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15267349,
+            "name": "rafale de publications sur twitter",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15301618,
+            "name": "en:gust of wind",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 375161,
+            "name": "rafale de vent",
+            "type": 1,
+            "w": 95
+        },
+        {
+            "id": 44600,
+            "name": "coup de vent",
+            "type": 1,
+            "w": 178
+        },
+        {
+            "id": 12622,
+            "name": "rafale",
+            "type": 1,
+            "w": 449
+        },
+        {
+            "id": 375163,
+            "name": "rafale de mitrailleuse",
+            "type": 1,
+            "w": 71
+        },
+        {
+            "id": 339943,
+            "name": "bourrasque de vent",
+            "type": 1,
+            "w": 52
+        }
+    ],
+    "relations": [
+        {
+            "id": 712078765,
+            "node1": 12622,
+            "node2": 44600,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 30998779,
+            "node1": 12622,
+            "node2": 183963,
+            "type": 8,
+            "w": 35.0
+        },
+        {
+            "id": 31637109,
+            "node1": 12622,
+            "node2": 230209,
+            "type": 8,
+            "w": 28.0
+        },
+        {
+            "id": 781821298,
+            "node1": 12622,
+            "node2": 339942,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 622739598,
+            "node1": 12622,
+            "node2": 339943,
+            "type": 8,
+            "w": 4.0
+        },
+        {
+            "id": 33857970,
+            "node1": 12622,
+            "node2": 375160,
+            "type": 8,
+            "w": 29.0
+        },
+        {
+            "id": 33857835,
+            "node1": 12622,
+            "node2": 375161,
+            "type": 8,
+            "w": 26.0
+        },
+        {
+            "id": 33857741,
+            "node1": 12622,
+            "node2": 375162,
+            "type": 8,
+            "w": 29.0
+        },
+        {
+            "id": 33857615,
+            "node1": 12622,
+            "node2": 375163,
+            "type": 8,
+            "w": 26.0
+        },
+        {
+            "id": 52685419,
+            "node1": 12622,
+            "node2": 2373375,
+            "type": 8,
+            "w": 35.0
+        },
+        {
+            "id": 373359782,
+            "node1": 12622,
+            "node2": 14627083,
+            "type": 8,
+            "w": 32.0
+        },
+        {
+            "id": 373359784,
+            "node1": 12622,
+            "node2": 14627085,
+            "type": 8,
+            "w": 29.0
+        },
+        {
+            "id": 780237328,
+            "node1": 12622,
+            "node2": 15196445,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790164987,
+            "node1": 12622,
+            "node2": 15197963,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 420040094,
+            "node1": 12622,
+            "node2": 15200603,
+            "type": 8,
+            "w": 3.0
+        },
+        {
+            "id": 790164993,
+            "node1": 12622,
+            "node2": 15267348,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790164991,
+            "node1": 12622,
+            "node2": 15267349,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 781614570,
+            "node1": 12622,
+            "node2": 15281733,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 779691202,
+            "node1": 12622,
+            "node2": 15281734,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 435504628,
+            "node1": 12622,
+            "node2": 15281735,
+            "type": 8,
+            "w": 1.0
+        },
+        {
+            "id": 790164986,
+            "node1": 12622,
+            "node2": 15291795,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 420040089,
+            "node1": 12622,
+            "node2": 15301618,
+            "type": 8,
+            "w": 3.0
+        },
+        {
+            "id": 779331061,
+            "node1": 12622,
+            "node2": 15346396,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 779331060,
+            "node1": 12622,
+            "node2": 15346399,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790164989,
+            "node1": 12622,
+            "node2": 251643819,
+            "type": 8,
+            "w": 25.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            8
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T18:25:40.472127",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 25,
+        "max_relation_weight": 35.0,
+        "#nodes": 26,
+        "duration": "0:00:00.007363"
+    }
+}

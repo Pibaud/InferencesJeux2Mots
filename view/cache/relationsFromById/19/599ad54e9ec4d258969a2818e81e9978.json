@@ -1,0 +1,59 @@
+{
+    "nodes": [
+        {
+            "id": 142832,
+            "name": "souris",
+            "type": 1,
+            "w": 3573
+        },
+        {
+            "id": 83091,
+            "name": "sourire",
+            "type": 1,
+            "w": 8908
+        }
+    ],
+    "relations": [
+        {
+            "id": 334067,
+            "node1": 142832,
+            "node2": 83091,
+            "type": 19,
+            "w": 53.0
+        },
+        {
+            "id": 334068,
+            "node1": 142832,
+            "node2": 142832,
+            "type": 19,
+            "w": 154.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            19
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T18:46:45.167246",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 2,
+        "max_relation_weight": 154.0,
+        "#nodes": 2,
+        "duration": "0:00:00.028825"
+    }
+}

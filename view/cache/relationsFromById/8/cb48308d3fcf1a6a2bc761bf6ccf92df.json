@@ -1,0 +1,364 @@
+{
+    "nodes": [
+        {
+            "id": 202455,
+            "name": "justice retenue",
+            "type": 1,
+            "w": 51
+        },
+        {
+            "id": 248817,
+            "name": "France ultramarine",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 3845092,
+            "name": "France équinoxiale",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 4067703,
+            "name": "France voisine",
+            "type": 1,
+            "w": 26
+        },
+        {
+            "id": 5807973,
+            "name": "Standard officiel des volailles",
+            "type": 777,
+            "w": 0
+        },
+        {
+            "id": 15021062,
+            "name": "France de l'est",
+            "type": 1,
+            "w": 33
+        },
+        {
+            "id": 99893185,
+            "name": "France aux Jeux olympiques d'été de 2016",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 16163513,
+            "name": "France sous l'Occupation",
+            "type": 1,
+            "w": 29
+        },
+        {
+            "id": 91363182,
+            "name": "France terre d'asile",
+            "type": 1,
+            "w": 33
+        },
+        {
+            "id": 99958313,
+            "name": "France aux Jeux olympiques d'été de 2020",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 34409639,
+            "name": "France non occupée",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 87987,
+            "name": "France",
+            "type": 1,
+            "w": 48202
+        },
+        {
+            "id": 182551,
+            "name": "France d'en bas",
+            "type": 1,
+            "w": 64
+        },
+        {
+            "id": 15021063,
+            "name": "France de l'ouest",
+            "type": 1,
+            "w": 27
+        },
+        {
+            "id": 33732539,
+            "name": "France natale",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 173122,
+            "name": "France de l'intérieur",
+            "type": 1,
+            "w": 58
+        },
+        {
+            "id": 12079115,
+            "name": "France périphérique",
+            "type": 1,
+            "w": 67
+        },
+        {
+            "id": 1766586,
+            "name": "France du grand siècle",
+            "type": 1,
+            "w": 31
+        },
+        {
+            "id": 1766542,
+            "name": "France au XIXe siècle",
+            "type": 1,
+            "w": 34
+        },
+        {
+            "id": 183372,
+            "name": "noblesse de robe",
+            "type": 1,
+            "w": 24
+        },
+        {
+            "id": 15021064,
+            "name": "France occupée",
+            "type": 1,
+            "w": 57
+        },
+        {
+            "id": 18272,
+            "name": "Amérique",
+            "type": 1,
+            "w": 6918
+        },
+        {
+            "id": 95883727,
+            "name": "France Info>95883726",
+            "type": 1,
+            "w": 26
+        },
+        {
+            "id": 17645338,
+            "name": "Amérique>31388",
+            "type": 1,
+            "w": 8
+        },
+        {
+            "id": 182552,
+            "name": "France d'en haut",
+            "type": 1,
+            "w": 64
+        },
+        {
+            "id": 14722188,
+            "name": "France inter",
+            "type": 1,
+            "w": 916
+        }
+    ],
+    "relations": [
+        {
+            "id": 1039919224,
+            "node1": 87987,
+            "node2": 18272,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789494418,
+            "node1": 87987,
+            "node2": 173122,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789494411,
+            "node1": 87987,
+            "node2": 182551,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789494412,
+            "node1": 87987,
+            "node2": 182552,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 376240456,
+            "node1": 87987,
+            "node2": 183372,
+            "type": 8,
+            "w": 31.0
+        },
+        {
+            "id": 373520320,
+            "node1": 87987,
+            "node2": 202455,
+            "type": 8,
+            "w": 35.0
+        },
+        {
+            "id": 789494444,
+            "node1": 87987,
+            "node2": 248817,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789494382,
+            "node1": 87987,
+            "node2": 1766542,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789494420,
+            "node1": 87987,
+            "node2": 1766586,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789494448,
+            "node1": 87987,
+            "node2": 3845092,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789494446,
+            "node1": 87987,
+            "node2": 4067703,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 779871824,
+            "node1": 87987,
+            "node2": 5807973,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789494437,
+            "node1": 87987,
+            "node2": 12079115,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789494425,
+            "node1": 87987,
+            "node2": 14722188,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789494417,
+            "node1": 87987,
+            "node2": 15021062,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789494419,
+            "node1": 87987,
+            "node2": 15021063,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789494433,
+            "node1": 87987,
+            "node2": 15021064,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789494440,
+            "node1": 87987,
+            "node2": 16163513,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 1042264991,
+            "node1": 87987,
+            "node2": 17645338,
+            "type": 8,
+            "w": 20.0
+        },
+        {
+            "id": 789494431,
+            "node1": 87987,
+            "node2": 33732539,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789494432,
+            "node1": 87987,
+            "node2": 34409639,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789494441,
+            "node1": 87987,
+            "node2": 91363182,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789494194,
+            "node1": 87987,
+            "node2": 95883727,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789494404,
+            "node1": 87987,
+            "node2": 99893185,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789494405,
+            "node1": 87987,
+            "node2": 99958313,
+            "type": 8,
+            "w": 25.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            8
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T18:54:05.227834",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 25,
+        "max_relation_weight": 35.0,
+        "#nodes": 26,
+        "duration": "0:00:00.406833"
+    }
+}

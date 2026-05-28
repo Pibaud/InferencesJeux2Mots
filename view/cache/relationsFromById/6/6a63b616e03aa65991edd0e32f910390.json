@@ -1,0 +1,416 @@
+{
+    "nodes": [
+        {
+            "id": 234321,
+            "name": "commune>17573",
+            "type": 1,
+            "w": 138
+        },
+        {
+            "id": 313095,
+            "name": "ville>43260",
+            "type": 1,
+            "w": 209
+        },
+        {
+            "id": 29930,
+            "name": "localité",
+            "type": 1,
+            "w": 1417
+        },
+        {
+            "id": 7015598,
+            "name": "en:geographic area",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 124724,
+            "name": "préfecture",
+            "type": 1,
+            "w": 5129
+        },
+        {
+            "id": 362007,
+            "name": "localisation géographique",
+            "type": 1,
+            "w": 133
+        },
+        {
+            "id": 94262,
+            "name": "aéroport",
+            "type": 1,
+            "w": 3771
+        },
+        {
+            "id": 157283,
+            "name": "lieu>134218",
+            "type": 1,
+            "w": 358
+        },
+        {
+            "id": 136786,
+            "name": "ville",
+            "type": 1,
+            "w": 27323
+        },
+        {
+            "id": 135190,
+            "name": "lieu",
+            "type": 1,
+            "w": 16138
+        },
+        {
+            "id": 167583,
+            "name": "commune française",
+            "type": 1,
+            "w": 800
+        },
+        {
+            "id": 157284,
+            "name": "lieu>68467",
+            "type": 1,
+            "w": 58
+        },
+        {
+            "id": 14192720,
+            "name": "commune du sud de la France",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 4289768,
+            "name": "Localisation géographique",
+            "type": 777,
+            "w": 28
+        },
+        {
+            "id": 14094383,
+            "name": "partie de l'espace",
+            "type": 1,
+            "w": 32
+        },
+        {
+            "id": 124100,
+            "name": "Montpellier",
+            "type": 1,
+            "w": 3794
+        },
+        {
+            "id": 2352864,
+            "name": "commune>146881",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 158913,
+            "name": "centre administratif",
+            "type": 1,
+            "w": 52
+        },
+        {
+            "id": 13943,
+            "name": "place",
+            "type": 1,
+            "w": 20988
+        },
+        {
+            "id": 23554,
+            "name": "chef-lieu",
+            "type": 1,
+            "w": 3386
+        },
+        {
+            "id": 2785548,
+            "name": "lieu géographique",
+            "type": 1,
+            "w": 23
+        },
+        {
+            "id": 14968071,
+            "name": "emplacement géographique",
+            "type": 1,
+            "w": 43
+        },
+        {
+            "id": 7994473,
+            "name": "en:last name",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 6383214,
+            "name": "localisations géographiques",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 321529,
+            "name": "ville française",
+            "type": 1,
+            "w": 104
+        },
+        {
+            "id": 1822021,
+            "name": "ville de France",
+            "type": 1,
+            "w": 132
+        },
+        {
+            "id": 14951102,
+            "name": "en:family name",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 90244,
+            "name": "métropole",
+            "type": 1,
+            "w": 3067
+        },
+        {
+            "id": 62067,
+            "name": "commune",
+            "type": 1,
+            "w": 6828
+        },
+        {
+            "id": 146785,
+            "name": "nom de famille",
+            "type": 1,
+            "w": 325
+        }
+    ],
+    "relations": [
+        {
+            "id": 263397233,
+            "node1": 124100,
+            "node2": 13943,
+            "type": 6,
+            "w": 27.0
+        },
+        {
+            "id": 11995896,
+            "node1": 124100,
+            "node2": 23554,
+            "type": 6,
+            "w": 356.0
+        },
+        {
+            "id": 8796004,
+            "node1": 124100,
+            "node2": 29930,
+            "type": 6,
+            "w": -5.0
+        },
+        {
+            "id": 11745613,
+            "node1": 124100,
+            "node2": 62067,
+            "type": 6,
+            "w": 391.0
+        },
+        {
+            "id": 1158161045,
+            "node1": 124100,
+            "node2": 90244,
+            "type": 6,
+            "w": -25.0
+        },
+        {
+            "id": 8980211,
+            "node1": 124100,
+            "node2": 94262,
+            "type": 6,
+            "w": 98.0
+        },
+        {
+            "id": 1655710,
+            "node1": 124100,
+            "node2": 124724,
+            "type": 6,
+            "w": 327.0
+        },
+        {
+            "id": 630247,
+            "node1": 124100,
+            "node2": 135190,
+            "type": 6,
+            "w": 58.0
+        },
+        {
+            "id": 655807,
+            "node1": 124100,
+            "node2": 136786,
+            "type": 6,
+            "w": 314.0
+        },
+        {
+            "id": 556976032,
+            "node1": 124100,
+            "node2": 146785,
+            "type": 6,
+            "w": 26.0
+        },
+        {
+            "id": 13290409,
+            "node1": 124100,
+            "node2": 157283,
+            "type": 6,
+            "w": 145.0
+        },
+        {
+            "id": 11946251,
+            "node1": 124100,
+            "node2": 157284,
+            "type": 6,
+            "w": -25.0
+        },
+        {
+            "id": 1158174798,
+            "node1": 124100,
+            "node2": 158913,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 91789410,
+            "node1": 124100,
+            "node2": 167583,
+            "type": 6,
+            "w": 686.0
+        },
+        {
+            "id": 91843307,
+            "node1": 124100,
+            "node2": 234321,
+            "type": 6,
+            "w": 85.0
+        },
+        {
+            "id": 10571549,
+            "node1": 124100,
+            "node2": 313095,
+            "type": 6,
+            "w": 164.0
+        },
+        {
+            "id": 11745869,
+            "node1": 124100,
+            "node2": 321529,
+            "type": 6,
+            "w": 331.0
+        },
+        {
+            "id": 429036494,
+            "node1": 124100,
+            "node2": 362007,
+            "type": 6,
+            "w": 26.0
+        },
+        {
+            "id": 266789557,
+            "node1": 124100,
+            "node2": 1822021,
+            "type": 6,
+            "w": 86.0
+        },
+        {
+            "id": 395665889,
+            "node1": 124100,
+            "node2": 2352864,
+            "type": 6,
+            "w": 29.0
+        },
+        {
+            "id": 331070386,
+            "node1": 124100,
+            "node2": 2785548,
+            "type": 6,
+            "w": 28.0
+        },
+        {
+            "id": 1201960784,
+            "node1": 124100,
+            "node2": 4289768,
+            "type": 6,
+            "w": 20.0
+        },
+        {
+            "id": 395665890,
+            "node1": 124100,
+            "node2": 6383214,
+            "type": 6,
+            "w": -25.0
+        },
+        {
+            "id": 776273662,
+            "node1": 124100,
+            "node2": 7015598,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 568272267,
+            "node1": 124100,
+            "node2": 7994473,
+            "type": 6,
+            "w": 30.0
+        },
+        {
+            "id": 357219360,
+            "node1": 124100,
+            "node2": 14094383,
+            "type": 6,
+            "w": 26.0
+        },
+        {
+            "id": 1130585899,
+            "node1": 124100,
+            "node2": 14192720,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 568272265,
+            "node1": 124100,
+            "node2": 14951102,
+            "type": 6,
+            "w": 27.0
+        },
+        {
+            "id": 776277736,
+            "node1": 124100,
+            "node2": 14968071,
+            "type": 6,
+            "w": 25.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            6
+        ],
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:54:04.471788",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 29,
+        "max_relation_weight": 686.0,
+        "#nodes": 30,
+        "duration": "0:00:00.007896"
+    }
+}

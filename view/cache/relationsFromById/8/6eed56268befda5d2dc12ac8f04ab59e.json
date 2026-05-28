@@ -1,0 +1,364 @@
+{
+    "nodes": [
+        {
+            "id": 22199,
+            "name": "moteur fixe",
+            "type": 1,
+            "w": 53
+        },
+        {
+            "id": 127415,
+            "name": "Tasman",
+            "type": 1,
+            "w": 52
+        },
+        {
+            "id": 181091,
+            "name": "bicylindre à plat",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 21109,
+            "name": "servomoteur",
+            "type": 1,
+            "w": 98
+        },
+        {
+            "id": 89809,
+            "name": "moteur-canon",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 21988,
+            "name": "moulin",
+            "type": 1,
+            "w": 2034
+        },
+        {
+            "id": 36113,
+            "name": "turboréacteur",
+            "type": 1,
+            "w": 134
+        },
+        {
+            "id": 16837,
+            "name": "deux-temps",
+            "type": 1,
+            "w": 52
+        },
+        {
+            "id": 75985,
+            "name": "statoréacteur",
+            "type": 1,
+            "w": 86
+        },
+        {
+            "id": 176466,
+            "name": "moteur d'inférence",
+            "type": 1,
+            "w": 51
+        },
+        {
+            "id": 95299,
+            "name": "biréacteur",
+            "type": 1,
+            "w": 86
+        },
+        {
+            "id": 59328,
+            "name": "réacteur",
+            "type": 1,
+            "w": 1751
+        },
+        {
+            "id": 80074,
+            "name": "monocylindre",
+            "type": 1,
+            "w": 52
+        },
+        {
+            "id": 101905,
+            "name": "bouteur",
+            "type": 1,
+            "w": 56
+        },
+        {
+            "id": 122835,
+            "name": "rétrofusée",
+            "type": 1,
+            "w": 70
+        },
+        {
+            "id": 123030,
+            "name": "dénicheur",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 58200,
+            "name": "moteur à réaction",
+            "type": 1,
+            "w": 90
+        },
+        {
+            "id": 176465,
+            "name": "moteur d'exécution",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 167641,
+            "name": "moteur de recherche",
+            "type": 1,
+            "w": 1963
+        },
+        {
+            "id": 58463,
+            "name": "turbomoteur",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 127184,
+            "name": "moteur-fusée",
+            "type": 1,
+            "w": 101
+        },
+        {
+            "id": 58608,
+            "name": "bouilleur",
+            "type": 1,
+            "w": 53
+        },
+        {
+            "id": 66676,
+            "name": "machine à vapeur",
+            "type": 1,
+            "w": 214
+        },
+        {
+            "id": 93320,
+            "name": "aéromoteur",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 4658,
+            "name": "moteur",
+            "type": 1,
+            "w": 5459
+        },
+        {
+            "id": 113349,
+            "name": "boxer",
+            "type": 1,
+            "w": 165
+        }
+    ],
+    "relations": [
+        {
+            "id": 243416876,
+            "node1": 4658,
+            "node2": 16837,
+            "type": 8,
+            "w": 30.0
+        },
+        {
+            "id": 243770960,
+            "node1": 4658,
+            "node2": 21109,
+            "type": 8,
+            "w": 31.0
+        },
+        {
+            "id": 9625418,
+            "node1": 4658,
+            "node2": 21988,
+            "type": 8,
+            "w": 21.0
+        },
+        {
+            "id": 785417827,
+            "node1": 4658,
+            "node2": 22199,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 752958927,
+            "node1": 4658,
+            "node2": 36113,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 9770809,
+            "node1": 4658,
+            "node2": 58200,
+            "type": 8,
+            "w": 94.0
+        },
+        {
+            "id": 243416867,
+            "node1": 4658,
+            "node2": 58463,
+            "type": 8,
+            "w": 26.0
+        },
+        {
+            "id": 243910332,
+            "node1": 4658,
+            "node2": 58608,
+            "type": 8,
+            "w": 34.0
+        },
+        {
+            "id": 9621167,
+            "node1": 4658,
+            "node2": 59328,
+            "type": 8,
+            "w": 67.0
+        },
+        {
+            "id": 243881655,
+            "node1": 4658,
+            "node2": 66676,
+            "type": 8,
+            "w": 49.0
+        },
+        {
+            "id": 248885152,
+            "node1": 4658,
+            "node2": 75985,
+            "type": 8,
+            "w": 27.0
+        },
+        {
+            "id": 243416870,
+            "node1": 4658,
+            "node2": 80074,
+            "type": 8,
+            "w": 32.0
+        },
+        {
+            "id": 427776458,
+            "node1": 4658,
+            "node2": 89809,
+            "type": 8,
+            "w": 3.0
+        },
+        {
+            "id": 243416869,
+            "node1": 4658,
+            "node2": 93320,
+            "type": 8,
+            "w": 26.0
+        },
+        {
+            "id": 288610974,
+            "node1": 4658,
+            "node2": 95299,
+            "type": 8,
+            "w": 14.0
+        },
+        {
+            "id": 427760183,
+            "node1": 4658,
+            "node2": 101905,
+            "type": 8,
+            "w": 3.0
+        },
+        {
+            "id": 246227531,
+            "node1": 4658,
+            "node2": 113349,
+            "type": 8,
+            "w": 28.0
+        },
+        {
+            "id": 246786401,
+            "node1": 4658,
+            "node2": 122835,
+            "type": 8,
+            "w": 28.0
+        },
+        {
+            "id": 243736253,
+            "node1": 4658,
+            "node2": 123030,
+            "type": 8,
+            "w": 30.0
+        },
+        {
+            "id": 250400411,
+            "node1": 4658,
+            "node2": 127184,
+            "type": 8,
+            "w": 45.0
+        },
+        {
+            "id": 332549143,
+            "node1": 4658,
+            "node2": 127415,
+            "type": 8,
+            "w": 3.0
+        },
+        {
+            "id": 785417529,
+            "node1": 4658,
+            "node2": 167641,
+            "type": 8,
+            "w": 41.0
+        },
+        {
+            "id": 785417375,
+            "node1": 4658,
+            "node2": 176465,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 785417377,
+            "node1": 4658,
+            "node2": 176466,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 243416865,
+            "node1": 4658,
+            "node2": 181091,
+            "type": 8,
+            "w": 27.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            8
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T19:18:34.041501",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 25,
+        "max_relation_weight": 94.0,
+        "#nodes": 26,
+        "duration": "0:00:00.017252"
+    }
+}

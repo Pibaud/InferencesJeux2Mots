@@ -1,0 +1,70 @@
+{
+    "nodes": [
+        {
+            "id": 36275,
+            "name": "Union européenne",
+            "type": 1,
+            "w": 6697
+        },
+        {
+            "id": 87987,
+            "name": "France",
+            "type": 1,
+            "w": 48202
+        }
+    ],
+    "relations": [
+        {
+            "id": 10562523,
+            "node1": 87987,
+            "node2": 36275,
+            "type": 0,
+            "w": 55.0
+        },
+        {
+            "id": 3156459,
+            "node1": 87987,
+            "node2": 36275,
+            "type": 10,
+            "w": 30.0
+        },
+        {
+            "id": 1150593343,
+            "node1": 87987,
+            "node2": 36275,
+            "type": 82,
+            "w": 34.0
+        },
+        {
+            "id": 3310640,
+            "node1": 87987,
+            "node2": 36275,
+            "type": 777,
+            "w": 8.0
+        }
+    ],
+    "request": {
+        "types_ids": null,
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:54:03.435205",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 4,
+        "max_relation_weight": 55.0,
+        "duration": "0:00:00.002942"
+    }
+}

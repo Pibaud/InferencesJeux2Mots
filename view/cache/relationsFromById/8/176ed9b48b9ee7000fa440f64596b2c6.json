@@ -1,0 +1,364 @@
+{
+    "nodes": [
+        {
+            "id": 11341281,
+            "name": "piston triangulaire",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 12765632,
+            "name": "piston à simple effet",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 12765633,
+            "name": "piston à double effet",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 15193390,
+            "name": "piston à ressort",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15193386,
+            "name": "piston à air",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15193388,
+            "name": "piston à vapeur",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 15193392,
+            "name": "piston d'alimentation",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 15193405,
+            "name": "piston d'accumulateurs",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 15193407,
+            "name": "piston à déflecteur",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 15193409,
+            "name": "piston d'équilibrage",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 15247487,
+            "name": "piston d'injection",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 15270857,
+            "name": "piston plongeur",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 242951995,
+            "name": "piston de vérin",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 242951998,
+            "name": "piston de machine",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 242951996,
+            "name": "piston de moteur",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 242951989,
+            "name": "piston à gaz",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 242951991,
+            "name": "piston à essence",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 242951992,
+            "name": "piston à mouvement alternatif",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 242951993,
+            "name": "piston à tiroir",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 242951997,
+            "name": "piston de compresseur",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 242951999,
+            "name": "piston de tracteur",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 242951994,
+            "name": "piston de frein",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 370602,
+            "name": "piston de pompe",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 370601,
+            "name": "piston de seringue",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 140962,
+            "name": "piston",
+            "type": 1,
+            "w": 290
+        },
+        {
+            "id": 11341279,
+            "name": "piston rotatif",
+            "type": 1,
+            "w": 26
+        }
+    ],
+    "relations": [
+        {
+            "id": 789208410,
+            "node1": 140962,
+            "node2": 370601,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789208375,
+            "node1": 140962,
+            "node2": 370602,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789208447,
+            "node1": 140962,
+            "node2": 11341279,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789208448,
+            "node1": 140962,
+            "node2": 11341281,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 782620881,
+            "node1": 140962,
+            "node2": 12765632,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 782620882,
+            "node1": 140962,
+            "node2": 12765633,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789208450,
+            "node1": 140962,
+            "node2": 15193386,
+            "type": 8,
+            "w": 29.0
+        },
+        {
+            "id": 789208521,
+            "node1": 140962,
+            "node2": 15193388,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789208514,
+            "node1": 140962,
+            "node2": 15193390,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789208214,
+            "node1": 140962,
+            "node2": 15193392,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789208212,
+            "node1": 140962,
+            "node2": 15193405,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789208463,
+            "node1": 140962,
+            "node2": 15193407,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789208222,
+            "node1": 140962,
+            "node2": 15193409,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789208220,
+            "node1": 140962,
+            "node2": 15247487,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789208446,
+            "node1": 140962,
+            "node2": 15270857,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789208470,
+            "node1": 140962,
+            "node2": 242951989,
+            "type": 8,
+            "w": 29.0
+        },
+        {
+            "id": 789208466,
+            "node1": 140962,
+            "node2": 242951991,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789208508,
+            "node1": 140962,
+            "node2": 242951992,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789208519,
+            "node1": 140962,
+            "node2": 242951993,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789208248,
+            "node1": 140962,
+            "node2": 242951994,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789208419,
+            "node1": 140962,
+            "node2": 242951995,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789208264,
+            "node1": 140962,
+            "node2": 242951996,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789208229,
+            "node1": 140962,
+            "node2": 242951997,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789208255,
+            "node1": 140962,
+            "node2": 242951998,
+            "type": 8,
+            "w": 37.0
+        },
+        {
+            "id": 789208416,
+            "node1": 140962,
+            "node2": 242951999,
+            "type": 8,
+            "w": 25.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            8
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T19:14:52.879144",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 25,
+        "max_relation_weight": 37.0,
+        "#nodes": 26,
+        "duration": "0:00:00.002495"
+    }
+}

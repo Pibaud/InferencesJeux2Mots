@@ -1,0 +1,51 @@
+{
+    "nodes": [
+        {
+            "id": 5692,
+            "name": "baiser",
+            "type": 1,
+            "w": 2927
+        },
+        {
+            "id": 61490,
+            "name": "femme",
+            "type": 1,
+            "w": 95153
+        }
+    ],
+    "relations": [
+        {
+            "id": 1524585,
+            "node1": 61490,
+            "node2": 5692,
+            "type": 24,
+            "w": 183.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            24
+        ],
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:16:29.123139",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 1,
+        "max_relation_weight": 183.0,
+        "duration": "0:00:00.000788"
+    }
+}

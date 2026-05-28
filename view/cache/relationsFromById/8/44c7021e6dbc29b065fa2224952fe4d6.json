@@ -1,0 +1,364 @@
+{
+    "nodes": [
+        {
+            "id": 2966,
+            "name": "sardane",
+            "type": 1,
+            "w": 58
+        },
+        {
+            "id": 19291,
+            "name": "musique du Moyen Âge",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 48892,
+            "name": "musique sacrée",
+            "type": 1,
+            "w": 75
+        },
+        {
+            "id": 45705,
+            "name": "marche",
+            "type": 1,
+            "w": 7043
+        },
+        {
+            "id": 44693,
+            "name": "blues",
+            "type": 1,
+            "w": 2231
+        },
+        {
+            "id": 29789,
+            "name": "jazz",
+            "type": 1,
+            "w": 3347
+        },
+        {
+            "id": 9699,
+            "name": "basse",
+            "type": 1,
+            "w": 3925
+        },
+        {
+            "id": 70527,
+            "name": "musique",
+            "type": 1,
+            "w": 31794
+        },
+        {
+            "id": 39025,
+            "name": "salsa",
+            "type": 1,
+            "w": 384
+        },
+        {
+            "id": 21042,
+            "name": "dixieland",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 37084,
+            "name": "agitato",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 8562,
+            "name": "modalité",
+            "type": 1,
+            "w": 932
+        },
+        {
+            "id": 26740,
+            "name": "folk",
+            "type": 1,
+            "w": 159
+        },
+        {
+            "id": 22529,
+            "name": "musique dodécaphonique",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 5234,
+            "name": "pop music",
+            "type": 1,
+            "w": 53
+        },
+        {
+            "id": 2449,
+            "name": "opéra",
+            "type": 1,
+            "w": 3774
+        },
+        {
+            "id": 472,
+            "name": "soul music",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 5708,
+            "name": "contretemps",
+            "type": 1,
+            "w": 100
+        },
+        {
+            "id": 2544,
+            "name": "paso doble",
+            "type": 1,
+            "w": 61
+        },
+        {
+            "id": 19822,
+            "name": "polonaise",
+            "type": 1,
+            "w": 1693
+        },
+        {
+            "id": 30144,
+            "name": "musique romantique",
+            "type": 1,
+            "w": 63
+        },
+        {
+            "id": 21593,
+            "name": "Musique concrète",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 33628,
+            "name": "zizique",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 21405,
+            "name": "âme",
+            "type": 1,
+            "w": 10346
+        },
+        {
+            "id": 4718,
+            "name": "musique de chambre",
+            "type": 1,
+            "w": 139
+        },
+        {
+            "id": 39764,
+            "name": "registre",
+            "type": 1,
+            "w": 3387
+        }
+    ],
+    "relations": [
+        {
+            "id": 472206280,
+            "node1": 70527,
+            "node2": 472,
+            "type": 8,
+            "w": 36.0
+        },
+        {
+            "id": 113790,
+            "node1": 70527,
+            "node2": 2449,
+            "type": 8,
+            "w": 111.0
+        },
+        {
+            "id": 9664373,
+            "node1": 70527,
+            "node2": 2544,
+            "type": 8,
+            "w": 32.0
+        },
+        {
+            "id": 9686240,
+            "node1": 70527,
+            "node2": 2966,
+            "type": 8,
+            "w": 43.0
+        },
+        {
+            "id": 418324,
+            "node1": 70527,
+            "node2": 4718,
+            "type": 8,
+            "w": 101.0
+        },
+        {
+            "id": 328936342,
+            "node1": 70527,
+            "node2": 5234,
+            "type": 8,
+            "w": 3.0
+        },
+        {
+            "id": 376407891,
+            "node1": 70527,
+            "node2": 5708,
+            "type": 8,
+            "w": 28.0
+        },
+        {
+            "id": 246601913,
+            "node1": 70527,
+            "node2": 8562,
+            "type": 8,
+            "w": 35.0
+        },
+        {
+            "id": 9881485,
+            "node1": 70527,
+            "node2": 9699,
+            "type": 8,
+            "w": 67.0
+        },
+        {
+            "id": 11942401,
+            "node1": 70527,
+            "node2": 19291,
+            "type": 8,
+            "w": 26.0
+        },
+        {
+            "id": 243439272,
+            "node1": 70527,
+            "node2": 19822,
+            "type": 8,
+            "w": 29.0
+        },
+        {
+            "id": 243439298,
+            "node1": 70527,
+            "node2": 21042,
+            "type": 8,
+            "w": 34.0
+        },
+        {
+            "id": 29331931,
+            "node1": 70527,
+            "node2": 21405,
+            "type": 8,
+            "w": 37.0
+        },
+        {
+            "id": 244813978,
+            "node1": 70527,
+            "node2": 21593,
+            "type": 8,
+            "w": 40.0
+        },
+        {
+            "id": 2174125,
+            "node1": 70527,
+            "node2": 22529,
+            "type": 8,
+            "w": 86.0
+        },
+        {
+            "id": 243439328,
+            "node1": 70527,
+            "node2": 26740,
+            "type": 8,
+            "w": 41.0
+        },
+        {
+            "id": 415964,
+            "node1": 70527,
+            "node2": 29789,
+            "type": 8,
+            "w": 105.0
+        },
+        {
+            "id": 11942396,
+            "node1": 70527,
+            "node2": 30144,
+            "type": 8,
+            "w": 46.0
+        },
+        {
+            "id": 243439319,
+            "node1": 70527,
+            "node2": 33628,
+            "type": 8,
+            "w": 26.0
+        },
+        {
+            "id": 243439289,
+            "node1": 70527,
+            "node2": 37084,
+            "type": 8,
+            "w": 28.0
+        },
+        {
+            "id": 2125561,
+            "node1": 70527,
+            "node2": 39025,
+            "type": 8,
+            "w": 101.0
+        },
+        {
+            "id": 751073086,
+            "node1": 70527,
+            "node2": 39764,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 243503252,
+            "node1": 70527,
+            "node2": 44693,
+            "type": 8,
+            "w": 48.0
+        },
+        {
+            "id": 243439290,
+            "node1": 70527,
+            "node2": 45705,
+            "type": 8,
+            "w": 28.0
+        },
+        {
+            "id": 2174107,
+            "node1": 70527,
+            "node2": 48892,
+            "type": 8,
+            "w": 128.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            8
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T19:14:55.932081",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 25,
+        "max_relation_weight": 128.0,
+        "#nodes": 26,
+        "duration": "0:00:00.006295"
+    }
+}

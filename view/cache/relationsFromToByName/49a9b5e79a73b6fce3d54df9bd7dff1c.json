@@ -1,0 +1,60 @@
+{
+    "nodes": [
+        {
+            "id": 216183,
+            "name": "pièce mécanique",
+            "type": 1,
+            "w": 192,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2010-02-12",
+            "touchdate": "2026-05-28T19:14:29"
+        },
+        {
+            "id": 123745,
+            "name": "véhicule",
+            "type": 1,
+            "w": 7213,
+            "c": 0,
+            "level": 42.5588,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T19:11:43"
+        }
+    ],
+    "relations": [
+        {
+            "id": 477164837,
+            "node1": 216183,
+            "node2": 123745,
+            "type": 10,
+            "w": 26.0
+        }
+    ],
+    "request": {
+        "types_ids": null,
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T19:14:50.431942",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "node1": "pièce mécanique",
+        "node2": "véhicule",
+        "#relations": 1,
+        "max_relation_weight": 26.0,
+        "duration": "0:00:00.001212"
+    }
+}

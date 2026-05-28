@@ -1,0 +1,689 @@
+{
+    "nodes": [
+        {
+            "id": 261701926,
+            "name": "langue des technologies de l'information et de la communication",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 239730,
+            "name": "personnel>76671",
+            "type": 1,
+            "w": 52
+        },
+        {
+            "id": 251653351,
+            "name": "signal discret",
+            "type": 1,
+            "w": 30
+        },
+        {
+            "id": 272010721,
+            "name": "abstraction informatique",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 451353909,
+            "name": "modélisations informatiques",
+            "type": 1,
+            "w": 2
+        },
+        {
+            "id": 141906,
+            "name": "fenêtre",
+            "type": 1,
+            "w": 6640
+        },
+        {
+            "id": 31526,
+            "name": "système",
+            "type": 1,
+            "w": 29707
+        },
+        {
+            "id": 146181,
+            "name": "Minitel",
+            "type": 1,
+            "w": 65
+        },
+        {
+            "id": 15065775,
+            "name": "en:death warrant",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 24247,
+            "name": "service",
+            "type": 1,
+            "w": 21172
+        },
+        {
+            "id": 46742,
+            "name": "logiciel",
+            "type": 1,
+            "w": 7435
+        },
+        {
+            "id": 285025013,
+            "name": "mathématiques algorithmiques",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 153088059,
+            "name": "administration de base de données",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 44663,
+            "name": "réseau",
+            "type": 1,
+            "w": 28477
+        },
+        {
+            "id": 272111,
+            "name": "traitement d'image",
+            "type": 777,
+            "w": 306
+        },
+        {
+            "id": 15068201,
+            "name": "en:executing",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 310109776,
+            "name": "Philosophie du logiciel",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15055284,
+            "name": "en:computing",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 14943824,
+            "name": "en:computer science",
+            "type": 1,
+            "w": 27
+        },
+        {
+            "id": 52860,
+            "name": "programmes",
+            "type": 1,
+            "w": 5914
+        },
+        {
+            "id": 7524293,
+            "name": "en:killing",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 145997,
+            "name": "ROM",
+            "type": 1,
+            "w": 1654
+        },
+        {
+            "id": 15504714,
+            "name": "en:putting somebody to death",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 524995299,
+            "name": "stockage d'informations génétiques",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 120281,
+            "name": "minitel",
+            "type": 1,
+            "w": 88
+        },
+        {
+            "id": 170926607,
+            "name": "administration de serveurs",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 586857921,
+            "name": "codes mathématiques",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 33377,
+            "name": "matériel",
+            "type": 1,
+            "w": 6623
+        },
+        {
+            "id": 7290978,
+            "name": "en:execution",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 104329,
+            "name": "hardware",
+            "type": 1,
+            "w": 707
+        },
+        {
+            "id": 579134780,
+            "name": "programmation électronique",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 378884,
+            "name": "science informatique",
+            "type": 1,
+            "w": 51
+        },
+        {
+            "id": 14961,
+            "name": "mise à mort",
+            "type": 1,
+            "w": 199
+        },
+        {
+            "id": 57022,
+            "name": "software",
+            "type": 1,
+            "w": 667
+        },
+        {
+            "id": 15414528,
+            "name": "en:death blow",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 523514568,
+            "name": "applications digitales",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 363248697,
+            "name": "logique fonctionnelle",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 2553,
+            "name": "personnel",
+            "type": 1,
+            "w": 7702
+        },
+        {
+            "id": 241732415,
+            "name": "partage de logiciels de récupération de données",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15049134,
+            "name": "en:instruction execution",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 111461,
+            "name": "pixel",
+            "type": 1,
+            "w": 430
+        },
+        {
+            "id": 120121,
+            "name": "intelligence artificielle",
+            "type": 1,
+            "w": 13012
+        },
+        {
+            "id": 15266719,
+            "name": "gestion des utilisateurs",
+            "type": 1,
+            "w": 39
+        },
+        {
+            "id": 5677854,
+            "name": "killing",
+            "type": 1,
+            "w": 45
+        },
+        {
+            "id": 104993,
+            "name": "informatique",
+            "type": 1,
+            "w": 6418
+        },
+        {
+            "id": 10027285,
+            "name": "ordre d'exécution",
+            "type": 777,
+            "w": 25
+        },
+        {
+            "id": 15439346,
+            "name": "en:execution order",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 14940317,
+            "name": "en:death knell",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 493866072,
+            "name": "programmation machine",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 143335,
+            "name": "PC",
+            "type": 1,
+            "w": 3777
+        },
+        {
+            "id": 117739,
+            "name": "clavier",
+            "type": 1,
+            "w": 3613
+        }
+    ],
+    "relations": [
+        {
+            "id": 1248030595,
+            "node1": 104993,
+            "node2": 2553,
+            "type": 9,
+            "w": 5.0
+        },
+        {
+            "id": 573229212,
+            "node1": 104993,
+            "node2": 14961,
+            "type": 9,
+            "w": 66.0
+        },
+        {
+            "id": 1248030341,
+            "node1": 104993,
+            "node2": 24247,
+            "type": 9,
+            "w": 6.0
+        },
+        {
+            "id": 1232415894,
+            "node1": 104993,
+            "node2": 31526,
+            "type": 9,
+            "w": 26.0
+        },
+        {
+            "id": 1247961258,
+            "node1": 104993,
+            "node2": 33377,
+            "type": 9,
+            "w": 29.0
+        },
+        {
+            "id": 1232415895,
+            "node1": 104993,
+            "node2": 44663,
+            "type": 9,
+            "w": 26.0
+        },
+        {
+            "id": 1247961257,
+            "node1": 104993,
+            "node2": 46742,
+            "type": 9,
+            "w": 27.0
+        },
+        {
+            "id": 1287544712,
+            "node1": 104993,
+            "node2": 52860,
+            "type": 9,
+            "w": 2.0
+        },
+        {
+            "id": 963630257,
+            "node1": 104993,
+            "node2": 57022,
+            "type": 9,
+            "w": 33.0
+        },
+        {
+            "id": 963630256,
+            "node1": 104993,
+            "node2": 104329,
+            "type": 9,
+            "w": 33.0
+        },
+        {
+            "id": 283540317,
+            "node1": 104993,
+            "node2": 111461,
+            "type": 9,
+            "w": 87.0
+        },
+        {
+            "id": 9972340,
+            "node1": 104993,
+            "node2": 117739,
+            "type": 9,
+            "w": -10.0
+        },
+        {
+            "id": 1261273129,
+            "node1": 104993,
+            "node2": 120121,
+            "type": 9,
+            "w": 1.0
+        },
+        {
+            "id": 10534634,
+            "node1": 104993,
+            "node2": 120281,
+            "type": 9,
+            "w": -31.0
+        },
+        {
+            "id": 1248030332,
+            "node1": 104993,
+            "node2": 141906,
+            "type": 9,
+            "w": 5.0
+        },
+        {
+            "id": 12799672,
+            "node1": 104993,
+            "node2": 143335,
+            "type": 9,
+            "w": -5.0
+        },
+        {
+            "id": 9973881,
+            "node1": 104993,
+            "node2": 145997,
+            "type": 9,
+            "w": -32.0
+        },
+        {
+            "id": 14631043,
+            "node1": 104993,
+            "node2": 146181,
+            "type": 9,
+            "w": -35.0
+        },
+        {
+            "id": 1248030356,
+            "node1": 104993,
+            "node2": 239730,
+            "type": 9,
+            "w": 5.0
+        },
+        {
+            "id": 1261233253,
+            "node1": 104993,
+            "node2": 272111,
+            "type": 9,
+            "w": 5.0
+        },
+        {
+            "id": 518063126,
+            "node1": 104993,
+            "node2": 378884,
+            "type": 9,
+            "w": 66.0
+        },
+        {
+            "id": 691214516,
+            "node1": 104993,
+            "node2": 5677854,
+            "type": 9,
+            "w": 38.0
+        },
+        {
+            "id": 573229080,
+            "node1": 104993,
+            "node2": 7290978,
+            "type": 9,
+            "w": 47.0
+        },
+        {
+            "id": 573229101,
+            "node1": 104993,
+            "node2": 7524293,
+            "type": 9,
+            "w": 48.0
+        },
+        {
+            "id": 573229076,
+            "node1": 104993,
+            "node2": 10027285,
+            "type": 9,
+            "w": 49.0
+        },
+        {
+            "id": 573229102,
+            "node1": 104993,
+            "node2": 14940317,
+            "type": 9,
+            "w": 55.0
+        },
+        {
+            "id": 518063123,
+            "node1": 104993,
+            "node2": 14943824,
+            "type": 9,
+            "w": 65.0
+        },
+        {
+            "id": 573229079,
+            "node1": 104993,
+            "node2": 15049134,
+            "type": 9,
+            "w": 55.0
+        },
+        {
+            "id": 518063124,
+            "node1": 104993,
+            "node2": 15055284,
+            "type": 9,
+            "w": 65.0
+        },
+        {
+            "id": 573229186,
+            "node1": 104993,
+            "node2": 15065775,
+            "type": 9,
+            "w": 51.0
+        },
+        {
+            "id": 573229185,
+            "node1": 104993,
+            "node2": 15068201,
+            "type": 9,
+            "w": 53.0
+        },
+        {
+            "id": 1250541071,
+            "node1": 104993,
+            "node2": 15266719,
+            "type": 9,
+            "w": 1.0
+        },
+        {
+            "id": 573229100,
+            "node1": 104993,
+            "node2": 15414528,
+            "type": 9,
+            "w": 53.0
+        },
+        {
+            "id": 573229218,
+            "node1": 104993,
+            "node2": 15439346,
+            "type": 9,
+            "w": 58.0
+        },
+        {
+            "id": 573229219,
+            "node1": 104993,
+            "node2": 15504714,
+            "type": 9,
+            "w": 72.0
+        },
+        {
+            "id": 1268604760,
+            "node1": 104993,
+            "node2": 153088059,
+            "type": 9,
+            "w": 1.0
+        },
+        {
+            "id": 1261252715,
+            "node1": 104993,
+            "node2": 170926607,
+            "type": 9,
+            "w": 2.0
+        },
+        {
+            "id": 1250530085,
+            "node1": 104993,
+            "node2": 241732415,
+            "type": 9,
+            "w": 1.0
+        },
+        {
+            "id": 1264984578,
+            "node1": 104993,
+            "node2": 251653351,
+            "type": 9,
+            "w": -2.0
+        },
+        {
+            "id": 1262047096,
+            "node1": 104993,
+            "node2": 261701926,
+            "type": 9,
+            "w": 4.0
+        },
+        {
+            "id": 1264982227,
+            "node1": 104993,
+            "node2": 272010721,
+            "type": 9,
+            "w": 2.0
+        },
+        {
+            "id": 1261245578,
+            "node1": 104993,
+            "node2": 285025013,
+            "type": 9,
+            "w": 4.0
+        },
+        {
+            "id": 1264434038,
+            "node1": 104993,
+            "node2": 310109776,
+            "type": 9,
+            "w": 3.0
+        },
+        {
+            "id": 1286826042,
+            "node1": 104993,
+            "node2": 363248697,
+            "type": 9,
+            "w": 3.0
+        },
+        {
+            "id": 1261250478,
+            "node1": 104993,
+            "node2": 451353909,
+            "type": 9,
+            "w": 3.0
+        },
+        {
+            "id": 1261182112,
+            "node1": 104993,
+            "node2": 493866072,
+            "type": 9,
+            "w": 5.0
+        },
+        {
+            "id": 1262039572,
+            "node1": 104993,
+            "node2": 523514568,
+            "type": 9,
+            "w": 4.0
+        },
+        {
+            "id": 1286826777,
+            "node1": 104993,
+            "node2": 524995299,
+            "type": 9,
+            "w": 3.0
+        },
+        {
+            "id": 1261228260,
+            "node1": 104993,
+            "node2": 579134780,
+            "type": 9,
+            "w": 5.0
+        },
+        {
+            "id": 1264435322,
+            "node1": 104993,
+            "node2": 586857921,
+            "type": 9,
+            "w": 3.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            9
+        ],
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:35:41.122891",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 50,
+        "max_relation_weight": 87.0,
+        "#nodes": 51,
+        "duration": "0:00:00.003128"
+    }
+}

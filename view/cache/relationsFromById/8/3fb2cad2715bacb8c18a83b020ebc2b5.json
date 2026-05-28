@@ -1,0 +1,364 @@
+{
+    "nodes": [
+        {
+            "id": 286560,
+            "name": "discussion relayée par Internet",
+            "type": 777,
+            "w": 50
+        },
+        {
+            "id": 27266,
+            "name": "discussion",
+            "type": 1,
+            "w": 15283
+        },
+        {
+            "id": 150,
+            "name": "chat",
+            "type": 1,
+            "w": 8050
+        },
+        {
+            "id": 27096,
+            "name": "débat",
+            "type": 1,
+            "w": 25775
+        },
+        {
+            "id": 213467,
+            "name": "chat>234460",
+            "type": 1,
+            "w": 88
+        },
+        {
+            "id": 254694,
+            "name": "débat politique",
+            "type": 1,
+            "w": 799
+        },
+        {
+            "id": 269754,
+            "name": "café philosophique",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 153298,
+            "name": "tchat",
+            "type": 1,
+            "w": 198
+        },
+        {
+            "id": 272027,
+            "name": "dialogue en ligne",
+            "type": 777,
+            "w": 63
+        },
+        {
+            "id": 176298,
+            "name": "clavardage",
+            "type": 1,
+            "w": 40
+        },
+        {
+            "id": 347680,
+            "name": "discussion de ménage",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 347679,
+            "name": "discussion de couloir",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 347677,
+            "name": "discussion chaude",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 347678,
+            "name": "discussion d'homme à homme",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 347683,
+            "name": "discussion par téléphone",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 347675,
+            "name": "discussion au sommet",
+            "type": 1,
+            "w": 51
+        },
+        {
+            "id": 347681,
+            "name": "discussion franche",
+            "type": 1,
+            "w": 62
+        },
+        {
+            "id": 253743,
+            "name": "débat d'idées",
+            "type": 1,
+            "w": 426
+        },
+        {
+            "id": 142923,
+            "name": "controverse",
+            "type": 1,
+            "w": 3666
+        },
+        {
+            "id": 163470,
+            "name": "messagerie instantanée",
+            "type": 1,
+            "w": 286
+        },
+        {
+            "id": 347682,
+            "name": "discussion houleuse",
+            "type": 1,
+            "w": 57
+        },
+        {
+            "id": 347684,
+            "name": "discussion sociale",
+            "type": 1,
+            "w": 90
+        },
+        {
+            "id": 347676,
+            "name": "discussion budgétaire",
+            "type": 1,
+            "w": 122
+        },
+        {
+            "id": 269477,
+            "name": "discussion politique",
+            "type": 1,
+            "w": 395
+        },
+        {
+            "id": 206588,
+            "name": "querelle byzantine",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 143200,
+            "name": "dispute",
+            "type": 1,
+            "w": 2187
+        }
+    ],
+    "relations": [
+        {
+            "id": 9686592,
+            "node1": 27266,
+            "node2": 150,
+            "type": 8,
+            "w": 63.0
+        },
+        {
+            "id": 246625369,
+            "node1": 27266,
+            "node2": 27096,
+            "type": 8,
+            "w": 73.0
+        },
+        {
+            "id": 246606005,
+            "node1": 27266,
+            "node2": 142923,
+            "type": 8,
+            "w": 34.0
+        },
+        {
+            "id": 395539774,
+            "node1": 27266,
+            "node2": 143200,
+            "type": 8,
+            "w": 1.0
+        },
+        {
+            "id": 374107801,
+            "node1": 27266,
+            "node2": 153298,
+            "type": 8,
+            "w": 3.0
+        },
+        {
+            "id": 374107802,
+            "node1": 27266,
+            "node2": 163470,
+            "type": 8,
+            "w": 3.0
+        },
+        {
+            "id": 376246960,
+            "node1": 27266,
+            "node2": 176298,
+            "type": 8,
+            "w": 34.0
+        },
+        {
+            "id": 18611603,
+            "node1": 27266,
+            "node2": 206588,
+            "type": 8,
+            "w": 57.0
+        },
+        {
+            "id": 9686331,
+            "node1": 27266,
+            "node2": 213467,
+            "type": 8,
+            "w": 63.0
+        },
+        {
+            "id": 9856065,
+            "node1": 27266,
+            "node2": 253743,
+            "type": 8,
+            "w": 73.0
+        },
+        {
+            "id": 1205134600,
+            "node1": 27266,
+            "node2": 254694,
+            "type": 8,
+            "w": 30.0
+        },
+        {
+            "id": 243261683,
+            "node1": 27266,
+            "node2": 269477,
+            "type": 8,
+            "w": 31.0
+        },
+        {
+            "id": 247034179,
+            "node1": 27266,
+            "node2": 269754,
+            "type": 8,
+            "w": 27.0
+        },
+        {
+            "id": 376246969,
+            "node1": 27266,
+            "node2": 272027,
+            "type": 8,
+            "w": 31.0
+        },
+        {
+            "id": 14162780,
+            "node1": 27266,
+            "node2": 286560,
+            "type": 8,
+            "w": 59.0
+        },
+        {
+            "id": 33255362,
+            "node1": 27266,
+            "node2": 347675,
+            "type": 8,
+            "w": 28.0
+        },
+        {
+            "id": 33255327,
+            "node1": 27266,
+            "node2": 347676,
+            "type": 8,
+            "w": 61.0
+        },
+        {
+            "id": 33255417,
+            "node1": 27266,
+            "node2": 347677,
+            "type": 8,
+            "w": 62.0
+        },
+        {
+            "id": 33255397,
+            "node1": 27266,
+            "node2": 347678,
+            "type": 8,
+            "w": 58.0
+        },
+        {
+            "id": 33255219,
+            "node1": 27266,
+            "node2": 347679,
+            "type": 8,
+            "w": 57.0
+        },
+        {
+            "id": 33255360,
+            "node1": 27266,
+            "node2": 347680,
+            "type": 8,
+            "w": 65.0
+        },
+        {
+            "id": 33255377,
+            "node1": 27266,
+            "node2": 347681,
+            "type": 8,
+            "w": 62.0
+        },
+        {
+            "id": 33255462,
+            "node1": 27266,
+            "node2": 347682,
+            "type": 8,
+            "w": 64.0
+        },
+        {
+            "id": 14042631,
+            "node1": 27266,
+            "node2": 347683,
+            "type": 8,
+            "w": 57.0
+        },
+        {
+            "id": 33254609,
+            "node1": 27266,
+            "node2": 347684,
+            "type": 8,
+            "w": 65.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            8
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T18:11:35.832040",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 25,
+        "max_relation_weight": 73.0,
+        "#nodes": 26,
+        "duration": "0:00:00.005964"
+    }
+}

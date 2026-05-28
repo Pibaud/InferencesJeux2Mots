@@ -1,0 +1,56 @@
+{
+    "nodes": [
+        {
+            "id": 11667,
+            "name": "moniteur",
+            "type": 1,
+            "w": 331
+        },
+        {
+            "id": 43504,
+            "name": "physique",
+            "type": 1,
+            "w": 10604
+        }
+    ],
+    "relations": [
+        {
+            "id": 15435793,
+            "node1": 11667,
+            "node2": 43504,
+            "type": 0,
+            "w": 32.0
+        },
+        {
+            "id": 446218,
+            "node1": 11667,
+            "node2": 43504,
+            "type": 3,
+            "w": 26.0
+        }
+    ],
+    "request": {
+        "types_ids": null,
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:51:12.882284",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 2,
+        "max_relation_weight": 32.0,
+        "duration": "0:00:00.001501"
+    }
+}

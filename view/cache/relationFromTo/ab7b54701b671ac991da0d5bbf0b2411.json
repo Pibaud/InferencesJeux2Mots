@@ -1,0 +1,63 @@
+{
+    "nodes": [
+        {
+            "id": 127184,
+            "name": "moteur-fusée",
+            "type": 1,
+            "w": 101
+        },
+        {
+            "id": 21314,
+            "name": "carburant",
+            "type": 1,
+            "w": 5079
+        }
+    ],
+    "relations": [
+        {
+            "id": 104532184,
+            "node1": 127184,
+            "node2": 21314,
+            "type": 155,
+            "w": 28.0
+        },
+        {
+            "id": 645333838,
+            "node1": 127184,
+            "node2": 21314,
+            "type": 666,
+            "w": 7.0
+        },
+        {
+            "id": 3625854,
+            "node1": 127184,
+            "node2": 21314,
+            "type": 777,
+            "w": 10.0
+        }
+    ],
+    "request": {
+        "types_ids": null,
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T19:18:35.261904",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 3,
+        "max_relation_weight": 28.0,
+        "duration": "0:00:00.001283"
+    }
+}

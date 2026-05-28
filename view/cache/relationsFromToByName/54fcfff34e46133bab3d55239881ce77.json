@@ -1,0 +1,88 @@
+{
+    "nodes": [
+        {
+            "id": 140176,
+            "name": "oiseau",
+            "type": 1,
+            "w": 11979,
+            "c": 0,
+            "level": 60.2244,
+            "infoid": null,
+            "creationdate": "2007-06-28",
+            "touchdate": "2026-05-28T16:38:36"
+        },
+        {
+            "id": 73827,
+            "name": "voler",
+            "type": 1,
+            "w": 5832,
+            "c": 0,
+            "level": 66.3195,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T17:02:30"
+        }
+    ],
+    "relations": [
+        {
+            "id": 62544,
+            "node1": 140176,
+            "node2": 73827,
+            "type": 0,
+            "w": 733.59
+        },
+        {
+            "id": 732829221,
+            "node1": 140176,
+            "node2": 73827,
+            "type": 17,
+            "w": -5.0
+        },
+        {
+            "id": 1716445,
+            "node1": 140176,
+            "node2": 73827,
+            "type": 24,
+            "w": 197.0
+        },
+        {
+            "id": 1266758771,
+            "node1": 140176,
+            "node2": 73827,
+            "type": 26,
+            "w": 27.0
+        },
+        {
+            "id": 1556198,
+            "node1": 140176,
+            "node2": 73827,
+            "type": 666,
+            "w": 145.0
+        }
+    ],
+    "request": {
+        "types_ids": null,
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T19:20:28.430349",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "node1": "oiseau",
+        "node2": "voler",
+        "#relations": 5,
+        "max_relation_weight": 733.59,
+        "duration": "0:00:00.001172"
+    }
+}

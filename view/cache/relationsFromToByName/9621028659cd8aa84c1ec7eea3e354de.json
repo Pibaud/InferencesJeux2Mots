@@ -1,0 +1,67 @@
+{
+    "nodes": [
+        {
+            "id": 68467,
+            "name": "poisson",
+            "type": 1,
+            "w": 9023,
+            "c": 0,
+            "level": 60.7994,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T18:06:06"
+        },
+        {
+            "id": 79364,
+            "name": "sauter",
+            "type": 1,
+            "w": 2599,
+            "c": 0,
+            "level": 51.1843,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T17:35:48"
+        }
+    ],
+    "relations": [
+        {
+            "id": 2484893,
+            "node1": 68467,
+            "node2": 79364,
+            "type": 24,
+            "w": 39.0
+        },
+        {
+            "id": 98660922,
+            "node1": 68467,
+            "node2": 79364,
+            "type": 26,
+            "w": 30.0
+        }
+    ],
+    "request": {
+        "types_ids": null,
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:16:22.052272",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "node1": "poisson",
+        "node2": "sauter",
+        "#relations": 2,
+        "max_relation_weight": 39.0,
+        "duration": "0:00:00.001107"
+    }
+}

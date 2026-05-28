@@ -1,0 +1,189 @@
+{
+    "nodes": [
+        {
+            "id": 6890,
+            "name": "voiture",
+            "type": 1,
+            "w": 21960,
+            "c": 0,
+            "level": 59.4812,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T18:07:48"
+        },
+        {
+            "id": 231122,
+            "name": "mode de transport",
+            "type": 1,
+            "w": 231,
+            "c": 0,
+            "level": 199.0,
+            "infoid": null,
+            "creationdate": "2011-02-12",
+            "touchdate": "2026-05-28T14:09:43"
+        },
+        {
+            "id": 2946892,
+            "name": "Ver:Conjug",
+            "type": 4,
+            "w": 50,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2016-02-28",
+            "touchdate": "2026-05-28T14:36:56"
+        },
+        {
+            "id": 95706,
+            "name": "automobile",
+            "type": 1,
+            "w": 5164,
+            "c": 0,
+            "level": 49.9466,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T18:36:57"
+        },
+        {
+            "id": 27120,
+            "name": "train",
+            "type": 1,
+            "w": 9064,
+            "c": 0,
+            "level": 58.7575,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T18:35:54"
+        },
+        {
+            "id": 171870,
+            "name": "Nom:",
+            "type": 4,
+            "w": 50,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2015-12-28",
+            "touchdate": "2026-05-28T18:37:01"
+        },
+        {
+            "id": 152778,
+            "name": "moyen de transport",
+            "type": 1,
+            "w": 638,
+            "c": 0,
+            "level": 47.9998,
+            "infoid": null,
+            "creationdate": "2007-10-23",
+            "touchdate": "2026-05-28T17:27:47"
+        },
+        {
+            "id": 2940777,
+            "name": "véhicule de transport à roues",
+            "type": 1,
+            "w": 25,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2016-02-21",
+            "touchdate": "2025-07-25T01:44:25"
+        }
+    ],
+    "refinements": [
+        {
+            "id": 215720,
+            "name": "voiture>95706",
+            "type": 1,
+            "w": 977,
+            "c": 0,
+            "level": 141.867,
+            "infoid": null,
+            "creationdate": "2010-02-06",
+            "touchdate": "2026-05-28T14:09:35",
+            "refinement": "automobile"
+        },
+        {
+            "id": 14292074,
+            "name": "voiture>2946892",
+            "type": 1,
+            "w": 0,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2020-01-19",
+            "touchdate": "2024-10-14T15:27:20",
+            "refinement": "Ver:Conjug"
+        },
+        {
+            "id": 16087387,
+            "name": "voiture>152778",
+            "type": 1,
+            "w": 0,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2020-12-28",
+            "touchdate": "2024-11-05T22:31:03",
+            "refinement": "moyen de transport"
+        },
+        {
+            "id": 2940778,
+            "name": "voiture>2940777",
+            "type": 1,
+            "w": 40,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2016-02-21",
+            "touchdate": "2026-05-28T13:23:04",
+            "refinement": "véhicule de transport à roues"
+        },
+        {
+            "id": 14292075,
+            "name": "voiture>171870",
+            "type": 1,
+            "w": 25,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2020-01-19",
+            "touchdate": "2026-05-28T13:38:32",
+            "refinement": "Nom:"
+        },
+        {
+            "id": 215721,
+            "name": "voiture>27120",
+            "type": 1,
+            "w": 33,
+            "c": 0,
+            "level": 199.0,
+            "infoid": null,
+            "creationdate": "2010-02-06",
+            "touchdate": "2026-05-28T14:08:33",
+            "refinement": "train"
+        },
+        {
+            "id": 231434,
+            "name": "voiture>95706>117579",
+            "type": 1,
+            "w": 14,
+            "c": 0,
+            "level": 50.2211,
+            "infoid": null,
+            "creationdate": "2011-02-26",
+            "touchdate": "2026-05-28T14:05:36"
+        },
+        {
+            "id": 235095,
+            "name": "voiture>231122",
+            "type": 1,
+            "w": 88,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2011-05-22",
+            "touchdate": "2026-05-28T14:09:32",
+            "refinement": "mode de transport"
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "nodes": [
+        {
+            "id": 181091,
+            "name": "bicylindre à plat",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 4658,
+            "name": "moteur",
+            "type": 1,
+            "w": 5459
+        }
+    ],
+    "relations": [
+        {
+            "id": 619896194,
+            "node1": 181091,
+            "node2": 4658,
+            "type": 0,
+            "w": 22.0
+        },
+        {
+            "id": 82662864,
+            "node1": 181091,
+            "node2": 4658,
+            "type": 6,
+            "w": 37.0
+        },
+        {
+            "id": 1017310706,
+            "node1": 181091,
+            "node2": 4658,
+            "type": 666,
+            "w": 2.0
+        }
+    ],
+    "request": {
+        "types_ids": null,
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T19:18:38.271843",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 3,
+        "max_relation_weight": 37.0,
+        "duration": "0:00:00.000924"
+    }
+}

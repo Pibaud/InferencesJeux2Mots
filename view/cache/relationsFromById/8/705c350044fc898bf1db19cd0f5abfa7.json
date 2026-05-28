@@ -1,0 +1,78 @@
+{
+    "nodes": [
+        {
+            "id": 107545,
+            "name": "dodo",
+            "type": 1,
+            "w": 592
+        },
+        {
+            "id": 5153676,
+            "name": "petit dodo",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15059564,
+            "name": "en:short sleep",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 381497587,
+            "name": "dodo de l'île Maurice",
+            "type": 1,
+            "w": 0
+        }
+    ],
+    "relations": [
+        {
+            "id": 251984335,
+            "node1": 107545,
+            "node2": 5153676,
+            "type": 8,
+            "w": 32.0
+        },
+        {
+            "id": 403797295,
+            "node1": 107545,
+            "node2": 15059564,
+            "type": 8,
+            "w": 11.0
+        },
+        {
+            "id": 1237946829,
+            "node1": 107545,
+            "node2": 381497587,
+            "type": 8,
+            "w": 25.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            8
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T19:23:37.525898",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 3,
+        "max_relation_weight": 32.0,
+        "#nodes": 4,
+        "duration": "0:00:00.002715"
+    }
+}

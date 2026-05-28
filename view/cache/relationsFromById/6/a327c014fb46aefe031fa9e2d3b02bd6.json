@@ -1,0 +1,169 @@
+{
+    "nodes": [
+        {
+            "id": 228289,
+            "name": "sexe>218086",
+            "type": 1,
+            "w": 395
+        },
+        {
+            "id": 19356,
+            "name": "sexe",
+            "type": 1,
+            "w": 7204
+        },
+        {
+            "id": 261134,
+            "name": "organe>112609>34503",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 225770,
+            "name": "organe>112609",
+            "type": 1,
+            "w": 100
+        },
+        {
+            "id": 316850,
+            "name": "entité physique",
+            "type": 1,
+            "w": 56
+        },
+        {
+            "id": 6798399,
+            "name": "en:body part",
+            "type": 1,
+            "w": 27
+        },
+        {
+            "id": 215126,
+            "name": "sexe de la femme",
+            "type": 1,
+            "w": 6
+        },
+        {
+            "id": 157827,
+            "name": "partie du corps",
+            "type": 1,
+            "w": 321
+        },
+        {
+            "id": 14935827,
+            "name": "en:physical feature",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15307354,
+            "name": "en:part of the body",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 44335,
+            "name": "organe",
+            "type": 1,
+            "w": 2561
+        }
+    ],
+    "relations": [
+        {
+            "id": 2340845,
+            "node1": 215126,
+            "node2": 19356,
+            "type": 6,
+            "w": 88.0
+        },
+        {
+            "id": 13714891,
+            "node1": 215126,
+            "node2": 44335,
+            "type": 6,
+            "w": 75.0
+        },
+        {
+            "id": 13714890,
+            "node1": 215126,
+            "node2": 157827,
+            "type": 6,
+            "w": 68.0
+        },
+        {
+            "id": 13714892,
+            "node1": 215126,
+            "node2": 225770,
+            "type": 6,
+            "w": 77.0
+        },
+        {
+            "id": 2340846,
+            "node1": 215126,
+            "node2": 228289,
+            "type": 6,
+            "w": 136.0
+        },
+        {
+            "id": 13714889,
+            "node1": 215126,
+            "node2": 261134,
+            "type": 6,
+            "w": -25.0
+        },
+        {
+            "id": 371177912,
+            "node1": 215126,
+            "node2": 316850,
+            "type": 6,
+            "w": 28.0
+        },
+        {
+            "id": 312037192,
+            "node1": 215126,
+            "node2": 6798399,
+            "type": 6,
+            "w": 34.0
+        },
+        {
+            "id": 774827086,
+            "node1": 215126,
+            "node2": 14935827,
+            "type": 6,
+            "w": -25.0
+        },
+        {
+            "id": 598701762,
+            "node1": 215126,
+            "node2": 15307354,
+            "type": 6,
+            "w": 28.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            6
+        ],
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:11:29.376809",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 10,
+        "max_relation_weight": 136.0,
+        "#nodes": 11,
+        "duration": "0:00:00.003689"
+    }
+}

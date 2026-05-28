@@ -1,0 +1,91 @@
+{
+    "nodes": [
+        {
+            "id": 37194,
+            "name": "poule",
+            "type": 1,
+            "w": 2408
+        },
+        {
+            "id": 141683,
+            "name": "petite",
+            "type": 1,
+            "w": 4793
+        },
+        {
+            "id": 218239,
+            "name": "poule>213452",
+            "type": 1,
+            "w": 64
+        },
+        {
+            "id": 122821,
+            "name": "poussin",
+            "type": 1,
+            "w": 1092
+        },
+        {
+            "id": 213452,
+            "name": "terme d'affection",
+            "type": 1,
+            "w": 24
+        }
+    ],
+    "relations": [
+        {
+            "id": 606231632,
+            "node1": 213452,
+            "node2": 37194,
+            "type": 8,
+            "w": 4.0
+        },
+        {
+            "id": 9662644,
+            "node1": 213452,
+            "node2": 122821,
+            "type": 8,
+            "w": 36.0
+        },
+        {
+            "id": 674227273,
+            "node1": 213452,
+            "node2": 141683,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 479985362,
+            "node1": 213452,
+            "node2": 218239,
+            "type": 8,
+            "w": 85.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            8
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T18:50:10.350553",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 4,
+        "max_relation_weight": 85.0,
+        "#nodes": 5,
+        "duration": "0:00:00.001102"
+    }
+}

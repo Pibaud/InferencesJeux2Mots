@@ -1,0 +1,223 @@
+{
+    "nodes": [
+        {
+            "id": 4658,
+            "name": "moteur",
+            "type": 1,
+            "w": 5459,
+            "c": 0,
+            "level": 60.9025,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T19:17:27"
+        },
+        {
+            "id": 39142,
+            "name": "motivation",
+            "type": 1,
+            "w": 10831,
+            "c": 0,
+            "level": 200.118,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T19:12:53"
+        },
+        {
+            "id": 139578,
+            "name": "muscle",
+            "type": 1,
+            "w": 2513,
+            "c": 0,
+            "level": 53.7653,
+            "infoid": null,
+            "creationdate": "2007-06-28",
+            "touchdate": "2026-05-28T19:17:27"
+        },
+        {
+            "id": 5425,
+            "name": "machine",
+            "type": 1,
+            "w": 9322,
+            "c": 0,
+            "level": 50.4189,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T19:17:27"
+        },
+        {
+            "id": 171869,
+            "name": "Adj:",
+            "type": 4,
+            "w": 50,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2015-12-28",
+            "touchdate": "2026-05-28T19:11:39"
+        },
+        {
+            "id": 171870,
+            "name": "Nom:",
+            "type": 4,
+            "w": 50,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2015-12-28",
+            "touchdate": "2026-05-28T19:18:25"
+        },
+        {
+            "id": 113936,
+            "name": "mettre en mouvement",
+            "type": 1,
+            "w": 99,
+            "c": 0,
+            "level": 58.2676,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-23T06:52:22"
+        },
+        {
+            "id": 28044,
+            "name": "cause",
+            "type": 1,
+            "w": 14914,
+            "c": 0,
+            "level": 49.2348,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T14:52:30"
+        },
+        {
+            "id": 167641,
+            "name": "moteur de recherche",
+            "type": 1,
+            "w": 1963,
+            "c": 0,
+            "level": 51.4858,
+            "infoid": null,
+            "creationdate": "2016-12-02",
+            "touchdate": "2026-05-28T09:34:02"
+        }
+    ],
+    "refinements": [
+        {
+            "id": 6754045,
+            "name": "moteur>113936>146885",
+            "type": 1,
+            "w": 25,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2017-06-22",
+            "touchdate": "2025-09-04T04:35:58"
+        },
+        {
+            "id": 6754046,
+            "name": "moteur>113936>171869",
+            "type": 1,
+            "w": 25,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2017-06-22",
+            "touchdate": "2025-09-04T06:09:05"
+        },
+        {
+            "id": 1580481,
+            "name": "moteur>171869",
+            "type": 1,
+            "w": 25,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2015-03-13",
+            "touchdate": "2026-03-01T05:58:48",
+            "refinement": "Adj:"
+        },
+        {
+            "id": 6716372,
+            "name": "moteur>113936",
+            "type": 1,
+            "w": 25,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2017-06-21",
+            "touchdate": "2026-05-26T04:01:21",
+            "refinement": "mettre en mouvement"
+        },
+        {
+            "id": 225217,
+            "name": "moteur>39142",
+            "type": 1,
+            "w": 50,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2010-09-03",
+            "touchdate": "2026-05-26T06:17:06",
+            "refinement": "motivation"
+        },
+        {
+            "id": 1580480,
+            "name": "moteur>171870",
+            "type": 1,
+            "w": 25,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2015-03-13",
+            "touchdate": "2026-05-28T14:06:53",
+            "refinement": "Nom:"
+        },
+        {
+            "id": 225218,
+            "name": "moteur>167641",
+            "type": 1,
+            "w": 52,
+            "c": 0,
+            "level": 202.953,
+            "infoid": null,
+            "creationdate": "2010-09-03",
+            "touchdate": "2026-05-26T06:17:06",
+            "refinement": "moteur de recherche"
+        },
+        {
+            "id": 225215,
+            "name": "moteur>5425",
+            "type": 1,
+            "w": 158,
+            "c": 0,
+            "level": 53.5201,
+            "infoid": null,
+            "creationdate": "2010-09-03",
+            "touchdate": "2026-05-28T14:13:40",
+            "refinement": "machine"
+        },
+        {
+            "id": 225216,
+            "name": "moteur>28044",
+            "type": 1,
+            "w": 50,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2010-09-03",
+            "touchdate": "2026-05-26T18:38:13",
+            "refinement": "cause"
+        },
+        {
+            "id": 225219,
+            "name": "moteur>139578",
+            "type": 1,
+            "w": 58,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2010-09-03",
+            "touchdate": "2026-05-27T23:33:36",
+            "refinement": "muscle"
+        }
+    ]
+}

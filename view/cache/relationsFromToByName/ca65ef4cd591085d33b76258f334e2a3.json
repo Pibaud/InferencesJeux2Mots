@@ -1,0 +1,60 @@
+{
+    "nodes": [
+        {
+            "id": 87286,
+            "name": "fruit",
+            "type": 1,
+            "w": 9915,
+            "c": 0,
+            "level": 54.355,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T18:49:01"
+        },
+        {
+            "id": 73827,
+            "name": "voler",
+            "type": 1,
+            "w": 5832,
+            "c": 0,
+            "level": 66.3195,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T17:02:30"
+        }
+    ],
+    "relations": [
+        {
+            "id": 1045719106,
+            "node1": 87286,
+            "node2": 73827,
+            "type": 24,
+            "w": -111.0
+        }
+    ],
+    "request": {
+        "types_ids": null,
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T19:20:28.425595",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "node1": "fruit",
+        "node2": "voler",
+        "#relations": 1,
+        "max_relation_weight": -111.0,
+        "duration": "0:00:00.001117"
+    }
+}

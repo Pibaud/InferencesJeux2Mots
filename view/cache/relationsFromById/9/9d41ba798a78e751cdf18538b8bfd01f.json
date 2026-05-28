@@ -1,0 +1,65 @@
+{
+    "nodes": [
+        {
+            "id": 65012,
+            "name": "eau",
+            "type": 1,
+            "w": 49856
+        },
+        {
+            "id": 155322,
+            "name": "ocean",
+            "type": 1,
+            "w": 132
+        },
+        {
+            "id": 54255,
+            "name": "plancton",
+            "type": 1,
+            "w": 246
+        }
+    ],
+    "relations": [
+        {
+            "id": 1199902782,
+            "node1": 155322,
+            "node2": 54255,
+            "type": 9,
+            "w": 25.0
+        },
+        {
+            "id": 1199902781,
+            "node1": 155322,
+            "node2": 65012,
+            "type": 9,
+            "w": 25.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            9
+        ],
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:53:26.535186",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 2,
+        "max_relation_weight": 25.0,
+        "#nodes": 3,
+        "duration": "0:00:00.001114"
+    }
+}

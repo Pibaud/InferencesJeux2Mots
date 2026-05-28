@@ -1,0 +1,91 @@
+{
+    "nodes": [
+        {
+            "id": 150,
+            "name": "chat",
+            "type": 1,
+            "w": 8050
+        },
+        {
+            "id": 22576,
+            "name": "catapulte",
+            "type": 1,
+            "w": 141
+        },
+        {
+            "id": 258955,
+            "name": "machine de siège",
+            "type": 1,
+            "w": 52
+        },
+        {
+            "id": 936,
+            "name": "bélier",
+            "type": 1,
+            "w": 561
+        },
+        {
+            "id": 258956,
+            "name": "chat>258955",
+            "type": 1,
+            "w": 51
+        }
+    ],
+    "relations": [
+        {
+            "id": 246270709,
+            "node1": 258955,
+            "node2": 150,
+            "type": 8,
+            "w": 32.0
+        },
+        {
+            "id": 1076127731,
+            "node1": 258955,
+            "node2": 936,
+            "type": 8,
+            "w": 20.0
+        },
+        {
+            "id": 1076127726,
+            "node1": 258955,
+            "node2": 22576,
+            "type": 8,
+            "w": 20.0
+        },
+        {
+            "id": 9771092,
+            "node1": 258955,
+            "node2": 258956,
+            "type": 8,
+            "w": 54.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            8
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T18:11:36.971067",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 4,
+        "max_relation_weight": 54.0,
+        "#nodes": 5,
+        "duration": "0:00:00.001245"
+    }
+}

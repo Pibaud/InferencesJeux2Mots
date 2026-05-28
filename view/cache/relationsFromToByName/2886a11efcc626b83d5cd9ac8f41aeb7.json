@@ -1,0 +1,67 @@
+{
+    "nodes": [
+        {
+            "id": 107545,
+            "name": "dodo",
+            "type": 1,
+            "w": 592,
+            "c": 0,
+            "level": 53.7754,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T14:10:32"
+        },
+        {
+            "id": 73827,
+            "name": "voler",
+            "type": 1,
+            "w": 5832,
+            "c": 0,
+            "level": 66.3195,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T19:23:27"
+        }
+    ],
+    "relations": [
+        {
+            "id": 561308594,
+            "node1": 107545,
+            "node2": 73827,
+            "type": 0,
+            "w": 42.0
+        },
+        {
+            "id": 11799675,
+            "node1": 107545,
+            "node2": 73827,
+            "type": 24,
+            "w": -10.0
+        }
+    ],
+    "request": {
+        "types_ids": null,
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T19:23:37.243814",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "node1": "dodo",
+        "node2": "voler",
+        "#relations": 2,
+        "max_relation_weight": 42.0,
+        "duration": "0:00:00.001003"
+    }
+}

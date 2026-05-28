@@ -1,0 +1,109 @@
+{
+    "nodes": [
+        {
+            "id": 97756,
+            "name": "avion",
+            "type": 1,
+            "w": 11045,
+            "c": 0,
+            "level": 78.6924,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T18:23:25"
+        },
+        {
+            "id": 231122,
+            "name": "mode de transport",
+            "type": 1,
+            "w": 231,
+            "c": 0,
+            "level": 199.0,
+            "infoid": null,
+            "creationdate": "2011-02-12",
+            "touchdate": "2026-05-28T14:09:43"
+        },
+        {
+            "id": 123745,
+            "name": "véhicule",
+            "type": 1,
+            "w": 7213,
+            "c": 0,
+            "level": 42.5588,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T17:52:08"
+        },
+        {
+            "id": 104321,
+            "name": "manège",
+            "type": 1,
+            "w": 310,
+            "c": 0,
+            "level": 53.7458,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T14:05:35"
+        },
+        {
+            "id": 117579,
+            "name": "jouet",
+            "type": 1,
+            "w": 2239,
+            "c": 0,
+            "level": 54.451,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T16:25:16"
+        }
+    ],
+    "refinements": [
+        {
+            "id": 249121,
+            "name": "avion>123745",
+            "type": 1,
+            "w": 396,
+            "c": 0,
+            "level": 198.0,
+            "infoid": null,
+            "creationdate": "2012-07-11",
+            "touchdate": "2026-05-28T14:09:16",
+            "refinement": "véhicule"
+        },
+        {
+            "id": 3381386,
+            "name": "avion>104321",
+            "type": 1,
+            "w": 25,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2016-10-16",
+            "touchdate": "2026-05-28T14:05:35",
+            "refinement": "manège"
+        },
+        {
+            "id": 249122,
+            "name": "avion>117579",
+            "type": 1,
+            "w": 50,
+            "c": 0,
+            "level": 199.0,
+            "infoid": null,
+            "creationdate": "2012-07-11",
+            "touchdate": "2026-05-28T10:25:15",
+            "refinement": "jouet"
+        },
+        {
+            "id": 325126,
+            "name": "avion>231122",
+            "type": 1,
+            "w": 58,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2014-03-15",
+            "touchdate": "2026-05-27T23:06:14",
+            "refinement": "mode de transport"
+        }
+    ]
+}

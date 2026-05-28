@@ -1,0 +1,49 @@
+{
+    "nodes": [
+        {
+            "id": 16837,
+            "name": "deux-temps",
+            "type": 1,
+            "w": 52
+        },
+        {
+            "id": 21314,
+            "name": "carburant",
+            "type": 1,
+            "w": 5079
+        }
+    ],
+    "relations": [
+        {
+            "id": 754508430,
+            "node1": 16837,
+            "node2": 21314,
+            "type": 666,
+            "w": 2.0
+        }
+    ],
+    "request": {
+        "types_ids": null,
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T19:18:35.575420",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 1,
+        "max_relation_weight": 2.0,
+        "duration": "0:00:00.001323"
+    }
+}

@@ -1,0 +1,143 @@
+{
+    "nodes": [
+        {
+            "id": 6293648,
+            "name": "enrouement d'origine neurologique",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 6371864,
+            "name": "enrouement de la voix",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 6383779,
+            "name": "enrouement vocal",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 2502614,
+            "name": "ensemencement hydraulique",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 168410,
+            "name": "ensemencement des nuages",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 150,
+            "name": "chat",
+            "type": 1,
+            "w": 8050
+        },
+        {
+            "id": 316437,
+            "name": "chat>93068",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 261272618,
+            "name": "enrouement persistant",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 93068,
+            "name": "enrouement",
+            "type": 1,
+            "w": 63
+        }
+    ],
+    "relations": [
+        {
+            "id": 311184897,
+            "node1": 93068,
+            "node2": 150,
+            "type": 8,
+            "w": 31.0
+        },
+        {
+            "id": 744485141,
+            "node1": 93068,
+            "node2": 168410,
+            "type": 8,
+            "w": 5.0
+        },
+        {
+            "id": 246582348,
+            "node1": 93068,
+            "node2": 316437,
+            "type": 8,
+            "w": 35.0
+        },
+        {
+            "id": 744485121,
+            "node1": 93068,
+            "node2": 2502614,
+            "type": 8,
+            "w": 5.0
+        },
+        {
+            "id": 298783051,
+            "node1": 93068,
+            "node2": 6293648,
+            "type": 8,
+            "w": 36.0
+        },
+        {
+            "id": 304322818,
+            "node1": 93068,
+            "node2": 6371864,
+            "type": 8,
+            "w": 15.0
+        },
+        {
+            "id": 304004203,
+            "node1": 93068,
+            "node2": 6383779,
+            "type": 8,
+            "w": 36.0
+        },
+        {
+            "id": 790132015,
+            "node1": 93068,
+            "node2": 261272618,
+            "type": 8,
+            "w": 25.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            8
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T18:11:36.964356",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 8,
+        "max_relation_weight": 36.0,
+        "#nodes": 9,
+        "duration": "0:00:00.003557"
+    }
+}

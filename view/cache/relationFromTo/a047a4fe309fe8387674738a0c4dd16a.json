@@ -1,0 +1,49 @@
+{
+    "nodes": [
+        {
+            "id": 47540,
+            "name": "miauler",
+            "type": 1,
+            "w": 529
+        },
+        {
+            "id": 23784,
+            "name": "chat sauvage",
+            "type": 1,
+            "w": 314
+        }
+    ],
+    "relations": [
+        {
+            "id": 72665015,
+            "node1": 23784,
+            "node2": 47540,
+            "type": 24,
+            "w": 32.0
+        }
+    ],
+    "request": {
+        "types_ids": null,
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:11:20.145456",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 1,
+        "max_relation_weight": 32.0,
+        "duration": "0:00:00.002365"
+    }
+}

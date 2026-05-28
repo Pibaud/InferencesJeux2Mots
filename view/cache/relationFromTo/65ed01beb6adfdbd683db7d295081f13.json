@@ -1,0 +1,51 @@
+{
+    "nodes": [
+        {
+            "id": 77735,
+            "name": "Europe",
+            "type": 1,
+            "w": 19844
+        },
+        {
+            "id": 233194,
+            "name": "France>22243",
+            "type": 1,
+            "w": 289
+        }
+    ],
+    "relations": [
+        {
+            "id": 2563314,
+            "node1": 233194,
+            "node2": 77735,
+            "type": 15,
+            "w": 1000.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            15
+        ],
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T19:11:31.271004",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 1,
+        "max_relation_weight": 1000.0,
+        "duration": "0:00:00.001406"
+    }
+}

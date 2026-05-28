@@ -1,0 +1,51 @@
+{
+    "nodes": [
+        {
+            "id": 116477,
+            "name": "personne",
+            "type": 1,
+            "w": 44497
+        },
+        {
+            "id": 43504,
+            "name": "physique",
+            "type": 1,
+            "w": 10604
+        }
+    ],
+    "relations": [
+        {
+            "id": 1187856358,
+            "node1": 116477,
+            "node2": 43504,
+            "type": 9,
+            "w": 32.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            9
+        ],
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:50:28.932426",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 1,
+        "max_relation_weight": 32.0,
+        "duration": "0:00:00.001052"
+    }
+}

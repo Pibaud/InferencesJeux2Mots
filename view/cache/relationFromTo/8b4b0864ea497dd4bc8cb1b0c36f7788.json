@@ -1,0 +1,49 @@
+{
+    "nodes": [
+        {
+            "id": 231122,
+            "name": "mode de transport",
+            "type": 1,
+            "w": 231
+        },
+        {
+            "id": 101610,
+            "name": "atterrir",
+            "type": 1,
+            "w": 665
+        }
+    ],
+    "relations": [
+        {
+            "id": 407038698,
+            "node1": 231122,
+            "node2": 101610,
+            "type": 0,
+            "w": 200.0
+        }
+    ],
+    "request": {
+        "types_ids": null,
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:28:40.836906",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 1,
+        "max_relation_weight": 200.0,
+        "duration": "0:00:00.002178"
+    }
+}

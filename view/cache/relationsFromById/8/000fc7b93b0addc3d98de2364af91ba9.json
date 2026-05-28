@@ -1,0 +1,364 @@
+{
+    "nodes": [
+        {
+            "id": 37935,
+            "name": "abyssin",
+            "type": 1,
+            "w": 62
+        },
+        {
+            "id": 57890,
+            "name": "chat marsupial",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 150,
+            "name": "chat",
+            "type": 1,
+            "w": 8050
+        },
+        {
+            "id": 56698,
+            "name": "chantilly",
+            "type": 1,
+            "w": 373
+        },
+        {
+            "id": 23784,
+            "name": "chat sauvage",
+            "type": 1,
+            "w": 314
+        },
+        {
+            "id": 51393,
+            "name": "margay",
+            "type": 1,
+            "w": 61
+        },
+        {
+            "id": 9374,
+            "name": "greffier",
+            "type": 1,
+            "w": 168
+        },
+        {
+            "id": 53957,
+            "name": "safari",
+            "type": 1,
+            "w": 230
+        },
+        {
+            "id": 34366,
+            "name": "sibérien",
+            "type": 1,
+            "w": 74
+        },
+        {
+            "id": 36679,
+            "name": "himalayen",
+            "type": 1,
+            "w": 81
+        },
+        {
+            "id": 29278,
+            "name": "tonkinois",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 9159,
+            "name": "siamois",
+            "type": 1,
+            "w": 220
+        },
+        {
+            "id": 57444,
+            "name": "chaton",
+            "type": 1,
+            "w": 823
+        },
+        {
+            "id": 33394,
+            "name": "asiatique",
+            "type": 1,
+            "w": 2123
+        },
+        {
+            "id": 2500,
+            "name": "somali",
+            "type": 1,
+            "w": 52
+        },
+        {
+            "id": 25570,
+            "name": "Persique",
+            "type": 1,
+            "w": 73
+        },
+        {
+            "id": 65596,
+            "name": "mistigri",
+            "type": 1,
+            "w": 66
+        },
+        {
+            "id": 34549,
+            "name": "Tom",
+            "type": 1,
+            "w": 3275
+        },
+        {
+            "id": 35891,
+            "name": "chartreux",
+            "type": 1,
+            "w": 68
+        },
+        {
+            "id": 14048,
+            "name": "highlander",
+            "type": 1,
+            "w": 51
+        },
+        {
+            "id": 32375,
+            "name": "Simon",
+            "type": 1,
+            "w": 3408
+        },
+        {
+            "id": 39377,
+            "name": "minette",
+            "type": 1,
+            "w": 146
+        },
+        {
+            "id": 21532,
+            "name": "chat à neuf queues",
+            "type": 1,
+            "w": 68
+        },
+        {
+            "id": 48496,
+            "name": "sauvage",
+            "type": 1,
+            "w": 4512
+        },
+        {
+            "id": 13562,
+            "name": "maraud",
+            "type": 1,
+            "w": 66
+        },
+        {
+            "id": 11191,
+            "name": "chatte",
+            "type": 1,
+            "w": 759
+        }
+    ],
+    "relations": [
+        {
+            "id": 355028931,
+            "node1": 150,
+            "node2": 2500,
+            "type": 8,
+            "w": 30.0
+        },
+        {
+            "id": 116220,
+            "node1": 150,
+            "node2": 9159,
+            "type": 8,
+            "w": 323.0
+        },
+        {
+            "id": 9665264,
+            "node1": 150,
+            "node2": 9374,
+            "type": 8,
+            "w": 41.0
+        },
+        {
+            "id": 115791,
+            "node1": 150,
+            "node2": 11191,
+            "type": 8,
+            "w": 543.5
+        },
+        {
+            "id": 243909174,
+            "node1": 150,
+            "node2": 13562,
+            "type": 8,
+            "w": 31.0
+        },
+        {
+            "id": 355028869,
+            "node1": 150,
+            "node2": 14048,
+            "type": 8,
+            "w": 27.0
+        },
+        {
+            "id": 243495265,
+            "node1": 150,
+            "node2": 21532,
+            "type": 8,
+            "w": 28.0
+        },
+        {
+            "id": 118142,
+            "node1": 150,
+            "node2": 23784,
+            "type": 8,
+            "w": 155.0
+        },
+        {
+            "id": 427920318,
+            "node1": 150,
+            "node2": 25570,
+            "type": 8,
+            "w": 31.0
+        },
+        {
+            "id": 246272029,
+            "node1": 150,
+            "node2": 29278,
+            "type": 8,
+            "w": 41.0
+        },
+        {
+            "id": 702778160,
+            "node1": 150,
+            "node2": 32375,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 631630233,
+            "node1": 150,
+            "node2": 33394,
+            "type": 8,
+            "w": 79.0
+        },
+        {
+            "id": 355028921,
+            "node1": 150,
+            "node2": 34366,
+            "type": 8,
+            "w": 30.0
+        },
+        {
+            "id": 615033465,
+            "node1": 150,
+            "node2": 34549,
+            "type": 8,
+            "w": 15.0
+        },
+        {
+            "id": 241574,
+            "node1": 150,
+            "node2": 35891,
+            "type": 8,
+            "w": 131.0
+        },
+        {
+            "id": 355028873,
+            "node1": 150,
+            "node2": 36679,
+            "type": 8,
+            "w": 29.0
+        },
+        {
+            "id": 250704,
+            "node1": 150,
+            "node2": 37935,
+            "type": 8,
+            "w": 130.0
+        },
+        {
+            "id": 246271464,
+            "node1": 150,
+            "node2": 39377,
+            "type": 8,
+            "w": 31.0
+        },
+        {
+            "id": 123741,
+            "node1": 150,
+            "node2": 48496,
+            "type": 8,
+            "w": 132.0
+        },
+        {
+            "id": 243618106,
+            "node1": 150,
+            "node2": 51393,
+            "type": 8,
+            "w": 30.0
+        },
+        {
+            "id": 355028910,
+            "node1": 150,
+            "node2": 53957,
+            "type": 8,
+            "w": 30.0
+        },
+        {
+            "id": 355028850,
+            "node1": 150,
+            "node2": 56698,
+            "type": 8,
+            "w": 30.0
+        },
+        {
+            "id": 120899,
+            "node1": 150,
+            "node2": 57444,
+            "type": 8,
+            "w": 194.0
+        },
+        {
+            "id": 9667172,
+            "node1": 150,
+            "node2": 57890,
+            "type": 8,
+            "w": 39.0
+        },
+        {
+            "id": 243657542,
+            "node1": 150,
+            "node2": 65596,
+            "type": 8,
+            "w": 30.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            8
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T18:11:03.116841",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 25,
+        "max_relation_weight": 543.5,
+        "#nodes": 26,
+        "duration": "0:00:00.005964"
+    }
+}

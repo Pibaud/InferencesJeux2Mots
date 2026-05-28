@@ -1,0 +1,70 @@
+{
+    "nodes": [
+        {
+            "id": 1820608,
+            "name": "métamoteur",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 4658,
+            "name": "moteur",
+            "type": 1,
+            "w": 5459
+        }
+    ],
+    "relations": [
+        {
+            "id": 61547170,
+            "node1": 1820608,
+            "node2": 4658,
+            "type": 0,
+            "w": 72.0
+        },
+        {
+            "id": 82706570,
+            "node1": 1820608,
+            "node2": 4658,
+            "type": 6,
+            "w": 31.0
+        },
+        {
+            "id": 656467273,
+            "node1": 1820608,
+            "node2": 4658,
+            "type": 99,
+            "w": 28.0
+        },
+        {
+            "id": 991229854,
+            "node1": 1820608,
+            "node2": 4658,
+            "type": 666,
+            "w": 2.0
+        }
+    ],
+    "request": {
+        "types_ids": null,
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T19:18:42.801784",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 4,
+        "max_relation_weight": 72.0,
+        "duration": "0:00:00.001675"
+    }
+}

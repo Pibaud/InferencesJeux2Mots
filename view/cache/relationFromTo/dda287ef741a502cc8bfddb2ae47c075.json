@@ -1,0 +1,56 @@
+{
+    "nodes": [
+        {
+            "id": 143712,
+            "name": "marine",
+            "type": 1,
+            "w": 5569
+        },
+        {
+            "id": 375161,
+            "name": "rafale de vent",
+            "type": 1,
+            "w": 95
+        }
+    ],
+    "relations": [
+        {
+            "id": 408493246,
+            "node1": 375161,
+            "node2": 143712,
+            "type": 0,
+            "w": 156.0
+        },
+        {
+            "id": 408493247,
+            "node1": 375161,
+            "node2": 143712,
+            "type": 3,
+            "w": 30.0
+        }
+    ],
+    "request": {
+        "types_ids": null,
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:26:22.534319",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 2,
+        "max_relation_weight": 156.0,
+        "duration": "0:00:00.000699"
+    }
+}

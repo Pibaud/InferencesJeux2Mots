@@ -1,0 +1,78 @@
+{
+    "nodes": [
+        {
+            "id": 10066169,
+            "name": "humvee",
+            "type": 777,
+            "w": 30
+        },
+        {
+            "id": 10066167,
+            "name": "M998 High mobility multipurpose wheeled vehicle",
+            "type": 777,
+            "w": 0
+        },
+        {
+            "id": 2940777,
+            "name": "véhicule de transport à roues",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 123309825,
+            "name": "Humvee",
+            "type": 1,
+            "w": 25
+        }
+    ],
+    "relations": [
+        {
+            "id": 242819340,
+            "node1": 2940777,
+            "node2": 10066167,
+            "type": 8,
+            "w": 29.0
+        },
+        {
+            "id": 381134990,
+            "node1": 2940777,
+            "node2": 10066169,
+            "type": 8,
+            "w": 29.0
+        },
+        {
+            "id": 631170934,
+            "node1": 2940777,
+            "node2": 123309825,
+            "type": 8,
+            "w": 1.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            8
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T18:39:46.219857",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 3,
+        "max_relation_weight": 29.0,
+        "#nodes": 4,
+        "duration": "0:00:00.000780"
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "nodes": [
+        {
+            "id": 73827,
+            "name": "voler",
+            "type": 1,
+            "w": 5832
+        },
+        {
+            "id": 193494,
+            "name": "kiwi d'Owen",
+            "type": 1,
+            "w": 50
+        }
+    ],
+    "relations": [
+        {
+            "id": 11801376,
+            "node1": 193494,
+            "node2": 73827,
+            "type": 24,
+            "w": 30.0
+        }
+    ],
+    "request": {
+        "types_ids": null,
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T19:20:29.556512",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 1,
+        "max_relation_weight": 30.0,
+        "duration": "0:00:00.000697"
+    }
+}

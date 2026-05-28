@@ -1,0 +1,51 @@
+{
+    "nodes": [
+        {
+            "id": 77735,
+            "name": "Europe",
+            "type": 1,
+            "w": 19844
+        },
+        {
+            "id": 10576,
+            "name": "politique",
+            "type": 1,
+            "w": 57788
+        }
+    ],
+    "relations": [
+        {
+            "id": 13100392,
+            "node1": 10576,
+            "node2": 77735,
+            "type": 15,
+            "w": 26.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            15
+        ],
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:54:05.049561",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 1,
+        "max_relation_weight": 26.0,
+        "duration": "0:00:00.001140"
+    }
+}

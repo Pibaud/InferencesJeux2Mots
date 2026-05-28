@@ -1,0 +1,84 @@
+{
+    "nodes": [
+        {
+            "id": 18272,
+            "name": "Amérique",
+            "type": 1,
+            "w": 6918
+        },
+        {
+            "id": 40355,
+            "name": "continent",
+            "type": 1,
+            "w": 4832
+        }
+    ],
+    "relations": [
+        {
+            "id": 63197,
+            "node1": 18272,
+            "node2": 40355,
+            "type": 0,
+            "w": 439.0
+        },
+        {
+            "id": 8980271,
+            "node1": 18272,
+            "node2": 40355,
+            "type": 6,
+            "w": 216.0
+        },
+        {
+            "id": 481597873,
+            "node1": 18272,
+            "node2": 40355,
+            "type": 35,
+            "w": 116.0
+        },
+        {
+            "id": 1253520456,
+            "node1": 18272,
+            "node2": 40355,
+            "type": 50,
+            "w": 26.0
+        },
+        {
+            "id": 385460957,
+            "node1": 18272,
+            "node2": 40355,
+            "type": 130,
+            "w": 34.0
+        },
+        {
+            "id": 1555994,
+            "node1": 18272,
+            "node2": 40355,
+            "type": 666,
+            "w": 2.0
+        }
+    ],
+    "request": {
+        "types_ids": null,
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:54:10.178765",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 6,
+        "max_relation_weight": 439.0,
+        "duration": "0:00:00.001681"
+    }
+}

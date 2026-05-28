@@ -1,0 +1,200 @@
+{
+    "nodes": [
+        {
+            "id": 83091,
+            "name": "sourire",
+            "type": 1,
+            "w": 8908,
+            "c": 0,
+            "level": 59.3189,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T18:02:24"
+        },
+        {
+            "id": 2949906,
+            "name": "être amusé par",
+            "type": 1,
+            "w": 25,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2016-03-06",
+            "touchdate": "2025-07-16T09:32:21"
+        },
+        {
+            "id": 51774,
+            "name": "se moquer de",
+            "type": 1,
+            "w": 160,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T13:44:20"
+        },
+        {
+            "id": 146882,
+            "name": "Ver:Inf",
+            "type": 4,
+            "w": 50,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2007-07-03",
+            "touchdate": "2026-05-28T18:45:35"
+        },
+        {
+            "id": 146885,
+            "name": "Nom:Mas+SG",
+            "type": 4,
+            "w": 50,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2007-07-03",
+            "touchdate": "2026-05-28T18:46:20"
+        },
+        {
+            "id": 2951521,
+            "name": "adresser un sourire",
+            "type": 1,
+            "w": 7,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2016-03-12",
+            "touchdate": "2026-05-28T13:25:44"
+        },
+        {
+            "id": 259796,
+            "name": "être favorable à",
+            "type": 1,
+            "w": 209,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2012-12-27",
+            "touchdate": "2026-05-27T19:17:25"
+        },
+        {
+            "id": 87332,
+            "name": "expression",
+            "type": 1,
+            "w": 23143,
+            "c": 0,
+            "level": 54.6606,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T18:28:11"
+        }
+    ],
+    "refinements": [
+        {
+            "id": 2951524,
+            "name": "sourire>51774",
+            "type": 1,
+            "w": 25,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2016-03-12",
+            "touchdate": "2025-12-11T22:06:29",
+            "refinement": "se moquer de"
+        },
+        {
+            "id": 2951523,
+            "name": "sourire>87332>146882",
+            "type": 1,
+            "w": 0,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2016-03-12",
+            "touchdate": "2025-01-22T19:49:39"
+        },
+        {
+            "id": 2949907,
+            "name": "sourire>2949906",
+            "type": 1,
+            "w": 25,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2016-03-06",
+            "touchdate": "2025-12-11T22:06:29",
+            "refinement": "être amusé par"
+        },
+        {
+            "id": 2951518,
+            "name": "sourire>87332",
+            "type": 1,
+            "w": 14,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2016-03-12",
+            "touchdate": "2026-05-22T11:43:06",
+            "refinement": "expression"
+        },
+        {
+            "id": 1807920,
+            "name": "sourire>146885",
+            "type": 1,
+            "w": 25,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2015-07-26",
+            "touchdate": "2026-05-28T10:23:55",
+            "refinement": "Nom:Mas+SG"
+        },
+        {
+            "id": 332291,
+            "name": "sourire>259796",
+            "type": 1,
+            "w": 50,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2014-06-19",
+            "touchdate": "2026-05-27T09:38:02",
+            "refinement": "être favorable à"
+        },
+        {
+            "id": 2951522,
+            "name": "sourire>87332>146885",
+            "type": 1,
+            "w": 25,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2016-03-12",
+            "touchdate": "2025-05-30T15:35:00"
+        },
+        {
+            "id": 2951525,
+            "name": "sourire>2951521",
+            "type": 1,
+            "w": 14,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2016-03-12",
+            "touchdate": "2026-05-28T13:25:44",
+            "refinement": "adresser un sourire"
+        },
+        {
+            "id": 1807921,
+            "name": "sourire>146882",
+            "type": 1,
+            "w": 25,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2015-07-26",
+            "touchdate": "2026-05-28T13:19:01",
+            "refinement": "Ver:Inf"
+        }
+    ]
+}

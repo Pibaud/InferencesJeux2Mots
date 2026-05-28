@@ -1,0 +1,364 @@
+{
+    "nodes": [
+        {
+            "id": 3523,
+            "name": "monocycle",
+            "type": 1,
+            "w": 93
+        },
+        {
+            "id": 164,
+            "name": "vaisseau spatial",
+            "type": 1,
+            "w": 273
+        },
+        {
+            "id": 2238,
+            "name": "Charles de Gaulle",
+            "type": 1,
+            "w": 279
+        },
+        {
+            "id": 3225,
+            "name": "savonnette",
+            "type": 1,
+            "w": 145
+        },
+        {
+            "id": 150,
+            "name": "chat",
+            "type": 1,
+            "w": 8050
+        },
+        {
+            "id": 2048,
+            "name": "boutre",
+            "type": 1,
+            "w": 60
+        },
+        {
+            "id": 152778,
+            "name": "moyen de transport",
+            "type": 1,
+            "w": 638
+        },
+        {
+            "id": 1725,
+            "name": "train de marchandises",
+            "type": 1,
+            "w": 112
+        },
+        {
+            "id": 2860,
+            "name": "monoplan",
+            "type": 1,
+            "w": 90
+        },
+        {
+            "id": 1781,
+            "name": "smack",
+            "type": 1,
+            "w": 88
+        },
+        {
+            "id": 1908,
+            "name": "dog-cart",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 3109,
+            "name": "Mayflower",
+            "type": 1,
+            "w": 76
+        },
+        {
+            "id": 3455,
+            "name": "sister-ship",
+            "type": 1,
+            "w": 52
+        },
+        {
+            "id": 2889,
+            "name": "hydrofoil",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 3915,
+            "name": "bétaillère",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 1722,
+            "name": "bette",
+            "type": 1,
+            "w": 80
+        },
+        {
+            "id": 2445,
+            "name": "A320",
+            "type": 1,
+            "w": 140
+        },
+        {
+            "id": 2827,
+            "name": "chaland",
+            "type": 1,
+            "w": 96
+        },
+        {
+            "id": 2491,
+            "name": "Diane",
+            "type": 1,
+            "w": 1410
+        },
+        {
+            "id": 1416,
+            "name": "trois-mâts",
+            "type": 1,
+            "w": 135
+        },
+        {
+            "id": 1934,
+            "name": "automotrice",
+            "type": 1,
+            "w": 58
+        },
+        {
+            "id": 2212,
+            "name": "bimoteur",
+            "type": 1,
+            "w": 155
+        },
+        {
+            "id": 2222,
+            "name": "tram",
+            "type": 1,
+            "w": 227
+        },
+        {
+            "id": 3145,
+            "name": "Corse",
+            "type": 1,
+            "w": 4602
+        },
+        {
+            "id": 3009,
+            "name": "cuirassé",
+            "type": 1,
+            "w": 104
+        },
+        {
+            "id": 2438,
+            "name": "monoréacteur",
+            "type": 1,
+            "w": 68
+        }
+    ],
+    "relations": [
+        {
+            "id": 246300739,
+            "node1": 152778,
+            "node2": 150,
+            "type": 8,
+            "w": 31.0
+        },
+        {
+            "id": 9770922,
+            "node1": 152778,
+            "node2": 164,
+            "type": 8,
+            "w": 199.0
+        },
+        {
+            "id": 9791626,
+            "node1": 152778,
+            "node2": 1416,
+            "type": 8,
+            "w": 196.0
+        },
+        {
+            "id": 965186044,
+            "node1": 152778,
+            "node2": 1722,
+            "type": 8,
+            "w": 20.0
+        },
+        {
+            "id": 9872673,
+            "node1": 152778,
+            "node2": 1725,
+            "type": 8,
+            "w": 65.0
+        },
+        {
+            "id": 246289980,
+            "node1": 152778,
+            "node2": 1781,
+            "type": 8,
+            "w": 32.0
+        },
+        {
+            "id": 13506269,
+            "node1": 152778,
+            "node2": 1908,
+            "type": 8,
+            "w": 30.0
+        },
+        {
+            "id": 9791252,
+            "node1": 152778,
+            "node2": 1934,
+            "type": 8,
+            "w": 196.0
+        },
+        {
+            "id": 9847914,
+            "node1": 152778,
+            "node2": 2048,
+            "type": 8,
+            "w": 60.0
+        },
+        {
+            "id": 243657056,
+            "node1": 152778,
+            "node2": 2212,
+            "type": 8,
+            "w": 35.0
+        },
+        {
+            "id": 9791612,
+            "node1": 152778,
+            "node2": 2222,
+            "type": 8,
+            "w": 196.0
+        },
+        {
+            "id": 771173835,
+            "node1": 152778,
+            "node2": 2238,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 9791890,
+            "node1": 152778,
+            "node2": 2438,
+            "type": 8,
+            "w": 196.0
+        },
+        {
+            "id": 9626412,
+            "node1": 152778,
+            "node2": 2445,
+            "type": 8,
+            "w": 192.0
+        },
+        {
+            "id": 701788919,
+            "node1": 152778,
+            "node2": 2491,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 9791331,
+            "node1": 152778,
+            "node2": 2827,
+            "type": 8,
+            "w": 196.0
+        },
+        {
+            "id": 9791790,
+            "node1": 152778,
+            "node2": 2860,
+            "type": 8,
+            "w": 196.0
+        },
+        {
+            "id": 781135042,
+            "node1": 152778,
+            "node2": 2889,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 9791373,
+            "node1": 152778,
+            "node2": 3009,
+            "type": 8,
+            "w": 196.0
+        },
+        {
+            "id": 9864864,
+            "node1": 152778,
+            "node2": 3109,
+            "type": 8,
+            "w": 199.0
+        },
+        {
+            "id": 703071990,
+            "node1": 152778,
+            "node2": 3145,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 246299887,
+            "node1": 152778,
+            "node2": 3225,
+            "type": 8,
+            "w": 35.0
+        },
+        {
+            "id": 243389140,
+            "node1": 152778,
+            "node2": 3455,
+            "type": 8,
+            "w": 27.0
+        },
+        {
+            "id": 243662033,
+            "node1": 152778,
+            "node2": 3523,
+            "type": 8,
+            "w": 26.0
+        },
+        {
+            "id": 243656962,
+            "node1": 152778,
+            "node2": 3915,
+            "type": 8,
+            "w": 27.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            8
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T18:39:32.461903",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 25,
+        "max_relation_weight": 199.0,
+        "#nodes": 26,
+        "duration": "0:00:00.001496"
+    }
+}

@@ -1,0 +1,364 @@
+{
+    "nodes": [
+        {
+            "id": 512816279,
+            "name": "produit Vulli",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 275085113,
+            "name": "produit pour enfants",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 11417258,
+            "name": "jouet de construction",
+            "type": 1,
+            "w": 27
+        },
+        {
+            "id": 182267382,
+            "name": "jouet d'extérieur",
+            "type": 1,
+            "w": 27
+        },
+        {
+            "id": 32667,
+            "name": "produit",
+            "type": 1,
+            "w": 13609
+        },
+        {
+            "id": 200478888,
+            "name": "objet en mousse",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 237,
+            "name": "objet",
+            "type": 1,
+            "w": 11890
+        },
+        {
+            "id": 211877766,
+            "name": "jouet d'intérieur",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 71624,
+            "name": "être vivant",
+            "type": 1,
+            "w": 2968
+        },
+        {
+            "id": 234036,
+            "name": "être vivant>123933",
+            "type": 1,
+            "w": 325
+        },
+        {
+            "id": 53314,
+            "name": "jeu",
+            "type": 1,
+            "w": 14521
+        },
+        {
+            "id": 116477,
+            "name": "personne",
+            "type": 1,
+            "w": 44497
+        },
+        {
+            "id": 68439,
+            "name": "individu",
+            "type": 1,
+            "w": 14195
+        },
+        {
+            "id": 98630,
+            "name": "divertissement",
+            "type": 1,
+            "w": 5242
+        },
+        {
+            "id": 373445,
+            "name": "produit de consommation",
+            "type": 1,
+            "w": 107
+        },
+        {
+            "id": 397942265,
+            "name": "article de loisir",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 170840792,
+            "name": "blocs de construction",
+            "type": 1,
+            "w": 30
+        },
+        {
+            "id": 202331,
+            "name": "jeu éducatif",
+            "type": 1,
+            "w": 154
+        },
+        {
+            "id": 188347316,
+            "name": "objet de divertissement",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 1531758,
+            "name": "petit train en bois",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 2477911,
+            "name": "dinette",
+            "type": 1,
+            "w": 6
+        },
+        {
+            "id": 360246,
+            "name": "jouet électronique",
+            "type": 1,
+            "w": 51
+        },
+        {
+            "id": 191760315,
+            "name": "objet de jeu",
+            "type": 1,
+            "w": 27
+        },
+        {
+            "id": 142275,
+            "name": "peluche",
+            "type": 1,
+            "w": 594
+        },
+        {
+            "id": 219376108,
+            "name": "matériel éducatif",
+            "type": 1,
+            "w": 45
+        },
+        {
+            "id": 117579,
+            "name": "jouet",
+            "type": 1,
+            "w": 2239
+        }
+    ],
+    "relations": [
+        {
+            "id": 2014681,
+            "node1": 117579,
+            "node2": 237,
+            "type": 6,
+            "w": 1000.0
+        },
+        {
+            "id": 1232270433,
+            "node1": 117579,
+            "node2": 32667,
+            "type": 6,
+            "w": 26.0
+        },
+        {
+            "id": 1219150764,
+            "node1": 117579,
+            "node2": 53314,
+            "type": 6,
+            "w": -26.0
+        },
+        {
+            "id": 1127225459,
+            "node1": 117579,
+            "node2": 68439,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 210469081,
+            "node1": 117579,
+            "node2": 71624,
+            "type": 6,
+            "w": -528.0
+        },
+        {
+            "id": 1213980771,
+            "node1": 117579,
+            "node2": 98630,
+            "type": 6,
+            "w": -26.0
+        },
+        {
+            "id": 1127225458,
+            "node1": 117579,
+            "node2": 116477,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 1219208439,
+            "node1": 117579,
+            "node2": 142275,
+            "type": 6,
+            "w": -27.0
+        },
+        {
+            "id": 1219208437,
+            "node1": 117579,
+            "node2": 202331,
+            "type": 6,
+            "w": -27.0
+        },
+        {
+            "id": 611175361,
+            "node1": 117579,
+            "node2": 234036,
+            "type": 6,
+            "w": -25.0
+        },
+        {
+            "id": 1219208444,
+            "node1": 117579,
+            "node2": 360246,
+            "type": 6,
+            "w": -26.0
+        },
+        {
+            "id": 1219208391,
+            "node1": 117579,
+            "node2": 373445,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 1266265643,
+            "node1": 117579,
+            "node2": 1531758,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 1218664089,
+            "node1": 117579,
+            "node2": 2477911,
+            "type": 6,
+            "w": -25.0
+        },
+        {
+            "id": 1219208441,
+            "node1": 117579,
+            "node2": 11417258,
+            "type": 6,
+            "w": -26.0
+        },
+        {
+            "id": 1222331462,
+            "node1": 117579,
+            "node2": 170840792,
+            "type": 6,
+            "w": -26.0
+        },
+        {
+            "id": 1219208438,
+            "node1": 117579,
+            "node2": 182267382,
+            "type": 6,
+            "w": -27.0
+        },
+        {
+            "id": 1248425480,
+            "node1": 117579,
+            "node2": 188347316,
+            "type": 6,
+            "w": 28.0
+        },
+        {
+            "id": 1284061787,
+            "node1": 117579,
+            "node2": 191760315,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 1248395518,
+            "node1": 117579,
+            "node2": 200478888,
+            "type": 6,
+            "w": 26.0
+        },
+        {
+            "id": 1219208440,
+            "node1": 117579,
+            "node2": 211877766,
+            "type": 6,
+            "w": -26.0
+        },
+        {
+            "id": 1219208390,
+            "node1": 117579,
+            "node2": 219376108,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 1286974090,
+            "node1": 117579,
+            "node2": 275085113,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 1219208419,
+            "node1": 117579,
+            "node2": 397942265,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 1215111123,
+            "node1": 117579,
+            "node2": 512816279,
+            "type": 6,
+            "w": 25.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            6
+        ],
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:30:48.571894",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 25,
+        "max_relation_weight": 1000.0,
+        "#nodes": 26,
+        "duration": "0:00:00.001637"
+    }
+}

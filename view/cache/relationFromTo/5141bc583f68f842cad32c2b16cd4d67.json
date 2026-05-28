@@ -1,0 +1,51 @@
+{
+    "nodes": [
+        {
+            "id": 79364,
+            "name": "sauter",
+            "type": 1,
+            "w": 2599
+        },
+        {
+            "id": 74860,
+            "name": "homme",
+            "type": 1,
+            "w": 117267
+        }
+    ],
+    "relations": [
+        {
+            "id": 14845745,
+            "node1": 74860,
+            "node2": 79364,
+            "type": 24,
+            "w": 183.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            24
+        ],
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:16:25.574046",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 1,
+        "max_relation_weight": 183.0,
+        "duration": "0:00:00.000970"
+    }
+}

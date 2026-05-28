@@ -1,0 +1,49 @@
+{
+    "nodes": [
+        {
+            "id": 161337,
+            "name": "cause première",
+            "type": 1,
+            "w": 126
+        },
+        {
+            "id": 4658,
+            "name": "moteur",
+            "type": 1,
+            "w": 5459
+        }
+    ],
+    "relations": [
+        {
+            "id": 796998423,
+            "node1": 161337,
+            "node2": 4658,
+            "type": 0,
+            "w": 30.0
+        }
+    ],
+    "request": {
+        "types_ids": null,
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T19:18:41.739935",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 1,
+        "max_relation_weight": 30.0,
+        "duration": "0:00:00.000545"
+    }
+}

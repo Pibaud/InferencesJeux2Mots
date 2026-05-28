@@ -1,0 +1,56 @@
+{
+    "nodes": [
+        {
+            "id": 73827,
+            "name": "voler",
+            "type": 1,
+            "w": 5832
+        },
+        {
+            "id": 273,
+            "name": "piaf",
+            "type": 1,
+            "w": 215
+        }
+    ],
+    "relations": [
+        {
+            "id": 1665411,
+            "node1": 273,
+            "node2": 73827,
+            "type": 0,
+            "w": 51.0
+        },
+        {
+            "id": 541257342,
+            "node1": 273,
+            "node2": 73827,
+            "type": 24,
+            "w": 31.0
+        }
+    ],
+    "request": {
+        "types_ids": null,
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T19:20:29.587254",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 2,
+        "max_relation_weight": 51.0,
+        "duration": "0:00:00.001061"
+    }
+}

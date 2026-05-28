@@ -1,0 +1,364 @@
+{
+    "nodes": [
+        {
+            "id": 225453,
+            "name": "informatique médicale",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 2026,
+            "name": "journal",
+            "type": 1,
+            "w": 12875
+        },
+        {
+            "id": 220398,
+            "name": "information partielle pinéaire",
+            "type": 1,
+            "w": 51
+        },
+        {
+            "id": 222374,
+            "name": "Mossad",
+            "type": 1,
+            "w": 221
+        },
+        {
+            "id": 85185,
+            "name": "informatique quantique",
+            "type": 1,
+            "w": 301
+        },
+        {
+            "id": 181270,
+            "name": "cabinet noir",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 222377,
+            "name": "MI5",
+            "type": 1,
+            "w": 56
+        },
+        {
+            "id": 156026,
+            "name": "JT",
+            "type": 1,
+            "w": 1031
+        },
+        {
+            "id": 97968,
+            "name": "SDECE",
+            "type": 1,
+            "w": 57
+        },
+        {
+            "id": 122481,
+            "name": "paramètre",
+            "type": 1,
+            "w": 1401
+        },
+        {
+            "id": 67094,
+            "name": "informatique et libertés",
+            "type": 1,
+            "w": 53
+        },
+        {
+            "id": 222375,
+            "name": "FSB",
+            "type": 1,
+            "w": 69
+        },
+        {
+            "id": 146545,
+            "name": "media",
+            "type": 1,
+            "w": 338
+        },
+        {
+            "id": 53272,
+            "name": "KGB",
+            "type": 1,
+            "w": 484
+        },
+        {
+            "id": 220319,
+            "name": "informatique légale",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 167841,
+            "name": "microinformatique",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 84698,
+            "name": "traitement de texte",
+            "type": 1,
+            "w": 426
+        },
+        {
+            "id": 228171,
+            "name": "information classifiée",
+            "type": 1,
+            "w": 52
+        },
+        {
+            "id": 50295,
+            "name": "DST",
+            "type": 1,
+            "w": 90
+        },
+        {
+            "id": 230719,
+            "name": "DCRI",
+            "type": 1,
+            "w": 63
+        },
+        {
+            "id": 212849,
+            "name": "information continue",
+            "type": 1,
+            "w": 79
+        },
+        {
+            "id": 206955,
+            "name": "Renseignements généraux",
+            "type": 1,
+            "w": 51
+        },
+        {
+            "id": 18582,
+            "name": "recherche opérationnelle",
+            "type": 1,
+            "w": 232
+        },
+        {
+            "id": 163112,
+            "name": "tuyau percé",
+            "type": 1,
+            "w": 96
+        },
+        {
+            "id": 86027,
+            "name": "CIA",
+            "type": 1,
+            "w": 1047
+        },
+        {
+            "id": 104993,
+            "name": "informatique",
+            "type": 1,
+            "w": 6418
+        }
+    ],
+    "relations": [
+        {
+            "id": 573219823,
+            "node1": 104993,
+            "node2": 2026,
+            "type": 8,
+            "w": 27.0
+        },
+        {
+            "id": 427925524,
+            "node1": 104993,
+            "node2": 18582,
+            "type": 8,
+            "w": 1.0
+        },
+        {
+            "id": 1248030640,
+            "node1": 104993,
+            "node2": 50295,
+            "type": 8,
+            "w": 5.0
+        },
+        {
+            "id": 1248030256,
+            "node1": 104993,
+            "node2": 53272,
+            "type": 8,
+            "w": 5.0
+        },
+        {
+            "id": 785378562,
+            "node1": 104993,
+            "node2": 67094,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 725485105,
+            "node1": 104993,
+            "node2": 84698,
+            "type": 8,
+            "w": 15.0
+        },
+        {
+            "id": 23854098,
+            "node1": 104993,
+            "node2": 85185,
+            "type": 8,
+            "w": 112.0
+        },
+        {
+            "id": 1248030645,
+            "node1": 104993,
+            "node2": 86027,
+            "type": 8,
+            "w": 5.0
+        },
+        {
+            "id": 1248030621,
+            "node1": 104993,
+            "node2": 97968,
+            "type": 8,
+            "w": 5.0
+        },
+        {
+            "id": 573219856,
+            "node1": 104993,
+            "node2": 122481,
+            "type": 8,
+            "w": 32.0
+        },
+        {
+            "id": 573219693,
+            "node1": 104993,
+            "node2": 146545,
+            "type": 8,
+            "w": 28.0
+        },
+        {
+            "id": 725484368,
+            "node1": 104993,
+            "node2": 156026,
+            "type": 8,
+            "w": 15.0
+        },
+        {
+            "id": 725485020,
+            "node1": 104993,
+            "node2": 163112,
+            "type": 8,
+            "w": 15.0
+        },
+        {
+            "id": 28943129,
+            "node1": 104993,
+            "node2": 167841,
+            "type": 8,
+            "w": 88.0
+        },
+        {
+            "id": 1248030241,
+            "node1": 104993,
+            "node2": 181270,
+            "type": 8,
+            "w": 5.0
+        },
+        {
+            "id": 1248030275,
+            "node1": 104993,
+            "node2": 206955,
+            "type": 8,
+            "w": 5.0
+        },
+        {
+            "id": 573219884,
+            "node1": 104993,
+            "node2": 212849,
+            "type": 8,
+            "w": 29.0
+        },
+        {
+            "id": 23854107,
+            "node1": 104993,
+            "node2": 220319,
+            "type": 8,
+            "w": 88.0
+        },
+        {
+            "id": 573219621,
+            "node1": 104993,
+            "node2": 220398,
+            "type": 8,
+            "w": 31.0
+        },
+        {
+            "id": 1248030226,
+            "node1": 104993,
+            "node2": 222374,
+            "type": 8,
+            "w": 5.0
+        },
+        {
+            "id": 1248030267,
+            "node1": 104993,
+            "node2": 222375,
+            "type": 8,
+            "w": 5.0
+        },
+        {
+            "id": 1248030243,
+            "node1": 104993,
+            "node2": 222377,
+            "type": 8,
+            "w": 5.0
+        },
+        {
+            "id": 785378638,
+            "node1": 104993,
+            "node2": 225453,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 573219818,
+            "node1": 104993,
+            "node2": 228171,
+            "type": 8,
+            "w": 28.0
+        },
+        {
+            "id": 1248030339,
+            "node1": 104993,
+            "node2": 230719,
+            "type": 8,
+            "w": 5.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            8
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T18:34:52.535313",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 25,
+        "max_relation_weight": 112.0,
+        "#nodes": 26,
+        "duration": "0:00:00.001752"
+    }
+}

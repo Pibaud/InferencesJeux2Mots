@@ -1,0 +1,63 @@
+{
+    "nodes": [
+        {
+            "id": 15229,
+            "name": "aéronautique",
+            "type": 1,
+            "w": 3806
+        },
+        {
+            "id": 43504,
+            "name": "physique",
+            "type": 1,
+            "w": 10604
+        }
+    ],
+    "relations": [
+        {
+            "id": 658605837,
+            "node1": 15229,
+            "node2": 43504,
+            "type": 0,
+            "w": 49.0
+        },
+        {
+            "id": 710102628,
+            "node1": 15229,
+            "node2": 43504,
+            "type": 3,
+            "w": 10.0
+        },
+        {
+            "id": 1228313588,
+            "node1": 15229,
+            "node2": 43504,
+            "type": 82,
+            "w": 26.0
+        }
+    ],
+    "request": {
+        "types_ids": null,
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:47:23.697386",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 3,
+        "max_relation_weight": 49.0,
+        "duration": "0:00:00.001538"
+    }
+}

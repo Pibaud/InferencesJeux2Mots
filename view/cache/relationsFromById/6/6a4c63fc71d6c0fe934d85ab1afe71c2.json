@@ -1,0 +1,182 @@
+{
+    "nodes": [
+        {
+            "id": 145994,
+            "name": "lettre",
+            "type": 1,
+            "w": 15666
+        },
+        {
+            "id": 112929,
+            "name": "action",
+            "type": 1,
+            "w": 25139
+        },
+        {
+            "id": 652946082,
+            "name": "suggestion polie",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 553079993,
+            "name": "recommandation administrative",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 632282598,
+            "name": "document formel",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 142056,
+            "name": "suggestion",
+            "type": 1,
+            "w": 1452
+        },
+        {
+            "id": 7970,
+            "name": "titre",
+            "type": 1,
+            "w": 10910
+        },
+        {
+            "id": 195704,
+            "name": "acte juridique",
+            "type": 1,
+            "w": 158
+        },
+        {
+            "id": 127846,
+            "name": "recommandation",
+            "type": 1,
+            "w": 1933
+        },
+        {
+            "id": 72174,
+            "name": "louange",
+            "type": 1,
+            "w": 163
+        },
+        {
+            "id": 13855,
+            "name": "conseil",
+            "type": 1,
+            "w": 11151
+        },
+        {
+            "id": 1611,
+            "name": "félicitations",
+            "type": 1,
+            "w": 272
+        }
+    ],
+    "relations": [
+        {
+            "id": 784617276,
+            "node1": 127846,
+            "node2": 1611,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 82623813,
+            "node1": 127846,
+            "node2": 7970,
+            "type": 6,
+            "w": 934.5
+        },
+        {
+            "id": 112844843,
+            "node1": 127846,
+            "node2": 13855,
+            "type": 6,
+            "w": 930.5
+        },
+        {
+            "id": 784617277,
+            "node1": 127846,
+            "node2": 72174,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 78603934,
+            "node1": 127846,
+            "node2": 112929,
+            "type": 6,
+            "w": 932.5
+        },
+        {
+            "id": 1222604244,
+            "node1": 127846,
+            "node2": 142056,
+            "type": 6,
+            "w": 27.0
+        },
+        {
+            "id": 1245105784,
+            "node1": 127846,
+            "node2": 145994,
+            "type": 6,
+            "w": 26.0
+        },
+        {
+            "id": 1264954517,
+            "node1": 127846,
+            "node2": 195704,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 1251674180,
+            "node1": 127846,
+            "node2": 553079993,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 1245105783,
+            "node1": 127846,
+            "node2": 632282598,
+            "type": 6,
+            "w": 26.0
+        },
+        {
+            "id": 1267956035,
+            "node1": 127846,
+            "node2": 652946082,
+            "type": 6,
+            "w": 25.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            6
+        ],
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T19:14:58.179253",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 11,
+        "max_relation_weight": 934.5,
+        "#nodes": 12,
+        "duration": "0:00:00.009117"
+    }
+}

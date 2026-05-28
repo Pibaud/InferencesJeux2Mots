@@ -1,0 +1,364 @@
+{
+    "nodes": [
+        {
+            "id": 61218,
+            "name": "cause transitive",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 126562,
+            "name": "cause occulte",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 161336,
+            "name": "cause de l'action",
+            "type": 1,
+            "w": 52
+        },
+        {
+            "id": 197321,
+            "name": "cause civile",
+            "type": 1,
+            "w": 52
+        },
+        {
+            "id": 197323,
+            "name": "cause déterminante",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 197332,
+            "name": "cause motrice",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 197324,
+            "name": "cause efficiente",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 197327,
+            "name": "cause immanente",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 197320,
+            "name": "cause adéquate",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 197329,
+            "name": "cause instrumentale",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 197331,
+            "name": "cause médiate",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 12655,
+            "name": "danger",
+            "type": 1,
+            "w": 10597
+        },
+        {
+            "id": 197328,
+            "name": "cause immédiate",
+            "type": 1,
+            "w": 52
+        },
+        {
+            "id": 197322,
+            "name": "cause criminelle",
+            "type": 1,
+            "w": 60
+        },
+        {
+            "id": 197330,
+            "name": "cause matérielle",
+            "type": 1,
+            "w": 51
+        },
+        {
+            "id": 197326,
+            "name": "cause formelle",
+            "type": 1,
+            "w": 51
+        },
+        {
+            "id": 160890,
+            "name": "cause d'une action",
+            "type": 1,
+            "w": 53
+        },
+        {
+            "id": 115234,
+            "name": "polio",
+            "type": 1,
+            "w": 117
+        },
+        {
+            "id": 62121,
+            "name": "cause universelle",
+            "type": 1,
+            "w": 68
+        },
+        {
+            "id": 28044,
+            "name": "cause",
+            "type": 1,
+            "w": 14914
+        },
+        {
+            "id": 98997,
+            "name": "jardin botanique",
+            "type": 1,
+            "w": 193
+        },
+        {
+            "id": 129040,
+            "name": "Ogaden",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 83991,
+            "name": "causalité",
+            "type": 1,
+            "w": 634
+        },
+        {
+            "id": 98224,
+            "name": "dangerosité",
+            "type": 1,
+            "w": 660
+        },
+        {
+            "id": 197325,
+            "name": "cause finale",
+            "type": 1,
+            "w": 79
+        },
+        {
+            "id": 161337,
+            "name": "cause première",
+            "type": 1,
+            "w": 126
+        }
+    ],
+    "relations": [
+        {
+            "id": 325768978,
+            "node1": 28044,
+            "node2": 12655,
+            "type": 8,
+            "w": 7.0
+        },
+        {
+            "id": 34499534,
+            "node1": 28044,
+            "node2": 61218,
+            "type": 8,
+            "w": 31.0
+        },
+        {
+            "id": 34501662,
+            "node1": 28044,
+            "node2": 62121,
+            "type": 8,
+            "w": 41.0
+        },
+        {
+            "id": 1150471390,
+            "node1": 28044,
+            "node2": 83991,
+            "type": 8,
+            "w": 31.0
+        },
+        {
+            "id": 325768980,
+            "node1": 28044,
+            "node2": 98224,
+            "type": 8,
+            "w": 7.0
+        },
+        {
+            "id": 780884000,
+            "node1": 28044,
+            "node2": 98997,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 247284494,
+            "node1": 28044,
+            "node2": 115234,
+            "type": 8,
+            "w": 35.0
+        },
+        {
+            "id": 34744497,
+            "node1": 28044,
+            "node2": 126562,
+            "type": 8,
+            "w": 43.0
+        },
+        {
+            "id": 376550730,
+            "node1": 28044,
+            "node2": 129040,
+            "type": 8,
+            "w": 29.0
+        },
+        {
+            "id": 30617976,
+            "node1": 28044,
+            "node2": 160890,
+            "type": 8,
+            "w": 29.0
+        },
+        {
+            "id": 243271094,
+            "node1": 28044,
+            "node2": 161336,
+            "type": 8,
+            "w": 40.0
+        },
+        {
+            "id": 24254758,
+            "node1": 28044,
+            "node2": 161337,
+            "type": 8,
+            "w": 32.0
+        },
+        {
+            "id": 243258975,
+            "node1": 28044,
+            "node2": 197320,
+            "type": 8,
+            "w": 27.0
+        },
+        {
+            "id": 243258976,
+            "node1": 28044,
+            "node2": 197321,
+            "type": 8,
+            "w": 32.0
+        },
+        {
+            "id": 243258977,
+            "node1": 28044,
+            "node2": 197322,
+            "type": 8,
+            "w": 37.0
+        },
+        {
+            "id": 243258978,
+            "node1": 28044,
+            "node2": 197323,
+            "type": 8,
+            "w": 27.0
+        },
+        {
+            "id": 243840550,
+            "node1": 28044,
+            "node2": 197324,
+            "type": 8,
+            "w": 35.0
+        },
+        {
+            "id": 243258979,
+            "node1": 28044,
+            "node2": 197325,
+            "type": 8,
+            "w": 27.0
+        },
+        {
+            "id": 243713676,
+            "node1": 28044,
+            "node2": 197326,
+            "type": 8,
+            "w": 32.0
+        },
+        {
+            "id": 52685992,
+            "node1": 28044,
+            "node2": 197327,
+            "type": 8,
+            "w": 43.0
+        },
+        {
+            "id": 243258838,
+            "node1": 28044,
+            "node2": 197328,
+            "type": 8,
+            "w": 26.0
+        },
+        {
+            "id": 243258982,
+            "node1": 28044,
+            "node2": 197329,
+            "type": 8,
+            "w": 28.0
+        },
+        {
+            "id": 243258981,
+            "node1": 28044,
+            "node2": 197330,
+            "type": 8,
+            "w": 28.0
+        },
+        {
+            "id": 243258980,
+            "node1": 28044,
+            "node2": 197331,
+            "type": 8,
+            "w": 29.0
+        },
+        {
+            "id": 243609396,
+            "node1": 28044,
+            "node2": 197332,
+            "type": 8,
+            "w": 32.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            8
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T19:18:40.073079",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 25,
+        "max_relation_weight": 43.0,
+        "#nodes": 26,
+        "duration": "0:00:00.000668"
+    }
+}

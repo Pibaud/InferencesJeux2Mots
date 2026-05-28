@@ -1,0 +1,63 @@
+{
+    "nodes": [
+        {
+            "id": 94978,
+            "name": "ordinateur",
+            "type": 1,
+            "w": 10676
+        },
+        {
+            "id": 126079,
+            "name": "électronique",
+            "type": 1,
+            "w": 4474
+        }
+    ],
+    "relations": [
+        {
+            "id": 260934988,
+            "node1": 94978,
+            "node2": 126079,
+            "type": 0,
+            "w": 57.0
+        },
+        {
+            "id": 1244498458,
+            "node1": 94978,
+            "node2": 126079,
+            "type": 17,
+            "w": 29.0
+        },
+        {
+            "id": 1471394,
+            "node1": 94978,
+            "node2": 126079,
+            "type": 666,
+            "w": 2.0
+        }
+    ],
+    "request": {
+        "types_ids": null,
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:34:02.951269",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 3,
+        "max_relation_weight": 57.0,
+        "duration": "0:00:00.001199"
+    }
+}

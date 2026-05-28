@@ -1,0 +1,364 @@
+{
+    "nodes": [
+        {
+            "id": 3363240,
+            "name": "gigot d'agneau au gros sel",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 3363233,
+            "name": "gigot à la grecque",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 3363235,
+            "name": "gigot à l'algérienne",
+            "type": 1,
+            "w": 26
+        },
+        {
+            "id": 3363236,
+            "name": "gigot à la marocaine façon méchoui",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 3363237,
+            "name": "gigot à la milenko",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 3363245,
+            "name": "gigot de sanglier",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 3363247,
+            "name": "gigot de sept heures aux pommes et aux oranges",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 3363249,
+            "name": "gigot mariné aux herbes",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 3363250,
+            "name": "gigot tandoori",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 3363239,
+            "name": "gigot d'agneau au fromage de chèvre gratiné",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 3363241,
+            "name": "gigot d'agneau aux 40 gousses d'ail",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 3363242,
+            "name": "gigot d'agneau braisé sucré salé",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 3363243,
+            "name": "gigot d'agneau bravade au four",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 3743667,
+            "name": "gigot d'agneau au four",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 3744986,
+            "name": "gigot flageolets classique",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 3363248,
+            "name": "gigot en croûte d'herbes et aux légumes confits",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 345607,
+            "name": "cuisse de mouton",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 238502,
+            "name": "gigot d'agneau",
+            "type": 1,
+            "w": 64
+        },
+        {
+            "id": 3363244,
+            "name": "gigot d'agneau rôti aux épices à l'indienne",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 2580025,
+            "name": "gigot d'agneau à la poêle",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 3743665,
+            "name": "gigot d'agneau facile au four",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 3363246,
+            "name": "gigot de sept heures",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 238501,
+            "name": "gigot à l'ail",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 3363238,
+            "name": "gigot bitume",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 3363234,
+            "name": "gigot à l'ail et haricots verts",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 106182,
+            "name": "gigot",
+            "type": 1,
+            "w": 163
+        }
+    ],
+    "relations": [
+        {
+            "id": 13930652,
+            "node1": 106182,
+            "node2": 238501,
+            "type": 8,
+            "w": 34.0
+        },
+        {
+            "id": 9752716,
+            "node1": 106182,
+            "node2": 238502,
+            "type": 8,
+            "w": 53.0
+        },
+        {
+            "id": 723284275,
+            "node1": 106182,
+            "node2": 345607,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 52996561,
+            "node1": 106182,
+            "node2": 2580025,
+            "type": 8,
+            "w": 39.0
+        },
+        {
+            "id": 243554113,
+            "node1": 106182,
+            "node2": 3363233,
+            "type": 8,
+            "w": 27.0
+        },
+        {
+            "id": 243554105,
+            "node1": 106182,
+            "node2": 3363234,
+            "type": 8,
+            "w": 30.0
+        },
+        {
+            "id": 243554096,
+            "node1": 106182,
+            "node2": 3363235,
+            "type": 8,
+            "w": 26.0
+        },
+        {
+            "id": 243554089,
+            "node1": 106182,
+            "node2": 3363236,
+            "type": 8,
+            "w": 29.0
+        },
+        {
+            "id": 243554082,
+            "node1": 106182,
+            "node2": 3363237,
+            "type": 8,
+            "w": 35.0
+        },
+        {
+            "id": 243554078,
+            "node1": 106182,
+            "node2": 3363238,
+            "type": 8,
+            "w": 32.0
+        },
+        {
+            "id": 243554065,
+            "node1": 106182,
+            "node2": 3363239,
+            "type": 8,
+            "w": 30.0
+        },
+        {
+            "id": 243554058,
+            "node1": 106182,
+            "node2": 3363240,
+            "type": 8,
+            "w": 26.0
+        },
+        {
+            "id": 243554051,
+            "node1": 106182,
+            "node2": 3363241,
+            "type": 8,
+            "w": 29.0
+        },
+        {
+            "id": 243554044,
+            "node1": 106182,
+            "node2": 3363242,
+            "type": 8,
+            "w": 30.0
+        },
+        {
+            "id": 243554039,
+            "node1": 106182,
+            "node2": 3363243,
+            "type": 8,
+            "w": 29.0
+        },
+        {
+            "id": 243554029,
+            "node1": 106182,
+            "node2": 3363244,
+            "type": 8,
+            "w": 30.0
+        },
+        {
+            "id": 243554021,
+            "node1": 106182,
+            "node2": 3363245,
+            "type": 8,
+            "w": 35.0
+        },
+        {
+            "id": 243554012,
+            "node1": 106182,
+            "node2": 3363246,
+            "type": 8,
+            "w": 39.0
+        },
+        {
+            "id": 243573196,
+            "node1": 106182,
+            "node2": 3363247,
+            "type": 8,
+            "w": 37.0
+        },
+        {
+            "id": 243554005,
+            "node1": 106182,
+            "node2": 3363248,
+            "type": 8,
+            "w": 32.0
+        },
+        {
+            "id": 243553997,
+            "node1": 106182,
+            "node2": 3363249,
+            "type": 8,
+            "w": 34.0
+        },
+        {
+            "id": 243553990,
+            "node1": 106182,
+            "node2": 3363250,
+            "type": 8,
+            "w": 34.0
+        },
+        {
+            "id": 246133223,
+            "node1": 106182,
+            "node2": 3743665,
+            "type": 8,
+            "w": 34.0
+        },
+        {
+            "id": 246133819,
+            "node1": 106182,
+            "node2": 3743667,
+            "type": 8,
+            "w": 27.0
+        },
+        {
+            "id": 246231118,
+            "node1": 106182,
+            "node2": 3744986,
+            "type": 8,
+            "w": 34.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            8
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T18:50:40.370665",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 25,
+        "max_relation_weight": 53.0,
+        "#nodes": 26,
+        "duration": "0:00:00.004090"
+    }
+}

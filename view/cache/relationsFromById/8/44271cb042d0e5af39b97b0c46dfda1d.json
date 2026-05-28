@@ -1,0 +1,364 @@
+{
+    "nodes": [
+        {
+            "id": 6297611,
+            "name": "motivation anormale",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 6431130,
+            "name": "motivation augmentée",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15435031,
+            "name": "mobile du crime",
+            "type": 1,
+            "w": 31
+        },
+        {
+            "id": 39142,
+            "name": "motivation",
+            "type": 1,
+            "w": 10831
+        },
+        {
+            "id": 102585,
+            "name": "ambition",
+            "type": 1,
+            "w": 5067
+        },
+        {
+            "id": 11373097,
+            "name": "motivation de la récompense",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 14452346,
+            "name": "motivation de la préemption",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 14452573,
+            "name": "motivation des jugements",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 14452745,
+            "name": "motivation du jugement",
+            "type": 1,
+            "w": 26
+        },
+        {
+            "id": 14454118,
+            "name": "motivation du recours à la procédure de concours",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 6373118,
+            "name": "motivation diminuée",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 16073612,
+            "name": "Motivation de la préemption",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 41490,
+            "name": "inspiration",
+            "type": 1,
+            "w": 9010
+        },
+        {
+            "id": 6311952,
+            "name": "motivation accrue",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 14453580,
+            "name": "motivation des décisions individuelles",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 14452967,
+            "name": "motivation du recours",
+            "type": 1,
+            "w": 33
+        },
+        {
+            "id": 7177263,
+            "name": "en:personal motivation",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 6355762,
+            "name": "motivation normale",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 6289099,
+            "name": "motivation intrinsèque",
+            "type": 1,
+            "w": 198
+        },
+        {
+            "id": 221334,
+            "name": "motivation au travail",
+            "type": 1,
+            "w": 89
+        },
+        {
+            "id": 7177280,
+            "name": "en:intrinsic motivation",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 365182,
+            "name": "motivation militaire",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 15304869,
+            "name": "motivation thérapeutique",
+            "type": 1,
+            "w": 29
+        },
+        {
+            "id": 6397733,
+            "name": "motivation personnelle",
+            "type": 1,
+            "w": 139
+        },
+        {
+            "id": 3250045,
+            "name": "motivation terroriste",
+            "type": 1,
+            "w": 31
+        },
+        {
+            "id": 6412804,
+            "name": "motivation extrinsèque",
+            "type": 1,
+            "w": 89
+        }
+    ],
+    "relations": [
+        {
+            "id": 1211775795,
+            "node1": 39142,
+            "node2": 41490,
+            "type": 8,
+            "w": 920.0
+        },
+        {
+            "id": 1150459717,
+            "node1": 39142,
+            "node2": 102585,
+            "type": 8,
+            "w": 83.0
+        },
+        {
+            "id": 31590506,
+            "node1": 39142,
+            "node2": 221334,
+            "type": 8,
+            "w": 27.0
+        },
+        {
+            "id": 33778870,
+            "node1": 39142,
+            "node2": 365182,
+            "type": 8,
+            "w": 27.0
+        },
+        {
+            "id": 243388674,
+            "node1": 39142,
+            "node2": 3250045,
+            "type": 8,
+            "w": 30.0
+        },
+        {
+            "id": 298422635,
+            "node1": 39142,
+            "node2": 6289099,
+            "type": 8,
+            "w": 12.0
+        },
+        {
+            "id": 299029648,
+            "node1": 39142,
+            "node2": 6297611,
+            "type": 8,
+            "w": 12.0
+        },
+        {
+            "id": 299685200,
+            "node1": 39142,
+            "node2": 6311952,
+            "type": 8,
+            "w": 11.0
+        },
+        {
+            "id": 302801269,
+            "node1": 39142,
+            "node2": 6355762,
+            "type": 8,
+            "w": 14.0
+        },
+        {
+            "id": 304224610,
+            "node1": 39142,
+            "node2": 6373118,
+            "type": 8,
+            "w": 31.0
+        },
+        {
+            "id": 307957082,
+            "node1": 39142,
+            "node2": 6397733,
+            "type": 8,
+            "w": 24.0
+        },
+        {
+            "id": 307903159,
+            "node1": 39142,
+            "node2": 6412804,
+            "type": 8,
+            "w": 24.0
+        },
+        {
+            "id": 248555131,
+            "node1": 39142,
+            "node2": 6431130,
+            "type": 8,
+            "w": 28.0
+        },
+        {
+            "id": 778297013,
+            "node1": 39142,
+            "node2": 7177263,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 712008245,
+            "node1": 39142,
+            "node2": 7177280,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 293177799,
+            "node1": 39142,
+            "node2": 11373097,
+            "type": 8,
+            "w": 11.0
+        },
+        {
+            "id": 374118385,
+            "node1": 39142,
+            "node2": 14452346,
+            "type": 8,
+            "w": 13.0
+        },
+        {
+            "id": 374118386,
+            "node1": 39142,
+            "node2": 14452573,
+            "type": 8,
+            "w": 13.0
+        },
+        {
+            "id": 374118387,
+            "node1": 39142,
+            "node2": 14452745,
+            "type": 8,
+            "w": 13.0
+        },
+        {
+            "id": 374118388,
+            "node1": 39142,
+            "node2": 14452967,
+            "type": 8,
+            "w": 13.0
+        },
+        {
+            "id": 374118383,
+            "node1": 39142,
+            "node2": 14453580,
+            "type": 8,
+            "w": 13.0
+        },
+        {
+            "id": 374118384,
+            "node1": 39142,
+            "node2": 14454118,
+            "type": 8,
+            "w": 5.0
+        },
+        {
+            "id": 786809501,
+            "node1": 39142,
+            "node2": 15304869,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 842127739,
+            "node1": 39142,
+            "node2": 15435031,
+            "type": 8,
+            "w": 24.0
+        },
+        {
+            "id": 419153611,
+            "node1": 39142,
+            "node2": 16073612,
+            "type": 8,
+            "w": 11.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            8
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T19:18:37.562787",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 25,
+        "max_relation_weight": 920.0,
+        "#nodes": 26,
+        "duration": "0:00:00.000837"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "nodes": [
+        {
+            "id": 142692,
+            "name": "saute",
+            "type": 1,
+            "w": 117,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2007-06-28",
+            "touchdate": "2026-05-27T23:40:32"
+        },
+        {
+            "id": 2946892,
+            "name": "Ver:Conjug",
+            "type": 4,
+            "w": 50,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2016-02-28",
+            "touchdate": "2026-05-28T14:36:56"
+        },
+        {
+            "id": 171870,
+            "name": "Nom:",
+            "type": 4,
+            "w": 50,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2015-12-28",
+            "touchdate": "2026-05-28T18:14:51"
+        }
+    ],
+    "refinements": [
+        {
+            "id": 14291384,
+            "name": "saute>2946892",
+            "type": 1,
+            "w": 0,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2020-01-19",
+            "touchdate": "2024-10-14T15:27:18",
+            "refinement": "Ver:Conjug"
+        },
+        {
+            "id": 14291385,
+            "name": "saute>171870",
+            "type": 1,
+            "w": 0,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2020-01-19",
+            "touchdate": "2024-10-23T02:54:55",
+            "refinement": "Nom:"
+        }
+    ]
+}

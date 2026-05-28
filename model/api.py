@@ -6,11 +6,12 @@ import json
 class JDM_API:
     def __init__(self):
         self.base_url = "https://jdm-api.demo.lirmm.fr/v0"
+     
+        self.session = requests.Session()
 
     def get_node_id_by_name(self, node_name):
         url = f"{self.base_url}/node_by_name/{node_name}"
         md5String = hashlib.md5(url.encode()).hexdigest()
-        #Verif en local pour le cache
         
         dossier = "cache/nodeByName/"
         path_complet = os.path.join(dossier,(md5String+".json"))
@@ -19,10 +20,9 @@ class JDM_API:
                 data = json.load(f)
                 return data
         
-        response = requests.get(url)
+        response = self.session.get(url)
         response.raise_for_status()
         data =  response.json().get('id')
-        os.makedirs(dossier, exist_ok=True) 
     
         os.makedirs(dossier, exist_ok=True)
         with open(path_complet, 'w', encoding='utf-8') as f:
@@ -40,7 +40,7 @@ class JDM_API:
                 data = json.load(f)
                 return data
         
-        response = requests.get(url)
+        response = self.session.get(url)
         response.raise_for_status()
         data = response.json()
         
@@ -60,9 +60,10 @@ class JDM_API:
                 data = json.load(f)
                 return data
 
-        response = requests.get(url, params=kwargs)
+        response = self.session.get(url, params=kwargs)
         response.raise_for_status()
         data = response.json()
+        
         os.makedirs(dossier, exist_ok=True)
         with open(path_complet, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
@@ -79,20 +80,17 @@ class JDM_API:
                     data = json.load(f)
                     return data
             except (json.JSONDecodeError, OSError):
-                # Cache corrompu: on tente un nouvel appel API.
                 pass
 
         try:
-            response = requests.get(url, timeout=10)
+            response = self.session.get(url, timeout=10)
             response.raise_for_status()
             data = response.json()
         except requests.HTTPError as e:
-            # Le endpoint /refinements renvoie parfois 500: on degrade proprement.
             if e.response is not None and e.response.status_code >= 500:
                 return {"nodes": []}
             raise
         except (requests.RequestException, ValueError):
-            # Erreur reseau ou JSON invalide: on evite de faire planter l'UI.
             return {"nodes": []}
 
         os.makedirs(dossier, exist_ok=True)
@@ -123,7 +121,7 @@ class JDM_API:
                 data = json.load(f)
                 return data
 
-        response = requests.get(url, params=query)
+        response = self.session.get(url, params=query)
         response.raise_for_status()
         data = response.json()
 
@@ -146,7 +144,7 @@ class JDM_API:
                 data = json.load(f)
                 return data
         
-        response = requests.get(url)
+        response = self.session.get(url)
         response.raise_for_status()
         data= response.json()
 
@@ -172,7 +170,7 @@ class JDM_API:
                 data = json.load(f)
                 return data
         
-        response = requests.get(url)
+        response = self.session.get(url)
         response.raise_for_status()
         data =  response.json()
 
@@ -192,7 +190,7 @@ class JDM_API:
                 data = json.load(f)
                 return data
         
-        response = requests.get(url)
+        response = self.session.get(url)
         response.raise_for_status()
         data =  response.json()
 
@@ -203,22 +201,14 @@ class JDM_API:
         return data
     
     def get_top_synonyms(self, node_id, limit=4):
-        """
-        Récupère les meilleurs synonymes (type 5) d'un noeud par son ID.
-        Renvoie une liste de dictionnaires [{'id': id, 'name': nom, 'w': poids}, ...]
-        """
-        # On utilise la méthode existante pour récupérer les relations de type 5
+
         data = self.get_relations_from_by_id(node_id, types_ids=5)
         
         if not data or "relations" not in data:
             return []
 
-        # Création d'un dictionnaire local pour mapper les ID aux noms des noeuds
-        # (L'API renvoie les détails des noeuds cibles dans la section "nodes")
         nodes_lookup = {n['id']: n['name'] for n in data.get('nodes', [])}
 
-        # Filtrage et Tri des relations par poids décroissant
-        # On ne garde que les poids positifs
         syn_relations = [r for r in data["relations"] if r["w"] > 0]
         sorted_syns = sorted(syn_relations, key=lambda x: x["w"], reverse=True)
 

@@ -1,0 +1,59 @@
+{
+    "nodes": [
+        {
+            "id": 123745,
+            "name": "véhicule",
+            "type": 1,
+            "w": 7213
+        },
+        {
+            "id": 100680,
+            "name": "véhiculer",
+            "type": 1,
+            "w": 1125
+        }
+    ],
+    "relations": [
+        {
+            "id": 340459,
+            "node1": 123745,
+            "node2": 100680,
+            "type": 19,
+            "w": 53.0
+        },
+        {
+            "id": 340458,
+            "node1": 123745,
+            "node2": 123745,
+            "type": 19,
+            "w": 54.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            19
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T19:14:48.029939",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 2,
+        "max_relation_weight": 54.0,
+        "#nodes": 2,
+        "duration": "0:00:00.057258"
+    }
+}

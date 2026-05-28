@@ -1,0 +1,312 @@
+{
+    "nodes": [
+        {
+            "id": 254321421,
+            "name": "Nouvelle-Zélande et Suisse ont des systèmes similaires",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 100592334,
+            "name": "Nouvelle-Zélande aux Jeux olympiques de la jeunesse d'hiver de 2012",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 100593980,
+            "name": "Nouvelle-Zélande aux Jeux olympiques d'été de 1924",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 152612653,
+            "name": "Nouvelle-Zélande aux Jeux olympiques d'hiver de 2018",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 156712641,
+            "name": "Nouvelle-Zélande aux Jeux olympiques d'hiver de 2022",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 99904591,
+            "name": "Nouvelle-Zélande aux Jeux olympiques d'été de 2016",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 100272228,
+            "name": "Nouvelle-Zélande aux Jeux olympiques d'été de 2008",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 100290034,
+            "name": "Nouvelle-Zélande aux Jeux olympiques d'hiver de 1960",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 156712878,
+            "name": "Nouvelle-Zélande aux Jeux paralympiques d'hiver de 2022",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 156714703,
+            "name": "Nouvelle-Zélande aux Jeux olympiques d'été de 2000",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 99958326,
+            "name": "Nouvelle-Zélande aux Jeux olympiques d'été de 2020",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 153043583,
+            "name": "Nouvelle-Zélande aux Jeux olympiques d'été de 2004",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 156726568,
+            "name": "Nouvelle-Zélande aux Jeux olympiques",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 156721871,
+            "name": "Nouvelle-Zélande aux Jeux olympiques d'été de 1988",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 156730327,
+            "name": "Nouvelle-Zélande aux Jeux olympiques d'hiver de 1992",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 156722397,
+            "name": "Nouvelle-Zélande aux Jeux olympiques d'hiver de 1998",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 156717134,
+            "name": "Nouvelle-Zélande aux Jeux olympiques d'été de 1936",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 100144106,
+            "name": "Nouvelle-Zélande aux Jeux olympiques d'été de 2012",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 251624498,
+            "name": "Nouvelle-Zélande remporte la coupe du monde de rugby",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 156730586,
+            "name": "Nouvelle-Zélande aux Jeux olympiques d'hiver de 1980",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 80812,
+            "name": "Nouvelle-Zélande",
+            "type": 1,
+            "w": 3458
+        },
+        {
+            "id": 14025241,
+            "name": "Deaflympics d'hiver de 1987",
+            "type": 777,
+            "w": 25
+        }
+    ],
+    "relations": [
+        {
+            "id": 383173212,
+            "node1": 80812,
+            "node2": 14025241,
+            "type": 8,
+            "w": 35.0
+        },
+        {
+            "id": 790233974,
+            "node1": 80812,
+            "node2": 99904591,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790233975,
+            "node1": 80812,
+            "node2": 99958326,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790233973,
+            "node1": 80812,
+            "node2": 100144106,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790233972,
+            "node1": 80812,
+            "node2": 100272228,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790233961,
+            "node1": 80812,
+            "node2": 100290034,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790233976,
+            "node1": 80812,
+            "node2": 100592334,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790233967,
+            "node1": 80812,
+            "node2": 100593980,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790233965,
+            "node1": 80812,
+            "node2": 152612653,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790233971,
+            "node1": 80812,
+            "node2": 153043583,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790233966,
+            "node1": 80812,
+            "node2": 156712641,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790233977,
+            "node1": 80812,
+            "node2": 156712878,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790233970,
+            "node1": 80812,
+            "node2": 156714703,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790233968,
+            "node1": 80812,
+            "node2": 156717134,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790233969,
+            "node1": 80812,
+            "node2": 156721871,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790233964,
+            "node1": 80812,
+            "node2": 156722397,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790233960,
+            "node1": 80812,
+            "node2": 156726568,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790233963,
+            "node1": 80812,
+            "node2": 156730327,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790233962,
+            "node1": 80812,
+            "node2": 156730586,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790233978,
+            "node1": 80812,
+            "node2": 251624498,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790233959,
+            "node1": 80812,
+            "node2": 254321421,
+            "type": 8,
+            "w": 25.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            8
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T19:20:31.899156",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 21,
+        "max_relation_weight": 35.0,
+        "#nodes": 22,
+        "duration": "0:00:00.001013"
+    }
+}

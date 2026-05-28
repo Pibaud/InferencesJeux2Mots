@@ -1,0 +1,416 @@
+{
+    "nodes": [
+        {
+            "id": 15071158,
+            "name": "en:piece of music",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 14577,
+            "name": "détermination",
+            "type": 1,
+            "w": 4177
+        },
+        {
+            "id": 5128,
+            "name": "encouragement",
+            "type": 1,
+            "w": 1561
+        },
+        {
+            "id": 15413678,
+            "name": "en:musical piece",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 39142,
+            "name": "motivation",
+            "type": 1,
+            "w": 10831
+        },
+        {
+            "id": 311385560,
+            "name": "ennui générationnel",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 459628965,
+            "name": "foi militaire",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 41490,
+            "name": "inspiration",
+            "type": 1,
+            "w": 9010
+        },
+        {
+            "id": 57253,
+            "name": "casserole",
+            "type": 1,
+            "w": 1139
+        },
+        {
+            "id": 216292,
+            "name": "morceau de musique",
+            "type": 1,
+            "w": 29
+        },
+        {
+            "id": 112929,
+            "name": "action",
+            "type": 1,
+            "w": 25139
+        },
+        {
+            "id": 144938,
+            "name": "oeuvre",
+            "type": 1,
+            "w": 6452
+        },
+        {
+            "id": 661041422,
+            "name": "sport toutes saisons",
+            "type": 1,
+            "w": 1
+        },
+        {
+            "id": 550405190,
+            "name": "encouragement invisible",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 415534085,
+            "name": "sentiment favorable",
+            "type": 1,
+            "w": 4
+        },
+        {
+            "id": 243120641,
+            "name": "concept abstrait",
+            "type": 1,
+            "w": 41
+        },
+        {
+            "id": 140985,
+            "name": "état d'esprit",
+            "type": 1,
+            "w": 588
+        },
+        {
+            "id": 222019240,
+            "name": "énergie intérieure",
+            "type": 1,
+            "w": 67
+        },
+        {
+            "id": 48373,
+            "name": "incitation",
+            "type": 1,
+            "w": 1405
+        },
+        {
+            "id": 3177096,
+            "name": "chanson>70527",
+            "type": 1,
+            "w": 53
+        },
+        {
+            "id": 664171050,
+            "name": "besoin d'élévation",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 404535772,
+            "name": "travail des personnages",
+            "type": 1,
+            "w": 5
+        },
+        {
+            "id": 240112,
+            "name": "propriété>87150",
+            "type": 1,
+            "w": 14
+        },
+        {
+            "id": 39301,
+            "name": "raison",
+            "type": 1,
+            "w": 20068
+        },
+        {
+            "id": 111141,
+            "name": "propriété",
+            "type": 1,
+            "w": 8186
+        },
+        {
+            "id": 302902,
+            "name": "oeuvre musicale",
+            "type": 777,
+            "w": 79
+        },
+        {
+            "id": 107902,
+            "name": "chanson",
+            "type": 1,
+            "w": 6828
+        },
+        {
+            "id": 269537,
+            "name": "état mental",
+            "type": 1,
+            "w": 201
+        },
+        {
+            "id": 499650421,
+            "name": "motivation interactive",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 452127125,
+            "name": "attitude favorisant",
+            "type": 1,
+            "w": 1
+        }
+    ],
+    "relations": [
+        {
+            "id": 1222651129,
+            "node1": 39142,
+            "node2": 5128,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 1216649380,
+            "node1": 39142,
+            "node2": 14577,
+            "type": 6,
+            "w": -28.0
+        },
+        {
+            "id": 1249605126,
+            "node1": 39142,
+            "node2": 39301,
+            "type": 6,
+            "w": 26.0
+        },
+        {
+            "id": 1211778924,
+            "node1": 39142,
+            "node2": 41490,
+            "type": 6,
+            "w": -25.0
+        },
+        {
+            "id": 1245150430,
+            "node1": 39142,
+            "node2": 48373,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 1142216247,
+            "node1": 39142,
+            "node2": 57253,
+            "type": 6,
+            "w": -25.0
+        },
+        {
+            "id": 117146630,
+            "node1": 39142,
+            "node2": 107902,
+            "type": 6,
+            "w": 26.0
+        },
+        {
+            "id": 1146351493,
+            "node1": 39142,
+            "node2": 111141,
+            "type": 6,
+            "w": 36.0
+        },
+        {
+            "id": 664908356,
+            "node1": 39142,
+            "node2": 112929,
+            "type": 6,
+            "w": 26.0
+        },
+        {
+            "id": 1227020087,
+            "node1": 39142,
+            "node2": 140985,
+            "type": 6,
+            "w": -30.0
+        },
+        {
+            "id": 117210055,
+            "node1": 39142,
+            "node2": 144938,
+            "type": 6,
+            "w": 27.0
+        },
+        {
+            "id": 704745613,
+            "node1": 39142,
+            "node2": 216292,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 1146351893,
+            "node1": 39142,
+            "node2": 240112,
+            "type": 6,
+            "w": 48.0
+        },
+        {
+            "id": 1252569654,
+            "node1": 39142,
+            "node2": 269537,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 117146633,
+            "node1": 39142,
+            "node2": 302902,
+            "type": 6,
+            "w": 31.0
+        },
+        {
+            "id": 117146632,
+            "node1": 39142,
+            "node2": 3177096,
+            "type": 6,
+            "w": 26.0
+        },
+        {
+            "id": 598718798,
+            "node1": 39142,
+            "node2": 15071158,
+            "type": 6,
+            "w": 35.0
+        },
+        {
+            "id": 705218193,
+            "node1": 39142,
+            "node2": 15413678,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 1151991833,
+            "node1": 39142,
+            "node2": 222019240,
+            "type": 6,
+            "w": 31.0
+        },
+        {
+            "id": 1142215786,
+            "node1": 39142,
+            "node2": 243120641,
+            "type": 6,
+            "w": 56.0
+        },
+        {
+            "id": 1234007274,
+            "node1": 39142,
+            "node2": 311385560,
+            "type": 6,
+            "w": 26.0
+        },
+        {
+            "id": 1251806941,
+            "node1": 39142,
+            "node2": 404535772,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 1237948397,
+            "node1": 39142,
+            "node2": 415534085,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 1242021655,
+            "node1": 39142,
+            "node2": 452127125,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 1229524086,
+            "node1": 39142,
+            "node2": 459628965,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 1244249312,
+            "node1": 39142,
+            "node2": 499650421,
+            "type": 6,
+            "w": 26.0
+        },
+        {
+            "id": 1249645366,
+            "node1": 39142,
+            "node2": 550405190,
+            "type": 6,
+            "w": 26.0
+        },
+        {
+            "id": 1268270949,
+            "node1": 39142,
+            "node2": 661041422,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 1261876253,
+            "node1": 39142,
+            "node2": 664171050,
+            "type": 6,
+            "w": 25.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            6
+        ],
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T19:18:37.485193",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 29,
+        "max_relation_weight": 56.0,
+        "#nodes": 30,
+        "duration": "0:00:00.001115"
+    }
+}

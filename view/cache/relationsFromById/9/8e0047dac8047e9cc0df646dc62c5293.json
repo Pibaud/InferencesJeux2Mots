@@ -1,0 +1,234 @@
+{
+    "nodes": [
+        {
+            "id": 393381931,
+            "name": "In nativitatem Domini canticum",
+            "type": 1,
+            "w": 16
+        },
+        {
+            "id": 329164240,
+            "name": "A Solis Ortus Cardine",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 531850618,
+            "name": "messe des Rameaux",
+            "type": 1,
+            "w": 3
+        },
+        {
+            "id": 470351467,
+            "name": "Au nom du Christ",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 94157,
+            "name": "slavon",
+            "type": 1,
+            "w": 59
+        },
+        {
+            "id": 411557619,
+            "name": "Graduel d'Aliénor de Bretagne",
+            "type": 1,
+            "w": 3
+        },
+        {
+            "id": 2050,
+            "name": "mélodie",
+            "type": 1,
+            "w": 4201
+        },
+        {
+            "id": 204693092,
+            "name": "chants orthodoxes",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 111410,
+            "name": "religieux",
+            "type": 1,
+            "w": 4804
+        },
+        {
+            "id": 191881,
+            "name": "cérémonies",
+            "type": 1,
+            "w": 1688
+        },
+        {
+            "id": 52606749,
+            "name": "créateur de psaumes",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 711176284,
+            "name": "Chants de l'Emmanuel",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 63018,
+            "name": "prière",
+            "type": 1,
+            "w": 4721
+        },
+        {
+            "id": 52196757,
+            "name": "voix psalmodique",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 13872,
+            "name": "liturgie",
+            "type": 1,
+            "w": 316
+        },
+        {
+            "id": 261874505,
+            "name": "Saint Dimitri",
+            "type": 1,
+            "w": 25
+        }
+    ],
+    "relations": [
+        {
+            "id": 207166144,
+            "node1": 13872,
+            "node2": 2050,
+            "type": 9,
+            "w": 27.0
+        },
+        {
+            "id": 207166143,
+            "node1": 13872,
+            "node2": 63018,
+            "type": 9,
+            "w": 31.0
+        },
+        {
+            "id": 1261191586,
+            "node1": 13872,
+            "node2": 94157,
+            "type": 9,
+            "w": 5.0
+        },
+        {
+            "id": 207166145,
+            "node1": 13872,
+            "node2": 111410,
+            "type": 9,
+            "w": 35.0
+        },
+        {
+            "id": 207166142,
+            "node1": 13872,
+            "node2": 191881,
+            "type": 9,
+            "w": 26.0
+        },
+        {
+            "id": 1250529243,
+            "node1": 13872,
+            "node2": 52196757,
+            "type": 9,
+            "w": 1.0
+        },
+        {
+            "id": 1283555104,
+            "node1": 13872,
+            "node2": 52606749,
+            "type": 9,
+            "w": 4.0
+        },
+        {
+            "id": 1261261653,
+            "node1": 13872,
+            "node2": 204693092,
+            "type": 9,
+            "w": 2.0
+        },
+        {
+            "id": 1288409109,
+            "node1": 13872,
+            "node2": 261874505,
+            "type": 9,
+            "w": 1.0
+        },
+        {
+            "id": 1261242863,
+            "node1": 13872,
+            "node2": 329164240,
+            "type": 9,
+            "w": 5.0
+        },
+        {
+            "id": 1286820949,
+            "node1": 13872,
+            "node2": 393381931,
+            "type": 9,
+            "w": 3.0
+        },
+        {
+            "id": 1250526276,
+            "node1": 13872,
+            "node2": 411557619,
+            "type": 9,
+            "w": 2.0
+        },
+        {
+            "id": 1261265172,
+            "node1": 13872,
+            "node2": 470351467,
+            "type": 9,
+            "w": 2.0
+        },
+        {
+            "id": 1250542049,
+            "node1": 13872,
+            "node2": 531850618,
+            "type": 9,
+            "w": 1.0
+        },
+        {
+            "id": 1286822031,
+            "node1": 13872,
+            "node2": 711176284,
+            "type": 9,
+            "w": 3.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            9
+        ],
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:35:44.251689",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 15,
+        "max_relation_weight": 35.0,
+        "#nodes": 16,
+        "duration": "0:00:00.000726"
+    }
+}

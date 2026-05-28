@@ -1,0 +1,63 @@
+{
+    "nodes": [
+        {
+            "id": 77959,
+            "name": "Michel",
+            "type": 1,
+            "w": 4580
+        },
+        {
+            "id": 73890,
+            "name": "religion",
+            "type": 1,
+            "w": 13048
+        }
+    ],
+    "relations": [
+        {
+            "id": 89058301,
+            "node1": 77959,
+            "node2": 73890,
+            "type": 0,
+            "w": 37.0
+        },
+        {
+            "id": 57972070,
+            "node1": 77959,
+            "node2": 73890,
+            "type": 3,
+            "w": 35.0
+        },
+        {
+            "id": 24783525,
+            "node1": 77959,
+            "node2": 73890,
+            "type": 777,
+            "w": 10.0
+        }
+    ],
+    "request": {
+        "types_ids": null,
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T19:14:56.804625",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 3,
+        "max_relation_weight": 37.0,
+        "duration": "0:00:00.001614"
+    }
+}

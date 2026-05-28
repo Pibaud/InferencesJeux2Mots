@@ -1,0 +1,143 @@
+{
+    "nodes": [
+        {
+            "id": 16110,
+            "name": "bouche",
+            "type": 1,
+            "w": 8298
+        },
+        {
+            "id": 230284,
+            "name": "expression faciale",
+            "type": 1,
+            "w": 74
+        },
+        {
+            "id": 423435979,
+            "name": "blague de référence",
+            "type": 1,
+            "w": 3
+        },
+        {
+            "id": 373820840,
+            "name": "Elle est belle",
+            "type": 1,
+            "w": 31
+        },
+        {
+            "id": 474600635,
+            "name": "regard d'amitié",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 556072905,
+            "name": "une cascade de joie",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 408501409,
+            "name": "sourire dentaire",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 83091,
+            "name": "sourire",
+            "type": 1,
+            "w": 8908
+        },
+        {
+            "id": 55084,
+            "name": "lèvres",
+            "type": 1,
+            "w": 927
+        }
+    ],
+    "relations": [
+        {
+            "id": 1262628978,
+            "node1": 83091,
+            "node2": 16110,
+            "type": 9,
+            "w": -27.0
+        },
+        {
+            "id": 1262628960,
+            "node1": 83091,
+            "node2": 55084,
+            "type": 9,
+            "w": 28.0
+        },
+        {
+            "id": 1262628884,
+            "node1": 83091,
+            "node2": 230284,
+            "type": 9,
+            "w": -26.0
+        },
+        {
+            "id": 1210062127,
+            "node1": 83091,
+            "node2": 373820840,
+            "type": 9,
+            "w": -5.0
+        },
+        {
+            "id": 1262042526,
+            "node1": 83091,
+            "node2": 408501409,
+            "type": 9,
+            "w": 4.0
+        },
+        {
+            "id": 1251656846,
+            "node1": 83091,
+            "node2": 423435979,
+            "type": 9,
+            "w": 25.0
+        },
+        {
+            "id": 1241427158,
+            "node1": 83091,
+            "node2": 474600635,
+            "type": 9,
+            "w": 25.0
+        },
+        {
+            "id": 1226176671,
+            "node1": 83091,
+            "node2": 556072905,
+            "type": 9,
+            "w": -5.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            9
+        ],
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:51:29.858651",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 8,
+        "max_relation_weight": 28.0,
+        "#nodes": 9,
+        "duration": "0:00:00.000867"
+    }
+}

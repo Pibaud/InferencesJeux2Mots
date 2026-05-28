@@ -1,0 +1,63 @@
+{
+    "nodes": [
+        {
+            "id": 100680,
+            "name": "véhiculer",
+            "type": 1,
+            "w": 1125,
+            "c": 0,
+            "level": 55.9886,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T13:34:08"
+        },
+        {
+            "id": 44654,
+            "name": "transporter",
+            "type": 1,
+            "w": 3074,
+            "c": 0,
+            "level": 48.065,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T18:50:04"
+        },
+        {
+            "id": 40726,
+            "name": "propager",
+            "type": 1,
+            "w": 1115,
+            "c": 0,
+            "level": 47.6914,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T17:36:08"
+        }
+    ],
+    "refinements": [
+        {
+            "id": 3352851,
+            "name": "véhiculer>44654",
+            "type": 1,
+            "w": 25,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2016-10-08",
+            "touchdate": "2025-03-17T14:13:16",
+            "refinement": "transporter"
+        },
+        {
+            "id": 3352852,
+            "name": "véhiculer>40726",
+            "type": 1,
+            "w": 8,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2016-10-08",
+            "touchdate": "2026-05-16T08:12:29",
+            "refinement": "propager"
+        }
+    ]
+}

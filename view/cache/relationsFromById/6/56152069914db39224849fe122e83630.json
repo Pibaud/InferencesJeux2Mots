@@ -1,0 +1,65 @@
+{
+    "nodes": [
+        {
+            "id": 152438,
+            "name": "Communication",
+            "type": 1,
+            "w": 2048
+        },
+        {
+            "id": 12105,
+            "name": "communication",
+            "type": 1,
+            "w": 63694
+        },
+        {
+            "id": 234460,
+            "name": "communication textuelle",
+            "type": 1,
+            "w": 72
+        }
+    ],
+    "relations": [
+        {
+            "id": 31642868,
+            "node1": 234460,
+            "node2": 12105,
+            "type": 6,
+            "w": 47.0
+        },
+        {
+            "id": 970207808,
+            "node1": 234460,
+            "node2": 152438,
+            "type": 6,
+            "w": 5.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            6
+        ],
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:11:29.947678",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 2,
+        "max_relation_weight": 47.0,
+        "#nodes": 3,
+        "duration": "0:00:00.001103"
+    }
+}

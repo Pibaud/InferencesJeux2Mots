@@ -1,0 +1,143 @@
+{
+    "nodes": [
+        {
+            "id": 241988,
+            "name": "pays>145735",
+            "type": 1,
+            "w": 239
+        },
+        {
+            "id": 2525356,
+            "name": "Capitale-Nationale",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 322961795,
+            "name": "Territoire équivalent",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 10335040,
+            "name": "territoire équivalent",
+            "type": 777,
+            "w": 27
+        },
+        {
+            "id": 490428292,
+            "name": "36e Groupe-brigade du Canada",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 40355,
+            "name": "continent",
+            "type": 1,
+            "w": 4832
+        },
+        {
+            "id": 130188,
+            "name": "Québec",
+            "type": 1,
+            "w": 4234
+        },
+        {
+            "id": 43409,
+            "name": "Canada",
+            "type": 1,
+            "w": 6390
+        },
+        {
+            "id": 73588,
+            "name": "Amérique du Nord",
+            "type": 1,
+            "w": 978
+        }
+    ],
+    "relations": [
+        {
+            "id": 539968824,
+            "node1": 130188,
+            "node2": 40355,
+            "type": 15,
+            "w": -25.0
+        },
+        {
+            "id": 13289384,
+            "node1": 130188,
+            "node2": 43409,
+            "type": 15,
+            "w": 35.0
+        },
+        {
+            "id": 1240950633,
+            "node1": 130188,
+            "node2": 73588,
+            "type": 15,
+            "w": 49.0
+        },
+        {
+            "id": 8857918,
+            "node1": 130188,
+            "node2": 241988,
+            "type": 15,
+            "w": -5.0
+        },
+        {
+            "id": 220894479,
+            "node1": 130188,
+            "node2": 2525356,
+            "type": 15,
+            "w": 29.0
+        },
+        {
+            "id": 252976608,
+            "node1": 130188,
+            "node2": 10335040,
+            "type": 15,
+            "w": 27.0
+        },
+        {
+            "id": 977758132,
+            "node1": 130188,
+            "node2": 322961795,
+            "type": 15,
+            "w": 3.0
+        },
+        {
+            "id": 1269350436,
+            "node1": 130188,
+            "node2": 490428292,
+            "type": 15,
+            "w": 25.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            15
+        ],
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:54:10.571685",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 8,
+        "max_relation_weight": 49.0,
+        "#nodes": 9,
+        "duration": "0:00:00.003066"
+    }
+}

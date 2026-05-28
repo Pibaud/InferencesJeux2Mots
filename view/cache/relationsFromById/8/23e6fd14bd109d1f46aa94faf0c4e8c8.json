@@ -1,0 +1,364 @@
+{
+    "nodes": [
+        {
+            "id": 53263,
+            "name": "Briggs",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 98843,
+            "name": "Benalcázar",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 162899,
+            "name": "capitaine crochet",
+            "type": 1,
+            "w": 52
+        },
+        {
+            "id": 233634,
+            "name": "capitaine Bligh",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 93100,
+            "name": "capitaine",
+            "type": 1,
+            "w": 3844
+        },
+        {
+            "id": 140777,
+            "name": "flamme",
+            "type": 1,
+            "w": 3021
+        },
+        {
+            "id": 172687,
+            "name": "capitaine de frégate",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 91460,
+            "name": "capitaine Mayne Reid",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 23070,
+            "name": "animatrice",
+            "type": 1,
+            "w": 323
+        },
+        {
+            "id": 152540,
+            "name": "Haddock",
+            "type": 1,
+            "w": 343
+        },
+        {
+            "id": 172686,
+            "name": "capitaine de corvette",
+            "type": 1,
+            "w": 55
+        },
+        {
+            "id": 32245,
+            "name": "Hatteras",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 26295,
+            "name": "Cock",
+            "type": 1,
+            "w": 55
+        },
+        {
+            "id": 55315,
+            "name": "régatier",
+            "type": 1,
+            "w": 54
+        },
+        {
+            "id": 77959,
+            "name": "Michel",
+            "type": 1,
+            "w": 4580
+        },
+        {
+            "id": 107349,
+            "name": "Grant",
+            "type": 1,
+            "w": 1636
+        },
+        {
+            "id": 226603,
+            "name": "capitaine de la garde",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 57357,
+            "name": "Catinat",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 43831,
+            "name": "Perry",
+            "type": 1,
+            "w": 73
+        },
+        {
+            "id": 172688,
+            "name": "capitaine de vaisseau",
+            "type": 1,
+            "w": 51
+        },
+        {
+            "id": 169655,
+            "name": "capitaine de navire",
+            "type": 1,
+            "w": 71
+        },
+        {
+            "id": 179315,
+            "name": "Klingon",
+            "type": 1,
+            "w": 74
+        },
+        {
+            "id": 75672,
+            "name": "Hunter",
+            "type": 1,
+            "w": 2437
+        },
+        {
+            "id": 42019,
+            "name": "Gordon",
+            "type": 1,
+            "w": 2309
+        },
+        {
+            "id": 121095,
+            "name": "agent de maîtrise",
+            "type": 1,
+            "w": 53
+        },
+        {
+            "id": 783,
+            "name": "capitaine Haddock",
+            "type": 1,
+            "w": 544
+        }
+    ],
+    "relations": [
+        {
+            "id": 1218611427,
+            "node1": 93100,
+            "node2": 783,
+            "type": 8,
+            "w": 15.0
+        },
+        {
+            "id": 721689188,
+            "node1": 93100,
+            "node2": 23070,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 780412255,
+            "node1": 93100,
+            "node2": 26295,
+            "type": 8,
+            "w": 26.0
+        },
+        {
+            "id": 1010966368,
+            "node1": 93100,
+            "node2": 32245,
+            "type": 8,
+            "w": 2.0
+        },
+        {
+            "id": 1074951494,
+            "node1": 93100,
+            "node2": 42019,
+            "type": 8,
+            "w": 20.0
+        },
+        {
+            "id": 780405758,
+            "node1": 93100,
+            "node2": 43831,
+            "type": 8,
+            "w": 26.0
+        },
+        {
+            "id": 781774562,
+            "node1": 93100,
+            "node2": 53263,
+            "type": 8,
+            "w": 26.0
+        },
+        {
+            "id": 9624158,
+            "node1": 93100,
+            "node2": 55315,
+            "type": 8,
+            "w": 39.0
+        },
+        {
+            "id": 247425938,
+            "node1": 93100,
+            "node2": 57357,
+            "type": 8,
+            "w": 35.0
+        },
+        {
+            "id": 1075078146,
+            "node1": 93100,
+            "node2": 75672,
+            "type": 8,
+            "w": 21.0
+        },
+        {
+            "id": 780409330,
+            "node1": 93100,
+            "node2": 77959,
+            "type": 8,
+            "w": 34.0
+        },
+        {
+            "id": 27810731,
+            "node1": 93100,
+            "node2": 91460,
+            "type": 8,
+            "w": 32.0
+        },
+        {
+            "id": 282209655,
+            "node1": 93100,
+            "node2": 98843,
+            "type": 8,
+            "w": 19.0
+        },
+        {
+            "id": 1076019840,
+            "node1": 93100,
+            "node2": 107349,
+            "type": 8,
+            "w": 21.0
+        },
+        {
+            "id": 723267208,
+            "node1": 93100,
+            "node2": 121095,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 151360,
+            "node1": 93100,
+            "node2": 140777,
+            "type": 8,
+            "w": 101.0
+        },
+        {
+            "id": 147188,
+            "node1": 93100,
+            "node2": 152540,
+            "type": 8,
+            "w": 111.0
+        },
+        {
+            "id": 30214367,
+            "node1": 93100,
+            "node2": 162899,
+            "type": 8,
+            "w": 31.0
+        },
+        {
+            "id": 30805312,
+            "node1": 93100,
+            "node2": 169655,
+            "type": 8,
+            "w": 40.0
+        },
+        {
+            "id": 30821049,
+            "node1": 93100,
+            "node2": 172686,
+            "type": 8,
+            "w": 34.0
+        },
+        {
+            "id": 30820004,
+            "node1": 93100,
+            "node2": 172687,
+            "type": 8,
+            "w": 36.0
+        },
+        {
+            "id": 30821092,
+            "node1": 93100,
+            "node2": 172688,
+            "type": 8,
+            "w": 28.0
+        },
+        {
+            "id": 1076123228,
+            "node1": 93100,
+            "node2": 179315,
+            "type": 8,
+            "w": 21.0
+        },
+        {
+            "id": 9682121,
+            "node1": 93100,
+            "node2": 226603,
+            "type": 8,
+            "w": 43.0
+        },
+        {
+            "id": 31642175,
+            "node1": 93100,
+            "node2": 233634,
+            "type": 8,
+            "w": 32.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            8
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T19:14:55.323898",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 25,
+        "max_relation_weight": 111.0,
+        "#nodes": 26,
+        "duration": "0:00:00.000862"
+    }
+}

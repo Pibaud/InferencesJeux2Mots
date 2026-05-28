@@ -1,0 +1,63 @@
+{
+    "nodes": [
+        {
+            "id": 15229,
+            "name": "aéronautique",
+            "type": 1,
+            "w": 3806
+        },
+        {
+            "id": 27697,
+            "name": "boeing",
+            "type": 1,
+            "w": 223
+        }
+    ],
+    "relations": [
+        {
+            "id": 15344521,
+            "node1": 27697,
+            "node2": 15229,
+            "type": 0,
+            "w": 41.0
+        },
+        {
+            "id": 2238528,
+            "node1": 27697,
+            "node2": 15229,
+            "type": 3,
+            "w": 40.0
+        },
+        {
+            "id": 1038585343,
+            "node1": 27697,
+            "node2": 15229,
+            "type": 666,
+            "w": 6.0
+        }
+    ],
+    "request": {
+        "types_ids": null,
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:30:04.944202",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 3,
+        "max_relation_weight": 41.0,
+        "duration": "0:00:00.001484"
+    }
+}

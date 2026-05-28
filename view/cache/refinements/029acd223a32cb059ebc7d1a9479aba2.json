@@ -1,0 +1,109 @@
+{
+    "nodes": [
+        {
+            "id": 146050,
+            "name": "militaire",
+            "type": 1,
+            "w": 10887,
+            "c": 0,
+            "level": 47.2982,
+            "infoid": null,
+            "creationdate": "2007-06-28",
+            "touchdate": "2026-05-28T19:27:58"
+        },
+        {
+            "id": 102633,
+            "name": "soldat",
+            "type": 1,
+            "w": 7036,
+            "c": 0,
+            "level": 45.551,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T19:25:56"
+        },
+        {
+            "id": 37224,
+            "name": "autoritaire",
+            "type": 1,
+            "w": 773,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T18:08:38"
+        },
+        {
+            "id": 160444,
+            "name": "relatif à l'armée",
+            "type": 1,
+            "w": 76,
+            "c": 0,
+            "level": 60.7422,
+            "infoid": null,
+            "creationdate": "2008-05-01",
+            "touchdate": "2026-05-18T00:01:36"
+        },
+        {
+            "id": 2764,
+            "name": "discipliné",
+            "type": 1,
+            "w": 149,
+            "c": 0,
+            "level": 43.7612,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T18:42:19"
+        }
+    ],
+    "refinements": [
+        {
+            "id": 3179019,
+            "name": "militaire>2764",
+            "type": 1,
+            "w": 0,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2016-06-01",
+            "touchdate": "2024-09-04T07:46:59",
+            "refinement": "discipliné"
+        },
+        {
+            "id": 329589,
+            "name": "militaire>102633",
+            "type": 1,
+            "w": 130,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2014-04-19",
+            "touchdate": "2026-05-28T13:33:06",
+            "refinement": "soldat"
+        },
+        {
+            "id": 329590,
+            "name": "militaire>160444",
+            "type": 1,
+            "w": 132,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2014-04-19",
+            "touchdate": "2026-05-27T20:53:49",
+            "refinement": "relatif à l'armée"
+        },
+        {
+            "id": 3179018,
+            "name": "militaire>37224",
+            "type": 1,
+            "w": 4,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2016-06-01",
+            "touchdate": "2026-05-27T13:58:42",
+            "refinement": "autoritaire"
+        }
+    ]
+}

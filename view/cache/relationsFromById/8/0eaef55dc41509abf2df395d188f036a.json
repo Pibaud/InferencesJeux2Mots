@@ -1,0 +1,364 @@
+{
+    "nodes": [
+        {
+            "id": 11555105,
+            "name": "H.263",
+            "type": 777,
+            "w": 25
+        },
+        {
+            "id": 15309939,
+            "name": "recommandation à la vente",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 15217057,
+            "name": "recommandation à vendre",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15309941,
+            "name": "recommandation à l'achat",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 16765384,
+            "name": "recommandation temporaire",
+            "type": 777,
+            "w": 25
+        },
+        {
+            "id": 15309937,
+            "name": "recommandation européenne",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 6594504,
+            "name": "XML Signature",
+            "type": 777,
+            "w": 25
+        },
+        {
+            "id": 5714681,
+            "name": "H.261",
+            "type": 777,
+            "w": 25
+        },
+        {
+            "id": 5714682,
+            "name": "H.262",
+            "type": 777,
+            "w": 25
+        },
+        {
+            "id": 6359164,
+            "name": "recommandation à un spécialiste",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 6382202,
+            "name": "recommandation d'un professionnel",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 6438956,
+            "name": "recommandation sur l'hygiène buccale",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15216309,
+            "name": "recommandation achat",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 7101459,
+            "name": "en:referral",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 12626179,
+            "name": "espace de noms XML",
+            "type": 777,
+            "w": 25
+        },
+        {
+            "id": 2876599,
+            "name": "exhortation apostolique",
+            "type": 777,
+            "w": 41
+        },
+        {
+            "id": 5714683,
+            "name": "MPEG-2 Vidéo",
+            "type": 777,
+            "w": 25
+        },
+        {
+            "id": 181829,
+            "name": "coup de c&oelig;ur",
+            "type": 1,
+            "w": 98
+        },
+        {
+            "id": 344354,
+            "name": "consigne de vote",
+            "type": 1,
+            "w": 66
+        },
+        {
+            "id": 375552,
+            "name": "recommandation expresse",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 5804580,
+            "name": "Simple Knowledge Organization System",
+            "type": 777,
+            "w": 25
+        },
+        {
+            "id": 11572498,
+            "name": "Rule Interchange Format",
+            "type": 777,
+            "w": 25
+        },
+        {
+            "id": 16180951,
+            "name": "protection planétaire",
+            "type": 777,
+            "w": 33
+        },
+        {
+            "id": 2215,
+            "name": "coup de coeur",
+            "type": 1,
+            "w": 162
+        },
+        {
+            "id": 127846,
+            "name": "recommandation",
+            "type": 1,
+            "w": 1933
+        },
+        {
+            "id": 60026,
+            "name": "prescription",
+            "type": 1,
+            "w": 1212
+        }
+    ],
+    "relations": [
+        {
+            "id": 427939389,
+            "node1": 127846,
+            "node2": 2215,
+            "type": 8,
+            "w": 1.0
+        },
+        {
+            "id": 18556691,
+            "node1": 127846,
+            "node2": 60026,
+            "type": 8,
+            "w": 930.5
+        },
+        {
+            "id": 1076164143,
+            "node1": 127846,
+            "node2": 181829,
+            "type": 8,
+            "w": 20.0
+        },
+        {
+            "id": 246608828,
+            "node1": 127846,
+            "node2": 344354,
+            "type": 8,
+            "w": 31.0
+        },
+        {
+            "id": 33857683,
+            "node1": 127846,
+            "node2": 375552,
+            "type": 8,
+            "w": 51.0
+        },
+        {
+            "id": 278462454,
+            "node1": 127846,
+            "node2": 2876599,
+            "type": 8,
+            "w": 710.5
+        },
+        {
+            "id": 246981468,
+            "node1": 127846,
+            "node2": 5714681,
+            "type": 8,
+            "w": 32.0
+        },
+        {
+            "id": 246963230,
+            "node1": 127846,
+            "node2": 5714682,
+            "type": 8,
+            "w": 39.0
+        },
+        {
+            "id": 246963232,
+            "node1": 127846,
+            "node2": 5714683,
+            "type": 8,
+            "w": 31.0
+        },
+        {
+            "id": 247041427,
+            "node1": 127846,
+            "node2": 5804580,
+            "type": 8,
+            "w": 26.0
+        },
+        {
+            "id": 302789605,
+            "node1": 127846,
+            "node2": 6359164,
+            "type": 8,
+            "w": 903.0
+        },
+        {
+            "id": 788761551,
+            "node1": 127846,
+            "node2": 6382202,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 248528697,
+            "node1": 127846,
+            "node2": 6438956,
+            "type": 8,
+            "w": 36.0
+        },
+        {
+            "id": 247683521,
+            "node1": 127846,
+            "node2": 6594504,
+            "type": 8,
+            "w": 29.0
+        },
+        {
+            "id": 794451598,
+            "node1": 127846,
+            "node2": 7101459,
+            "type": 8,
+            "w": 22.0
+        },
+        {
+            "id": 296728122,
+            "node1": 127846,
+            "node2": 11555105,
+            "type": 8,
+            "w": 948.0
+        },
+        {
+            "id": 297319534,
+            "node1": 127846,
+            "node2": 11572498,
+            "type": 8,
+            "w": 947.0
+        },
+        {
+            "id": 328422224,
+            "node1": 127846,
+            "node2": 12626179,
+            "type": 8,
+            "w": 5.0
+        },
+        {
+            "id": 788761397,
+            "node1": 127846,
+            "node2": 15216309,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 788761862,
+            "node1": 127846,
+            "node2": 15217057,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 788761799,
+            "node1": 127846,
+            "node2": 15309937,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 788761861,
+            "node1": 127846,
+            "node2": 15309939,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 788761860,
+            "node1": 127846,
+            "node2": 15309941,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 778460804,
+            "node1": 127846,
+            "node2": 16180951,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 778214151,
+            "node1": 127846,
+            "node2": 16765384,
+            "type": 8,
+            "w": 25.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            8
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T19:14:58.481479",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 25,
+        "max_relation_weight": 948.0,
+        "#nodes": 26,
+        "duration": "0:00:00.006770"
+    }
+}

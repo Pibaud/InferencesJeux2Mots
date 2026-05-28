@@ -1,0 +1,208 @@
+{
+    "nodes": [
+        {
+            "id": 317933060,
+            "name": "Montpellier Sup Agro",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 100220138,
+            "name": "Montpellier Université Club>71277",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 101489468,
+            "name": "Montpellier HSC>2003537",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 114400119,
+            "name": "Montpellier Université Club Canoë Kayak",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 114400121,
+            "name": "Montpellier Métropole Hockey Club",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 114400120,
+            "name": "Montpellier Fire Sharks",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 148307057,
+            "name": "Montpellier PSC",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 239623249,
+            "name": "Montpellier Hérault Sport Club Volley-Ball",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 3302962,
+            "name": "Montpellier rugby club",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 297180624,
+            "name": "Montpellier Université Club est souvent associé à",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 114400122,
+            "name": "Montpellier rugby club>2003537",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 130308130,
+            "name": "Montpellier Agglomération",
+            "type": 1,
+            "w": 26
+        },
+        {
+            "id": 124100,
+            "name": "Montpellier",
+            "type": 1,
+            "w": 3794
+        },
+        {
+            "id": 100993257,
+            "name": "Montpellier Hérault Sport Club>2003537",
+            "type": 1,
+            "w": 25
+        }
+    ],
+    "relations": [
+        {
+            "id": 790422155,
+            "node1": 124100,
+            "node2": 3302962,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790422154,
+            "node1": 124100,
+            "node2": 100220138,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790422150,
+            "node1": 124100,
+            "node2": 100993257,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790422149,
+            "node1": 124100,
+            "node2": 101489468,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790422153,
+            "node1": 124100,
+            "node2": 114400119,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790422148,
+            "node1": 124100,
+            "node2": 114400120,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790422151,
+            "node1": 124100,
+            "node2": 114400121,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790422156,
+            "node1": 124100,
+            "node2": 114400122,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790422147,
+            "node1": 124100,
+            "node2": 130308130,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790422152,
+            "node1": 124100,
+            "node2": 148307057,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790422146,
+            "node1": 124100,
+            "node2": 239623249,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 774493330,
+            "node1": 124100,
+            "node2": 297180624,
+            "type": 8,
+            "w": 1.0
+        },
+        {
+            "id": 963114377,
+            "node1": 124100,
+            "node2": 317933060,
+            "type": 8,
+            "w": 1.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            8
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T18:54:04.810419",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 13,
+        "max_relation_weight": 25.0,
+        "#nodes": 14,
+        "duration": "0:00:00.002471"
+    }
+}

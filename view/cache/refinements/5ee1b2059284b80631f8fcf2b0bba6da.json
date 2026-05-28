@@ -1,0 +1,154 @@
+{
+    "nodes": [
+        {
+            "id": 31864,
+            "name": "kiwi",
+            "type": 1,
+            "w": 1052,
+            "c": 0,
+            "level": 60.2474,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T14:10:33"
+        },
+        {
+            "id": 87286,
+            "name": "fruit",
+            "type": 1,
+            "w": 9915,
+            "c": 0,
+            "level": 54.355,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T18:49:01"
+        },
+        {
+            "id": 171869,
+            "name": "Adj:",
+            "type": 4,
+            "w": 50,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2015-12-28",
+            "touchdate": "2026-05-28T19:11:39"
+        },
+        {
+            "id": 171870,
+            "name": "Nom:",
+            "type": 4,
+            "w": 50,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2015-12-28",
+            "touchdate": "2026-05-28T19:20:10"
+        },
+        {
+            "id": 80812,
+            "name": "Nouvelle-Zélande",
+            "type": 1,
+            "w": 3458,
+            "c": 0,
+            "level": 44.1718,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T14:09:03"
+        },
+        {
+            "id": 140176,
+            "name": "oiseau",
+            "type": 1,
+            "w": 11979,
+            "c": 0,
+            "level": 60.2244,
+            "infoid": null,
+            "creationdate": "2007-06-28",
+            "touchdate": "2026-05-28T16:38:36"
+        }
+    ],
+    "refinements": [
+        {
+            "id": 599841,
+            "name": "kiwi>171870",
+            "type": 1,
+            "w": 25,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2014-12-05",
+            "touchdate": "2026-05-22T09:08:59",
+            "refinement": "Nom:"
+        },
+        {
+            "id": 599842,
+            "name": "kiwi>171869",
+            "type": 1,
+            "w": 25,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2014-12-05",
+            "touchdate": "2025-05-21T20:32:36",
+            "refinement": "Adj:"
+        },
+        {
+            "id": 3383541,
+            "name": "kiwi>80812",
+            "type": 1,
+            "w": 26,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2016-10-17",
+            "touchdate": "2026-05-27T06:03:36",
+            "refinement": "Nouvelle-Zélande"
+        },
+        {
+            "id": 213436,
+            "name": "kiwi>87286",
+            "type": 1,
+            "w": 64,
+            "c": 0,
+            "level": 50.8648,
+            "infoid": null,
+            "creationdate": "2009-12-15",
+            "touchdate": "2026-05-28T13:18:23",
+            "refinement": "fruit"
+        },
+        {
+            "id": 684432130,
+            "name": "kiwi>80812>25996",
+            "type": 1,
+            "w": 0,
+            "c": 0,
+            "level": 200.0,
+            "infoid": 0,
+            "creationdate": "2026-05-12",
+            "touchdate": "2026-05-24T11:36:55"
+        },
+        {
+            "id": 684428502,
+            "name": "kiwi>80812>116477",
+            "type": 1,
+            "w": 0,
+            "c": 0,
+            "level": 200.0,
+            "infoid": 0,
+            "creationdate": "2026-05-12",
+            "touchdate": "2026-05-25T20:13:46"
+        },
+        {
+            "id": 213437,
+            "name": "kiwi>140176",
+            "type": 1,
+            "w": 50,
+            "c": 0,
+            "level": 198.0,
+            "infoid": null,
+            "creationdate": "2009-12-15",
+            "touchdate": "2026-05-28T14:11:55",
+            "refinement": "oiseau"
+        }
+    ]
+}

@@ -1,0 +1,176 @@
+{
+    "nodes": [
+        {
+            "id": 102633,
+            "name": "soldat",
+            "type": 1,
+            "w": 7036,
+            "c": 0,
+            "level": 45.551,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T19:25:56"
+        },
+        {
+            "id": 2949675,
+            "name": "défenseur d'une cause",
+            "type": 1,
+            "w": 31,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2016-03-06",
+            "touchdate": "2026-05-08T02:52:40"
+        },
+        {
+            "id": 146881,
+            "name": "Nom:Fem+SG",
+            "type": 4,
+            "w": 50,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2007-07-03",
+            "touchdate": "2026-05-28T19:25:47"
+        },
+        {
+            "id": 146885,
+            "name": "Nom:Mas+SG",
+            "type": 4,
+            "w": 50,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2007-07-03",
+            "touchdate": "2026-05-28T19:25:47"
+        },
+        {
+            "id": 146050,
+            "name": "militaire",
+            "type": 1,
+            "w": 10887,
+            "c": 0,
+            "level": 47.2982,
+            "infoid": null,
+            "creationdate": "2007-06-28",
+            "touchdate": "2026-05-28T19:25:51"
+        },
+        {
+            "id": 71926,
+            "name": "insecte",
+            "type": 1,
+            "w": 10213,
+            "c": 0,
+            "level": 67.7801,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T17:50:47"
+        }
+    ],
+    "refinements": [
+        {
+            "id": 1449597,
+            "name": "soldat>146050",
+            "type": 1,
+            "w": 182,
+            "c": 0,
+            "level": 199.0,
+            "infoid": null,
+            "creationdate": "2015-02-01",
+            "touchdate": "2026-05-28T19:25:46",
+            "refinement": "militaire"
+        },
+        {
+            "id": 2949676,
+            "name": "soldat>2949675",
+            "type": 1,
+            "w": 25,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2016-03-06",
+            "touchdate": "2026-05-27T20:51:15",
+            "refinement": "défenseur d'une cause"
+        },
+        {
+            "id": 10909844,
+            "name": "soldat>146050>116863",
+            "type": 1,
+            "w": 25,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2018-04-28",
+            "touchdate": "2026-05-27T16:14:13"
+        },
+        {
+            "id": 2949680,
+            "name": "soldat>146881",
+            "type": 1,
+            "w": 25,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2016-03-06",
+            "touchdate": "2025-05-30T15:04:23",
+            "refinement": "Nom:Fem+SG"
+        },
+        {
+            "id": 1449596,
+            "name": "soldat>71926",
+            "type": 1,
+            "w": 25,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2015-02-01",
+            "touchdate": "2026-05-28T15:49:40",
+            "refinement": "insecte"
+        },
+        {
+            "id": 10909834,
+            "name": "soldat>146050>136307",
+            "type": 1,
+            "w": 28,
+            "c": 0,
+            "level": 199.0,
+            "infoid": null,
+            "creationdate": "2018-04-28",
+            "touchdate": "2026-05-28T14:07:53"
+        },
+        {
+            "id": 2949679,
+            "name": "soldat>146885",
+            "type": 1,
+            "w": 25,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2016-03-06",
+            "touchdate": "2026-05-28T14:11:01",
+            "refinement": "Nom:Mas+SG"
+        },
+        {
+            "id": 10909837,
+            "name": "soldat>146050>57904",
+            "type": 1,
+            "w": 2,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2018-04-28",
+            "touchdate": "2026-05-27T20:51:15"
+        },
+        {
+            "id": 10909845,
+            "name": "soldat>146050>145971",
+            "type": 1,
+            "w": 25,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2018-04-28",
+            "touchdate": "2026-05-27T23:24:39"
+        }
+    ]
+}

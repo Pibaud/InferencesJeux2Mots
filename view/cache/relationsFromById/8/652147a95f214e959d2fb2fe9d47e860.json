@@ -1,0 +1,364 @@
+{
+    "nodes": [
+        {
+            "id": 198885,
+            "name": "dormir les yeux ouverts",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 198884,
+            "name": "dormir en repos",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 210677,
+            "name": "dormir sur un matelas d'or",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 210678,
+            "name": "dormir sur un tas d'or",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 236707,
+            "name": "dormir d'un oeil",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 239593,
+            "name": "dormir à moitié",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 248453,
+            "name": "dormir en chien de fusil",
+            "type": 1,
+            "w": 52
+        },
+        {
+            "id": 254933,
+            "name": "dormir à l'hôtel du cul tourné",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 255237,
+            "name": "dormir encore",
+            "type": 1,
+            "w": 62
+        },
+        {
+            "id": 46045,
+            "name": "se coucher",
+            "type": 1,
+            "w": 507
+        },
+        {
+            "id": 43253,
+            "name": "dormir",
+            "type": 1,
+            "w": 11094
+        },
+        {
+            "id": 239499,
+            "name": "dormir à la belle étoile",
+            "type": 1,
+            "w": 60
+        },
+        {
+            "id": 329632,
+            "name": "dormir par terre",
+            "type": 1,
+            "w": 55
+        },
+        {
+            "id": 162724,
+            "name": "tomber de sommeil",
+            "type": 1,
+            "w": 68
+        },
+        {
+            "id": 74532,
+            "name": "être dans les bras de Morphée",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 160597,
+            "name": "dormir sur le canapé",
+            "type": 1,
+            "w": 70
+        },
+        {
+            "id": 329620,
+            "name": "dormir à la dure",
+            "type": 1,
+            "w": 54
+        },
+        {
+            "id": 185971,
+            "name": "dormir comme une marmotte",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 236708,
+            "name": "dormir comme une souche",
+            "type": 1,
+            "w": 8
+        },
+        {
+            "id": 21152,
+            "name": "en écraser",
+            "type": 1,
+            "w": 75
+        },
+        {
+            "id": 264150,
+            "name": "bien dormir",
+            "type": 1,
+            "w": 135
+        },
+        {
+            "id": 162940,
+            "name": "dormir sur ses deux oreilles",
+            "type": 1,
+            "w": 58
+        },
+        {
+            "id": 218312,
+            "name": "dormir à poings fermés",
+            "type": 1,
+            "w": 2
+        },
+        {
+            "id": 185970,
+            "name": "dormir comme un loir",
+            "type": 1,
+            "w": 14
+        },
+        {
+            "id": 185972,
+            "name": "dormir debout",
+            "type": 1,
+            "w": 72
+        },
+        {
+            "id": 157970,
+            "name": "faire la sieste",
+            "type": 1,
+            "w": 280
+        }
+    ],
+    "relations": [
+        {
+            "id": 782057657,
+            "node1": 43253,
+            "node2": 21152,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 1027754219,
+            "node1": 43253,
+            "node2": 46045,
+            "type": 8,
+            "w": 20.0
+        },
+        {
+            "id": 622750864,
+            "node1": 43253,
+            "node2": 74532,
+            "type": 8,
+            "w": 4.0
+        },
+        {
+            "id": 1027754222,
+            "node1": 43253,
+            "node2": 157970,
+            "type": 8,
+            "w": 20.0
+        },
+        {
+            "id": 23854355,
+            "node1": 43253,
+            "node2": 160597,
+            "type": 8,
+            "w": 35.0
+        },
+        {
+            "id": 723288962,
+            "node1": 43253,
+            "node2": 162724,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 782046192,
+            "node1": 43253,
+            "node2": 162940,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 420047781,
+            "node1": 43253,
+            "node2": 185970,
+            "type": 8,
+            "w": 3.0
+        },
+        {
+            "id": 712353336,
+            "node1": 43253,
+            "node2": 185971,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 14195825,
+            "node1": 43253,
+            "node2": 185972,
+            "type": 8,
+            "w": 26.0
+        },
+        {
+            "id": 796154989,
+            "node1": 43253,
+            "node2": 198884,
+            "type": 8,
+            "w": 22.0
+        },
+        {
+            "id": 796154998,
+            "node1": 43253,
+            "node2": 198885,
+            "type": 8,
+            "w": 30.0
+        },
+        {
+            "id": 796155026,
+            "node1": 43253,
+            "node2": 210677,
+            "type": 8,
+            "w": 30.0
+        },
+        {
+            "id": 796155027,
+            "node1": 43253,
+            "node2": 210678,
+            "type": 8,
+            "w": 30.0
+        },
+        {
+            "id": 723268758,
+            "node1": 43253,
+            "node2": 218312,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 796154959,
+            "node1": 43253,
+            "node2": 236707,
+            "type": 8,
+            "w": 29.0
+        },
+        {
+            "id": 28205865,
+            "node1": 43253,
+            "node2": 236708,
+            "type": 8,
+            "w": 30.0
+        },
+        {
+            "id": 796155038,
+            "node1": 43253,
+            "node2": 239499,
+            "type": 8,
+            "w": 28.0
+        },
+        {
+            "id": 796155040,
+            "node1": 43253,
+            "node2": 239593,
+            "type": 8,
+            "w": 24.0
+        },
+        {
+            "id": 18377390,
+            "node1": 43253,
+            "node2": 248453,
+            "type": 8,
+            "w": 29.0
+        },
+        {
+            "id": 796155037,
+            "node1": 43253,
+            "node2": 254933,
+            "type": 8,
+            "w": 21.0
+        },
+        {
+            "id": 796154993,
+            "node1": 43253,
+            "node2": 255237,
+            "type": 8,
+            "w": 30.0
+        },
+        {
+            "id": 14183436,
+            "node1": 43253,
+            "node2": 264150,
+            "type": 8,
+            "w": 30.0
+        },
+        {
+            "id": 796155039,
+            "node1": 43253,
+            "node2": 329620,
+            "type": 8,
+            "w": 21.0
+        },
+        {
+            "id": 796155005,
+            "node1": 43253,
+            "node2": 329632,
+            "type": 8,
+            "w": 22.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            8
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T19:23:38.472143",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 25,
+        "max_relation_weight": 35.0,
+        "#nodes": 26,
+        "duration": "0:00:00.008078"
+    }
+}

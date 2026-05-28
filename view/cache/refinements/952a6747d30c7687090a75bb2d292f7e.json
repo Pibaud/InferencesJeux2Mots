@@ -1,0 +1,63 @@
+{
+    "nodes": [
+        {
+            "id": 35712,
+            "name": "atome",
+            "type": 1,
+            "w": 2957,
+            "c": 0,
+            "level": 52.1184,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T14:21:14"
+        },
+        {
+            "id": 165054,
+            "name": "petite quantité",
+            "type": 1,
+            "w": 86,
+            "c": 0,
+            "level": 52.1656,
+            "infoid": null,
+            "creationdate": "2008-10-22",
+            "touchdate": "2026-05-28T11:40:52"
+        },
+        {
+            "id": 43504,
+            "name": "physique",
+            "type": 1,
+            "w": 10604,
+            "c": 0,
+            "level": 46.1732,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T18:10:26"
+        }
+    ],
+    "refinements": [
+        {
+            "id": 248412,
+            "name": "atome>165054",
+            "type": 1,
+            "w": 50,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2012-06-21",
+            "touchdate": "2026-05-24T17:06:52",
+            "refinement": "petite quantité"
+        },
+        {
+            "id": 248411,
+            "name": "atome>43504",
+            "type": 1,
+            "w": 34,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2012-06-21",
+            "touchdate": "2026-05-24T17:06:52",
+            "refinement": "physique"
+        }
+    ]
+}

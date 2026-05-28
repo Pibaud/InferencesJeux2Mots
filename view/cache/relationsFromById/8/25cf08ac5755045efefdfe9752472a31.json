@@ -1,0 +1,156 @@
+{
+    "nodes": [
+        {
+            "id": 167586,
+            "name": "mussolinien",
+            "type": 1,
+            "w": 61
+        },
+        {
+            "id": 37224,
+            "name": "autoritaire",
+            "type": 1,
+            "w": 773
+        },
+        {
+            "id": 4058795,
+            "name": "trotskard",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 2439158,
+            "name": "trotzkiste",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 48505,
+            "name": "maoïste",
+            "type": 1,
+            "w": 56
+        },
+        {
+            "id": 40788,
+            "name": "hitlérien",
+            "type": 1,
+            "w": 61
+        },
+        {
+            "id": 72730,
+            "name": "trotskyste",
+            "type": 1,
+            "w": 64
+        },
+        {
+            "id": 16811,
+            "name": "identitaire",
+            "type": 1,
+            "w": 459
+        },
+        {
+            "id": 30904,
+            "name": "trotskiste",
+            "type": 1,
+            "w": 73
+        },
+        {
+            "id": 175055,
+            "name": "staliniste",
+            "type": 1,
+            "w": 5
+        }
+    ],
+    "relations": [
+        {
+            "id": 8861290,
+            "node1": 37224,
+            "node2": 16811,
+            "type": 8,
+            "w": 91.0
+        },
+        {
+            "id": 8861287,
+            "node1": 37224,
+            "node2": 30904,
+            "type": 8,
+            "w": 91.0
+        },
+        {
+            "id": 8861288,
+            "node1": 37224,
+            "node2": 40788,
+            "type": 8,
+            "w": 91.0
+        },
+        {
+            "id": 8861283,
+            "node1": 37224,
+            "node2": 48505,
+            "type": 8,
+            "w": 91.0
+        },
+        {
+            "id": 13579223,
+            "node1": 37224,
+            "node2": 72730,
+            "type": 8,
+            "w": 34.0
+        },
+        {
+            "id": 8861282,
+            "node1": 37224,
+            "node2": 167586,
+            "type": 8,
+            "w": 91.0
+        },
+        {
+            "id": 8861284,
+            "node1": 37224,
+            "node2": 175055,
+            "type": 8,
+            "w": 91.0
+        },
+        {
+            "id": 242996099,
+            "node1": 37224,
+            "node2": 2439158,
+            "type": 8,
+            "w": 28.0
+        },
+        {
+            "id": 380022823,
+            "node1": 37224,
+            "node2": 4058795,
+            "type": 8,
+            "w": 29.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            8
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T19:28:02.007434",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 9,
+        "max_relation_weight": 91.0,
+        "#nodes": 10,
+        "duration": "0:00:00.002216"
+    }
+}

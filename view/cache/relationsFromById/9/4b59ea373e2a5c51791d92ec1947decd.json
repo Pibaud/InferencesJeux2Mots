@@ -1,0 +1,182 @@
+{
+    "nodes": [
+        {
+            "id": 215720,
+            "name": "voiture>95706",
+            "type": 1,
+            "w": 977
+        },
+        {
+            "id": 441732185,
+            "name": "souris adaptative",
+            "type": 1,
+            "w": 3
+        },
+        {
+            "id": 139779,
+            "name": "ADN",
+            "type": 1,
+            "w": 3766
+        },
+        {
+            "id": 15234259,
+            "name": "en:rigid disk",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15234260,
+            "name": "en:rigid disc",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 14933683,
+            "name": "en:hard disk",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15065364,
+            "name": "en:hard disc",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 27872,
+            "name": "échangeur",
+            "type": 1,
+            "w": 143
+        },
+        {
+            "id": 15234261,
+            "name": "en:harddisk",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 59236,
+            "name": "disque dur",
+            "type": 1,
+            "w": 921
+        },
+        {
+            "id": 14933684,
+            "name": "en:hard drive",
+            "type": 1,
+            "w": 2
+        },
+        {
+            "id": 108797,
+            "name": "périphérique",
+            "type": 1,
+            "w": 2102
+        }
+    ],
+    "relations": [
+        {
+            "id": 10567139,
+            "node1": 108797,
+            "node2": 27872,
+            "type": 9,
+            "w": 11.0
+        },
+        {
+            "id": 10527958,
+            "node1": 108797,
+            "node2": 59236,
+            "type": 9,
+            "w": 9.0
+        },
+        {
+            "id": 1218930207,
+            "node1": 108797,
+            "node2": 139779,
+            "type": 9,
+            "w": 15.0
+        },
+        {
+            "id": 694897484,
+            "node1": 108797,
+            "node2": 215720,
+            "type": 9,
+            "w": -25.0
+        },
+        {
+            "id": 539458818,
+            "node1": 108797,
+            "node2": 14933683,
+            "type": 9,
+            "w": 27.0
+        },
+        {
+            "id": 539458827,
+            "node1": 108797,
+            "node2": 14933684,
+            "type": 9,
+            "w": 31.0
+        },
+        {
+            "id": 929485335,
+            "node1": 108797,
+            "node2": 15065364,
+            "type": 9,
+            "w": 25.0
+        },
+        {
+            "id": 929485276,
+            "node1": 108797,
+            "node2": 15234259,
+            "type": 9,
+            "w": 25.0
+        },
+        {
+            "id": 929485384,
+            "node1": 108797,
+            "node2": 15234260,
+            "type": 9,
+            "w": 25.0
+        },
+        {
+            "id": 929485432,
+            "node1": 108797,
+            "node2": 15234261,
+            "type": 9,
+            "w": 25.0
+        },
+        {
+            "id": 1261242772,
+            "node1": 108797,
+            "node2": 441732185,
+            "type": 9,
+            "w": 5.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            9
+        ],
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:51:27.397937",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 11,
+        "max_relation_weight": 31.0,
+        "#nodes": 12,
+        "duration": "0:00:00.001096"
+    }
+}

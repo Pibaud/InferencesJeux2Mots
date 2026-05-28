@@ -1,0 +1,56 @@
+{
+    "nodes": [
+        {
+            "id": 5425,
+            "name": "machine",
+            "type": 1,
+            "w": 9322
+        },
+        {
+            "id": 21314,
+            "name": "carburant",
+            "type": 1,
+            "w": 5079
+        }
+    ],
+    "relations": [
+        {
+            "id": 1151726743,
+            "node1": 5425,
+            "node2": 21314,
+            "type": 0,
+            "w": 21.0
+        },
+        {
+            "id": 1151726423,
+            "node1": 5425,
+            "node2": 21314,
+            "type": 102,
+            "w": 27.0
+        }
+    ],
+    "request": {
+        "types_ids": null,
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T19:18:32.894314",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 2,
+        "max_relation_weight": 27.0,
+        "duration": "0:00:00.000901"
+    }
+}

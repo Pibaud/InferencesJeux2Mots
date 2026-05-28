@@ -1,0 +1,364 @@
+{
+    "nodes": [
+        {
+            "id": 925,
+            "name": "machine de Gramme",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 6243,
+            "name": "hélicoptère",
+            "type": 1,
+            "w": 999
+        },
+        {
+            "id": 164,
+            "name": "vaisseau spatial",
+            "type": 1,
+            "w": 273
+        },
+        {
+            "id": 5425,
+            "name": "machine",
+            "type": 1,
+            "w": 9322
+        },
+        {
+            "id": 5897,
+            "name": "charrette",
+            "type": 1,
+            "w": 131
+        },
+        {
+            "id": 150,
+            "name": "chat",
+            "type": 1,
+            "w": 8050
+        },
+        {
+            "id": 3363,
+            "name": "enfouisseur",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 901,
+            "name": "linotype",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 1996,
+            "name": "protège-tibia",
+            "type": 1,
+            "w": 87
+        },
+        {
+            "id": 2860,
+            "name": "monoplan",
+            "type": 1,
+            "w": 90
+        },
+        {
+            "id": 3899,
+            "name": "va-et-vient",
+            "type": 1,
+            "w": 290
+        },
+        {
+            "id": 4464,
+            "name": "déserté",
+            "type": 1,
+            "w": 121
+        },
+        {
+            "id": 324,
+            "name": "décélérateur",
+            "type": 1,
+            "w": 52
+        },
+        {
+            "id": 25,
+            "name": "décavaillonneuse",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 936,
+            "name": "bélier",
+            "type": 1,
+            "w": 561
+        },
+        {
+            "id": 1627,
+            "name": "riveteuse",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 6130,
+            "name": "écrémeuse",
+            "type": 1,
+            "w": 51
+        },
+        {
+            "id": 5423,
+            "name": "carde",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 2445,
+            "name": "A320",
+            "type": 1,
+            "w": 140
+        },
+        {
+            "id": 4862,
+            "name": "couveuse",
+            "type": 1,
+            "w": 115
+        },
+        {
+            "id": 5519,
+            "name": "sonnette",
+            "type": 1,
+            "w": 449
+        },
+        {
+            "id": 3254,
+            "name": "lamineur",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 1125,
+            "name": "loup",
+            "type": 1,
+            "w": 3960
+        },
+        {
+            "id": 4658,
+            "name": "moteur",
+            "type": 1,
+            "w": 5459
+        },
+        {
+            "id": 652,
+            "name": "disjoncteur",
+            "type": 1,
+            "w": 122
+        },
+        {
+            "id": 3529,
+            "name": "abreuvoir",
+            "type": 1,
+            "w": 119
+        }
+    ],
+    "relations": [
+        {
+            "id": 9674320,
+            "node1": 5425,
+            "node2": 25,
+            "type": 8,
+            "w": 39.0
+        },
+        {
+            "id": 246262039,
+            "node1": 5425,
+            "node2": 150,
+            "type": 8,
+            "w": 36.0
+        },
+        {
+            "id": 9771448,
+            "node1": 5425,
+            "node2": 164,
+            "type": 8,
+            "w": 55.0
+        },
+        {
+            "id": 245435895,
+            "node1": 5425,
+            "node2": 324,
+            "type": 8,
+            "w": 31.0
+        },
+        {
+            "id": 540938795,
+            "node1": 5425,
+            "node2": 652,
+            "type": 8,
+            "w": 27.0
+        },
+        {
+            "id": 242849157,
+            "node1": 5425,
+            "node2": 901,
+            "type": 8,
+            "w": 39.0
+        },
+        {
+            "id": 373441654,
+            "node1": 5425,
+            "node2": 925,
+            "type": 8,
+            "w": 28.0
+        },
+        {
+            "id": 242847828,
+            "node1": 5425,
+            "node2": 936,
+            "type": 8,
+            "w": 34.0
+        },
+        {
+            "id": 246252040,
+            "node1": 5425,
+            "node2": 1125,
+            "type": 8,
+            "w": 26.0
+        },
+        {
+            "id": 427940319,
+            "node1": 5425,
+            "node2": 1627,
+            "type": 8,
+            "w": 2.0
+        },
+        {
+            "id": 245433731,
+            "node1": 5425,
+            "node2": 1996,
+            "type": 8,
+            "w": 27.0
+        },
+        {
+            "id": 9654816,
+            "node1": 5425,
+            "node2": 2445,
+            "type": 8,
+            "w": 30.0
+        },
+        {
+            "id": 9699826,
+            "node1": 5425,
+            "node2": 2860,
+            "type": 8,
+            "w": 52.0
+        },
+        {
+            "id": 242847826,
+            "node1": 5425,
+            "node2": 3254,
+            "type": 8,
+            "w": 34.0
+        },
+        {
+            "id": 245435848,
+            "node1": 5425,
+            "node2": 3363,
+            "type": 8,
+            "w": 28.0
+        },
+        {
+            "id": 242847992,
+            "node1": 5425,
+            "node2": 3529,
+            "type": 8,
+            "w": 31.0
+        },
+        {
+            "id": 242848567,
+            "node1": 5425,
+            "node2": 3899,
+            "type": 8,
+            "w": 32.0
+        },
+        {
+            "id": 779701259,
+            "node1": 5425,
+            "node2": 4464,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 6207104,
+            "node1": 5425,
+            "node2": 4658,
+            "type": 8,
+            "w": 139.0
+        },
+        {
+            "id": 246815739,
+            "node1": 5425,
+            "node2": 4862,
+            "type": 8,
+            "w": 30.0
+        },
+        {
+            "id": 242847593,
+            "node1": 5425,
+            "node2": 5423,
+            "type": 8,
+            "w": 26.0
+        },
+        {
+            "id": 242847976,
+            "node1": 5425,
+            "node2": 5519,
+            "type": 8,
+            "w": 29.0
+        },
+        {
+            "id": 242848760,
+            "node1": 5425,
+            "node2": 5897,
+            "type": 8,
+            "w": 32.0
+        },
+        {
+            "id": 242849323,
+            "node1": 5425,
+            "node2": 6130,
+            "type": 8,
+            "w": 31.0
+        },
+        {
+            "id": 9630065,
+            "node1": 5425,
+            "node2": 6243,
+            "type": 8,
+            "w": 22.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            8
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T19:18:39.168486",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 25,
+        "max_relation_weight": 139.0,
+        "#nodes": 26,
+        "duration": "0:00:00.001537"
+    }
+}

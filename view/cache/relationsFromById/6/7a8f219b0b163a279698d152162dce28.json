@@ -1,0 +1,78 @@
+{
+    "nodes": [
+        {
+            "id": 96851,
+            "name": "pièce",
+            "type": 1,
+            "w": 9351
+        },
+        {
+            "id": 216183,
+            "name": "pièce mécanique",
+            "type": 1,
+            "w": 192
+        },
+        {
+            "id": 433291,
+            "name": "Pièce",
+            "type": 1,
+            "w": 54
+        },
+        {
+            "id": 216172,
+            "name": "pièce>65364",
+            "type": 1,
+            "w": 32
+        }
+    ],
+    "relations": [
+        {
+            "id": 29112060,
+            "node1": 216183,
+            "node2": 96851,
+            "type": 6,
+            "w": 65.0
+        },
+        {
+            "id": 29112066,
+            "node1": 216183,
+            "node2": 216172,
+            "type": 6,
+            "w": 75.0
+        },
+        {
+            "id": 1269019125,
+            "node1": 216183,
+            "node2": 433291,
+            "type": 6,
+            "w": 10.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            6
+        ],
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T19:14:50.543689",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 3,
+        "max_relation_weight": 75.0,
+        "#nodes": 4,
+        "duration": "0:00:00.002886"
+    }
+}

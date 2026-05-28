@@ -1,0 +1,130 @@
+{
+    "nodes": [
+        {
+            "id": 150,
+            "name": "chat",
+            "type": 1,
+            "w": 8050
+        },
+        {
+            "id": 213467,
+            "name": "chat>234460",
+            "type": 1,
+            "w": 88
+        },
+        {
+            "id": 153298,
+            "name": "tchat",
+            "type": 1,
+            "w": 198
+        },
+        {
+            "id": 272027,
+            "name": "dialogue en ligne",
+            "type": 777,
+            "w": 63
+        },
+        {
+            "id": 176298,
+            "name": "clavardage",
+            "type": 1,
+            "w": 40
+        },
+        {
+            "id": 163470,
+            "name": "messagerie instantanée",
+            "type": 1,
+            "w": 286
+        },
+        {
+            "id": 234460,
+            "name": "communication textuelle",
+            "type": 1,
+            "w": 72
+        },
+        {
+            "id": 120026973,
+            "name": "chat>27266",
+            "type": 1,
+            "w": 27
+        }
+    ],
+    "relations": [
+        {
+            "id": 288956771,
+            "node1": 234460,
+            "node2": 150,
+            "type": 8,
+            "w": 22.0
+        },
+        {
+            "id": 376246965,
+            "node1": 234460,
+            "node2": 153298,
+            "type": 8,
+            "w": 28.0
+        },
+        {
+            "id": 376246976,
+            "node1": 234460,
+            "node2": 163470,
+            "type": 8,
+            "w": 27.0
+        },
+        {
+            "id": 376246961,
+            "node1": 234460,
+            "node2": 176298,
+            "type": 8,
+            "w": 39.0
+        },
+        {
+            "id": 287692664,
+            "node1": 234460,
+            "node2": 213467,
+            "type": 8,
+            "w": 56.0
+        },
+        {
+            "id": 376246970,
+            "node1": 234460,
+            "node2": 272027,
+            "type": 8,
+            "w": 32.0
+        },
+        {
+            "id": 781259538,
+            "node1": 234460,
+            "node2": 120026973,
+            "type": 8,
+            "w": 25.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            8
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T18:11:32.880122",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 7,
+        "max_relation_weight": 56.0,
+        "#nodes": 8,
+        "duration": "0:00:00.002464"
+    }
+}

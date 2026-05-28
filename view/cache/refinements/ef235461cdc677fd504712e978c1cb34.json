@@ -1,0 +1,201 @@
+{
+    "nodes": [
+        {
+            "id": 123745,
+            "name": "véhicule",
+            "type": 1,
+            "w": 7213,
+            "c": 0,
+            "level": 42.5588,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T19:11:43"
+        },
+        {
+            "id": 119747,
+            "name": "pharmacologie",
+            "type": 1,
+            "w": 678,
+            "c": 0,
+            "level": 49.923,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T17:47:41"
+        },
+        {
+            "id": 2946892,
+            "name": "Ver:Conjug",
+            "type": 4,
+            "w": 50,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2016-02-28",
+            "touchdate": "2026-05-28T14:36:56"
+        },
+        {
+            "id": 171870,
+            "name": "Nom:",
+            "type": 4,
+            "w": 50,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2015-12-28",
+            "touchdate": "2026-05-28T19:14:28"
+        },
+        {
+            "id": 152778,
+            "name": "moyen de transport",
+            "type": 1,
+            "w": 638,
+            "c": 0,
+            "level": 47.9998,
+            "infoid": null,
+            "creationdate": "2007-10-23",
+            "touchdate": "2026-05-28T17:27:47"
+        },
+        {
+            "id": 103150,
+            "name": "optique",
+            "type": 1,
+            "w": 3217,
+            "c": 0,
+            "level": 40.7373,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T19:05:15"
+        },
+        {
+            "id": 230437,
+            "name": "moyen d'action",
+            "type": 1,
+            "w": 482,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2011-01-14",
+            "touchdate": "2026-05-26T08:25:41"
+        },
+        {
+            "id": 73890,
+            "name": "religion",
+            "type": 1,
+            "w": 13048,
+            "c": 0,
+            "level": 41.6595,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T19:14:30"
+        },
+        {
+            "id": 132722,
+            "name": "vecteur",
+            "type": 1,
+            "w": 3423,
+            "c": 0,
+            "level": 50.142,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T14:57:26"
+        }
+    ],
+    "refinements": [
+        {
+            "id": 14291964,
+            "name": "véhicule>2946892",
+            "type": 1,
+            "w": 0,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2020-01-19",
+            "touchdate": "2024-10-14T15:27:20",
+            "refinement": "Ver:Conjug"
+        },
+        {
+            "id": 14291965,
+            "name": "véhicule>171870",
+            "type": 1,
+            "w": 25,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2020-01-19",
+            "touchdate": "2025-12-09T21:10:31",
+            "refinement": "Nom:"
+        },
+        {
+            "id": 238551,
+            "name": "véhicule>152778",
+            "type": 1,
+            "w": 284,
+            "c": 0,
+            "level": 49.9591,
+            "infoid": null,
+            "creationdate": "2011-08-25",
+            "touchdate": "2026-05-28T19:14:44",
+            "refinement": "moyen de transport"
+        },
+        {
+            "id": 238554,
+            "name": "véhicule>119747",
+            "type": 1,
+            "w": 50,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2011-08-25",
+            "touchdate": "2026-05-27T23:34:08",
+            "refinement": "pharmacologie"
+        },
+        {
+            "id": 238552,
+            "name": "véhicule>103150",
+            "type": 1,
+            "w": 50,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2011-08-25",
+            "touchdate": "2026-05-27T06:14:19",
+            "refinement": "optique"
+        },
+        {
+            "id": 238553,
+            "name": "véhicule>73890",
+            "type": 1,
+            "w": 52,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2011-08-25",
+            "touchdate": "2026-05-28T14:09:10",
+            "refinement": "religion"
+        },
+        {
+            "id": 238550,
+            "name": "véhicule>132722",
+            "type": 1,
+            "w": 8,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2011-08-25",
+            "touchdate": "2026-05-27T06:14:19",
+            "refinement": "vecteur"
+        },
+        {
+            "id": 2579892,
+            "name": "véhicule>230437",
+            "type": 1,
+            "w": 25,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2015-12-01",
+            "touchdate": "2026-05-27T06:14:19",
+            "refinement": "moyen d'action"
+        }
+    ]
+}

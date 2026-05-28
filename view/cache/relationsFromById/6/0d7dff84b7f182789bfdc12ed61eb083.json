@@ -1,0 +1,130 @@
+{
+    "nodes": [
+        {
+            "id": 30520,
+            "name": "rite",
+            "type": 1,
+            "w": 1659
+        },
+        {
+            "id": 5506471,
+            "name": "rite>73890",
+            "type": 1,
+            "w": 8
+        },
+        {
+            "id": 2373231,
+            "name": "sarimonie",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 17489,
+            "name": "service public",
+            "type": 1,
+            "w": 2527
+        },
+        {
+            "id": 267927,
+            "name": "prière>73890",
+            "type": 1,
+            "w": 72
+        },
+        {
+            "id": 63018,
+            "name": "prière",
+            "type": 1,
+            "w": 4721
+        },
+        {
+            "id": 84266,
+            "name": "cérémonie",
+            "type": 1,
+            "w": 4984
+        },
+        {
+            "id": 13872,
+            "name": "liturgie",
+            "type": 1,
+            "w": 316
+        }
+    ],
+    "relations": [
+        {
+            "id": 207166140,
+            "node1": 13872,
+            "node2": 17489,
+            "type": 6,
+            "w": 39.0
+        },
+        {
+            "id": 207166136,
+            "node1": 13872,
+            "node2": 30520,
+            "type": 6,
+            "w": 31.0
+        },
+        {
+            "id": 207166138,
+            "node1": 13872,
+            "node2": 63018,
+            "type": 6,
+            "w": 26.0
+        },
+        {
+            "id": 207166135,
+            "node1": 13872,
+            "node2": 84266,
+            "type": 6,
+            "w": 35.0
+        },
+        {
+            "id": 207166139,
+            "node1": 13872,
+            "node2": 267927,
+            "type": 6,
+            "w": 26.0
+        },
+        {
+            "id": 384051394,
+            "node1": 13872,
+            "node2": 2373231,
+            "type": 6,
+            "w": 28.0
+        },
+        {
+            "id": 207166137,
+            "node1": 13872,
+            "node2": 5506471,
+            "type": 6,
+            "w": 27.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            6
+        ],
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:34:48.545301",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 7,
+        "max_relation_weight": 39.0,
+        "#nodes": 8,
+        "duration": "0:00:00.000755"
+    }
+}

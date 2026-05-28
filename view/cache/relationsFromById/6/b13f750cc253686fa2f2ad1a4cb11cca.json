@@ -1,0 +1,117 @@
+{
+    "nodes": [
+        {
+            "id": 3461,
+            "name": "vent",
+            "type": 1,
+            "w": 11749
+        },
+        {
+            "id": 67768,
+            "name": "bourrasque",
+            "type": 1,
+            "w": 176
+        },
+        {
+            "id": 16032474,
+            "name": "coup de",
+            "type": 1,
+            "w": 28
+        },
+        {
+            "id": 44600,
+            "name": "coup de vent",
+            "type": 1,
+            "w": 178
+        },
+        {
+            "id": 12622,
+            "name": "rafale",
+            "type": 1,
+            "w": 449
+        },
+        {
+            "id": 266237,
+            "name": "phénomène météorologique",
+            "type": 1,
+            "w": 211
+        },
+        {
+            "id": 41417,
+            "name": "coup",
+            "type": 1,
+            "w": 26591
+        }
+    ],
+    "relations": [
+        {
+            "id": 71519822,
+            "node1": 44600,
+            "node2": 3461,
+            "type": 6,
+            "w": 34.0
+        },
+        {
+            "id": 399231815,
+            "node1": 44600,
+            "node2": 12622,
+            "type": 6,
+            "w": 30.0
+        },
+        {
+            "id": 30327790,
+            "node1": 44600,
+            "node2": 41417,
+            "type": 6,
+            "w": 41.0
+        },
+        {
+            "id": 407912249,
+            "node1": 44600,
+            "node2": 67768,
+            "type": 6,
+            "w": 30.0
+        },
+        {
+            "id": 11652051,
+            "node1": 44600,
+            "node2": 266237,
+            "type": 6,
+            "w": 222.0
+        },
+        {
+            "id": 680287658,
+            "node1": 44600,
+            "node2": 16032474,
+            "type": 6,
+            "w": 25.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            6
+        ],
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:26:08.173135",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 6,
+        "max_relation_weight": 222.0,
+        "#nodes": 7,
+        "duration": "0:00:00.000645"
+    }
+}

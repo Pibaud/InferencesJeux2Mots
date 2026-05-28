@@ -1,0 +1,77 @@
+{
+    "nodes": [
+        {
+            "id": 5692,
+            "name": "baiser",
+            "type": 1,
+            "w": 2927
+        },
+        {
+            "id": 1166,
+            "name": "galoche",
+            "type": 1,
+            "w": 100
+        }
+    ],
+    "relations": [
+        {
+            "id": 1583419,
+            "node1": 1166,
+            "node2": 5692,
+            "type": 0,
+            "w": 166.0
+        },
+        {
+            "id": 54629298,
+            "node1": 1166,
+            "node2": 5692,
+            "type": 5,
+            "w": 62.0
+        },
+        {
+            "id": 9927096,
+            "node1": 1166,
+            "node2": 5692,
+            "type": 6,
+            "w": 22.0
+        },
+        {
+            "id": 2341130,
+            "node1": 1166,
+            "node2": 5692,
+            "type": 35,
+            "w": 45.0
+        },
+        {
+            "id": 2219341,
+            "node1": 1166,
+            "node2": 5692,
+            "type": 666,
+            "w": 1.0
+        }
+    ],
+    "request": {
+        "types_ids": null,
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:19:50.238754",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 5,
+        "max_relation_weight": 166.0,
+        "duration": "0:00:00.001894"
+    }
+}

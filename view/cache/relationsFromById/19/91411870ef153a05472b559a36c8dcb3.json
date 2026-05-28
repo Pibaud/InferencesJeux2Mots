@@ -1,0 +1,46 @@
+{
+    "nodes": [
+        {
+            "id": 73827,
+            "name": "voler",
+            "type": 1,
+            "w": 5832
+        }
+    ],
+    "relations": [
+        {
+            "id": 341637,
+            "node1": 73827,
+            "node2": 73827,
+            "type": 19,
+            "w": 54.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            19
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T19:23:36.555511",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 1,
+        "max_relation_weight": 54.0,
+        "#nodes": 1,
+        "duration": "0:00:00.002856"
+    }
+}

@@ -1,0 +1,286 @@
+{
+    "nodes": [
+        {
+            "id": 212221,
+            "name": "arme de siège",
+            "type": 1,
+            "w": 9
+        },
+        {
+            "id": 251723,
+            "name": "arme>237",
+            "type": 1,
+            "w": 101
+        },
+        {
+            "id": 547094871,
+            "name": "canons russes",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 218573,
+            "name": "unité militaire",
+            "type": 1,
+            "w": 99
+        },
+        {
+            "id": 145948,
+            "name": "arme",
+            "type": 1,
+            "w": 8030
+        },
+        {
+            "id": 237,
+            "name": "objet",
+            "type": 1,
+            "w": 11890
+        },
+        {
+            "id": 168709763,
+            "name": "canon de DCA",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 326348,
+            "name": "force militaire",
+            "type": 1,
+            "w": 225
+        },
+        {
+            "id": 451222554,
+            "name": "artillerie classique",
+            "type": 1,
+            "w": 12
+        },
+        {
+            "id": 451221743,
+            "name": "outil d'artillerie",
+            "type": 1,
+            "w": 8
+        },
+        {
+            "id": 232138,
+            "name": "arme lourde",
+            "type": 1,
+            "w": 32
+        },
+        {
+            "id": 246870,
+            "name": "objet>109527",
+            "type": 1,
+            "w": 247
+        },
+        {
+            "id": 457560713,
+            "name": "arme d'appui",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 15045316,
+            "name": "en:military unit",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 155236622,
+            "name": "système d'armement",
+            "type": 1,
+            "w": 76
+        },
+        {
+            "id": 244678,
+            "name": "équipement militaire",
+            "type": 1,
+            "w": 170
+        },
+        {
+            "id": 212293,
+            "name": "force armée",
+            "type": 1,
+            "w": 149
+        },
+        {
+            "id": 42774,
+            "name": "armement",
+            "type": 1,
+            "w": 2470
+        },
+        {
+            "id": 109899,
+            "name": "artillerie",
+            "type": 1,
+            "w": 527
+        },
+        {
+            "id": 158722897,
+            "name": "arme de soutien",
+            "type": 1,
+            "w": 29
+        }
+    ],
+    "relations": [
+        {
+            "id": 11729335,
+            "node1": 109899,
+            "node2": 237,
+            "type": 6,
+            "w": 136.0
+        },
+        {
+            "id": 1152399081,
+            "node1": 109899,
+            "node2": 42774,
+            "type": 6,
+            "w": 29.0
+        },
+        {
+            "id": 1647167,
+            "node1": 109899,
+            "node2": 145948,
+            "type": 6,
+            "w": 147.0
+        },
+        {
+            "id": 1244392916,
+            "node1": 109899,
+            "node2": 212221,
+            "type": 6,
+            "w": 26.0
+        },
+        {
+            "id": 1264308386,
+            "node1": 109899,
+            "node2": 212293,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 9904763,
+            "node1": 109899,
+            "node2": 218573,
+            "type": 6,
+            "w": 23.0
+        },
+        {
+            "id": 874122909,
+            "node1": 109899,
+            "node2": 232138,
+            "type": 6,
+            "w": 274.0
+        },
+        {
+            "id": 1237348433,
+            "node1": 109899,
+            "node2": 244678,
+            "type": 6,
+            "w": 30.0
+        },
+        {
+            "id": 1157985511,
+            "node1": 109899,
+            "node2": 246870,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 1157985510,
+            "node1": 109899,
+            "node2": 251723,
+            "type": 6,
+            "w": 27.0
+        },
+        {
+            "id": 1152399085,
+            "node1": 109899,
+            "node2": 326348,
+            "type": 6,
+            "w": 26.0
+        },
+        {
+            "id": 598693744,
+            "node1": 109899,
+            "node2": 15045316,
+            "type": 6,
+            "w": 35.0
+        },
+        {
+            "id": 1152399145,
+            "node1": 109899,
+            "node2": 155236622,
+            "type": 6,
+            "w": 28.0
+        },
+        {
+            "id": 1270054574,
+            "node1": 109899,
+            "node2": 158722897,
+            "type": 6,
+            "w": 27.0
+        },
+        {
+            "id": 1226983405,
+            "node1": 109899,
+            "node2": 168709763,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 1264524337,
+            "node1": 109899,
+            "node2": 451221743,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 1259624977,
+            "node1": 109899,
+            "node2": 451222554,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 1210688220,
+            "node1": 109899,
+            "node2": 457560713,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 1253175369,
+            "node1": 109899,
+            "node2": 547094871,
+            "type": 6,
+            "w": 25.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            6
+        ],
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:11:37.676050",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 19,
+        "max_relation_weight": 274.0,
+        "#nodes": 20,
+        "duration": "0:00:00.011848"
+    }
+}

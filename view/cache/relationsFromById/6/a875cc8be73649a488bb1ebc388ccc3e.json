@@ -1,0 +1,273 @@
+{
+    "nodes": [
+        {
+            "id": 15325386,
+            "name": "en:way of going about things",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 106265,
+            "name": "appareil",
+            "type": 1,
+            "w": 4654
+        },
+        {
+            "id": 16718,
+            "name": "comportement",
+            "type": 1,
+            "w": 17288
+        },
+        {
+            "id": 135190,
+            "name": "lieu",
+            "type": 1,
+            "w": 16138
+        },
+        {
+            "id": 6958403,
+            "name": "en:behavior",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 42109,
+            "name": "mouvement",
+            "type": 1,
+            "w": 21796
+        },
+        {
+            "id": 16064872,
+            "name": "en:way somebody behaves",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 64227,
+            "name": "anomalie",
+            "type": 1,
+            "w": 1659
+        },
+        {
+            "id": 157284,
+            "name": "lieu>68467",
+            "type": 1,
+            "w": 58
+        },
+        {
+            "id": 402498847,
+            "name": "Comportemental",
+            "type": 1,
+            "w": 9
+        },
+        {
+            "id": 139768,
+            "name": "artéfact",
+            "type": 1,
+            "w": 184
+        },
+        {
+            "id": 15515938,
+            "name": "en:how something performs",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 104824,
+            "name": "attraction",
+            "type": 1,
+            "w": 1061
+        },
+        {
+            "id": 117604,
+            "name": "mécanisme",
+            "type": 1,
+            "w": 7374
+        },
+        {
+            "id": 104321,
+            "name": "manège",
+            "type": 1,
+            "w": 310
+        },
+        {
+            "id": 134218,
+            "name": "endroit",
+            "type": 1,
+            "w": 8307
+        },
+        {
+            "id": 266435,
+            "name": "façon de faire",
+            "type": 1,
+            "w": 138
+        },
+        {
+            "id": 211886232,
+            "name": "manège à chevaux",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 1801742,
+            "name": "behavior",
+            "type": 1,
+            "w": 37
+        }
+    ],
+    "relations": [
+        {
+            "id": 82330863,
+            "node1": 104321,
+            "node2": 16718,
+            "type": 6,
+            "w": 31.0
+        },
+        {
+            "id": 83380326,
+            "node1": 104321,
+            "node2": 42109,
+            "type": 6,
+            "w": 51.0
+        },
+        {
+            "id": 79958244,
+            "node1": 104321,
+            "node2": 64227,
+            "type": 6,
+            "w": -28.0
+        },
+        {
+            "id": 1242426581,
+            "node1": 104321,
+            "node2": 104824,
+            "type": 6,
+            "w": 62.0
+        },
+        {
+            "id": 57568795,
+            "node1": 104321,
+            "node2": 106265,
+            "type": 6,
+            "w": 41.0
+        },
+        {
+            "id": 291790639,
+            "node1": 104321,
+            "node2": 117604,
+            "type": 6,
+            "w": 47.0
+        },
+        {
+            "id": 270564616,
+            "node1": 104321,
+            "node2": 134218,
+            "type": 6,
+            "w": 26.0
+        },
+        {
+            "id": 629596,
+            "node1": 104321,
+            "node2": 135190,
+            "type": 6,
+            "w": 57.0
+        },
+        {
+            "id": 427595118,
+            "node1": 104321,
+            "node2": 139768,
+            "type": 6,
+            "w": 30.0
+        },
+        {
+            "id": 11946316,
+            "node1": 104321,
+            "node2": 157284,
+            "type": 6,
+            "w": -25.0
+        },
+        {
+            "id": 705520073,
+            "node1": 104321,
+            "node2": 266435,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 723183889,
+            "node1": 104321,
+            "node2": 1801742,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 598722779,
+            "node1": 104321,
+            "node2": 6958403,
+            "type": 6,
+            "w": 26.0
+        },
+        {
+            "id": 705664850,
+            "node1": 104321,
+            "node2": 15325386,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 704785462,
+            "node1": 104321,
+            "node2": 15515938,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 705664469,
+            "node1": 104321,
+            "node2": 16064872,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 1242426582,
+            "node1": 104321,
+            "node2": 211886232,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 1270268939,
+            "node1": 104321,
+            "node2": 402498847,
+            "type": 6,
+            "w": 20.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            6
+        ],
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:30:26.304052",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 18,
+        "max_relation_weight": 62.0,
+        "#nodes": 19,
+        "duration": "0:00:00.000994"
+    }
+}

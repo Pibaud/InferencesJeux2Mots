@@ -1,0 +1,51 @@
+{
+    "nodes": [
+        {
+            "id": 97701,
+            "name": "locomotive",
+            "type": 1,
+            "w": 1121
+        },
+        {
+            "id": 140962,
+            "name": "piston",
+            "type": 1,
+            "w": 290
+        }
+    ],
+    "relations": [
+        {
+            "id": 2491734,
+            "node1": 97701,
+            "node2": 140962,
+            "type": 9,
+            "w": 55.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            9
+        ],
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:56:55.104073",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 1,
+        "max_relation_weight": 55.0,
+        "duration": "0:00:00.000723"
+    }
+}

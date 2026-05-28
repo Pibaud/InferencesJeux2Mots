@@ -1,0 +1,91 @@
+{
+    "nodes": [
+        {
+            "id": 2940777,
+            "name": "véhicule de transport à roues",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 148108,
+            "name": "roues",
+            "type": 1,
+            "w": 2600
+        },
+        {
+            "id": 14922620,
+            "name": "en:wheels",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 5997235,
+            "name": "wheels",
+            "type": 1,
+            "w": 27
+        },
+        {
+            "id": 40184,
+            "name": "siège",
+            "type": 1,
+            "w": 5522
+        }
+    ],
+    "relations": [
+        {
+            "id": 72383736,
+            "node1": 2940777,
+            "node2": 40184,
+            "type": 9,
+            "w": 40.0
+        },
+        {
+            "id": 434912627,
+            "node1": 2940777,
+            "node2": 148108,
+            "type": 9,
+            "w": 35.0
+        },
+        {
+            "id": 618832485,
+            "node1": 2940777,
+            "node2": 5997235,
+            "type": 9,
+            "w": 32.0
+        },
+        {
+            "id": 484050683,
+            "node1": 2940777,
+            "node2": 14922620,
+            "type": 9,
+            "w": 12.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            9
+        ],
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:40:04.393041",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 4,
+        "max_relation_weight": 40.0,
+        "#nodes": 5,
+        "duration": "0:00:00.000510"
+    }
+}

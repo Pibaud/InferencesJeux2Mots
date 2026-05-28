@@ -1,0 +1,364 @@
+{
+    "nodes": [
+        {
+            "id": 86050,
+            "name": "aéronautique sportive",
+            "type": 1,
+            "w": 56
+        },
+        {
+            "id": 214741888,
+            "name": "aéronautique de vol de nuit",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 168351154,
+            "name": "technologie aéronautique",
+            "type": 1,
+            "w": 48
+        },
+        {
+            "id": 214741890,
+            "name": "aéronautique de vol à basse altitude",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15229,
+            "name": "aéronautique",
+            "type": 1,
+            "w": 3806
+        },
+        {
+            "id": 214741880,
+            "name": "aéronautique de loisir",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 214741883,
+            "name": "aéronautique de guerre",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 214741884,
+            "name": "aéronautique de course",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 338072,
+            "name": "aéronautique civile",
+            "type": 1,
+            "w": 52
+        },
+        {
+            "id": 338073,
+            "name": "aéronautique mondiale",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 3324739,
+            "name": "aéronautique militaire française",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 214741877,
+            "name": "aéronautique expérimentale",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 214741878,
+            "name": "aéronautique de recherche",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 214741881,
+            "name": "aéronautique de transport",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 214741882,
+            "name": "aéronautique de tourisme",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 214741885,
+            "name": "aéronautique de haute altitude",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 214741886,
+            "name": "aéronautique de vol acrobatique",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 214741887,
+            "name": "aéronautique de vol en formation",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 214741889,
+            "name": "aéronautique de vol à grande vitesse",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 214741891,
+            "name": "aéronautique de vol à longue distance",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 214741892,
+            "name": "aéronautique de vol à haute altitude",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 214741893,
+            "name": "aéronautique de vol à haute vitesse",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 214741894,
+            "name": "aéronautique de vol à courte distance",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 214741895,
+            "name": "aéronautique de vol à moyenne altitude",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 214741879,
+            "name": "aéronautique de défense",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 62100,
+            "name": "aéronautique militaire",
+            "type": 1,
+            "w": 66
+        }
+    ],
+    "relations": [
+        {
+            "id": 789846450,
+            "node1": 15229,
+            "node2": 62100,
+            "type": 8,
+            "w": 29.0
+        },
+        {
+            "id": 789846457,
+            "node1": 15229,
+            "node2": 86050,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789846387,
+            "node1": 15229,
+            "node2": 338072,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789846452,
+            "node1": 15229,
+            "node2": 338073,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789846451,
+            "node1": 15229,
+            "node2": 3324739,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 1281550571,
+            "node1": 15229,
+            "node2": 168351154,
+            "type": 8,
+            "w": 35.0
+        },
+        {
+            "id": 789846447,
+            "node1": 15229,
+            "node2": 214741877,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789846407,
+            "node1": 15229,
+            "node2": 214741878,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789846396,
+            "node1": 15229,
+            "node2": 214741879,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789846400,
+            "node1": 15229,
+            "node2": 214741880,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789846415,
+            "node1": 15229,
+            "node2": 214741881,
+            "type": 8,
+            "w": 30.0
+        },
+        {
+            "id": 789846414,
+            "node1": 15229,
+            "node2": 214741882,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789846398,
+            "node1": 15229,
+            "node2": 214741883,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789846395,
+            "node1": 15229,
+            "node2": 214741884,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789846399,
+            "node1": 15229,
+            "node2": 214741885,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789846417,
+            "node1": 15229,
+            "node2": 214741886,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789846419,
+            "node1": 15229,
+            "node2": 214741887,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789846418,
+            "node1": 15229,
+            "node2": 214741888,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789846422,
+            "node1": 15229,
+            "node2": 214741889,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789846420,
+            "node1": 15229,
+            "node2": 214741890,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789846425,
+            "node1": 15229,
+            "node2": 214741891,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789846423,
+            "node1": 15229,
+            "node2": 214741892,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789846424,
+            "node1": 15229,
+            "node2": 214741893,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789846421,
+            "node1": 15229,
+            "node2": 214741894,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789846426,
+            "node1": 15229,
+            "node2": 214741895,
+            "type": 8,
+            "w": 25.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            8
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T18:49:01.991348",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 25,
+        "max_relation_weight": 35.0,
+        "#nodes": 26,
+        "duration": "0:00:00.000923"
+    }
+}

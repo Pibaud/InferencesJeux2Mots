@@ -1,0 +1,208 @@
+{
+    "nodes": [
+        {
+            "id": 557578053,
+            "name": "art de voler",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 15229,
+            "name": "aéronautique",
+            "type": 1,
+            "w": 3806
+        },
+        {
+            "id": 97756,
+            "name": "avion",
+            "type": 1,
+            "w": 11045
+        },
+        {
+            "id": 260496,
+            "name": "politiques",
+            "type": 1,
+            "w": 8811
+        },
+        {
+            "id": 522694200,
+            "name": "aérodynamisme en physique",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 96889,
+            "name": "avionique",
+            "type": 1,
+            "w": 126
+        },
+        {
+            "id": 95422,
+            "name": "cou",
+            "type": 1,
+            "w": 3756
+        },
+        {
+            "id": 120719,
+            "name": "hélicoptères",
+            "type": 1,
+            "w": 257
+        },
+        {
+            "id": 544020237,
+            "name": "restrictions aéronautiques",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 501433140,
+            "name": "technologies de l'air",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 153463,
+            "name": "avions",
+            "type": 1,
+            "w": 4846
+        },
+        {
+            "id": 510104081,
+            "name": "rencontres aéronautiques",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 2153084,
+            "name": "composites",
+            "type": 2,
+            "w": 44
+        },
+        {
+            "id": 4658,
+            "name": "moteur",
+            "type": 1,
+            "w": 5459
+        }
+    ],
+    "relations": [
+        {
+            "id": 1270043325,
+            "node1": 15229,
+            "node2": 4658,
+            "type": 9,
+            "w": 26.0
+        },
+        {
+            "id": 1038897697,
+            "node1": 15229,
+            "node2": 95422,
+            "type": 9,
+            "w": -25.0
+        },
+        {
+            "id": 1228313593,
+            "node1": 15229,
+            "node2": 96889,
+            "type": 9,
+            "w": 26.0
+        },
+        {
+            "id": 1233066703,
+            "node1": 15229,
+            "node2": 97756,
+            "type": 9,
+            "w": 28.0
+        },
+        {
+            "id": 1283091476,
+            "node1": 15229,
+            "node2": 120719,
+            "type": 9,
+            "w": 25.0
+        },
+        {
+            "id": 1283091475,
+            "node1": 15229,
+            "node2": 153463,
+            "type": 9,
+            "w": 25.0
+        },
+        {
+            "id": 1253150848,
+            "node1": 15229,
+            "node2": 260496,
+            "type": 9,
+            "w": 25.0
+        },
+        {
+            "id": 1283091633,
+            "node1": 15229,
+            "node2": 2153084,
+            "type": 9,
+            "w": 25.0
+        },
+        {
+            "id": 1283556453,
+            "node1": 15229,
+            "node2": 501433140,
+            "type": 9,
+            "w": 4.0
+        },
+        {
+            "id": 1287537748,
+            "node1": 15229,
+            "node2": 510104081,
+            "type": 9,
+            "w": 2.0
+        },
+        {
+            "id": 1250531085,
+            "node1": 15229,
+            "node2": 522694200,
+            "type": 9,
+            "w": 1.0
+        },
+        {
+            "id": 1253151164,
+            "node1": 15229,
+            "node2": 544020237,
+            "type": 9,
+            "w": 25.0
+        },
+        {
+            "id": 1261183668,
+            "node1": 15229,
+            "node2": 557578053,
+            "type": 9,
+            "w": 5.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            9
+        ],
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:50:11.118669",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 13,
+        "max_relation_weight": 28.0,
+        "#nodes": 14,
+        "duration": "0:00:00.002902"
+    }
+}

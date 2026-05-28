@@ -1,0 +1,299 @@
+{
+    "nodes": [
+        {
+            "id": 218106,
+            "name": "vent>140729",
+            "type": 1,
+            "w": 217
+        },
+        {
+            "id": 233108,
+            "name": "appareil>90758",
+            "type": 1,
+            "w": 31
+        },
+        {
+            "id": 248245,
+            "name": "avion de guerre",
+            "type": 1,
+            "w": 32
+        },
+        {
+            "id": 123745,
+            "name": "véhicule",
+            "type": 1,
+            "w": 7213
+        },
+        {
+            "id": 97756,
+            "name": "avion",
+            "type": 1,
+            "w": 11045
+        },
+        {
+            "id": 15199059,
+            "name": "en:combat aircraft",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 90758,
+            "name": "aéronef",
+            "type": 1,
+            "w": 484
+        },
+        {
+            "id": 3461,
+            "name": "vent",
+            "type": 1,
+            "w": 11749
+        },
+        {
+            "id": 152778,
+            "name": "moyen de transport",
+            "type": 1,
+            "w": 638
+        },
+        {
+            "id": 265169,
+            "name": "vent fort",
+            "type": 1,
+            "w": 149
+        },
+        {
+            "id": 352472106,
+            "name": "souffle d'ouragan",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 14965365,
+            "name": "en:mass transit",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15301629,
+            "name": "en:gale force",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15301618,
+            "name": "en:gust of wind",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 387812,
+            "name": "véhicule de combat",
+            "type": 1,
+            "w": 81
+        },
+        {
+            "id": 375161,
+            "name": "rafale de vent",
+            "type": 1,
+            "w": 95
+        },
+        {
+            "id": 44600,
+            "name": "coup de vent",
+            "type": 1,
+            "w": 178
+        },
+        {
+            "id": 12622,
+            "name": "rafale",
+            "type": 1,
+            "w": 449
+        },
+        {
+            "id": 266237,
+            "name": "phénomène météorologique",
+            "type": 1,
+            "w": 211
+        },
+        {
+            "id": 364585,
+            "name": "mode de tir",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 167740,
+            "name": "avion de combat",
+            "type": 1,
+            "w": 212
+        }
+    ],
+    "relations": [
+        {
+            "id": 9923025,
+            "node1": 12622,
+            "node2": 3461,
+            "type": 6,
+            "w": 31.0
+        },
+        {
+            "id": 9916372,
+            "node1": 12622,
+            "node2": 44600,
+            "type": 6,
+            "w": 29.0
+        },
+        {
+            "id": 755201300,
+            "node1": 12622,
+            "node2": 90758,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 754913341,
+            "node1": 12622,
+            "node2": 97756,
+            "type": 6,
+            "w": 27.0
+        },
+        {
+            "id": 755183399,
+            "node1": 12622,
+            "node2": 123745,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 755422069,
+            "node1": 12622,
+            "node2": 152778,
+            "type": 6,
+            "w": 29.0
+        },
+        {
+            "id": 9911751,
+            "node1": 12622,
+            "node2": 167740,
+            "type": 6,
+            "w": 17.0
+        },
+        {
+            "id": 664736717,
+            "node1": 12622,
+            "node2": 218106,
+            "type": 6,
+            "w": 106.0
+        },
+        {
+            "id": 755201200,
+            "node1": 12622,
+            "node2": 233108,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 656234688,
+            "node1": 12622,
+            "node2": 248245,
+            "type": 6,
+            "w": 29.0
+        },
+        {
+            "id": 790227025,
+            "node1": 12622,
+            "node2": 265169,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 473559225,
+            "node1": 12622,
+            "node2": 266237,
+            "type": 6,
+            "w": 16.0
+        },
+        {
+            "id": 535748693,
+            "node1": 12622,
+            "node2": 364585,
+            "type": 6,
+            "w": 30.0
+        },
+        {
+            "id": 603794284,
+            "node1": 12622,
+            "node2": 375161,
+            "type": 6,
+            "w": 31.0
+        },
+        {
+            "id": 642151244,
+            "node1": 12622,
+            "node2": 387812,
+            "type": 6,
+            "w": 27.0
+        },
+        {
+            "id": 1123542469,
+            "node1": 12622,
+            "node2": 14965365,
+            "type": 6,
+            "w": -24.0
+        },
+        {
+            "id": 599725195,
+            "node1": 12622,
+            "node2": 15199059,
+            "type": 6,
+            "w": 35.0
+        },
+        {
+            "id": 597533525,
+            "node1": 12622,
+            "node2": 15301618,
+            "type": 6,
+            "w": 32.0
+        },
+        {
+            "id": 597499250,
+            "node1": 12622,
+            "node2": 15301629,
+            "type": 6,
+            "w": 26.0
+        },
+        {
+            "id": 1252432303,
+            "node1": 12622,
+            "node2": 352472106,
+            "type": 6,
+            "w": 25.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            6
+        ],
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:25:37.973542",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 20,
+        "max_relation_weight": 106.0,
+        "#nodes": 21,
+        "duration": "0:00:00.006196"
+    }
+}

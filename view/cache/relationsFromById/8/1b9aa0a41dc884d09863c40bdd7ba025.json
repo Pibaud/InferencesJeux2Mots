@@ -1,0 +1,364 @@
+{
+    "nodes": [
+        {
+            "id": 167591,
+            "name": "IBM 360",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 132602,
+            "name": "Macintosh",
+            "type": 1,
+            "w": 2942
+        },
+        {
+            "id": 120930,
+            "name": "multiprocesseur",
+            "type": 1,
+            "w": 52
+        },
+        {
+            "id": 155388,
+            "name": "ordinateur de bord",
+            "type": 1,
+            "w": 71
+        },
+        {
+            "id": 94978,
+            "name": "ordinateur",
+            "type": 1,
+            "w": 10676
+        },
+        {
+            "id": 176265,
+            "name": "ardoise électronique",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 94975,
+            "name": "portable",
+            "type": 1,
+            "w": 2296
+        },
+        {
+            "id": 2463,
+            "name": "ordinateur portable",
+            "type": 1,
+            "w": 181
+        },
+        {
+            "id": 139354,
+            "name": "mac",
+            "type": 1,
+            "w": 330
+        },
+        {
+            "id": 167691,
+            "name": "ordinateur personnel",
+            "type": 1,
+            "w": 134
+        },
+        {
+            "id": 104151,
+            "name": "pc",
+            "type": 1,
+            "w": 251
+        },
+        {
+            "id": 75617,
+            "name": "zombie",
+            "type": 1,
+            "w": 438
+        },
+        {
+            "id": 167810,
+            "name": "PC de merde",
+            "type": 1,
+            "w": 56
+        },
+        {
+            "id": 29846,
+            "name": "mini-ordinateur",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 176250,
+            "name": "agenda électronique",
+            "type": 1,
+            "w": 29
+        },
+        {
+            "id": 3194,
+            "name": "micro-ordinateur",
+            "type": 1,
+            "w": 82
+        },
+        {
+            "id": 167693,
+            "name": "superordinateur",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 118616,
+            "name": "hôte",
+            "type": 1,
+            "w": 1017
+        },
+        {
+            "id": 109197,
+            "name": "zombi",
+            "type": 1,
+            "w": 67
+        },
+        {
+            "id": 96951,
+            "name": "calculateur",
+            "type": 1,
+            "w": 375
+        },
+        {
+            "id": 162967,
+            "name": "ordinateur de poche",
+            "type": 1,
+            "w": 55
+        },
+        {
+            "id": 11098,
+            "name": "Mac",
+            "type": 1,
+            "w": 3120
+        },
+        {
+            "id": 144102,
+            "name": "téléphone",
+            "type": 1,
+            "w": 8150
+        },
+        {
+            "id": 50733,
+            "name": "serveur",
+            "type": 1,
+            "w": 3604
+        },
+        {
+            "id": 143335,
+            "name": "PC",
+            "type": 1,
+            "w": 3777
+        },
+        {
+            "id": 153740,
+            "name": "ordinateur de bureau",
+            "type": 1,
+            "w": 141
+        }
+    ],
+    "relations": [
+        {
+            "id": 9667457,
+            "node1": 94978,
+            "node2": 2463,
+            "type": 8,
+            "w": 117.0
+        },
+        {
+            "id": 28927209,
+            "node1": 94978,
+            "node2": 3194,
+            "type": 8,
+            "w": 252.0
+        },
+        {
+            "id": 618979731,
+            "node1": 94978,
+            "node2": 11098,
+            "type": 8,
+            "w": 34.0
+        },
+        {
+            "id": 9864392,
+            "node1": 94978,
+            "node2": 29846,
+            "type": 8,
+            "w": 64.0
+        },
+        {
+            "id": 242864433,
+            "node1": 94978,
+            "node2": 50733,
+            "type": 8,
+            "w": 71.0
+        },
+        {
+            "id": 242864434,
+            "node1": 94978,
+            "node2": 75617,
+            "type": 8,
+            "w": 28.0
+        },
+        {
+            "id": 252230,
+            "node1": 94978,
+            "node2": 94975,
+            "type": 8,
+            "w": 141.0
+        },
+        {
+            "id": 1374536,
+            "node1": 94978,
+            "node2": 96951,
+            "type": 8,
+            "w": 101.0
+        },
+        {
+            "id": 212196292,
+            "node1": 94978,
+            "node2": 104151,
+            "type": 8,
+            "w": 65.0
+        },
+        {
+            "id": 246262128,
+            "node1": 94978,
+            "node2": 109197,
+            "type": 8,
+            "w": 35.0
+        },
+        {
+            "id": 242864455,
+            "node1": 94978,
+            "node2": 118616,
+            "type": 8,
+            "w": 28.0
+        },
+        {
+            "id": 242864456,
+            "node1": 94978,
+            "node2": 120930,
+            "type": 8,
+            "w": 34.0
+        },
+        {
+            "id": 1212609643,
+            "node1": 94978,
+            "node2": 132602,
+            "type": 8,
+            "w": 40.0
+        },
+        {
+            "id": 242864454,
+            "node1": 94978,
+            "node2": 139354,
+            "type": 8,
+            "w": 30.0
+        },
+        {
+            "id": 276291,
+            "node1": 94978,
+            "node2": 143335,
+            "type": 8,
+            "w": 75.0
+        },
+        {
+            "id": 1046575859,
+            "node1": 94978,
+            "node2": 144102,
+            "type": 8,
+            "w": 20.0
+        },
+        {
+            "id": 9686373,
+            "node1": 94978,
+            "node2": 153740,
+            "type": 8,
+            "w": 120.0
+        },
+        {
+            "id": 34247445,
+            "node1": 94978,
+            "node2": 155388,
+            "type": 8,
+            "w": 30.0
+        },
+        {
+            "id": 14038082,
+            "node1": 94978,
+            "node2": 162967,
+            "type": 8,
+            "w": 28.0
+        },
+        {
+            "id": 370653276,
+            "node1": 94978,
+            "node2": 167591,
+            "type": 8,
+            "w": 22.0
+        },
+        {
+            "id": 243271193,
+            "node1": 94978,
+            "node2": 167691,
+            "type": 8,
+            "w": 253.0
+        },
+        {
+            "id": 247900482,
+            "node1": 94978,
+            "node2": 167693,
+            "type": 8,
+            "w": 35.0
+        },
+        {
+            "id": 9682943,
+            "node1": 94978,
+            "node2": 167810,
+            "type": 8,
+            "w": 43.0
+        },
+        {
+            "id": 242864460,
+            "node1": 94978,
+            "node2": 176250,
+            "type": 8,
+            "w": 32.0
+        },
+        {
+            "id": 9744629,
+            "node1": 94978,
+            "node2": 176265,
+            "type": 8,
+            "w": 54.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            8
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T18:34:21.592716",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 25,
+        "max_relation_weight": 253.0,
+        "#nodes": 26,
+        "duration": "0:00:00.005446"
+    }
+}

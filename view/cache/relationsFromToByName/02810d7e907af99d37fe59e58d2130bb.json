@@ -1,0 +1,102 @@
+{
+    "nodes": [
+        {
+            "id": 87987,
+            "name": "France",
+            "type": 1,
+            "w": 48202,
+            "c": 0,
+            "level": 87.0279,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T18:34:49"
+        },
+        {
+            "id": 77735,
+            "name": "Europe",
+            "type": 1,
+            "w": 19844,
+            "c": 0,
+            "level": 45.7712,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T16:52:16"
+        }
+    ],
+    "relations": [
+        {
+            "id": 67711,
+            "node1": 87987,
+            "node2": 77735,
+            "type": 0,
+            "w": 1024.0
+        },
+        {
+            "id": 30958634,
+            "node1": 87987,
+            "node2": 77735,
+            "type": 3,
+            "w": 690.0
+        },
+        {
+            "id": 115141,
+            "node1": 87987,
+            "node2": 77735,
+            "type": 10,
+            "w": 95.0
+        },
+        {
+            "id": 9001293,
+            "node1": 87987,
+            "node2": 77735,
+            "type": 15,
+            "w": 788.5
+        },
+        {
+            "id": 966793994,
+            "node1": 87987,
+            "node2": 77735,
+            "type": 17,
+            "w": -5.0
+        },
+        {
+            "id": 94116396,
+            "node1": 87987,
+            "node2": 77735,
+            "type": 27,
+            "w": 12.0
+        },
+        {
+            "id": 1625452,
+            "node1": 87987,
+            "node2": 77735,
+            "type": 42,
+            "w": 140.0
+        }
+    ],
+    "request": {
+        "types_ids": null,
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:54:04.833956",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "node1": "France",
+        "node2": "Europe",
+        "#relations": 7,
+        "max_relation_weight": 1024.0,
+        "duration": "0:00:00.000877"
+    }
+}

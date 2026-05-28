@@ -1,0 +1,104 @@
+{
+    "nodes": [
+        {
+            "id": 359485462,
+            "name": "ocean health",
+            "type": 1,
+            "w": 31
+        },
+        {
+            "id": 250110600,
+            "name": "ocean atlantique",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 155322,
+            "name": "ocean",
+            "type": 1,
+            "w": 132
+        },
+        {
+            "id": 253618660,
+            "name": "ocean ecosystems",
+            "type": 1,
+            "w": 38
+        },
+        {
+            "id": 17386044,
+            "name": "ocean transport",
+            "type": 777,
+            "w": 25
+        },
+        {
+            "id": 169121,
+            "name": "ocean drum",
+            "type": 1,
+            "w": 50
+        }
+    ],
+    "relations": [
+        {
+            "id": 34364199,
+            "node1": 155322,
+            "node2": 169121,
+            "type": 8,
+            "w": 26.0
+        },
+        {
+            "id": 779323946,
+            "node1": 155322,
+            "node2": 17386044,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 783454173,
+            "node1": 155322,
+            "node2": 250110600,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 790238530,
+            "node1": 155322,
+            "node2": 253618660,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 1027779114,
+            "node1": 155322,
+            "node2": 359485462,
+            "type": 8,
+            "w": 20.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            8
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T18:53:25.947530",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 5,
+        "max_relation_weight": 26.0,
+        "#nodes": 6,
+        "duration": "0:00:00.002028"
+    }
+}

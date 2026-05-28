@@ -1,0 +1,56 @@
+{
+    "nodes": [
+        {
+            "id": 5115,
+            "name": "cuire",
+            "type": 1,
+            "w": 2183
+        },
+        {
+            "id": 3361,
+            "name": "saumon",
+            "type": 1,
+            "w": 647
+        }
+    ],
+    "relations": [
+        {
+            "id": 333960550,
+            "node1": 3361,
+            "node2": 5115,
+            "type": 24,
+            "w": 30.0
+        },
+        {
+            "id": 333960555,
+            "node1": 3361,
+            "node2": 5115,
+            "type": 26,
+            "w": 30.0
+        }
+    ],
+    "request": {
+        "types_ids": null,
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:16:56.134909",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 2,
+        "max_relation_weight": 30.0,
+        "duration": "0:00:00.001521"
+    }
+}

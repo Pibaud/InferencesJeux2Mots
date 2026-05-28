@@ -1,0 +1,49 @@
+{
+    "nodes": [
+        {
+            "id": 52396,
+            "name": "transmission",
+            "type": 1,
+            "w": 11392
+        },
+        {
+            "id": 73890,
+            "name": "religion",
+            "type": 1,
+            "w": 13048
+        }
+    ],
+    "relations": [
+        {
+            "id": 459217965,
+            "node1": 52396,
+            "node2": 73890,
+            "type": 777,
+            "w": 10.0
+        }
+    ],
+    "request": {
+        "types_ids": null,
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T19:14:58.529875",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 1,
+        "max_relation_weight": 10.0,
+        "duration": "0:00:00.000958"
+    }
+}

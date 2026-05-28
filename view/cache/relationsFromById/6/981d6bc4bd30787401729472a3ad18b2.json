@@ -1,0 +1,130 @@
+{
+    "nodes": [
+        {
+            "id": 15453252,
+            "name": "en:audible signal",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15453253,
+            "name": "en:sound signal",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15265933,
+            "name": "en:acoustic signal",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 208205,
+            "name": "signal sonore",
+            "type": 1,
+            "w": 154
+        },
+        {
+            "id": 241685,
+            "name": "coup>43106",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 16032474,
+            "name": "coup de",
+            "type": 1,
+            "w": 28
+        },
+        {
+            "id": 41417,
+            "name": "coup",
+            "type": 1,
+            "w": 26591
+        },
+        {
+            "id": 159531,
+            "name": "coup de feu",
+            "type": 1,
+            "w": 324
+        }
+    ],
+    "relations": [
+        {
+            "id": 9927293,
+            "node1": 159531,
+            "node2": 41417,
+            "type": 6,
+            "w": 22.0
+        },
+        {
+            "id": 97323317,
+            "node1": 159531,
+            "node2": 208205,
+            "type": 6,
+            "w": 32.0
+        },
+        {
+            "id": 9931275,
+            "node1": 159531,
+            "node2": 241685,
+            "type": 6,
+            "w": 27.0
+        },
+        {
+            "id": 612692346,
+            "node1": 159531,
+            "node2": 15265933,
+            "type": 6,
+            "w": 34.0
+        },
+        {
+            "id": 704522484,
+            "node1": 159531,
+            "node2": 15453252,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 612692371,
+            "node1": 159531,
+            "node2": 15453253,
+            "type": 6,
+            "w": 31.0
+        },
+        {
+            "id": 680287266,
+            "node1": 159531,
+            "node2": 16032474,
+            "type": 6,
+            "w": 25.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            6
+        ],
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:26:11.204768",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 7,
+        "max_relation_weight": 34.0,
+        "#nodes": 8,
+        "duration": "0:00:00.000523"
+    }
+}

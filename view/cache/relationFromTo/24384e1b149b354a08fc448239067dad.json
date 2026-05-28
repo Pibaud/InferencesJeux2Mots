@@ -1,0 +1,51 @@
+{
+    "nodes": [
+        {
+            "id": 136786,
+            "name": "ville",
+            "type": 1,
+            "w": 27323
+        },
+        {
+            "id": 40355,
+            "name": "continent",
+            "type": 1,
+            "w": 4832
+        }
+    ],
+    "relations": [
+        {
+            "id": 122205,
+            "node1": 136786,
+            "node2": 40355,
+            "type": 15,
+            "w": 480.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            15
+        ],
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:54:09.416039",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 1,
+        "max_relation_weight": 480.0,
+        "duration": "0:00:00.001004"
+    }
+}

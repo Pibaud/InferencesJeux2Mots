@@ -1,0 +1,77 @@
+{
+    "nodes": [
+        {
+            "id": 126079,
+            "name": "électronique",
+            "type": 1,
+            "w": 4474
+        },
+        {
+            "id": 104993,
+            "name": "informatique",
+            "type": 1,
+            "w": 6418
+        }
+    ],
+    "relations": [
+        {
+            "id": 15272796,
+            "node1": 104993,
+            "node2": 126079,
+            "type": 0,
+            "w": 561.53
+        },
+        {
+            "id": 54875030,
+            "node1": 104993,
+            "node2": 126079,
+            "type": 5,
+            "w": 86.0
+        },
+        {
+            "id": 28896935,
+            "node1": 104993,
+            "node2": 126079,
+            "type": 8,
+            "w": -34.0
+        },
+        {
+            "id": 15138613,
+            "node1": 104993,
+            "node2": 126079,
+            "type": 27,
+            "w": 89.0
+        },
+        {
+            "id": 3287930,
+            "node1": 104993,
+            "node2": 126079,
+            "type": 777,
+            "w": 6.0
+        }
+    ],
+    "request": {
+        "types_ids": null,
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:34:08.091702",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 5,
+        "max_relation_weight": 561.53,
+        "duration": "0:00:00.002548"
+    }
+}

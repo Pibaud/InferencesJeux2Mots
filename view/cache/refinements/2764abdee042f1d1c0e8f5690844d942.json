@@ -1,0 +1,63 @@
+{
+    "nodes": [
+        {
+            "id": 34754,
+            "name": "transistor",
+            "type": 1,
+            "w": 215,
+            "c": 0,
+            "level": 51.5122,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T14:05:25"
+        },
+        {
+            "id": 8216,
+            "name": "radio",
+            "type": 1,
+            "w": 6521,
+            "c": 0,
+            "level": 72.5262,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T18:00:03"
+        },
+        {
+            "id": 126079,
+            "name": "électronique",
+            "type": 1,
+            "w": 4474,
+            "c": 0,
+            "level": 36.792,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T16:07:27"
+        }
+    ],
+    "refinements": [
+        {
+            "id": 219911,
+            "name": "transistor>126079",
+            "type": 1,
+            "w": 4,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2010-04-29",
+            "touchdate": "2026-05-24T11:42:05",
+            "refinement": "électronique"
+        },
+        {
+            "id": 219910,
+            "name": "transistor>8216",
+            "type": 1,
+            "w": 20,
+            "c": 0,
+            "level": 198.0,
+            "infoid": null,
+            "creationdate": "2010-04-29",
+            "touchdate": "2026-05-24T11:42:05",
+            "refinement": "radio"
+        }
+    ]
+}

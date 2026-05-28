@@ -1,0 +1,60 @@
+{
+    "nodes": [
+        {
+            "id": 12622,
+            "name": "rafale",
+            "type": 1,
+            "w": 449,
+            "c": 0,
+            "level": 50.0151,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T14:07:40"
+        },
+        {
+            "id": 101610,
+            "name": "atterrir",
+            "type": 1,
+            "w": 665,
+            "c": 0,
+            "level": 50.899,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T14:13:40"
+        }
+    ],
+    "relations": [
+        {
+            "id": 755200243,
+            "node1": 12622,
+            "node2": 101610,
+            "type": 24,
+            "w": 32.0
+        }
+    ],
+    "request": {
+        "types_ids": null,
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:25:36.992144",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "node1": "rafale",
+        "node2": "atterrir",
+        "#relations": 1,
+        "max_relation_weight": 32.0,
+        "duration": "0:00:00.000883"
+    }
+}

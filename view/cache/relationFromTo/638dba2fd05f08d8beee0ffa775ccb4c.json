@@ -1,0 +1,49 @@
+{
+    "nodes": [
+        {
+            "id": 5115,
+            "name": "cuire",
+            "type": 1,
+            "w": 2183
+        },
+        {
+            "id": 491,
+            "name": "papillote",
+            "type": 1,
+            "w": 162
+        }
+    ],
+    "relations": [
+        {
+            "id": 410128779,
+            "node1": 491,
+            "node2": 5115,
+            "type": 0,
+            "w": 30.0
+        }
+    ],
+    "request": {
+        "types_ids": null,
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:17:23.915205",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 1,
+        "max_relation_weight": 30.0,
+        "duration": "0:00:00.001209"
+    }
+}

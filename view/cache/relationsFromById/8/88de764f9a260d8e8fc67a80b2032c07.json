@@ -1,0 +1,364 @@
+{
+    "nodes": [
+        {
+            "id": 127975,
+            "name": "liturgie ambrosienne",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 203110,
+            "name": "liturgie de saint Basile le Grand",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 203114,
+            "name": "liturgie mozarabe",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 203116,
+            "name": "liturgie protestante",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 203111,
+            "name": "liturgie de saint Jean Chrysostome",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 203113,
+            "name": "liturgie lyonnaise",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 203117,
+            "name": "liturgie romaine",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 64464,
+            "name": "baptême",
+            "type": 1,
+            "w": 1487
+        },
+        {
+            "id": 203109,
+            "name": "liturgie de la parole",
+            "type": 1,
+            "w": 51
+        },
+        {
+            "id": 2922963,
+            "name": "Liturgie des présanctifiés",
+            "type": 777,
+            "w": 25
+        },
+        {
+            "id": 203112,
+            "name": "liturgie des présanctifiés",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 159707355,
+            "name": "Messe de Paul VI",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 16071924,
+            "name": "usage anglican",
+            "type": 777,
+            "w": 25
+        },
+        {
+            "id": 16104813,
+            "name": "liturgie ottonienne",
+            "type": 777,
+            "w": 25
+        },
+        {
+            "id": 11126659,
+            "name": "Divine Liturgie",
+            "type": 777,
+            "w": 25
+        },
+        {
+            "id": 11182183,
+            "name": "Liturgie des Heures",
+            "type": 777,
+            "w": 25
+        },
+        {
+            "id": 17464051,
+            "name": "liturgie des Heures",
+            "type": 777,
+            "w": 25
+        },
+        {
+            "id": 203115,
+            "name": "liturgie orthodoxe",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 51316511,
+            "name": "liturgie chrétienne",
+            "type": 1,
+            "w": 26
+        },
+        {
+            "id": 16926,
+            "name": "offertoire",
+            "type": 1,
+            "w": 51
+        },
+        {
+            "id": 293210,
+            "name": "liturgie des heures",
+            "type": 777,
+            "w": 51
+        },
+        {
+            "id": 361894,
+            "name": "liturgie eucharistique",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 295256,
+            "name": "liturgie catholique",
+            "type": 1,
+            "w": 59
+        },
+        {
+            "id": 95601103,
+            "name": "Liturgie catholique",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 92873,
+            "name": "triérarchie",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 13872,
+            "name": "liturgie",
+            "type": 1,
+            "w": 316
+        }
+    ],
+    "relations": [
+        {
+            "id": 427927021,
+            "node1": 13872,
+            "node2": 16926,
+            "type": 8,
+            "w": 1.0
+        },
+        {
+            "id": 207166141,
+            "node1": 13872,
+            "node2": 64464,
+            "type": 8,
+            "w": 35.0
+        },
+        {
+            "id": 246718931,
+            "node1": 13872,
+            "node2": 92873,
+            "type": 8,
+            "w": 32.0
+        },
+        {
+            "id": 14114303,
+            "node1": 13872,
+            "node2": 127975,
+            "type": 8,
+            "w": 26.0
+        },
+        {
+            "id": 243496358,
+            "node1": 13872,
+            "node2": 203109,
+            "type": 8,
+            "w": 27.0
+        },
+        {
+            "id": 14188292,
+            "node1": 13872,
+            "node2": 203110,
+            "type": 8,
+            "w": 35.0
+        },
+        {
+            "id": 243259841,
+            "node1": 13872,
+            "node2": 203111,
+            "type": 8,
+            "w": 28.0
+        },
+        {
+            "id": 23430816,
+            "node1": 13872,
+            "node2": 203112,
+            "type": 8,
+            "w": 26.0
+        },
+        {
+            "id": 23853891,
+            "node1": 13872,
+            "node2": 203113,
+            "type": 8,
+            "w": 28.0
+        },
+        {
+            "id": 23438477,
+            "node1": 13872,
+            "node2": 203114,
+            "type": 8,
+            "w": 26.0
+        },
+        {
+            "id": 243259842,
+            "node1": 13872,
+            "node2": 203115,
+            "type": 8,
+            "w": 28.0
+        },
+        {
+            "id": 243259843,
+            "node1": 13872,
+            "node2": 203116,
+            "type": 8,
+            "w": 27.0
+        },
+        {
+            "id": 14195636,
+            "node1": 13872,
+            "node2": 203117,
+            "type": 8,
+            "w": 27.0
+        },
+        {
+            "id": 31855002,
+            "node1": 13872,
+            "node2": 293210,
+            "type": 8,
+            "w": 28.0
+        },
+        {
+            "id": 31864299,
+            "node1": 13872,
+            "node2": 295256,
+            "type": 8,
+            "w": 28.0
+        },
+        {
+            "id": 33668203,
+            "node1": 13872,
+            "node2": 361894,
+            "type": 8,
+            "w": 32.0
+        },
+        {
+            "id": 243490036,
+            "node1": 13872,
+            "node2": 2922963,
+            "type": 8,
+            "w": 31.0
+        },
+        {
+            "id": 282697269,
+            "node1": 13872,
+            "node2": 11126659,
+            "type": 8,
+            "w": 14.0
+        },
+        {
+            "id": 370092597,
+            "node1": 13872,
+            "node2": 11182183,
+            "type": 8,
+            "w": 11.0
+        },
+        {
+            "id": 427887327,
+            "node1": 13872,
+            "node2": 16071924,
+            "type": 8,
+            "w": 1.0
+        },
+        {
+            "id": 420319364,
+            "node1": 13872,
+            "node2": 16104813,
+            "type": 8,
+            "w": 4.0
+        },
+        {
+            "id": 779441450,
+            "node1": 13872,
+            "node2": 17464051,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789699459,
+            "node1": 13872,
+            "node2": 51316511,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 933733000,
+            "node1": 13872,
+            "node2": 95601103,
+            "type": 8,
+            "w": 20.0
+        },
+        {
+            "id": 783725321,
+            "node1": 13872,
+            "node2": 159707355,
+            "type": 8,
+            "w": 25.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            8
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T18:34:56.755641",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 25,
+        "max_relation_weight": 35.0,
+        "#nodes": 26,
+        "duration": "0:00:00.001643"
+    }
+}

@@ -1,0 +1,102 @@
+{
+    "nodes": [
+        {
+            "id": 315477,
+            "name": "Relation:",
+            "type": 4,
+            "w": 50
+        },
+        {
+            "id": 8568933,
+            "name": ":r1716445",
+            "type": 10,
+            "w": 0
+        },
+        {
+            "id": 19816,
+            "name": "probable",
+            "type": 1,
+            "w": 3340
+        },
+        {
+            "id": 126150,
+            "name": "contrastif",
+            "type": 1,
+            "w": 54
+        },
+        {
+            "id": 9538,
+            "name": "possible",
+            "type": 1,
+            "w": 12148
+        },
+        {
+            "id": 71965,
+            "name": "pertinent",
+            "type": 1,
+            "w": 2424
+        }
+    ],
+    "relations": [
+        {
+            "id": 423637282,
+            "node1": 8568933,
+            "node2": 9538,
+            "type": 998,
+            "w": 1.0
+        },
+        {
+            "id": 423637281,
+            "node1": 8568933,
+            "node2": 19816,
+            "type": 998,
+            "w": 3.0
+        },
+        {
+            "id": 149317625,
+            "node1": 8568933,
+            "node2": 71965,
+            "type": 998,
+            "w": 16.0
+        },
+        {
+            "id": 271910823,
+            "node1": 8568933,
+            "node2": 126150,
+            "type": 998,
+            "w": 1024.0
+        },
+        {
+            "id": 149317626,
+            "node1": 8568933,
+            "node2": 315477,
+            "type": 4,
+            "w": 1024.0
+        }
+    ],
+    "request": {
+        "types_ids": null,
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T19:20:28.373839",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 5,
+        "max_relation_weight": 1024.0,
+        "#nodes": 6,
+        "duration": "0:00:00.001234"
+    }
+}

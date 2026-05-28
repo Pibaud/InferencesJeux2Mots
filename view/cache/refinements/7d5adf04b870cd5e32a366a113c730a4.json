@@ -1,0 +1,86 @@
+{
+    "nodes": [
+        {
+            "id": 1408,
+            "name": "carburer",
+            "type": 1,
+            "w": 136,
+            "c": 0,
+            "level": 66.1295,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-27T06:08:48"
+        },
+        {
+            "id": 3232043,
+            "name": "être dans une grande forme",
+            "type": 1,
+            "w": 25,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2016-07-20",
+            "touchdate": "2026-02-02T15:56:19"
+        },
+        {
+            "id": 4658,
+            "name": "moteur",
+            "type": 1,
+            "w": 5459,
+            "c": 0,
+            "level": 60.9025,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T19:17:27"
+        },
+        {
+            "id": 46728,
+            "name": "chimie",
+            "type": 1,
+            "w": 6512,
+            "c": 0,
+            "level": 62.7636,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T19:18:27"
+        }
+    ],
+    "refinements": [
+        {
+            "id": 3232044,
+            "name": "carburer>3232043",
+            "type": 1,
+            "w": 25,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2016-07-20",
+            "touchdate": "2026-05-15T12:38:15",
+            "refinement": "être dans une grande forme"
+        },
+        {
+            "id": 3232045,
+            "name": "carburer>4658",
+            "type": 1,
+            "w": 25,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2016-07-20",
+            "touchdate": "2026-05-21T07:32:12",
+            "refinement": "moteur"
+        },
+        {
+            "id": 3232046,
+            "name": "carburer>46728",
+            "type": 1,
+            "w": 25,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2016-07-20",
+            "touchdate": "2026-05-24T11:41:02",
+            "refinement": "chimie"
+        }
+    ]
+}

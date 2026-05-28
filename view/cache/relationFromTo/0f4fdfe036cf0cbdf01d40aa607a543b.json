@@ -1,0 +1,77 @@
+{
+    "nodes": [
+        {
+            "id": 59328,
+            "name": "réacteur",
+            "type": 1,
+            "w": 1751
+        },
+        {
+            "id": 4658,
+            "name": "moteur",
+            "type": 1,
+            "w": 5459
+        }
+    ],
+    "relations": [
+        {
+            "id": 436346,
+            "node1": 59328,
+            "node2": 4658,
+            "type": 0,
+            "w": 207.0
+        },
+        {
+            "id": 55010236,
+            "node1": 59328,
+            "node2": 4658,
+            "type": 5,
+            "w": 66.0
+        },
+        {
+            "id": 96657,
+            "node1": 59328,
+            "node2": 4658,
+            "type": 6,
+            "w": 640.52
+        },
+        {
+            "id": 411685,
+            "node1": 59328,
+            "node2": 4658,
+            "type": 10,
+            "w": -56.0
+        },
+        {
+            "id": 1797191,
+            "node1": 59328,
+            "node2": 4658,
+            "type": 666,
+            "w": 10.0
+        }
+    ],
+    "request": {
+        "types_ids": null,
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T19:18:37.703081",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 5,
+        "max_relation_weight": 640.52,
+        "duration": "0:00:00.001395"
+    }
+}

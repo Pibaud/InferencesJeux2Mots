@@ -1,0 +1,390 @@
+{
+    "nodes": [
+        {
+            "id": 154443,
+            "name": "transport collectif",
+            "type": 1,
+            "w": 212
+        },
+        {
+            "id": 13712,
+            "name": "transport",
+            "type": 1,
+            "w": 11832
+        },
+        {
+            "id": 231122,
+            "name": "mode de transport",
+            "type": 1,
+            "w": 231
+        },
+        {
+            "id": 15205054,
+            "name": "en:mode of transport",
+            "type": 1,
+            "w": 2
+        },
+        {
+            "id": 123745,
+            "name": "véhicule",
+            "type": 1,
+            "w": 7213
+        },
+        {
+            "id": 12530522,
+            "name": "en:transportation",
+            "type": 1,
+            "w": 4
+        },
+        {
+            "id": 15770186,
+            "name": "en:means of getting around",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 63192,
+            "name": "transports",
+            "type": 1,
+            "w": 5122
+        },
+        {
+            "id": 15233350,
+            "name": "en:means of transport",
+            "type": 1,
+            "w": 4
+        },
+        {
+            "id": 15205057,
+            "name": "en:means of transportation",
+            "type": 1,
+            "w": 4
+        },
+        {
+            "id": 152778,
+            "name": "moyen de transport",
+            "type": 1,
+            "w": 638
+        },
+        {
+            "id": 14760630,
+            "name": "Transport en commun",
+            "type": 777,
+            "w": 37
+        },
+        {
+            "id": 384737,
+            "name": "transport urbain",
+            "type": 1,
+            "w": 143
+        },
+        {
+            "id": 2940777,
+            "name": "véhicule de transport à roues",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 7043115,
+            "name": "en:transport vehicle",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 152727,
+            "name": "moyen de locomotion",
+            "type": 1,
+            "w": 80
+        },
+        {
+            "id": 151687,
+            "name": "transport en commun",
+            "type": 1,
+            "w": 726
+        },
+        {
+            "id": 14965365,
+            "name": "en:mass transit",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 230988,
+            "name": "véhicule à roues",
+            "type": 1,
+            "w": 27
+        },
+        {
+            "id": 3304900,
+            "name": "véhicule de transport",
+            "type": 1,
+            "w": 14
+        },
+        {
+            "id": 15096116,
+            "name": "en:Transportation",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 104264516,
+            "name": "Mode de transport",
+            "type": 1,
+            "w": 5
+        },
+        {
+            "id": 14965367,
+            "name": "en:public transport",
+            "type": 1,
+            "w": 4
+        },
+        {
+            "id": 15646160,
+            "name": "Transport urbain",
+            "type": 777,
+            "w": 27
+        },
+        {
+            "id": 14965366,
+            "name": "en:public transit",
+            "type": 1,
+            "w": 2
+        },
+        {
+            "id": 240475,
+            "name": "transports en commun",
+            "type": 1,
+            "w": 918
+        },
+        {
+            "id": 15267276,
+            "name": "en:public transportation",
+            "type": 1,
+            "w": 2
+        },
+        {
+            "id": 121121,
+            "name": "transportation",
+            "type": 1,
+            "w": 90
+        }
+    ],
+    "relations": [
+        {
+            "id": 706245830,
+            "node1": 2940777,
+            "node2": 13712,
+            "type": 6,
+            "w": 26.0
+        },
+        {
+            "id": 603764557,
+            "node1": 2940777,
+            "node2": 63192,
+            "type": 6,
+            "w": -25.0
+        },
+        {
+            "id": 723185016,
+            "node1": 2940777,
+            "node2": 121121,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 72331065,
+            "node1": 2940777,
+            "node2": 123745,
+            "type": 6,
+            "w": 60.0
+        },
+        {
+            "id": 705363850,
+            "node1": 2940777,
+            "node2": 151687,
+            "type": 6,
+            "w": -25.0
+        },
+        {
+            "id": 604607732,
+            "node1": 2940777,
+            "node2": 152727,
+            "type": 6,
+            "w": 34.0
+        },
+        {
+            "id": 72383731,
+            "node1": 2940777,
+            "node2": 152778,
+            "type": 6,
+            "w": 58.0
+        },
+        {
+            "id": 612655571,
+            "node1": 2940777,
+            "node2": 154443,
+            "type": 6,
+            "w": -26.0
+        },
+        {
+            "id": 190311052,
+            "node1": 2940777,
+            "node2": 230988,
+            "type": 6,
+            "w": 60.0
+        },
+        {
+            "id": 603770757,
+            "node1": 2940777,
+            "node2": 231122,
+            "type": 6,
+            "w": 35.0
+        },
+        {
+            "id": 705417075,
+            "node1": 2940777,
+            "node2": 240475,
+            "type": 6,
+            "w": -25.0
+        },
+        {
+            "id": 612662637,
+            "node1": 2940777,
+            "node2": 384737,
+            "type": 6,
+            "w": 32.0
+        },
+        {
+            "id": 96321881,
+            "node1": 2940777,
+            "node2": 3304900,
+            "type": 6,
+            "w": 53.0
+        },
+        {
+            "id": 377268657,
+            "node1": 2940777,
+            "node2": 7043115,
+            "type": 6,
+            "w": 32.0
+        },
+        {
+            "id": 612647735,
+            "node1": 2940777,
+            "node2": 12530522,
+            "type": 6,
+            "w": 32.0
+        },
+        {
+            "id": 705371907,
+            "node1": 2940777,
+            "node2": 14760630,
+            "type": 6,
+            "w": -25.0
+        },
+        {
+            "id": 774914865,
+            "node1": 2940777,
+            "node2": 14965365,
+            "type": 6,
+            "w": -25.0
+        },
+        {
+            "id": 612684353,
+            "node1": 2940777,
+            "node2": 14965366,
+            "type": 6,
+            "w": -31.0
+        },
+        {
+            "id": 604629567,
+            "node1": 2940777,
+            "node2": 14965367,
+            "type": 6,
+            "w": -30.0
+        },
+        {
+            "id": 721494965,
+            "node1": 2940777,
+            "node2": 15096116,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 612628029,
+            "node1": 2940777,
+            "node2": 15205054,
+            "type": 6,
+            "w": 35.0
+        },
+        {
+            "id": 595654855,
+            "node1": 2940777,
+            "node2": 15205057,
+            "type": 6,
+            "w": 27.0
+        },
+        {
+            "id": 600414963,
+            "node1": 2940777,
+            "node2": 15233350,
+            "type": 6,
+            "w": 42.0
+        },
+        {
+            "id": 604635712,
+            "node1": 2940777,
+            "node2": 15267276,
+            "type": 6,
+            "w": -30.0
+        },
+        {
+            "id": 618918718,
+            "node1": 2940777,
+            "node2": 15646160,
+            "type": 6,
+            "w": 27.0
+        },
+        {
+            "id": 618905457,
+            "node1": 2940777,
+            "node2": 15770186,
+            "type": 6,
+            "w": 29.0
+        },
+        {
+            "id": 705907631,
+            "node1": 2940777,
+            "node2": 104264516,
+            "type": 6,
+            "w": 25.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            6
+        ],
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:39:39.267202",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 27,
+        "max_relation_weight": 60.0,
+        "#nodes": 28,
+        "duration": "0:00:00.002598"
+    }
+}

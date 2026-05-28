@@ -1,0 +1,59 @@
+{
+    "nodes": [
+        {
+            "id": 6890,
+            "name": "voiture",
+            "type": 1,
+            "w": 21960
+        },
+        {
+            "id": 133726,
+            "name": "voiturer",
+            "type": 1,
+            "w": 61
+        }
+    ],
+    "relations": [
+        {
+            "id": 341599,
+            "node1": 6890,
+            "node2": 6890,
+            "type": 19,
+            "w": 326.0
+        },
+        {
+            "id": 341600,
+            "node1": 6890,
+            "node2": 133726,
+            "type": 19,
+            "w": 58.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            19
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T18:37:22.788452",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 2,
+        "max_relation_weight": 326.0,
+        "#nodes": 2,
+        "duration": "0:00:00.081194"
+    }
+}

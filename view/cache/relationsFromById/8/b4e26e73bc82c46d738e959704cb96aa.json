@@ -1,0 +1,182 @@
+{
+    "nodes": [
+        {
+            "id": 245940,
+            "name": "fort coup de vent",
+            "type": 1,
+            "w": 53
+        },
+        {
+            "id": 6370769,
+            "name": "coup de vent péronier",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 16835525,
+            "name": "coup de vent ulnaire",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 6431345,
+            "name": "coup de vent cubital",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 133338,
+            "name": "ouragan",
+            "type": 1,
+            "w": 771
+        },
+        {
+            "id": 324693,
+            "name": "tornade>124518",
+            "type": 1,
+            "w": 72
+        },
+        {
+            "id": 344650,
+            "name": "coup de vent de force 6",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 67768,
+            "name": "bourrasque",
+            "type": 1,
+            "w": 176
+        },
+        {
+            "id": 16865173,
+            "name": "coup de vent (déformation en)",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 44600,
+            "name": "coup de vent",
+            "type": 1,
+            "w": 178
+        },
+        {
+            "id": 12622,
+            "name": "rafale",
+            "type": 1,
+            "w": 449
+        },
+        {
+            "id": 67073,
+            "name": "tornade",
+            "type": 1,
+            "w": 575
+        }
+    ],
+    "relations": [
+        {
+            "id": 2385475,
+            "node1": 44600,
+            "node2": 12622,
+            "type": 8,
+            "w": 76.0
+        },
+        {
+            "id": 11652029,
+            "node1": 44600,
+            "node2": 67073,
+            "type": 8,
+            "w": 75.0
+        },
+        {
+            "id": 2385473,
+            "node1": 44600,
+            "node2": 67768,
+            "type": 8,
+            "w": 76.0
+        },
+        {
+            "id": 2385474,
+            "node1": 44600,
+            "node2": 133338,
+            "type": 8,
+            "w": 76.0
+        },
+        {
+            "id": 9743099,
+            "node1": 44600,
+            "node2": 245940,
+            "type": 8,
+            "w": 54.0
+        },
+        {
+            "id": 11652053,
+            "node1": 44600,
+            "node2": 324693,
+            "type": 8,
+            "w": 75.0
+        },
+        {
+            "id": 13989693,
+            "node1": 44600,
+            "node2": 344650,
+            "type": 8,
+            "w": 39.0
+        },
+        {
+            "id": 304329299,
+            "node1": 44600,
+            "node2": 6370769,
+            "type": 8,
+            "w": 15.0
+        },
+        {
+            "id": 248554990,
+            "node1": 44600,
+            "node2": 6431345,
+            "type": 8,
+            "w": 26.0
+        },
+        {
+            "id": 779290832,
+            "node1": 44600,
+            "node2": 16835525,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 779290830,
+            "node1": 44600,
+            "node2": 16865173,
+            "type": 8,
+            "w": 25.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            8
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T18:26:12.187820",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 11,
+        "max_relation_weight": 76.0,
+        "#nodes": 12,
+        "duration": "0:00:00.002040"
+    }
+}

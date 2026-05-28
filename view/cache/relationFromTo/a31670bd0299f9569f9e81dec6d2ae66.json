@@ -1,0 +1,70 @@
+{
+    "nodes": [
+        {
+            "id": 87987,
+            "name": "France",
+            "type": 1,
+            "w": 48202
+        },
+        {
+            "id": 53541,
+            "name": "groupe",
+            "type": 1,
+            "w": 22998
+        }
+    ],
+    "relations": [
+        {
+            "id": 376161151,
+            "node1": 87987,
+            "node2": 53541,
+            "type": 0,
+            "w": 9.0
+        },
+        {
+            "id": 374213411,
+            "node1": 87987,
+            "node2": 53541,
+            "type": 6,
+            "w": -324.0
+        },
+        {
+            "id": 1011369636,
+            "node1": 87987,
+            "node2": 53541,
+            "type": 17,
+            "w": -5.0
+        },
+        {
+            "id": 389574255,
+            "node1": 87987,
+            "node2": 53541,
+            "type": 130,
+            "w": 30.0
+        }
+    ],
+    "request": {
+        "types_ids": null,
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:54:03.670701",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 4,
+        "max_relation_weight": 30.0,
+        "duration": "0:00:00.002139"
+    }
+}

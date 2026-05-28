@@ -1,0 +1,364 @@
+{
+    "nodes": [
+        {
+            "id": 66371,
+            "name": "expression génétique et son contrôle",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 51515,
+            "name": "voix",
+            "type": 1,
+            "w": 32695
+        },
+        {
+            "id": 75266,
+            "name": "langage",
+            "type": 1,
+            "w": 12825
+        },
+        {
+            "id": 143522,
+            "name": "cri",
+            "type": 1,
+            "w": 5285
+        },
+        {
+            "id": 17777,
+            "name": "lippe",
+            "type": 1,
+            "w": 56
+        },
+        {
+            "id": 35841,
+            "name": "peinture",
+            "type": 1,
+            "w": 8554
+        },
+        {
+            "id": 34746,
+            "name": "expression corporelle",
+            "type": 1,
+            "w": 100
+        },
+        {
+            "id": 112929,
+            "name": "action",
+            "type": 1,
+            "w": 25139
+        },
+        {
+            "id": 230284,
+            "name": "expression faciale",
+            "type": 1,
+            "w": 74
+        },
+        {
+            "id": 8831,
+            "name": "assertion",
+            "type": 1,
+            "w": 831
+        },
+        {
+            "id": 235816,
+            "name": "expression régulière",
+            "type": 1,
+            "w": 2
+        },
+        {
+            "id": 182374,
+            "name": "expression transitoire",
+            "type": 1,
+            "w": 55
+        },
+        {
+            "id": 127798,
+            "name": "geste",
+            "type": 1,
+            "w": 6827
+        },
+        {
+            "id": 225472,
+            "name": "expression écrite",
+            "type": 1,
+            "w": 625
+        },
+        {
+            "id": 234803,
+            "name": "expression rationnelle",
+            "type": 1,
+            "w": 51
+        },
+        {
+            "id": 151650,
+            "name": "identité nationale",
+            "type": 1,
+            "w": 1696
+        },
+        {
+            "id": 226114,
+            "name": "expression orale",
+            "type": 1,
+            "w": 501
+        },
+        {
+            "id": 73188,
+            "name": "diction",
+            "type": 1,
+            "w": 199
+        },
+        {
+            "id": 83091,
+            "name": "sourire",
+            "type": 1,
+            "w": 8908
+        },
+        {
+            "id": 139468,
+            "name": "proverbe",
+            "type": 1,
+            "w": 337
+        },
+        {
+            "id": 87332,
+            "name": "expression",
+            "type": 1,
+            "w": 23143
+        },
+        {
+            "id": 19216,
+            "name": "affirmation",
+            "type": 1,
+            "w": 3640
+        },
+        {
+            "id": 220929,
+            "name": "regard>105814",
+            "type": 1,
+            "w": 200
+        },
+        {
+            "id": 79853,
+            "name": "regard",
+            "type": 1,
+            "w": 15855
+        },
+        {
+            "id": 112905,
+            "name": "rire",
+            "type": 1,
+            "w": 9894
+        },
+        {
+            "id": 140636,
+            "name": "vague à l'âme",
+            "type": 1,
+            "w": 76
+        }
+    ],
+    "relations": [
+        {
+            "id": 962882487,
+            "node1": 87332,
+            "node2": 8831,
+            "type": 8,
+            "w": 2.0
+        },
+        {
+            "id": 28854067,
+            "node1": 87332,
+            "node2": 17777,
+            "type": 8,
+            "w": 38.0
+        },
+        {
+            "id": 9621134,
+            "node1": 87332,
+            "node2": 19216,
+            "type": 8,
+            "w": 29.0
+        },
+        {
+            "id": 13931853,
+            "node1": 87332,
+            "node2": 34746,
+            "type": 8,
+            "w": 26.0
+        },
+        {
+            "id": 1165591433,
+            "node1": 87332,
+            "node2": 35841,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 9625433,
+            "node1": 87332,
+            "node2": 51515,
+            "type": 8,
+            "w": 36.0
+        },
+        {
+            "id": 34516422,
+            "node1": 87332,
+            "node2": 66371,
+            "type": 8,
+            "w": 37.0
+        },
+        {
+            "id": 919525485,
+            "node1": 87332,
+            "node2": 73188,
+            "type": 8,
+            "w": 20.0
+        },
+        {
+            "id": 9626539,
+            "node1": 87332,
+            "node2": 75266,
+            "type": 8,
+            "w": 38.0
+        },
+        {
+            "id": 246297979,
+            "node1": 87332,
+            "node2": 79853,
+            "type": 8,
+            "w": 44.0
+        },
+        {
+            "id": 9772077,
+            "node1": 87332,
+            "node2": 83091,
+            "type": 8,
+            "w": 55.0
+        },
+        {
+            "id": 9622819,
+            "node1": 87332,
+            "node2": 112905,
+            "type": 8,
+            "w": 58.0
+        },
+        {
+            "id": 1168667280,
+            "node1": 87332,
+            "node2": 112929,
+            "type": 8,
+            "w": 61.0
+        },
+        {
+            "id": 9625339,
+            "node1": 87332,
+            "node2": 127798,
+            "type": 8,
+            "w": 21.0
+        },
+        {
+            "id": 9763820,
+            "node1": 87332,
+            "node2": 139468,
+            "type": 8,
+            "w": 53.0
+        },
+        {
+            "id": 712384239,
+            "node1": 87332,
+            "node2": 140636,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 9664462,
+            "node1": 87332,
+            "node2": 143522,
+            "type": 8,
+            "w": 32.0
+        },
+        {
+            "id": 780318805,
+            "node1": 87332,
+            "node2": 151650,
+            "type": 8,
+            "w": 26.0
+        },
+        {
+            "id": 30984660,
+            "node1": 87332,
+            "node2": 182374,
+            "type": 8,
+            "w": 34.0
+        },
+        {
+            "id": 9881227,
+            "node1": 87332,
+            "node2": 220929,
+            "type": 8,
+            "w": 67.0
+        },
+        {
+            "id": 28457280,
+            "node1": 87332,
+            "node2": 225472,
+            "type": 8,
+            "w": 29.0
+        },
+        {
+            "id": 243272835,
+            "node1": 87332,
+            "node2": 226114,
+            "type": 8,
+            "w": 30.0
+        },
+        {
+            "id": 31637120,
+            "node1": 87332,
+            "node2": 230284,
+            "type": 8,
+            "w": 58.0
+        },
+        {
+            "id": 31643911,
+            "node1": 87332,
+            "node2": 234803,
+            "type": 8,
+            "w": 32.0
+        },
+        {
+            "id": 9688117,
+            "node1": 87332,
+            "node2": 235816,
+            "type": 8,
+            "w": 44.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            8
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T18:51:58.438631",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 25,
+        "max_relation_weight": 67.0,
+        "#nodes": 26,
+        "duration": "0:00:00.001382"
+    }
+}

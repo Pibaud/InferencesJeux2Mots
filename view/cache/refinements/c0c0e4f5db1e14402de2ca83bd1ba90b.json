@@ -1,0 +1,155 @@
+{
+    "nodes": [
+        {
+            "id": 140962,
+            "name": "piston",
+            "type": 1,
+            "w": 290,
+            "c": 0,
+            "level": 55.2062,
+            "infoid": null,
+            "creationdate": "2007-06-28",
+            "touchdate": "2026-05-28T14:10:13"
+        },
+        {
+            "id": 93100,
+            "name": "capitaine",
+            "type": 1,
+            "w": 3844,
+            "c": 0,
+            "level": 48.0965,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T14:10:42"
+        },
+        {
+            "id": 171870,
+            "name": "Nom:",
+            "type": 4,
+            "w": 50,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2015-12-28",
+            "touchdate": "2026-05-28T18:37:01"
+        },
+        {
+            "id": 171869,
+            "name": "Adj:",
+            "type": 4,
+            "w": 50,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2015-12-28",
+            "touchdate": "2026-05-28T17:55:41"
+        },
+        {
+            "id": 70527,
+            "name": "musique",
+            "type": 1,
+            "w": 31794,
+            "c": 0,
+            "level": 58.7341,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T18:36:09"
+        },
+        {
+            "id": 216183,
+            "name": "pièce mécanique",
+            "type": 1,
+            "w": 192,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2010-02-12",
+            "touchdate": "2026-05-28T13:39:47"
+        },
+        {
+            "id": 127846,
+            "name": "recommandation",
+            "type": 1,
+            "w": 1933,
+            "c": 0,
+            "level": 48.9981,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T18:10:42"
+        }
+    ],
+    "refinements": [
+        {
+            "id": 595088,
+            "name": "piston>171869",
+            "type": 1,
+            "w": 25,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2014-12-03",
+            "touchdate": "2025-05-17T17:08:23",
+            "refinement": "Adj:"
+        },
+        {
+            "id": 259861,
+            "name": "piston>93100",
+            "type": 1,
+            "w": 52,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2012-12-28",
+            "touchdate": "2025-12-09T10:41:39",
+            "refinement": "capitaine"
+        },
+        {
+            "id": 595087,
+            "name": "piston>171870",
+            "type": 1,
+            "w": 25,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2014-12-03",
+            "touchdate": "2026-05-28T14:10:13",
+            "refinement": "Nom:"
+        },
+        {
+            "id": 259860,
+            "name": "piston>70527",
+            "type": 1,
+            "w": 50,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2012-12-28",
+            "touchdate": "2026-05-24T11:40:18",
+            "refinement": "musique"
+        },
+        {
+            "id": 259858,
+            "name": "piston>127846",
+            "type": 1,
+            "w": 66,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2012-12-28",
+            "touchdate": "2026-05-28T14:10:13",
+            "refinement": "recommandation"
+        },
+        {
+            "id": 259859,
+            "name": "piston>216183",
+            "type": 1,
+            "w": 50,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2012-12-28",
+            "touchdate": "2026-05-24T04:31:37",
+            "refinement": "pièce mécanique"
+        }
+    ]
+}

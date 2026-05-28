@@ -1,0 +1,52 @@
+{
+    "nodes": [
+        {
+            "id": 2949906,
+            "name": "être amusé par",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 13369,
+            "name": "être",
+            "type": 1,
+            "w": 1028419
+        }
+    ],
+    "relations": [
+        {
+            "id": 756734767,
+            "node1": 2949906,
+            "node2": 13369,
+            "type": 6,
+            "w": 26.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            6
+        ],
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:51:39.190005",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 1,
+        "max_relation_weight": 26.0,
+        "#nodes": 2,
+        "duration": "0:00:00.000761"
+    }
+}

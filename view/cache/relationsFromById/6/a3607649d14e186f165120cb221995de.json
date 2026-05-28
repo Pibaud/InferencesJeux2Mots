@@ -1,0 +1,65 @@
+{
+    "nodes": [
+        {
+            "id": 132366,
+            "name": "mettre",
+            "type": 1,
+            "w": 36782
+        },
+        {
+            "id": 113936,
+            "name": "mettre en mouvement",
+            "type": 1,
+            "w": 99
+        },
+        {
+            "id": 272229042,
+            "name": "mettre en",
+            "type": 1,
+            "w": 334
+        }
+    ],
+    "relations": [
+        {
+            "id": 756642187,
+            "node1": 113936,
+            "node2": 132366,
+            "type": 6,
+            "w": 26.0
+        },
+        {
+            "id": 757020876,
+            "node1": 113936,
+            "node2": 272229042,
+            "type": 6,
+            "w": 25.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            6
+        ],
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T19:18:39.689450",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 2,
+        "max_relation_weight": 26.0,
+        "#nodes": 3,
+        "duration": "0:00:00.000635"
+    }
+}

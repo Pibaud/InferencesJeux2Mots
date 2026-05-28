@@ -1,0 +1,49 @@
+{
+    "nodes": [
+        {
+            "id": 176265,
+            "name": "ardoise électronique",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 126079,
+            "name": "électronique",
+            "type": 1,
+            "w": 4474
+        }
+    ],
+    "relations": [
+        {
+            "id": 9445948,
+            "node1": 176265,
+            "node2": 126079,
+            "type": 0,
+            "w": 478.0
+        }
+    ],
+    "request": {
+        "types_ids": null,
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:35:03.837170",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 1,
+        "max_relation_weight": 478.0,
+        "duration": "0:00:00.001307"
+    }
+}

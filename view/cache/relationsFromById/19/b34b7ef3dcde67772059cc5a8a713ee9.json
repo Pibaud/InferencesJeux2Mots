@@ -1,0 +1,46 @@
+{
+    "nodes": [
+        {
+            "id": 102633,
+            "name": "soldat",
+            "type": 1,
+            "w": 7036
+        }
+    ],
+    "relations": [
+        {
+            "id": 333624,
+            "node1": 102633,
+            "node2": 102633,
+            "type": 19,
+            "w": 51.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            19
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T19:26:12.964543",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 1,
+        "max_relation_weight": 51.0,
+        "#nodes": 1,
+        "duration": "0:00:00.002451"
+    }
+}

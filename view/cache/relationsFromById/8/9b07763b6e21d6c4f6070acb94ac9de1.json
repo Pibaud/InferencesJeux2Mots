@@ -1,0 +1,52 @@
+{
+    "nodes": [
+        {
+            "id": 2951521,
+            "name": "adresser un sourire",
+            "type": 1,
+            "w": 7
+        },
+        {
+            "id": 17611297,
+            "name": "::>13:152389>29:2951521",
+            "type": 8,
+            "w": 10
+        }
+    ],
+    "relations": [
+        {
+            "id": 779645226,
+            "node1": 2951521,
+            "node2": 17611297,
+            "type": 8,
+            "w": 25.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            8
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T18:51:48.292101",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 1,
+        "max_relation_weight": 25.0,
+        "#nodes": 2,
+        "duration": "0:00:00.001312"
+    }
+}

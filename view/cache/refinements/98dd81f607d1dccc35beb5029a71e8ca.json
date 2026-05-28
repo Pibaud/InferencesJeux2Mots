@@ -1,0 +1,109 @@
+{
+    "nodes": [
+        {
+            "id": 12622,
+            "name": "rafale",
+            "type": 1,
+            "w": 449,
+            "c": 0,
+            "level": 50.0151,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T14:07:40"
+        },
+        {
+            "id": 2946892,
+            "name": "Ver:Conjug",
+            "type": 4,
+            "w": 50,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2016-02-28",
+            "touchdate": "2026-05-28T14:36:56"
+        },
+        {
+            "id": 171870,
+            "name": "Nom:",
+            "type": 4,
+            "w": 50,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2015-12-28",
+            "touchdate": "2026-05-28T18:24:59"
+        },
+        {
+            "id": 44600,
+            "name": "coup de vent",
+            "type": 1,
+            "w": 178,
+            "c": 0,
+            "level": 49.3801,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T14:09:32"
+        },
+        {
+            "id": 159531,
+            "name": "coup de feu",
+            "type": 1,
+            "w": 324,
+            "c": 0,
+            "level": 49.2285,
+            "infoid": null,
+            "creationdate": "2008-04-13",
+            "touchdate": "2026-05-28T13:45:29"
+        }
+    ],
+    "refinements": [
+        {
+            "id": 14290986,
+            "name": "rafale>2946892",
+            "type": 1,
+            "w": 0,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2020-01-19",
+            "touchdate": "2024-10-14T15:27:16",
+            "refinement": "Ver:Conjug"
+        },
+        {
+            "id": 14290987,
+            "name": "rafale>171870",
+            "type": 1,
+            "w": 0,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2020-01-19",
+            "touchdate": "2024-10-22T15:54:43",
+            "refinement": "Nom:"
+        },
+        {
+            "id": 217851,
+            "name": "rafale>44600",
+            "type": 1,
+            "w": 60,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2010-03-14",
+            "touchdate": "2026-05-18T08:35:04",
+            "refinement": "coup de vent"
+        },
+        {
+            "id": 217852,
+            "name": "rafale>159531",
+            "type": 1,
+            "w": 54,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2010-03-14",
+            "touchdate": "2026-05-08T05:07:28",
+            "refinement": "coup de feu"
+        }
+    ]
+}

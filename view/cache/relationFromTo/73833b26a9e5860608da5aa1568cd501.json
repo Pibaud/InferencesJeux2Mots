@@ -1,0 +1,49 @@
+{
+    "nodes": [
+        {
+            "id": 93100,
+            "name": "capitaine",
+            "type": 1,
+            "w": 3844
+        },
+        {
+            "id": 95706,
+            "name": "automobile",
+            "type": 1,
+            "w": 5164
+        }
+    ],
+    "relations": [
+        {
+            "id": 563878556,
+            "node1": 95706,
+            "node2": 93100,
+            "type": 777,
+            "w": 10.0
+        }
+    ],
+    "request": {
+        "types_ids": null,
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:37:38.214958",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 1,
+        "max_relation_weight": 10.0,
+        "duration": "0:00:00.000888"
+    }
+}

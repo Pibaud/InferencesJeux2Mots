@@ -1,0 +1,63 @@
+{
+    "nodes": [
+        {
+            "id": 315477,
+            "name": "Relation:",
+            "type": 4,
+            "w": 50
+        },
+        {
+            "id": 446055,
+            "name": ":r196417",
+            "type": 10,
+            "w": 50
+        },
+        {
+            "id": 2343590,
+            "name": "fait partie de",
+            "type": 1,
+            "w": 39
+        }
+    ],
+    "relations": [
+        {
+            "id": 15971963,
+            "node1": 446055,
+            "node2": 315477,
+            "type": 4,
+            "w": 22.0
+        },
+        {
+            "id": 34469300,
+            "node1": 446055,
+            "node2": 2343590,
+            "type": 998,
+            "w": 1.0
+        }
+    ],
+    "request": {
+        "types_ids": null,
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:54:04.588252",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 2,
+        "max_relation_weight": 22.0,
+        "#nodes": 3,
+        "duration": "0:00:00.001414"
+    }
+}

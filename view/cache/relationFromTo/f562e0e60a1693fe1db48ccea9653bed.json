@@ -1,0 +1,51 @@
+{
+    "nodes": [
+        {
+            "id": 68439,
+            "name": "individu",
+            "type": 1,
+            "w": 14195
+        },
+        {
+            "id": 39552,
+            "name": "se retrouver",
+            "type": 1,
+            "w": 1335
+        }
+    ],
+    "relations": [
+        {
+            "id": 478482484,
+            "node1": 68439,
+            "node2": 39552,
+            "type": 24,
+            "w": 183.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            24
+        ],
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:30:51.177010",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 1,
+        "max_relation_weight": 183.0,
+        "duration": "0:00:00.001173"
+    }
+}

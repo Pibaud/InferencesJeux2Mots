@@ -1,0 +1,221 @@
+{
+    "nodes": [
+        {
+            "id": 16171824,
+            "name": "application Web",
+            "type": 1,
+            "w": 26
+        },
+        {
+            "id": 48135,
+            "name": "application",
+            "type": 1,
+            "w": 13724
+        },
+        {
+            "id": 143856778,
+            "name": "Application Web",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 16171885,
+            "name": "en:Web app",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 16171886,
+            "name": "en:Web application",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 254779,
+            "name": "application web",
+            "type": 1,
+            "w": 106
+        },
+        {
+            "id": 225218,
+            "name": "moteur>167641",
+            "type": 1,
+            "w": 52
+        },
+        {
+            "id": 15459482,
+            "name": "en:web application",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15459481,
+            "name": "en:web app",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 254919,
+            "name": "service en ligne",
+            "type": 1,
+            "w": 197
+        },
+        {
+            "id": 167641,
+            "name": "moteur de recherche",
+            "type": 1,
+            "w": 1963
+        },
+        {
+            "id": 289326,
+            "name": "outil de recherche",
+            "type": 1,
+            "w": 223
+        },
+        {
+            "id": 8887965,
+            "name": "Application web",
+            "type": 777,
+            "w": 25
+        },
+        {
+            "id": 356867674,
+            "name": "moteur de",
+            "type": 1,
+            "w": 304
+        },
+        {
+            "id": 4658,
+            "name": "moteur",
+            "type": 1,
+            "w": 5459
+        }
+    ],
+    "relations": [
+        {
+            "id": 677323043,
+            "node1": 167641,
+            "node2": 4658,
+            "type": 6,
+            "w": 26.0
+        },
+        {
+            "id": 535023015,
+            "node1": 167641,
+            "node2": 48135,
+            "type": 6,
+            "w": 27.0
+        },
+        {
+            "id": 539946755,
+            "node1": 167641,
+            "node2": 225218,
+            "type": 6,
+            "w": -25.0
+        },
+        {
+            "id": 236023491,
+            "node1": 167641,
+            "node2": 254779,
+            "type": 6,
+            "w": 28.0
+        },
+        {
+            "id": 1286677542,
+            "node1": 167641,
+            "node2": 254919,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 1283238356,
+            "node1": 167641,
+            "node2": 289326,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 377147339,
+            "node1": 167641,
+            "node2": 8887965,
+            "type": 6,
+            "w": 35.0
+        },
+        {
+            "id": 618926773,
+            "node1": 167641,
+            "node2": 15459481,
+            "type": 6,
+            "w": 29.0
+        },
+        {
+            "id": 618926759,
+            "node1": 167641,
+            "node2": 15459482,
+            "type": 6,
+            "w": 26.0
+        },
+        {
+            "id": 618928057,
+            "node1": 167641,
+            "node2": 16171824,
+            "type": 6,
+            "w": 32.0
+        },
+        {
+            "id": 776022795,
+            "node1": 167641,
+            "node2": 16171885,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 776022781,
+            "node1": 167641,
+            "node2": 16171886,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 706212447,
+            "node1": 167641,
+            "node2": 143856778,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 1023056407,
+            "node1": 167641,
+            "node2": 356867674,
+            "type": 6,
+            "w": 25.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            6
+        ],
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T19:18:40.326892",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 14,
+        "max_relation_weight": 35.0,
+        "#nodes": 15,
+        "duration": "0:00:00.008733"
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "nodes": [
+        {
+            "id": 101610,
+            "name": "atterrir",
+            "type": 1,
+            "w": 665
+        },
+        {
+            "id": 167740,
+            "name": "avion de combat",
+            "type": 1,
+            "w": 212
+        }
+    ],
+    "relations": [
+        {
+            "id": 2499054,
+            "node1": 167740,
+            "node2": 101610,
+            "type": 24,
+            "w": 184.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            24
+        ],
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T19:08:00.606769",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 1,
+        "max_relation_weight": 184.0,
+        "duration": "0:00:00.001172"
+    }
+}

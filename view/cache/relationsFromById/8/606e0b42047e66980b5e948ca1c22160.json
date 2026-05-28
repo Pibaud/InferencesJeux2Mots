@@ -1,0 +1,364 @@
+{
+    "nodes": [
+        {
+            "id": 115317,
+            "name": "Paris vu du square Saint-Pierre",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 225246,
+            "name": "Paris vaut bien une messe",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 2600184,
+            "name": "Paris ne s'est pas fait en un jour",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 14670175,
+            "name": "Paris VIe",
+            "type": 1,
+            "w": 31
+        },
+        {
+            "id": 119810,
+            "name": "CNAM",
+            "type": 1,
+            "w": 379
+        },
+        {
+            "id": 251098,
+            "name": "Paris XVIe",
+            "type": 1,
+            "w": 68
+        },
+        {
+            "id": 5329917,
+            "name": "Paris en bouteille",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 126634,
+            "name": "Paris antique, des origines au IIIe siècle",
+            "type": 1,
+            "w": 52
+        },
+        {
+            "id": 3729284,
+            "name": "Paris Première",
+            "type": 1,
+            "w": 26
+        },
+        {
+            "id": 180274,
+            "name": "football gaélique",
+            "type": 1,
+            "w": 112
+        },
+        {
+            "id": 224531,
+            "name": "75",
+            "type": 1,
+            "w": 402
+        },
+        {
+            "id": 242346,
+            "name": "Paris FC",
+            "type": 1,
+            "w": 157
+        },
+        {
+            "id": 271588,
+            "name": "Paris Saint-Germain Football Club",
+            "type": 1,
+            "w": 67
+        },
+        {
+            "id": 243766,
+            "name": "Paris Match",
+            "type": 1,
+            "w": 541
+        },
+        {
+            "id": 251100,
+            "name": "Paris 16ème",
+            "type": 1,
+            "w": 4
+        },
+        {
+            "id": 1840857,
+            "name": "Paris nomina acta",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 2593358,
+            "name": "Paris XIIIe",
+            "type": 1,
+            "w": 12
+        },
+        {
+            "id": 11412997,
+            "name": "Caisse nationale de l'assurance maladie",
+            "type": 777,
+            "w": 53
+        },
+        {
+            "id": 14670169,
+            "name": "Paris XXe",
+            "type": 1,
+            "w": 43
+        },
+        {
+            "id": 267889,
+            "name": "Paris intra-muros",
+            "type": 1,
+            "w": 77
+        },
+        {
+            "id": 237376,
+            "name": "Paris Rive Gauche",
+            "type": 1,
+            "w": 21
+        },
+        {
+            "id": 14670176,
+            "name": "Paris IXe",
+            "type": 1,
+            "w": 38
+        },
+        {
+            "id": 14670172,
+            "name": "Paris IIIe",
+            "type": 1,
+            "w": 26
+        },
+        {
+            "id": 14670170,
+            "name": "Paris XIXe",
+            "type": 1,
+            "w": 22
+        },
+        {
+            "id": 251099,
+            "name": "Paris 16e",
+            "type": 1,
+            "w": 13
+        },
+        {
+            "id": 113317,
+            "name": "Paris",
+            "type": 1,
+            "w": 18336
+        }
+    ],
+    "relations": [
+        {
+            "id": 789444727,
+            "node1": 113317,
+            "node2": 115317,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 376284107,
+            "node1": 113317,
+            "node2": 119810,
+            "type": 8,
+            "w": 35.0
+        },
+        {
+            "id": 789444686,
+            "node1": 113317,
+            "node2": 126634,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 631401241,
+            "node1": 113317,
+            "node2": 180274,
+            "type": 8,
+            "w": 1.0
+        },
+        {
+            "id": 782392792,
+            "node1": 113317,
+            "node2": 224531,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789444725,
+            "node1": 113317,
+            "node2": 225246,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789444655,
+            "node1": 113317,
+            "node2": 237376,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789444630,
+            "node1": 113317,
+            "node2": 242346,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789444648,
+            "node1": 113317,
+            "node2": 243766,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789444682,
+            "node1": 113317,
+            "node2": 251098,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789444583,
+            "node1": 113317,
+            "node2": 251099,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789444585,
+            "node1": 113317,
+            "node2": 251100,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789444705,
+            "node1": 113317,
+            "node2": 267889,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789444659,
+            "node1": 113317,
+            "node2": 271588,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789444712,
+            "node1": 113317,
+            "node2": 1840857,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789444675,
+            "node1": 113317,
+            "node2": 2593358,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789444711,
+            "node1": 113317,
+            "node2": 2600184,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789444654,
+            "node1": 113317,
+            "node2": 3729284,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789444696,
+            "node1": 113317,
+            "node2": 5329917,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 294776975,
+            "node1": 113317,
+            "node2": 11412997,
+            "type": 8,
+            "w": 18.0
+        },
+        {
+            "id": 789444684,
+            "node1": 113317,
+            "node2": 14670169,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789444678,
+            "node1": 113317,
+            "node2": 14670170,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789444635,
+            "node1": 113317,
+            "node2": 14670172,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789444671,
+            "node1": 113317,
+            "node2": 14670175,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 789444638,
+            "node1": 113317,
+            "node2": 14670176,
+            "type": 8,
+            "w": 25.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            8
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T18:43:44.882051",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 25,
+        "max_relation_weight": 35.0,
+        "#nodes": 26,
+        "duration": "0:00:00.004006"
+    }
+}

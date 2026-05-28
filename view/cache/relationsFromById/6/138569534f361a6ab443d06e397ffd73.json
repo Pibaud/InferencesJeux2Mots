@@ -1,0 +1,455 @@
+{
+    "nodes": [
+        {
+            "id": 139578,
+            "name": "muscle",
+            "type": 1,
+            "w": 2513
+        },
+        {
+            "id": 63936,
+            "name": "tissu",
+            "type": 1,
+            "w": 3730
+        },
+        {
+            "id": 261134,
+            "name": "organe>112609>34503",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 225770,
+            "name": "organe>112609",
+            "type": 1,
+            "w": 100
+        },
+        {
+            "id": 39226,
+            "name": "biceps",
+            "type": 1,
+            "w": 504
+        },
+        {
+            "id": 316850,
+            "name": "entité physique",
+            "type": 1,
+            "w": 56
+        },
+        {
+            "id": 15267144,
+            "name": "en:biological tissue",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 145941,
+            "name": "plante",
+            "type": 1,
+            "w": 8793
+        },
+        {
+            "id": 74846,
+            "name": "corps",
+            "type": 1,
+            "w": 19771
+        },
+        {
+            "id": 40840,
+            "name": "force",
+            "type": 1,
+            "w": 22575
+        },
+        {
+            "id": 71539,
+            "name": "animaux",
+            "type": 1,
+            "w": 8278
+        },
+        {
+            "id": 136076,
+            "name": "plantes",
+            "type": 1,
+            "w": 6357
+        },
+        {
+            "id": 17559,
+            "name": "animal",
+            "type": 1,
+            "w": 20562
+        },
+        {
+            "id": 8258933,
+            "name": "lieu anatomique",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 9104817,
+            "name": "organe non parenchymateux",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 6798399,
+            "name": "en:body part",
+            "type": 1,
+            "w": 27
+        },
+        {
+            "id": 315737,
+            "name": "muscle du membre inférieur",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 76883,
+            "name": "tissu conjonctif",
+            "type": 1,
+            "w": 122
+        },
+        {
+            "id": 272843342,
+            "name": "tissu contractile",
+            "type": 1,
+            "w": 26
+        },
+        {
+            "id": 7607271,
+            "name": "en:nonparenchymatous organ",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 10777630,
+            "name": "tissu biologique animal",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 157827,
+            "name": "partie du corps",
+            "type": 1,
+            "w": 321
+        },
+        {
+            "id": 14935827,
+            "name": "en:physical feature",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 7277635,
+            "name": "en:musculoskeletal system part",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 1667825,
+            "name": "partie du corps humain",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 320670,
+            "name": "tissu mou",
+            "type": 1,
+            "w": 85
+        },
+        {
+            "id": 14012788,
+            "name": "Tissu biologique",
+            "type": 777,
+            "w": 25
+        },
+        {
+            "id": 15307354,
+            "name": "en:part of the body",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 234920,
+            "name": "tissu biologique",
+            "type": 1,
+            "w": 6
+        },
+        {
+            "id": 44335,
+            "name": "organe",
+            "type": 1,
+            "w": 2561
+        },
+        {
+            "id": 465647,
+            "name": "organe contractile",
+            "type": 1,
+            "w": 118
+        },
+        {
+            "id": 364223,
+            "name": "milieu biologique",
+            "type": 1,
+            "w": 52
+        },
+        {
+            "id": 47911,
+            "name": "fessier",
+            "type": 1,
+            "w": 236
+        }
+    ],
+    "relations": [
+        {
+            "id": 1244193112,
+            "node1": 139578,
+            "node2": 17559,
+            "type": 6,
+            "w": -25.0
+        },
+        {
+            "id": 1110319159,
+            "node1": 139578,
+            "node2": 39226,
+            "type": 6,
+            "w": -65.666
+        },
+        {
+            "id": 9900432,
+            "node1": 139578,
+            "node2": 40840,
+            "type": 6,
+            "w": -21.0
+        },
+        {
+            "id": 223313,
+            "node1": 139578,
+            "node2": 44335,
+            "type": 6,
+            "w": 424.0
+        },
+        {
+            "id": 1110319167,
+            "node1": 139578,
+            "node2": 47911,
+            "type": 6,
+            "w": -55.666
+        },
+        {
+            "id": 1034822197,
+            "node1": 139578,
+            "node2": 63936,
+            "type": 6,
+            "w": 75.0
+        },
+        {
+            "id": 1244195453,
+            "node1": 139578,
+            "node2": 71539,
+            "type": 6,
+            "w": -25.0
+        },
+        {
+            "id": 241970,
+            "node1": 139578,
+            "node2": 74846,
+            "type": 6,
+            "w": -78.0
+        },
+        {
+            "id": 1245840561,
+            "node1": 139578,
+            "node2": 76883,
+            "type": 6,
+            "w": -26.0
+        },
+        {
+            "id": 1244198697,
+            "node1": 139578,
+            "node2": 136076,
+            "type": 6,
+            "w": -25.0
+        },
+        {
+            "id": 1244199515,
+            "node1": 139578,
+            "node2": 145941,
+            "type": 6,
+            "w": -25.0
+        },
+        {
+            "id": 223372,
+            "node1": 139578,
+            "node2": 157827,
+            "type": 6,
+            "w": 397.0
+        },
+        {
+            "id": 14197983,
+            "node1": 139578,
+            "node2": 225770,
+            "type": 6,
+            "w": 500.0
+        },
+        {
+            "id": 192932894,
+            "node1": 139578,
+            "node2": 234920,
+            "type": 6,
+            "w": 70.0
+        },
+        {
+            "id": 1110323108,
+            "node1": 139578,
+            "node2": 261134,
+            "type": 6,
+            "w": -24.666
+        },
+        {
+            "id": 192909257,
+            "node1": 139578,
+            "node2": 315737,
+            "type": 6,
+            "w": -25.0
+        },
+        {
+            "id": 371177688,
+            "node1": 139578,
+            "node2": 316850,
+            "type": 6,
+            "w": 32.0
+        },
+        {
+            "id": 1034822644,
+            "node1": 139578,
+            "node2": 320670,
+            "type": 6,
+            "w": 97.0
+        },
+        {
+            "id": 313712960,
+            "node1": 139578,
+            "node2": 364223,
+            "type": 6,
+            "w": 40.0
+        },
+        {
+            "id": 16425554,
+            "node1": 139578,
+            "node2": 465647,
+            "type": 6,
+            "w": 1501.0
+        },
+        {
+            "id": 594518833,
+            "node1": 139578,
+            "node2": 1667825,
+            "type": 6,
+            "w": 500.0
+        },
+        {
+            "id": 312037222,
+            "node1": 139578,
+            "node2": 6798399,
+            "type": 6,
+            "w": 32.0
+        },
+        {
+            "id": 289614436,
+            "node1": 139578,
+            "node2": 7277635,
+            "type": 6,
+            "w": 335.0
+        },
+        {
+            "id": 138800735,
+            "node1": 139578,
+            "node2": 7607271,
+            "type": 6,
+            "w": 500.0
+        },
+        {
+            "id": 1251596033,
+            "node1": 139578,
+            "node2": 8258933,
+            "type": 6,
+            "w": 26.0
+        },
+        {
+            "id": 377068132,
+            "node1": 139578,
+            "node2": 9104817,
+            "type": 6,
+            "w": 500.0
+        },
+        {
+            "id": 269721782,
+            "node1": 139578,
+            "node2": 10777630,
+            "type": 6,
+            "w": 73.0
+        },
+        {
+            "id": 376434027,
+            "node1": 139578,
+            "node2": 14012788,
+            "type": 6,
+            "w": 96.0
+        },
+        {
+            "id": 774827351,
+            "node1": 139578,
+            "node2": 14935827,
+            "type": 6,
+            "w": -25.0
+        },
+        {
+            "id": 597472008,
+            "node1": 139578,
+            "node2": 15267144,
+            "type": 6,
+            "w": 105.0
+        },
+        {
+            "id": 598701729,
+            "node1": 139578,
+            "node2": 15307354,
+            "type": 6,
+            "w": 30.0
+        },
+        {
+            "id": 1009733518,
+            "node1": 139578,
+            "node2": 272843342,
+            "type": 6,
+            "w": 105.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            6
+        ],
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T19:18:37.238340",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 32,
+        "max_relation_weight": 1501.0,
+        "#nodes": 33,
+        "duration": "0:00:00.001693"
+    }
+}

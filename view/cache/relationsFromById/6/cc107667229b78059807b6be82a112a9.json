@@ -1,0 +1,221 @@
+{
+    "nodes": [
+        {
+            "id": 258235,
+            "name": "sourire à demi",
+            "type": 1,
+            "w": 4
+        },
+        {
+            "id": 4314223,
+            "name": "manifestation physique",
+            "type": 1,
+            "w": 32
+        },
+        {
+            "id": 230450,
+            "name": "comportement social",
+            "type": 1,
+            "w": 1000
+        },
+        {
+            "id": 112929,
+            "name": "action",
+            "type": 1,
+            "w": 25139
+        },
+        {
+            "id": 230284,
+            "name": "expression faciale",
+            "type": 1,
+            "w": 74
+        },
+        {
+            "id": 14356849,
+            "name": "expression émotionnelle",
+            "type": 1,
+            "w": 111
+        },
+        {
+            "id": 195195,
+            "name": "petit sourire",
+            "type": 1,
+            "w": 90
+        },
+        {
+            "id": 529045026,
+            "name": "humour irrésistible",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 377333,
+            "name": "réaction émotionnelle",
+            "type": 1,
+            "w": 264
+        },
+        {
+            "id": 234371849,
+            "name": "situations drôles",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 83091,
+            "name": "sourire",
+            "type": 1,
+            "w": 8908
+        },
+        {
+            "id": 24943,
+            "name": "face",
+            "type": 1,
+            "w": 16639
+        },
+        {
+            "id": 108078,
+            "name": "mimique",
+            "type": 1,
+            "w": 169
+        },
+        {
+            "id": 87332,
+            "name": "expression",
+            "type": 1,
+            "w": 23143
+        },
+        {
+            "id": 112905,
+            "name": "rire",
+            "type": 1,
+            "w": 9894
+        }
+    ],
+    "relations": [
+        {
+            "id": 1379124,
+            "node1": 83091,
+            "node2": 24943,
+            "type": 6,
+            "w": 70.0
+        },
+        {
+            "id": 2511764,
+            "node1": 83091,
+            "node2": 87332,
+            "type": 6,
+            "w": 1000.0
+        },
+        {
+            "id": 2580132,
+            "node1": 83091,
+            "node2": 108078,
+            "type": 6,
+            "w": 542.41
+        },
+        {
+            "id": 9901752,
+            "node1": 83091,
+            "node2": 112905,
+            "type": 6,
+            "w": 521.23
+        },
+        {
+            "id": 96459092,
+            "node1": 83091,
+            "node2": 112929,
+            "type": 6,
+            "w": 43.0
+        },
+        {
+            "id": 9917580,
+            "node1": 83091,
+            "node2": 195195,
+            "type": 6,
+            "w": 19.0
+        },
+        {
+            "id": 1151983643,
+            "node1": 83091,
+            "node2": 230284,
+            "type": 6,
+            "w": 525.23
+        },
+        {
+            "id": 1186263959,
+            "node1": 83091,
+            "node2": 230450,
+            "type": 6,
+            "w": 65.0
+        },
+        {
+            "id": 9917581,
+            "node1": 83091,
+            "node2": 258235,
+            "type": 6,
+            "w": -19.0
+        },
+        {
+            "id": 1262628970,
+            "node1": 83091,
+            "node2": 377333,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 1041938377,
+            "node1": 83091,
+            "node2": 4314223,
+            "type": 6,
+            "w": 30.0
+        },
+        {
+            "id": 1262628941,
+            "node1": 83091,
+            "node2": 14356849,
+            "type": 6,
+            "w": 26.0
+        },
+        {
+            "id": 1239249583,
+            "node1": 83091,
+            "node2": 234371849,
+            "type": 6,
+            "w": -30.0
+        },
+        {
+            "id": 1235100749,
+            "node1": 83091,
+            "node2": 529045026,
+            "type": 6,
+            "w": 26.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            6
+        ],
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:50:17.336226",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 14,
+        "max_relation_weight": 1000.0,
+        "#nodes": 15,
+        "duration": "0:00:00.000981"
+    }
+}

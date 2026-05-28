@@ -1,0 +1,188 @@
+{
+    "nodes": [
+        {
+            "id": 79364,
+            "name": "sauter",
+            "type": 1,
+            "w": 2599,
+            "c": 0,
+            "level": 51.1843,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T17:35:48"
+        },
+        {
+            "id": 5692,
+            "name": "baiser",
+            "type": 1,
+            "w": 2927,
+            "c": 0,
+            "level": 45.8053,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T16:09:27"
+        },
+        {
+            "id": 5115,
+            "name": "cuire",
+            "type": 1,
+            "w": 2183,
+            "c": 0,
+            "level": 53.3218,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T17:29:53"
+        },
+        {
+            "id": 248850,
+            "name": "faire faillite",
+            "type": 1,
+            "w": 139,
+            "c": 0,
+            "level": 198.0,
+            "infoid": null,
+            "creationdate": "2012-07-05",
+            "touchdate": "2026-05-28T13:44:26"
+        },
+        {
+            "id": 76822,
+            "name": "exploser",
+            "type": 1,
+            "w": 1512,
+            "c": 0,
+            "level": 48.5062,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T16:47:29"
+        },
+        {
+            "id": 41168,
+            "name": "omettre",
+            "type": 1,
+            "w": 270,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T17:03:38"
+        },
+        {
+            "id": 141684,
+            "name": "s'élancer",
+            "type": 1,
+            "w": 456,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2007-06-28",
+            "touchdate": "2026-05-27T23:42:09"
+        }
+    ],
+    "refinements": [
+        {
+            "id": 225435,
+            "name": "sauter>5692",
+            "type": 1,
+            "w": 16,
+            "c": 0,
+            "level": 199.0,
+            "infoid": null,
+            "creationdate": "2010-09-04",
+            "touchdate": "2026-05-28T14:08:28",
+            "refinement": "baiser"
+        },
+        {
+            "id": 11148198,
+            "name": "sauter>141684>77255",
+            "type": 1,
+            "w": 2,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2018-07-01",
+            "touchdate": "2026-03-21T22:13:01"
+        },
+        {
+            "id": 225437,
+            "name": "sauter>5115",
+            "type": 1,
+            "w": 52,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2010-09-04",
+            "touchdate": "2026-05-27T23:25:05",
+            "refinement": "cuire"
+        },
+        {
+            "id": 225434,
+            "name": "sauter>76822",
+            "type": 1,
+            "w": 52,
+            "c": 0,
+            "level": 199.0,
+            "infoid": null,
+            "creationdate": "2010-09-04",
+            "touchdate": "2026-05-22T11:43:34",
+            "refinement": "exploser"
+        },
+        {
+            "id": 11148203,
+            "name": "sauter>141684>318416",
+            "type": 1,
+            "w": 14,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2018-07-01",
+            "touchdate": "2026-05-03T23:23:58"
+        },
+        {
+            "id": 11148200,
+            "name": "sauter>248850",
+            "type": 1,
+            "w": 25,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2018-07-01",
+            "touchdate": "2026-05-22T11:43:33",
+            "refinement": "faire faillite"
+        },
+        {
+            "id": 225433,
+            "name": "sauter>141684",
+            "type": 1,
+            "w": 44,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2010-09-04",
+            "touchdate": "2026-05-27T06:08:27",
+            "refinement": "s'élancer"
+        },
+        {
+            "id": 225438,
+            "name": "sauter>141684>85694",
+            "type": 1,
+            "w": 68,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2010-09-04",
+            "touchdate": "2026-05-22T11:43:34"
+        },
+        {
+            "id": 225436,
+            "name": "sauter>41168",
+            "type": 1,
+            "w": 52,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2010-09-04",
+            "touchdate": "2026-05-25T22:19:46",
+            "refinement": "omettre"
+        }
+    ]
+}

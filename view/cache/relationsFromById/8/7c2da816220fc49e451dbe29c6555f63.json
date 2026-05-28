@@ -1,0 +1,364 @@
+{
+    "nodes": [
+        {
+            "id": 92284,
+            "name": "sourire protecteur",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 161252,
+            "name": "sourire d'enfant",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 257071,
+            "name": "sourire commercial",
+            "type": 1,
+            "w": 6
+        },
+        {
+            "id": 258235,
+            "name": "sourire à demi",
+            "type": 1,
+            "w": 4
+        },
+        {
+            "id": 258236,
+            "name": "sourire à moitié",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 184334,
+            "name": "sourire jusqu'aux oreilles",
+            "type": 1,
+            "w": 8
+        },
+        {
+            "id": 252505,
+            "name": "::>66:83091>17:145755",
+            "type": 8,
+            "w": 50
+        },
+        {
+            "id": 161251,
+            "name": "sourire de toutes ses dents",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 360986,
+            "name": "large sourire",
+            "type": 1,
+            "w": 64
+        },
+        {
+            "id": 158505,
+            "name": "grand sourire",
+            "type": 1,
+            "w": 90
+        },
+        {
+            "id": 208387,
+            "name": "sourire entendu",
+            "type": 1,
+            "w": 71
+        },
+        {
+            "id": 235365,
+            "name": "sourire en coin",
+            "type": 1,
+            "w": 49
+        },
+        {
+            "id": 252384,
+            "name": "esquisser un sourire",
+            "type": 1,
+            "w": 24
+        },
+        {
+            "id": 326560,
+            "name": "sourire carnassier",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 380625,
+            "name": "sourire amer",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 380630,
+            "name": "sourire dédaigneux",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 380632,
+            "name": "sourire engageant",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 380626,
+            "name": "sourire crispé",
+            "type": 1,
+            "w": 56
+        },
+        {
+            "id": 380629,
+            "name": "sourire de satisfaction",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 380627,
+            "name": "sourire de commande",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 380631,
+            "name": "sourire démoniaque",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 380628,
+            "name": "sourire de magazine",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 186856,
+            "name": "rire sous cape",
+            "type": 1,
+            "w": 12
+        },
+        {
+            "id": 230213,
+            "name": "sourire moqueur",
+            "type": 1,
+            "w": 4
+        },
+        {
+            "id": 72397,
+            "name": "pleurer",
+            "type": 1,
+            "w": 4950
+        },
+        {
+            "id": 83091,
+            "name": "sourire",
+            "type": 1,
+            "w": 8908
+        }
+    ],
+    "relations": [
+        {
+            "id": 1046576490,
+            "node1": 83091,
+            "node2": 72397,
+            "type": 8,
+            "w": 20.0
+        },
+        {
+            "id": 23631514,
+            "node1": 83091,
+            "node2": 92284,
+            "type": 8,
+            "w": 29.0
+        },
+        {
+            "id": 27929915,
+            "node1": 83091,
+            "node2": 158505,
+            "type": 8,
+            "w": 28.0
+        },
+        {
+            "id": 16017827,
+            "node1": 83091,
+            "node2": 161251,
+            "type": 8,
+            "w": 27.0
+        },
+        {
+            "id": 14118469,
+            "node1": 83091,
+            "node2": 161252,
+            "type": 8,
+            "w": 31.0
+        },
+        {
+            "id": 14162945,
+            "node1": 83091,
+            "node2": 184334,
+            "type": 8,
+            "w": 27.0
+        },
+        {
+            "id": 1238225107,
+            "node1": 83091,
+            "node2": 186856,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 9137392,
+            "node1": 83091,
+            "node2": 208387,
+            "type": 8,
+            "w": 77.0
+        },
+        {
+            "id": 9682882,
+            "node1": 83091,
+            "node2": 230213,
+            "type": 8,
+            "w": 43.0
+        },
+        {
+            "id": 2342669,
+            "node1": 83091,
+            "node2": 235365,
+            "type": 8,
+            "w": 76.0
+        },
+        {
+            "id": 9863568,
+            "node1": 83091,
+            "node2": 252384,
+            "type": 8,
+            "w": 63.0
+        },
+        {
+            "id": 9754635,
+            "node1": 83091,
+            "node2": 252505,
+            "type": 8,
+            "w": 53.0
+        },
+        {
+            "id": 9879732,
+            "node1": 83091,
+            "node2": 257071,
+            "type": 8,
+            "w": 66.0
+        },
+        {
+            "id": 781982765,
+            "node1": 83091,
+            "node2": 258235,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 933753476,
+            "node1": 83091,
+            "node2": 258236,
+            "type": 8,
+            "w": 20.0
+        },
+        {
+            "id": 11530629,
+            "node1": 83091,
+            "node2": 326560,
+            "type": 8,
+            "w": 70.0
+        },
+        {
+            "id": 712350216,
+            "node1": 83091,
+            "node2": 360986,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 785959674,
+            "node1": 83091,
+            "node2": 380625,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 785959696,
+            "node1": 83091,
+            "node2": 380626,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 785959702,
+            "node1": 83091,
+            "node2": 380627,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 785959710,
+            "node1": 83091,
+            "node2": 380628,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 14140942,
+            "node1": 83091,
+            "node2": 380629,
+            "type": 8,
+            "w": 26.0
+        },
+        {
+            "id": 27524058,
+            "node1": 83091,
+            "node2": 380630,
+            "type": 8,
+            "w": 31.0
+        },
+        {
+            "id": 785959722,
+            "node1": 83091,
+            "node2": 380631,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 785959724,
+            "node1": 83091,
+            "node2": 380632,
+            "type": 8,
+            "w": 25.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            8
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T18:50:25.370267",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 25,
+        "max_relation_weight": 77.0,
+        "#nodes": 26,
+        "duration": "0:00:00.001999"
+    }
+}

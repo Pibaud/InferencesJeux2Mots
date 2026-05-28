@@ -1,0 +1,63 @@
+{
+    "nodes": [
+        {
+            "id": 21405,
+            "name": "âme",
+            "type": 1,
+            "w": 10346
+        },
+        {
+            "id": 73890,
+            "name": "religion",
+            "type": 1,
+            "w": 13048
+        }
+    ],
+    "relations": [
+        {
+            "id": 2485672,
+            "node1": 21405,
+            "node2": 73890,
+            "type": 0,
+            "w": 347.0
+        },
+        {
+            "id": 507184,
+            "node1": 21405,
+            "node2": 73890,
+            "type": 3,
+            "w": 543.0
+        },
+        {
+            "id": 24930825,
+            "node1": 21405,
+            "node2": 73890,
+            "type": 35,
+            "w": 104.0
+        }
+    ],
+    "request": {
+        "types_ids": null,
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T19:14:58.021130",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 3,
+        "max_relation_weight": 543.0,
+        "duration": "0:00:00.002195"
+    }
+}

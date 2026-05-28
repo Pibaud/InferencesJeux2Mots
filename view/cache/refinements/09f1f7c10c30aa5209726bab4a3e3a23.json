@@ -1,0 +1,86 @@
+{
+    "nodes": [
+        {
+            "id": 101610,
+            "name": "atterrir",
+            "type": 1,
+            "w": 665,
+            "c": 0,
+            "level": 50.899,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T14:13:40"
+        },
+        {
+            "id": 143712,
+            "name": "marine",
+            "type": 1,
+            "w": 5569,
+            "c": 0,
+            "level": 52.5838,
+            "infoid": null,
+            "creationdate": "2007-06-28",
+            "touchdate": "2026-05-28T16:18:16"
+        },
+        {
+            "id": 15229,
+            "name": "aéronautique",
+            "type": 1,
+            "w": 3806,
+            "c": 0,
+            "level": 45.1844,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T16:29:47"
+        },
+        {
+            "id": 39552,
+            "name": "se retrouver",
+            "type": 1,
+            "w": 1335,
+            "c": 0,
+            "level": 41.7302,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T13:38:43"
+        }
+    ],
+    "refinements": [
+        {
+            "id": 2868586,
+            "name": "atterrir>15229",
+            "type": 1,
+            "w": 86,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2016-01-24",
+            "touchdate": "2026-05-28T13:36:05",
+            "refinement": "aéronautique"
+        },
+        {
+            "id": 2868584,
+            "name": "atterrir>39552",
+            "type": 1,
+            "w": 25,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2016-01-24",
+            "touchdate": "2026-04-04T20:25:25",
+            "refinement": "se retrouver"
+        },
+        {
+            "id": 2868585,
+            "name": "atterrir>143712",
+            "type": 1,
+            "w": 26,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2016-01-24",
+            "touchdate": "2026-05-24T11:41:27",
+            "refinement": "marine"
+        }
+    ]
+}

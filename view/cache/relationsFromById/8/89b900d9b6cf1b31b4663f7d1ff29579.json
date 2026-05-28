@@ -1,0 +1,364 @@
+{
+    "nodes": [
+        {
+            "id": 215100,
+            "name": "souris volant",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 305172,
+            "name": "souris marsupiales",
+            "type": 777,
+            "w": 50
+        },
+        {
+            "id": 380646,
+            "name": "souris montagnarde",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 380643,
+            "name": "souris articulaire",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 168309,
+            "name": "souris marsupiale",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 142832,
+            "name": "souris",
+            "type": 1,
+            "w": 3573
+        },
+        {
+            "id": 245809,
+            "name": "souris grise",
+            "type": 1,
+            "w": 52
+        },
+        {
+            "id": 129181,
+            "name": "campagnol",
+            "type": 1,
+            "w": 222
+        },
+        {
+            "id": 168308,
+            "name": "souris à miel",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 138893,
+            "name": "souris d'hôtel",
+            "type": 1,
+            "w": 68
+        },
+        {
+            "id": 163001,
+            "name": "petite souris",
+            "type": 1,
+            "w": 106
+        },
+        {
+            "id": 159888,
+            "name": "souris verte",
+            "type": 1,
+            "w": 68
+        },
+        {
+            "id": 105206,
+            "name": "Mickey",
+            "type": 1,
+            "w": 1227
+        },
+        {
+            "id": 380642,
+            "name": "souris adulte",
+            "type": 1,
+            "w": 53
+        },
+        {
+            "id": 380647,
+            "name": "souris mâle",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 271014,
+            "name": "souris des dents de lait",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 272823,
+            "name": "souris domestique",
+            "type": 777,
+            "w": 98
+        },
+        {
+            "id": 380644,
+            "name": "souris de mer",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 380645,
+            "name": "souris femelle",
+            "type": 1,
+            "w": 58
+        },
+        {
+            "id": 160867,
+            "name": "souris de laboratoire",
+            "type": 1,
+            "w": 215
+        },
+        {
+            "id": 225780,
+            "name": "souris d'ordinateur",
+            "type": 1,
+            "w": 52
+        },
+        {
+            "id": 134204,
+            "name": "Bernadette",
+            "type": 1,
+            "w": 67
+        },
+        {
+            "id": 195259,
+            "name": "Jerry",
+            "type": 1,
+            "w": 1726
+        },
+        {
+            "id": 164213,
+            "name": "souris blanche",
+            "type": 1,
+            "w": 90
+        },
+        {
+            "id": 40368,
+            "name": "mulot",
+            "type": 1,
+            "w": 337
+        },
+        {
+            "id": 117739,
+            "name": "clavier",
+            "type": 1,
+            "w": 3613
+        }
+    ],
+    "relations": [
+        {
+            "id": 393507,
+            "node1": 142832,
+            "node2": 40368,
+            "type": 8,
+            "w": 63.0
+        },
+        {
+            "id": 618950776,
+            "node1": 142832,
+            "node2": 105206,
+            "type": 8,
+            "w": 28.0
+        },
+        {
+            "id": 1046576446,
+            "node1": 142832,
+            "node2": 117739,
+            "type": 8,
+            "w": 20.0
+        },
+        {
+            "id": 9661553,
+            "node1": 142832,
+            "node2": 129181,
+            "type": 8,
+            "w": 65.0
+        },
+        {
+            "id": 909246788,
+            "node1": 142832,
+            "node2": 134204,
+            "type": 8,
+            "w": 20.0
+        },
+        {
+            "id": 788763700,
+            "node1": 142832,
+            "node2": 138893,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 788764166,
+            "node1": 142832,
+            "node2": 159888,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 97054910,
+            "node1": 142832,
+            "node2": 160867,
+            "type": 8,
+            "w": 52.0
+        },
+        {
+            "id": 352277185,
+            "node1": 142832,
+            "node2": 163001,
+            "type": 8,
+            "w": 55.0
+        },
+        {
+            "id": 393504,
+            "node1": 142832,
+            "node2": 164213,
+            "type": 8,
+            "w": 124.0
+        },
+        {
+            "id": 788764252,
+            "node1": 142832,
+            "node2": 168308,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 788763996,
+            "node1": 142832,
+            "node2": 168309,
+            "type": 8,
+            "w": 30.0
+        },
+        {
+            "id": 641928120,
+            "node1": 142832,
+            "node2": 195259,
+            "type": 8,
+            "w": 15.0
+        },
+        {
+            "id": 788764172,
+            "node1": 142832,
+            "node2": 215100,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 788763701,
+            "node1": 142832,
+            "node2": 225780,
+            "type": 8,
+            "w": 41.0
+        },
+        {
+            "id": 9733879,
+            "node1": 142832,
+            "node2": 245809,
+            "type": 8,
+            "w": 66.0
+        },
+        {
+            "id": 26779946,
+            "node1": 142832,
+            "node2": 271014,
+            "type": 8,
+            "w": 26.0
+        },
+        {
+            "id": 14100513,
+            "node1": 142832,
+            "node2": 272823,
+            "type": 8,
+            "w": 43.0
+        },
+        {
+            "id": 217411794,
+            "node1": 142832,
+            "node2": 305172,
+            "type": 8,
+            "w": 34.0
+        },
+        {
+            "id": 788763626,
+            "node1": 142832,
+            "node2": 380642,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 788763638,
+            "node1": 142832,
+            "node2": 380643,
+            "type": 8,
+            "w": 31.0
+        },
+        {
+            "id": 788763837,
+            "node1": 142832,
+            "node2": 380644,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 14063778,
+            "node1": 142832,
+            "node2": 380645,
+            "type": 8,
+            "w": 35.0
+        },
+        {
+            "id": 788764004,
+            "node1": 142832,
+            "node2": 380646,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 788764008,
+            "node1": 142832,
+            "node2": 380647,
+            "type": 8,
+            "w": 25.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            8
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T18:48:15.427191",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 25,
+        "max_relation_weight": 124.0,
+        "#nodes": 26,
+        "duration": "0:00:00.006524"
+    }
+}

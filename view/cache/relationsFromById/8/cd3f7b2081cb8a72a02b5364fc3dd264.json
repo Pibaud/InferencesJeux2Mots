@@ -1,0 +1,364 @@
+{
+    "nodes": [
+        {
+            "id": 3310317,
+            "name": "manège de chevaux de bois",
+            "type": 777,
+            "w": 25
+        },
+        {
+            "id": 10094751,
+            "name": "Music Express",
+            "type": 777,
+            "w": 25
+        },
+        {
+            "id": 10094752,
+            "name": "Manège avion",
+            "type": 777,
+            "w": 25
+        },
+        {
+            "id": 10094758,
+            "name": "Balloon Race",
+            "type": 777,
+            "w": 0
+        },
+        {
+            "id": 10623518,
+            "name": "Flik's Flyers",
+            "type": 777,
+            "w": 25
+        },
+        {
+            "id": 11575658,
+            "name": "manège d'Andréa",
+            "type": 777,
+            "w": 0
+        },
+        {
+            "id": 11575657,
+            "name": "manège Magique",
+            "type": 777,
+            "w": 0
+        },
+        {
+            "id": 363220,
+            "name": "manège d'avions",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 15259175,
+            "name": "manège individuel",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 15259176,
+            "name": "en:kid's ride",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 15259178,
+            "name": "en:kiddie ride",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 15259179,
+            "name": "en:kiddy ride",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 15330208,
+            "name": "en:mall ride",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 15372949,
+            "name": "manège hippique",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 153083,
+            "name": "grand huit",
+            "type": 1,
+            "w": 89
+        },
+        {
+            "id": 104321,
+            "name": "manège",
+            "type": 1,
+            "w": 310
+        },
+        {
+            "id": 12079745,
+            "name": "manège pour enfants",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 363215,
+            "name": "manège couvert",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 363221,
+            "name": "manège de traite",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 363217,
+            "name": "manège découvert",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 363216,
+            "name": "manège d'ensemble",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 363218,
+            "name": "manège militaire",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 363219,
+            "name": "manège civil",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 363222,
+            "name": "manège forain",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 10559292,
+            "name": "Pieuvre",
+            "type": 1,
+            "w": 27
+        },
+        {
+            "id": 10672629,
+            "name": "Chenille",
+            "type": 1,
+            "w": 25
+        }
+    ],
+    "relations": [
+        {
+            "id": 9666600,
+            "node1": 104321,
+            "node2": 153083,
+            "type": 8,
+            "w": 34.0
+        },
+        {
+            "id": 33746628,
+            "node1": 104321,
+            "node2": 363215,
+            "type": 8,
+            "w": 30.0
+        },
+        {
+            "id": 33761130,
+            "node1": 104321,
+            "node2": 363216,
+            "type": 8,
+            "w": 34.0
+        },
+        {
+            "id": 33751270,
+            "node1": 104321,
+            "node2": 363217,
+            "type": 8,
+            "w": 31.0
+        },
+        {
+            "id": 33751262,
+            "node1": 104321,
+            "node2": 363218,
+            "type": 8,
+            "w": 32.0
+        },
+        {
+            "id": 33746580,
+            "node1": 104321,
+            "node2": 363219,
+            "type": 8,
+            "w": 27.0
+        },
+        {
+            "id": 33746664,
+            "node1": 104321,
+            "node2": 363220,
+            "type": 8,
+            "w": 26.0
+        },
+        {
+            "id": 33746601,
+            "node1": 104321,
+            "node2": 363221,
+            "type": 8,
+            "w": 28.0
+        },
+        {
+            "id": 28741593,
+            "node1": 104321,
+            "node2": 363222,
+            "type": 8,
+            "w": 32.0
+        },
+        {
+            "id": 243535663,
+            "node1": 104321,
+            "node2": 3310317,
+            "type": 8,
+            "w": 28.0
+        },
+        {
+            "id": 242826625,
+            "node1": 104321,
+            "node2": 10094751,
+            "type": 8,
+            "w": 31.0
+        },
+        {
+            "id": 242826622,
+            "node1": 104321,
+            "node2": 10094752,
+            "type": 8,
+            "w": 34.0
+        },
+        {
+            "id": 242826621,
+            "node1": 104321,
+            "node2": 10094758,
+            "type": 8,
+            "w": 34.0
+        },
+        {
+            "id": 272591214,
+            "node1": 104321,
+            "node2": 10559292,
+            "type": 8,
+            "w": 22.0
+        },
+        {
+            "id": 381150249,
+            "node1": 104321,
+            "node2": 10623518,
+            "type": 8,
+            "w": 27.0
+        },
+        {
+            "id": 272591212,
+            "node1": 104321,
+            "node2": 10672629,
+            "type": 8,
+            "w": 22.0
+        },
+        {
+            "id": 297579019,
+            "node1": 104321,
+            "node2": 11575657,
+            "type": 8,
+            "w": 18.0
+        },
+        {
+            "id": 297644705,
+            "node1": 104321,
+            "node2": 11575658,
+            "type": 8,
+            "w": 15.0
+        },
+        {
+            "id": 346606806,
+            "node1": 104321,
+            "node2": 12079745,
+            "type": 8,
+            "w": 1.0
+        },
+        {
+            "id": 789999786,
+            "node1": 104321,
+            "node2": 15259175,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 782059897,
+            "node1": 104321,
+            "node2": 15259176,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 782059896,
+            "node1": 104321,
+            "node2": 15259178,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 782059895,
+            "node1": 104321,
+            "node2": 15259179,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 782059894,
+            "node1": 104321,
+            "node2": 15330208,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 779304943,
+            "node1": 104321,
+            "node2": 15372949,
+            "type": 8,
+            "w": 25.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            8
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T18:30:38.094216",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 25,
+        "max_relation_weight": 34.0,
+        "#nodes": 26,
+        "duration": "0:00:00.001375"
+    }
+}

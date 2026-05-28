@@ -1,0 +1,63 @@
+{
+    "nodes": [
+        {
+            "id": 315477,
+            "name": "Relation:",
+            "type": 4,
+            "w": 50
+        },
+        {
+            "id": 482288221,
+            "name": ":r1143971821",
+            "type": 10,
+            "w": 0
+        },
+        {
+            "id": 117785,
+            "name": "discutable",
+            "type": 1,
+            "w": 361
+        }
+    ],
+    "relations": [
+        {
+            "id": 1181278355,
+            "node1": 482288221,
+            "node2": 117785,
+            "type": 998,
+            "w": 1.0
+        },
+        {
+            "id": 1181278356,
+            "node1": 482288221,
+            "node2": 315477,
+            "type": 4,
+            "w": 1.0
+        }
+    ],
+    "request": {
+        "types_ids": null,
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T19:18:40.605513",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 2,
+        "max_relation_weight": 1.0,
+        "#nodes": 3,
+        "duration": "0:00:00.000791"
+    }
+}

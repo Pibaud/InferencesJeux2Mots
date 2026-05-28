@@ -1,0 +1,63 @@
+{
+    "nodes": [
+        {
+            "id": 124100,
+            "name": "Montpellier",
+            "type": 1,
+            "w": 3794,
+            "c": 0,
+            "level": 49.8338,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T14:04:52"
+        },
+        {
+            "id": 87987,
+            "name": "France",
+            "type": 1,
+            "w": 48202,
+            "c": 0,
+            "level": 87.0279,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T18:34:49"
+        },
+        {
+            "id": 130188,
+            "name": "Québec",
+            "type": 1,
+            "w": 4234,
+            "c": 0,
+            "level": 33.2441,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T14:08:39"
+        }
+    ],
+    "refinements": [
+        {
+            "id": 14201243,
+            "name": "Montpellier>130188",
+            "type": 1,
+            "w": 26,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2020-01-07",
+            "touchdate": "2026-05-27T14:18:25",
+            "refinement": "Québec"
+        },
+        {
+            "id": 14201240,
+            "name": "Montpellier>87987",
+            "type": 1,
+            "w": 28,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2020-01-07",
+            "touchdate": "2026-05-28T14:04:52",
+            "refinement": "France"
+        }
+    ]
+}

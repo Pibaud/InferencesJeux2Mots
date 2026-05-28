@@ -1,0 +1,299 @@
+{
+    "nodes": [
+        {
+            "id": 284911968,
+            "name": "se moquer de façon vulgaire",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 51774,
+            "name": "se moquer de",
+            "type": 1,
+            "w": 160
+        },
+        {
+            "id": 14536786,
+            "name": "::>13:124094>29:51774",
+            "type": 8,
+            "w": 10
+        },
+        {
+            "id": 14536788,
+            "name": "::>14:140583>29:51774",
+            "type": 8,
+            "w": 10
+        },
+        {
+            "id": 112225749,
+            "name": "::>13:95245>29:51774",
+            "type": 8,
+            "w": 10
+        },
+        {
+            "id": 112225777,
+            "name": "::>14:41413>29:51774",
+            "type": 8,
+            "w": 10
+        },
+        {
+            "id": 112225751,
+            "name": "::>14:102812>29:51774",
+            "type": 8,
+            "w": 10
+        },
+        {
+            "id": 283276602,
+            "name": "se moquer de l'apparence",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 283276603,
+            "name": "se moquer de la voix",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 283276615,
+            "name": "se moquer de la religion",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 284911961,
+            "name": "se moquer de manière blessante",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 284911964,
+            "name": "se moquer de façon désobligeante",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 112225790,
+            "name": "::>13:91723>29:51774",
+            "type": 8,
+            "w": 10
+        },
+        {
+            "id": 283292047,
+            "name": "se moquer de la situation",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 284911962,
+            "name": "se moquer de façon humiliante",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 284911963,
+            "name": "se moquer de manière offensante",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 284911965,
+            "name": "se moquer de façon irrespectueuse",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 284911966,
+            "name": "se moquer de façon impolie",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 284911967,
+            "name": "se moquer de façon grossière",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 284911969,
+            "name": "se moquer de façon déplacée",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 284911970,
+            "name": "se moquer de façon dégradante",
+            "type": 1,
+            "w": 25
+        }
+    ],
+    "relations": [
+        {
+            "id": 373510418,
+            "node1": 51774,
+            "node2": 14536786,
+            "type": 8,
+            "w": 26.0
+        },
+        {
+            "id": 373510416,
+            "node1": 51774,
+            "node2": 14536788,
+            "type": 8,
+            "w": 32.0
+        },
+        {
+            "id": 780817873,
+            "node1": 51774,
+            "node2": 112225749,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 780817876,
+            "node1": 51774,
+            "node2": 112225751,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 780817887,
+            "node1": 51774,
+            "node2": 112225777,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 780817900,
+            "node1": 51774,
+            "node2": 112225790,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 796169316,
+            "node1": 51774,
+            "node2": 283276602,
+            "type": 8,
+            "w": 24.0
+        },
+        {
+            "id": 796169319,
+            "node1": 51774,
+            "node2": 283276603,
+            "type": 8,
+            "w": 30.0
+        },
+        {
+            "id": 796169317,
+            "node1": 51774,
+            "node2": 283276615,
+            "type": 8,
+            "w": 21.0
+        },
+        {
+            "id": 796169318,
+            "node1": 51774,
+            "node2": 283292047,
+            "type": 8,
+            "w": 23.0
+        },
+        {
+            "id": 796169320,
+            "node1": 51774,
+            "node2": 284911961,
+            "type": 8,
+            "w": 24.0
+        },
+        {
+            "id": 796169312,
+            "node1": 51774,
+            "node2": 284911962,
+            "type": 8,
+            "w": 26.0
+        },
+        {
+            "id": 796169321,
+            "node1": 51774,
+            "node2": 284911963,
+            "type": 8,
+            "w": 22.0
+        },
+        {
+            "id": 796169310,
+            "node1": 51774,
+            "node2": 284911964,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 796169314,
+            "node1": 51774,
+            "node2": 284911965,
+            "type": 8,
+            "w": 24.0
+        },
+        {
+            "id": 796169313,
+            "node1": 51774,
+            "node2": 284911966,
+            "type": 8,
+            "w": 26.0
+        },
+        {
+            "id": 796169311,
+            "node1": 51774,
+            "node2": 284911967,
+            "type": 8,
+            "w": 28.0
+        },
+        {
+            "id": 796169315,
+            "node1": 51774,
+            "node2": 284911968,
+            "type": 8,
+            "w": 25.0
+        },
+        {
+            "id": 796169309,
+            "node1": 51774,
+            "node2": 284911969,
+            "type": 8,
+            "w": 30.0
+        },
+        {
+            "id": 796169308,
+            "node1": 51774,
+            "node2": 284911970,
+            "type": 8,
+            "w": 30.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            8
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T18:51:45.549140",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 20,
+        "max_relation_weight": 32.0,
+        "#nodes": 21,
+        "duration": "0:00:00.001643"
+    }
+}

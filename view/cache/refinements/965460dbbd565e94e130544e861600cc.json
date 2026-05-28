@@ -1,0 +1,86 @@
+{
+    "nodes": [
+        {
+            "id": 107545,
+            "name": "dodo",
+            "type": 1,
+            "w": 592,
+            "c": 0,
+            "level": 53.7754,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T14:10:32"
+        },
+        {
+            "id": 43253,
+            "name": "dormir",
+            "type": 1,
+            "w": 11094,
+            "c": 0,
+            "level": 53.3908,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T17:53:42"
+        },
+        {
+            "id": 71578,
+            "name": "lit",
+            "type": 1,
+            "w": 10541,
+            "c": 0,
+            "level": 55.2323,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T18:24:44"
+        },
+        {
+            "id": 140176,
+            "name": "oiseau",
+            "type": 1,
+            "w": 11979,
+            "c": 0,
+            "level": 60.2244,
+            "infoid": null,
+            "creationdate": "2007-06-28",
+            "touchdate": "2026-05-28T16:38:36"
+        }
+    ],
+    "refinements": [
+        {
+            "id": 213884,
+            "name": "dodo>43253",
+            "type": 1,
+            "w": 128,
+            "c": 0,
+            "level": 198.0,
+            "infoid": null,
+            "creationdate": "2010-01-03",
+            "touchdate": "2026-05-27T13:34:12",
+            "refinement": "dormir"
+        },
+        {
+            "id": 252511,
+            "name": "dodo>71578",
+            "type": 1,
+            "w": 72,
+            "c": 0,
+            "level": 197.0,
+            "infoid": null,
+            "creationdate": "2012-08-25",
+            "touchdate": "2026-05-27T13:34:12",
+            "refinement": "lit"
+        },
+        {
+            "id": 213883,
+            "name": "dodo>140176",
+            "type": 1,
+            "w": 6,
+            "c": 0,
+            "level": 199.0,
+            "infoid": null,
+            "creationdate": "2010-01-03",
+            "touchdate": "2026-05-28T06:32:15",
+            "refinement": "oiseau"
+        }
+    ]
+}

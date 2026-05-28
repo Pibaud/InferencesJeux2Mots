@@ -1,0 +1,130 @@
+{
+    "nodes": [
+        {
+            "id": 135190,
+            "name": "lieu",
+            "type": 1,
+            "w": 16138
+        },
+        {
+            "id": 116477,
+            "name": "personne",
+            "type": 1,
+            "w": 44497
+        },
+        {
+            "id": 243120641,
+            "name": "concept abstrait",
+            "type": 1,
+            "w": 41
+        },
+        {
+            "id": 28044,
+            "name": "cause",
+            "type": 1,
+            "w": 14914
+        },
+        {
+            "id": 41382,
+            "name": "explication",
+            "type": 1,
+            "w": 8210
+        },
+        {
+            "id": 42490,
+            "name": "élément",
+            "type": 1,
+            "w": 11256
+        },
+        {
+            "id": 147115,
+            "name": "conté",
+            "type": 1,
+            "w": 68
+        },
+        {
+            "id": 36071,
+            "name": "relation",
+            "type": 1,
+            "w": 21179
+        }
+    ],
+    "relations": [
+        {
+            "id": 1131462620,
+            "node1": 28044,
+            "node2": 36071,
+            "type": 6,
+            "w": 91.0
+        },
+        {
+            "id": 1249117144,
+            "node1": 28044,
+            "node2": 41382,
+            "type": 6,
+            "w": -31.0
+        },
+        {
+            "id": 1210876588,
+            "node1": 28044,
+            "node2": 42490,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 694998465,
+            "node1": 28044,
+            "node2": 116477,
+            "type": 6,
+            "w": -157.0
+        },
+        {
+            "id": 57975280,
+            "node1": 28044,
+            "node2": 135190,
+            "type": 6,
+            "w": 36.0
+        },
+        {
+            "id": 57975281,
+            "node1": 28044,
+            "node2": 147115,
+            "type": 6,
+            "w": -37.0
+        },
+        {
+            "id": 1169366777,
+            "node1": 28044,
+            "node2": 243120641,
+            "type": 6,
+            "w": 44.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            6
+        ],
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T19:18:39.883764",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 7,
+        "max_relation_weight": 91.0,
+        "#nodes": 8,
+        "duration": "0:00:00.001383"
+    }
+}

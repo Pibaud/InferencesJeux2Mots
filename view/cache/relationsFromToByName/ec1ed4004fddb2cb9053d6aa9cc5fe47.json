@@ -1,0 +1,67 @@
+{
+    "nodes": [
+        {
+            "id": 6890,
+            "name": "voiture",
+            "type": 1,
+            "w": 21960,
+            "c": 0,
+            "level": 59.4812,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T18:07:48"
+        },
+        {
+            "id": 140962,
+            "name": "piston",
+            "type": 1,
+            "w": 290,
+            "c": 0,
+            "level": 55.2062,
+            "infoid": null,
+            "creationdate": "2007-06-28",
+            "touchdate": "2026-05-28T14:10:13"
+        }
+    ],
+    "relations": [
+        {
+            "id": 10002898,
+            "node1": 6890,
+            "node2": 140962,
+            "type": 0,
+            "w": 19.0
+        },
+        {
+            "id": 2429967,
+            "node1": 6890,
+            "node2": 140962,
+            "type": 9,
+            "w": 62.0
+        }
+    ],
+    "request": {
+        "types_ids": null,
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:37:55.857895",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "node1": "voiture",
+        "node2": "piston",
+        "#relations": 2,
+        "max_relation_weight": 62.0,
+        "duration": "0:00:00.000893"
+    }
+}

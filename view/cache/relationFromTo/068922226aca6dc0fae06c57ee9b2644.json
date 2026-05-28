@@ -1,0 +1,56 @@
+{
+    "nodes": [
+        {
+            "id": 85185,
+            "name": "informatique quantique",
+            "type": 1,
+            "w": 301
+        },
+        {
+            "id": 35712,
+            "name": "atome",
+            "type": 1,
+            "w": 2957
+        }
+    ],
+    "relations": [
+        {
+            "id": 1154185326,
+            "node1": 85185,
+            "node2": 35712,
+            "type": 0,
+            "w": 19.0
+        },
+        {
+            "id": 592602498,
+            "node1": 85185,
+            "node2": 35712,
+            "type": 777,
+            "w": 10.0
+        }
+    ],
+    "request": {
+        "types_ids": null,
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:51:37.236870",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 2,
+        "max_relation_weight": 19.0,
+        "duration": "0:00:00.000915"
+    }
+}

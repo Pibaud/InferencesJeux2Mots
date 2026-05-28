@@ -1,0 +1,364 @@
+{
+    "nodes": [
+        {
+            "id": 315424,
+            "name": "MSN Search",
+            "type": 777,
+            "w": 55
+        },
+        {
+            "id": 315423,
+            "name": "Windows Live Search",
+            "type": 777,
+            "w": 50
+        },
+        {
+            "id": 315422,
+            "name": "Live Search",
+            "type": 777,
+            "w": 50
+        },
+        {
+            "id": 1820624,
+            "name": "méta-moteur",
+            "type": 777,
+            "w": 25
+        },
+        {
+            "id": 153014,
+            "name": "MSN",
+            "type": 1,
+            "w": 140
+        },
+        {
+            "id": 10830902,
+            "name": "Theseus",
+            "type": 1,
+            "w": 0
+        },
+        {
+            "id": 11009295,
+            "name": "iSearch",
+            "type": 777,
+            "w": 25
+        },
+        {
+            "id": 11009508,
+            "name": "dir.com",
+            "type": 777,
+            "w": 25
+        },
+        {
+            "id": 212733,
+            "name": "Google",
+            "type": 1,
+            "w": 2007
+        },
+        {
+            "id": 5880233,
+            "name": "moteur de recherche de données bibliographiques",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 230664,
+            "name": "yahoo",
+            "type": 1,
+            "w": 71
+        },
+        {
+            "id": 11009189,
+            "name": "YaCy",
+            "type": 777,
+            "w": 25
+        },
+        {
+            "id": 11009215,
+            "name": "blekko",
+            "type": 777,
+            "w": 25
+        },
+        {
+            "id": 10992665,
+            "name": "moteur de recherche personnalisé Google",
+            "type": 777,
+            "w": 25
+        },
+        {
+            "id": 10992687,
+            "name": "Google Desktop",
+            "type": 777,
+            "w": 25
+        },
+        {
+            "id": 225795,
+            "name": "google",
+            "type": 1,
+            "w": 1282
+        },
+        {
+            "id": 5520135,
+            "name": "moteur de recherche du World Wide Web",
+            "type": 1,
+            "w": 36
+        },
+        {
+            "id": 38314,
+            "name": "bing",
+            "type": 1,
+            "w": 88
+        },
+        {
+            "id": 230753,
+            "name": "Altavista",
+            "type": 1,
+            "w": 52
+        },
+        {
+            "id": 248165,
+            "name": "moteur de recommandations locales",
+            "type": 1,
+            "w": 30
+        },
+        {
+            "id": 1820608,
+            "name": "métamoteur",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 2375431,
+            "name": "moteur de recherche Google",
+            "type": 777,
+            "w": 35
+        },
+        {
+            "id": 1006948,
+            "name": "Soso",
+            "type": 777,
+            "w": 25
+        },
+        {
+            "id": 167641,
+            "name": "moteur de recherche",
+            "type": 1,
+            "w": 1963
+        },
+        {
+            "id": 5880125,
+            "name": "PubMed",
+            "type": 1,
+            "w": 68
+        },
+        {
+            "id": 1820625,
+            "name": "méta-chercheur",
+            "type": 777,
+            "w": 25
+        }
+    ],
+    "relations": [
+        {
+            "id": 1799734,
+            "node1": 167641,
+            "node2": 38314,
+            "type": 8,
+            "w": 76.0
+        },
+        {
+            "id": 1800089,
+            "node1": 167641,
+            "node2": 153014,
+            "type": 8,
+            "w": 121.0
+        },
+        {
+            "id": 774395922,
+            "node1": 167641,
+            "node2": 212733,
+            "type": 8,
+            "w": 30.0
+        },
+        {
+            "id": 1799648,
+            "node1": 167641,
+            "node2": 225795,
+            "type": 8,
+            "w": 111.0
+        },
+        {
+            "id": 1799645,
+            "node1": 167641,
+            "node2": 230664,
+            "type": 8,
+            "w": 111.0
+        },
+        {
+            "id": 1801754,
+            "node1": 167641,
+            "node2": 230753,
+            "type": 8,
+            "w": 101.0
+        },
+        {
+            "id": 9744105,
+            "node1": 167641,
+            "node2": 248165,
+            "type": 8,
+            "w": 54.0
+        },
+        {
+            "id": 243482007,
+            "node1": 167641,
+            "node2": 315422,
+            "type": 8,
+            "w": 30.0
+        },
+        {
+            "id": 243482010,
+            "node1": 167641,
+            "node2": 315423,
+            "type": 8,
+            "w": 34.0
+        },
+        {
+            "id": 243482013,
+            "node1": 167641,
+            "node2": 315424,
+            "type": 8,
+            "w": 35.0
+        },
+        {
+            "id": 279293199,
+            "node1": 167641,
+            "node2": 1006948,
+            "type": 8,
+            "w": 27.0
+        },
+        {
+            "id": 380439936,
+            "node1": 167641,
+            "node2": 1820608,
+            "type": 8,
+            "w": 32.0
+        },
+        {
+            "id": 380439937,
+            "node1": 167641,
+            "node2": 1820624,
+            "type": 8,
+            "w": 30.0
+        },
+        {
+            "id": 246619867,
+            "node1": 167641,
+            "node2": 1820625,
+            "type": 8,
+            "w": 30.0
+        },
+        {
+            "id": 52685405,
+            "node1": 167641,
+            "node2": 2375431,
+            "type": 8,
+            "w": 37.0
+        },
+        {
+            "id": 248472871,
+            "node1": 167641,
+            "node2": 5520135,
+            "type": 8,
+            "w": 32.0
+        },
+        {
+            "id": 247349312,
+            "node1": 167641,
+            "node2": 5880125,
+            "type": 8,
+            "w": 32.0
+        },
+        {
+            "id": 248492868,
+            "node1": 167641,
+            "node2": 5880233,
+            "type": 8,
+            "w": 26.0
+        },
+        {
+            "id": 271073780,
+            "node1": 167641,
+            "node2": 10830902,
+            "type": 8,
+            "w": 19.0
+        },
+        {
+            "id": 278455269,
+            "node1": 167641,
+            "node2": 10992665,
+            "type": 8,
+            "w": 24.0
+        },
+        {
+            "id": 278461127,
+            "node1": 167641,
+            "node2": 10992687,
+            "type": 8,
+            "w": 22.0
+        },
+        {
+            "id": 427887849,
+            "node1": 167641,
+            "node2": 11009189,
+            "type": 8,
+            "w": 1.0
+        },
+        {
+            "id": 279293205,
+            "node1": 167641,
+            "node2": 11009215,
+            "type": 8,
+            "w": 31.0
+        },
+        {
+            "id": 279293354,
+            "node1": 167641,
+            "node2": 11009295,
+            "type": 8,
+            "w": 31.0
+        },
+        {
+            "id": 279293290,
+            "node1": 167641,
+            "node2": 11009508,
+            "type": 8,
+            "w": 27.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            8
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T19:18:41.149600",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 25,
+        "max_relation_weight": 121.0,
+        "#nodes": 26,
+        "duration": "0:00:00.000759"
+    }
+}

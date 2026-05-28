@@ -1,0 +1,85 @@
+{
+    "nodes": [
+        {
+            "id": 94978,
+            "name": "ordinateur",
+            "type": 1,
+            "w": 10676,
+            "c": 0,
+            "level": 55.0288,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T17:55:46"
+        },
+        {
+            "id": 104993,
+            "name": "informatique",
+            "type": 1,
+            "w": 6418,
+            "c": 0,
+            "level": 48.7866,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T17:55:19"
+        },
+        {
+            "id": 13872,
+            "name": "liturgie",
+            "type": 1,
+            "w": 316,
+            "c": 0,
+            "level": 201.703,
+            "infoid": null,
+            "creationdate": "2007-06-21",
+            "touchdate": "2026-05-28T07:46:21"
+        }
+    ],
+    "refinements": [
+        {
+            "id": 3659818,
+            "name": "ordinateur>13872>171869",
+            "type": 1,
+            "w": 25,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2016-11-24",
+            "touchdate": "2025-08-30T08:28:57"
+        },
+        {
+            "id": 3659817,
+            "name": "ordinateur>13872>146885",
+            "type": 1,
+            "w": 25,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2016-11-24",
+            "touchdate": "2025-08-29T07:28:01"
+        },
+        {
+            "id": 3659579,
+            "name": "ordinateur>13872",
+            "type": 1,
+            "w": 25,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2016-11-24",
+            "touchdate": "2026-05-27T23:03:44",
+            "refinement": "liturgie"
+        },
+        {
+            "id": 3659578,
+            "name": "ordinateur>104993",
+            "type": 1,
+            "w": 90,
+            "c": 0,
+            "level": 200.0,
+            "infoid": null,
+            "creationdate": "2016-11-24",
+            "touchdate": "2026-05-28T13:38:12",
+            "refinement": "informatique"
+        }
+    ]
+}

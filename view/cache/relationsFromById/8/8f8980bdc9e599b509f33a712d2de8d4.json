@@ -1,0 +1,364 @@
+{
+    "nodes": [
+        {
+            "id": 921,
+            "name": "cacatoès de Leadbeater",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 4836,
+            "name": "rhynchée peinte",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 1430,
+            "name": "huard",
+            "type": 1,
+            "w": 52
+        },
+        {
+            "id": 1938,
+            "name": "cochevis",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 5198,
+            "name": "youyou",
+            "type": 1,
+            "w": 74
+        },
+        {
+            "id": 498,
+            "name": "paon",
+            "type": 1,
+            "w": 183
+        },
+        {
+            "id": 6274,
+            "name": "balbuzard",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 3344,
+            "name": "loriot",
+            "type": 1,
+            "w": 55
+        },
+        {
+            "id": 4434,
+            "name": "bernicle",
+            "type": 1,
+            "w": 64
+        },
+        {
+            "id": 944,
+            "name": "chat-huant",
+            "type": 1,
+            "w": 58
+        },
+        {
+            "id": 4581,
+            "name": "estorlet",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 508,
+            "name": "aérophone",
+            "type": 1,
+            "w": 54
+        },
+        {
+            "id": 3580,
+            "name": "rallidé",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 4788,
+            "name": "aepyornis",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 2,
+            "name": "oiseau-à-berceau",
+            "type": 1,
+            "w": 52
+        },
+        {
+            "id": 2490,
+            "name": "paille-en-queue",
+            "type": 1,
+            "w": 56
+        },
+        {
+            "id": 273,
+            "name": "piaf",
+            "type": 1,
+            "w": 215
+        },
+        {
+            "id": 3490,
+            "name": "barnache",
+            "type": 1,
+            "w": 52
+        },
+        {
+            "id": 1962,
+            "name": "harfang",
+            "type": 1,
+            "w": 52
+        },
+        {
+            "id": 91,
+            "name": "chlamydère",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 140176,
+            "name": "oiseau",
+            "type": 1,
+            "w": 11979
+        },
+        {
+            "id": 6031,
+            "name": "ermite",
+            "type": 1,
+            "w": 361
+        },
+        {
+            "id": 2574,
+            "name": "carinates",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 2009,
+            "name": "Colombe",
+            "type": 1,
+            "w": 60
+        },
+        {
+            "id": 4566,
+            "name": "hochequeue",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 2380,
+            "name": "bernache",
+            "type": 1,
+            "w": 53
+        }
+    ],
+    "relations": [
+        {
+            "id": 9680366,
+            "node1": 140176,
+            "node2": 2,
+            "type": 8,
+            "w": 61.0
+        },
+        {
+            "id": 9674342,
+            "node1": 140176,
+            "node2": 91,
+            "type": 8,
+            "w": 39.0
+        },
+        {
+            "id": 12019432,
+            "node1": 140176,
+            "node2": 273,
+            "type": 8,
+            "w": 215.0
+        },
+        {
+            "id": 9659226,
+            "node1": 140176,
+            "node2": 498,
+            "type": 8,
+            "w": 63.0
+        },
+        {
+            "id": 9755650,
+            "node1": 140176,
+            "node2": 508,
+            "type": 8,
+            "w": 87.0
+        },
+        {
+            "id": 9655769,
+            "node1": 140176,
+            "node2": 921,
+            "type": 8,
+            "w": 27.0
+        },
+        {
+            "id": 9663352,
+            "node1": 140176,
+            "node2": 944,
+            "type": 8,
+            "w": 29.0
+        },
+        {
+            "id": 246297156,
+            "node1": 140176,
+            "node2": 1430,
+            "type": 8,
+            "w": 52.0
+        },
+        {
+            "id": 9765033,
+            "node1": 140176,
+            "node2": 1938,
+            "type": 8,
+            "w": 54.0
+        },
+        {
+            "id": 9657753,
+            "node1": 140176,
+            "node2": 1962,
+            "type": 8,
+            "w": 29.0
+        },
+        {
+            "id": 1077585173,
+            "node1": 140176,
+            "node2": 2009,
+            "type": 8,
+            "w": 20.0
+        },
+        {
+            "id": 9655433,
+            "node1": 140176,
+            "node2": 2380,
+            "type": 8,
+            "w": 52.0
+        },
+        {
+            "id": 13019345,
+            "node1": 140176,
+            "node2": 2490,
+            "type": 8,
+            "w": 28.0
+        },
+        {
+            "id": 9759503,
+            "node1": 140176,
+            "node2": 2574,
+            "type": 8,
+            "w": 53.0
+        },
+        {
+            "id": 9658338,
+            "node1": 140176,
+            "node2": 3344,
+            "type": 8,
+            "w": 39.0
+        },
+        {
+            "id": 243276996,
+            "node1": 140176,
+            "node2": 3490,
+            "type": 8,
+            "w": 45.0
+        },
+        {
+            "id": 9757923,
+            "node1": 140176,
+            "node2": 3580,
+            "type": 8,
+            "w": 93.0
+        },
+        {
+            "id": 243257134,
+            "node1": 140176,
+            "node2": 4434,
+            "type": 8,
+            "w": 41.0
+        },
+        {
+            "id": 765849895,
+            "node1": 140176,
+            "node2": 4566,
+            "type": 8,
+            "w": 138.0
+        },
+        {
+            "id": 540949299,
+            "node1": 140176,
+            "node2": 4581,
+            "type": 8,
+            "w": 32.0
+        },
+        {
+            "id": 9654911,
+            "node1": 140176,
+            "node2": 4788,
+            "type": 8,
+            "w": 31.0
+        },
+        {
+            "id": 9660192,
+            "node1": 140176,
+            "node2": 4836,
+            "type": 8,
+            "w": 28.0
+        },
+        {
+            "id": 9732051,
+            "node1": 140176,
+            "node2": 5198,
+            "type": 8,
+            "w": 53.0
+        },
+        {
+            "id": 9656926,
+            "node1": 140176,
+            "node2": 6031,
+            "type": 8,
+            "w": 30.0
+        },
+        {
+            "id": 9760890,
+            "node1": 140176,
+            "node2": 6274,
+            "type": 8,
+            "w": 53.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            8
+        ],
+        "not_types_ids": null,
+        "min_weight": 0,
+        "max_weight": null,
+        "start": "2026-05-28T19:20:28.668496",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 25,
+        "max_relation_weight": 215.0,
+        "#nodes": 26,
+        "duration": "0:00:00.001301"
+    }
+}

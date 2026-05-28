@@ -1,0 +1,377 @@
+{
+    "nodes": [
+        {
+            "id": 15072,
+            "name": "entablure",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 84796,
+            "name": "raucité",
+            "type": 1,
+            "w": 52
+        },
+        {
+            "id": 1833059,
+            "name": "enroulement des cordons",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 6654,
+            "name": "enroulement",
+            "type": 1,
+            "w": 85
+        },
+        {
+            "id": 6806974,
+            "name": "en:speech disorder",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15083030,
+            "name": "en:defect of speech",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 44578,
+            "name": "ensellure",
+            "type": 1,
+            "w": 68
+        },
+        {
+            "id": 65064,
+            "name": "ensemble",
+            "type": 1,
+            "w": 17225
+        },
+        {
+            "id": 57815,
+            "name": "extinction",
+            "type": 1,
+            "w": 1868
+        },
+        {
+            "id": 164756,
+            "name": "parasite intestinal",
+            "type": 1,
+            "w": 65
+        },
+        {
+            "id": 112929,
+            "name": "action",
+            "type": 1,
+            "w": 25139
+        },
+        {
+            "id": 12114297,
+            "name": "entamoeba",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15083031,
+            "name": "en:speech defect",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 93068,
+            "name": "enrouement",
+            "type": 1,
+            "w": 63
+        },
+        {
+            "id": 403112,
+            "name": "Entamoeba",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 6913236,
+            "name": "en:entamoeba",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 14917781,
+            "name": "en:harshness",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 6849,
+            "name": "glycoprotéine",
+            "type": 1,
+            "w": 82
+        },
+        {
+            "id": 6289355,
+            "name": "altération de la voix",
+            "type": 1,
+            "w": 4
+        },
+        {
+            "id": 57315,
+            "name": "protozoaire",
+            "type": 1,
+            "w": 145
+        },
+        {
+            "id": 597252,
+            "name": "analyte",
+            "type": 777,
+            "w": 25
+        },
+        {
+            "id": 54701,
+            "name": "altération",
+            "type": 1,
+            "w": 759
+        },
+        {
+            "id": 7746400,
+            "name": "en:analyte",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 12662946,
+            "name": "signe respiratoire",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 39945,
+            "name": "amibe",
+            "type": 1,
+            "w": 71
+        },
+        {
+            "id": 137183,
+            "name": "état",
+            "type": 1,
+            "w": 23016
+        },
+        {
+            "id": 14941012,
+            "name": "en:roughness",
+            "type": 1,
+            "w": 25
+        }
+    ],
+    "relations": [
+        {
+            "id": 744485175,
+            "node1": 93068,
+            "node2": 6654,
+            "type": 6,
+            "w": 5.0
+        },
+        {
+            "id": 744485114,
+            "node1": 93068,
+            "node2": 6849,
+            "type": 6,
+            "w": 5.0
+        },
+        {
+            "id": 744485115,
+            "node1": 93068,
+            "node2": 15072,
+            "type": 6,
+            "w": 5.0
+        },
+        {
+            "id": 626058074,
+            "node1": 93068,
+            "node2": 39945,
+            "type": 6,
+            "w": 15.0
+        },
+        {
+            "id": 744485170,
+            "node1": 93068,
+            "node2": 44578,
+            "type": 6,
+            "w": 5.0
+        },
+        {
+            "id": 108400232,
+            "node1": 93068,
+            "node2": 54701,
+            "type": 6,
+            "w": 50.0
+        },
+        {
+            "id": 744485088,
+            "node1": 93068,
+            "node2": 57315,
+            "type": 6,
+            "w": 5.0
+        },
+        {
+            "id": 446667172,
+            "node1": 93068,
+            "node2": 57815,
+            "type": 6,
+            "w": 30.0
+        },
+        {
+            "id": 744485166,
+            "node1": 93068,
+            "node2": 65064,
+            "type": 6,
+            "w": 5.0
+        },
+        {
+            "id": 806811828,
+            "node1": 93068,
+            "node2": 84796,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 744485122,
+            "node1": 93068,
+            "node2": 112929,
+            "type": 6,
+            "w": 5.0
+        },
+        {
+            "id": 78626533,
+            "node1": 93068,
+            "node2": 137183,
+            "type": 6,
+            "w": 38.0
+        },
+        {
+            "id": 744485079,
+            "node1": 93068,
+            "node2": 164756,
+            "type": 6,
+            "w": 5.0
+        },
+        {
+            "id": 742479967,
+            "node1": 93068,
+            "node2": 403112,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 744485059,
+            "node1": 93068,
+            "node2": 597252,
+            "type": 6,
+            "w": 5.0
+        },
+        {
+            "id": 744485176,
+            "node1": 93068,
+            "node2": 1833059,
+            "type": 6,
+            "w": 5.0
+        },
+        {
+            "id": 287692718,
+            "node1": 93068,
+            "node2": 6289355,
+            "type": 6,
+            "w": 51.0
+        },
+        {
+            "id": 446666877,
+            "node1": 93068,
+            "node2": 6806974,
+            "type": 6,
+            "w": 30.0
+        },
+        {
+            "id": 744485086,
+            "node1": 93068,
+            "node2": 6913236,
+            "type": 6,
+            "w": 5.0
+        },
+        {
+            "id": 744485054,
+            "node1": 93068,
+            "node2": 7746400,
+            "type": 6,
+            "w": 5.0
+        },
+        {
+            "id": 742479940,
+            "node1": 93068,
+            "node2": 12114297,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 324044807,
+            "node1": 93068,
+            "node2": 12662946,
+            "type": 6,
+            "w": 35.0
+        },
+        {
+            "id": 446666726,
+            "node1": 93068,
+            "node2": 14917781,
+            "type": 6,
+            "w": 30.0
+        },
+        {
+            "id": 446666727,
+            "node1": 93068,
+            "node2": 14941012,
+            "type": 6,
+            "w": 30.0
+        },
+        {
+            "id": 446666661,
+            "node1": 93068,
+            "node2": 15083030,
+            "type": 6,
+            "w": 30.0
+        },
+        {
+            "id": 446666933,
+            "node1": 93068,
+            "node2": 15083031,
+            "type": 6,
+            "w": 30.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            6
+        ],
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T18:11:29.364711",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 26,
+        "max_relation_weight": 51.0,
+        "#nodes": 27,
+        "duration": "0:00:00.006535"
+    }
+}

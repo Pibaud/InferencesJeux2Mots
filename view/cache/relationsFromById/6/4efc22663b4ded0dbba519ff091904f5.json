@@ -1,0 +1,91 @@
+{
+    "nodes": [
+        {
+            "id": 145680,
+            "name": "verbe",
+            "type": 1,
+            "w": 6699
+        },
+        {
+            "id": 119759,
+            "name": "se détendre",
+            "type": 1,
+            "w": 428
+        },
+        {
+            "id": 43253,
+            "name": "dormir",
+            "type": 1,
+            "w": 11094
+        },
+        {
+            "id": 106663,
+            "name": "reposer",
+            "type": 1,
+            "w": 3366
+        },
+        {
+            "id": 87681,
+            "name": "se reposer",
+            "type": 1,
+            "w": 1719
+        }
+    ],
+    "relations": [
+        {
+            "id": 1022772020,
+            "node1": 43253,
+            "node2": 87681,
+            "type": 6,
+            "w": 33.0
+        },
+        {
+            "id": 1022772317,
+            "node1": 43253,
+            "node2": 106663,
+            "type": 6,
+            "w": 32.0
+        },
+        {
+            "id": 1022771949,
+            "node1": 43253,
+            "node2": 119759,
+            "type": 6,
+            "w": 25.0
+        },
+        {
+            "id": 9899569,
+            "node1": 43253,
+            "node2": 145680,
+            "type": 6,
+            "w": -13.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            6
+        ],
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-05-28T19:23:39.392952",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 4,
+        "max_relation_weight": 33.0,
+        "#nodes": 5,
+        "duration": "0:00:00.010392"
+    }
+}
