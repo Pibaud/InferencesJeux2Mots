@@ -1,0 +1,627 @@
+[
+    {
+        "texte_complet": "avis de la commission",
+        "A": "avis",
+        "B": "commission"
+    },
+    {
+        "texte_complet": "allongement de la durée",
+        "A": "allongement",
+        "B": "durée"
+    },
+    {
+        "texte_complet": "signes du zodiaque",
+        "A": "signes",
+        "B": "zodiaque"
+    },
+    {
+        "texte_complet": "vie de famille",
+        "A": "vie",
+        "B": "famille"
+    },
+    {
+        "texte_complet": "place d'un ensemble",
+        "A": "place",
+        "B": "ensemble"
+    },
+    {
+        "texte_complet": "services de la collectivité",
+        "A": "services",
+        "B": "collectivité"
+    },
+    {
+        "texte_complet": "prestation de benjamin",
+        "A": "prestation",
+        "B": "benjamin"
+    },
+    {
+        "texte_complet": "député de main",
+        "A": "député",
+        "B": "main"
+    },
+    {
+        "texte_complet": "résolutions de la réunion",
+        "A": "résolutions",
+        "B": "réunion"
+    },
+    {
+        "texte_complet": "milieu d'un chaos",
+        "A": "milieu",
+        "B": "chaos"
+    },
+    {
+        "texte_complet": "profils de poste",
+        "A": "profils",
+        "B": "poste"
+    },
+    {
+        "texte_complet": "concours de recrutement",
+        "A": "concours",
+        "B": "recrutement"
+    },
+    {
+        "texte_complet": "intentions d'achat",
+        "A": "intentions",
+        "B": "achat"
+    },
+    {
+        "texte_complet": "milliards de dollars",
+        "A": "milliards",
+        "B": "dollars"
+    },
+    {
+        "texte_complet": "voisinage d'une aile",
+        "A": "voisinage",
+        "B": "aile"
+    },
+    {
+        "texte_complet": "chef d'unité",
+        "A": "chef",
+        "B": "unité"
+    },
+    {
+        "texte_complet": "an d'ancienneté",
+        "A": "an",
+        "B": "ancienneté"
+    },
+    {
+        "texte_complet": "vague de publications",
+        "A": "vague",
+        "B": "publications"
+    },
+    {
+        "texte_complet": "dossier d'une opération",
+        "A": "dossier",
+        "B": "opération"
+    },
+    {
+        "texte_complet": "ville de matane",
+        "A": "ville",
+        "B": "matane"
+    },
+    {
+        "texte_complet": "jeux de société",
+        "A": "jeux",
+        "B": "société"
+    },
+    {
+        "texte_complet": "modalités de diffusion",
+        "A": "modalités",
+        "B": "diffusion"
+    },
+    {
+        "texte_complet": "femme de deng",
+        "A": "femme",
+        "B": "deng"
+    },
+    {
+        "texte_complet": "cause de la carrière",
+        "A": "cause",
+        "B": "carrière"
+    },
+    {
+        "texte_complet": "exercices de physiothérapie",
+        "A": "exercices",
+        "B": "physiothérapie"
+    },
+    {
+        "texte_complet": "création de le société",
+        "A": "création",
+        "B": "société"
+    },
+    {
+        "texte_complet": "transfert des activités",
+        "A": "transfert",
+        "B": "activités"
+    },
+    {
+        "texte_complet": "pratique de terrain",
+        "A": "pratique",
+        "B": "terrain"
+    },
+    {
+        "texte_complet": "issue d'une convention",
+        "A": "issue",
+        "B": "convention"
+    },
+    {
+        "texte_complet": "modèles de classement",
+        "A": "modèles",
+        "B": "classement"
+    },
+    {
+        "texte_complet": "soupçonnées d'entente",
+        "A": "soupçonnées",
+        "B": "entente"
+    },
+    {
+        "texte_complet": "millions d'abonnements",
+        "A": "millions",
+        "B": "abonnements"
+    },
+    {
+        "texte_complet": "apports de glucides",
+        "A": "apports",
+        "B": "glucides"
+    },
+    {
+        "texte_complet": "poignée de mains",
+        "A": "poignée",
+        "B": "mains"
+    },
+    {
+        "texte_complet": "samedi des rebelles",
+        "A": "samedi",
+        "B": "rebelles"
+    },
+    {
+        "texte_complet": "nord du pays",
+        "A": "nord",
+        "B": "pays"
+    },
+    {
+        "texte_complet": "fils d'un garde",
+        "A": "fils",
+        "B": "garde"
+    },
+    {
+        "texte_complet": "major de l'école",
+        "A": "major",
+        "B": "école"
+    },
+    {
+        "texte_complet": "poste de garde",
+        "A": "poste",
+        "B": "garde"
+    },
+    {
+        "texte_complet": "faveur de la construction",
+        "A": "faveur",
+        "B": "construction"
+    },
+    {
+        "texte_complet": "km de lignes",
+        "A": "km",
+        "B": "lignes"
+    },
+    {
+        "texte_complet": "résultats des élections",
+        "A": "résultats",
+        "B": "élections"
+    },
+    {
+        "texte_complet": "wagon de tête",
+        "A": "wagon",
+        "B": "tête"
+    },
+    {
+        "texte_complet": "cités de la mer",
+        "A": "cités",
+        "B": "mer"
+    },
+    {
+        "texte_complet": "km de côtes",
+        "A": "km",
+        "B": "côtes"
+    },
+    {
+        "texte_complet": "ports de plaisance",
+        "A": "ports",
+        "B": "plaisance"
+    },
+    {
+        "texte_complet": "sauvegardées de la méditerranée",
+        "A": "sauvegardées",
+        "B": "méditerranée"
+    },
+    {
+        "texte_complet": "situation des chemins",
+        "A": "situation",
+        "B": "chemins"
+    },
+    {
+        "texte_complet": "développement du système",
+        "A": "développement",
+        "B": "système"
+    },
+    {
+        "texte_complet": "atelier de l'action",
+        "A": "atelier",
+        "B": "action"
+    },
+    {
+        "texte_complet": "joueur de tempérament",
+        "A": "joueur",
+        "B": "tempérament"
+    },
+    {
+        "texte_complet": "concept de l'observatoire",
+        "A": "concept",
+        "B": "observatoire"
+    },
+    {
+        "texte_complet": "bureau d'ingénierie",
+        "A": "bureau",
+        "B": "ingénierie"
+    },
+    {
+        "texte_complet": "albums des chatons",
+        "A": "albums",
+        "B": "chatons"
+    },
+    {
+        "texte_complet": "choeur d'enfants",
+        "A": "choeur",
+        "B": "enfants"
+    },
+    {
+        "texte_complet": "championnat de bundesliga",
+        "A": "championnat",
+        "B": "bundesliga"
+    },
+    {
+        "texte_complet": "place du classement",
+        "A": "place",
+        "B": "classement"
+    },
+    {
+        "texte_complet": "galbe des meubles",
+        "A": "galbe",
+        "B": "meubles"
+    },
+    {
+        "texte_complet": "chiffre d'affaires",
+        "A": "chiffre",
+        "B": "affaires"
+    },
+    {
+        "texte_complet": "cas des attentats",
+        "A": "cas",
+        "B": "attentats"
+    },
+    {
+        "texte_complet": "information de l'equipe",
+        "A": "information",
+        "B": "equipe"
+    },
+    {
+        "texte_complet": "spécimens de poissons",
+        "A": "spécimens",
+        "B": "poissons"
+    },
+    {
+        "texte_complet": "charte de l'énergie",
+        "A": "charte",
+        "B": "énergie"
+    },
+    {
+        "texte_complet": "protocole de transit",
+        "A": "protocole",
+        "B": "transit"
+    },
+    {
+        "texte_complet": "responsable de la croix",
+        "A": "responsable",
+        "B": "croix"
+    },
+    {
+        "texte_complet": "téléphone de madrid",
+        "A": "téléphone",
+        "B": "madrid"
+    },
+    {
+        "texte_complet": "création d'une allocation",
+        "A": "création",
+        "B": "allocation"
+    },
+    {
+        "texte_complet": "projet de formation",
+        "A": "projet",
+        "B": "formation"
+    },
+    {
+        "texte_complet": "séisme de magnitude",
+        "A": "séisme",
+        "B": "magnitude"
+    },
+    {
+        "texte_complet": "travaux de forage",
+        "A": "travaux",
+        "B": "forage"
+    },
+    {
+        "texte_complet": "pompage du projet",
+        "A": "pompage",
+        "B": "projet"
+    },
+    {
+        "texte_complet": "mouvements de résistance",
+        "A": "mouvements",
+        "B": "résistance"
+    },
+    {
+        "texte_complet": "pré-c du génome",
+        "A": "pré-c",
+        "B": "génome"
+    },
+    {
+        "texte_complet": "marge des salles",
+        "A": "marge",
+        "B": "salles"
+    },
+    {
+        "texte_complet": "centre de données",
+        "A": "centre",
+        "B": "données"
+    },
+    {
+        "texte_complet": "département de l'ain",
+        "A": "département",
+        "B": "ain"
+    },
+    {
+        "texte_complet": "espace de noms",
+        "A": "espace",
+        "B": "noms"
+    },
+    {
+        "texte_complet": "adeptes du peer",
+        "A": "adeptes",
+        "B": "peer"
+    },
+    {
+        "texte_complet": "lundi du mois",
+        "A": "lundi",
+        "B": "mois"
+    },
+    {
+        "texte_complet": "lieu des séances",
+        "A": "lieu",
+        "B": "séances"
+    },
+    {
+        "texte_complet": "vitesse de croisière",
+        "A": "vitesse",
+        "B": "croisière"
+    },
+    {
+        "texte_complet": "accélération du pouls",
+        "A": "accélération",
+        "B": "pouls"
+    },
+    {
+        "texte_complet": "plan de soutien",
+        "A": "plan",
+        "B": "soutien"
+    },
+    {
+        "texte_complet": "milliards de francs",
+        "A": "milliards",
+        "B": "francs"
+    },
+    {
+        "texte_complet": "administration de la banque",
+        "A": "administration",
+        "B": "banque"
+    },
+    {
+        "texte_complet": "actionnaire d'endesa",
+        "A": "actionnaire",
+        "B": "endesa"
+    },
+    {
+        "texte_complet": "fond de salle",
+        "A": "fond",
+        "B": "salle"
+    },
+    {
+        "texte_complet": "liste de récompenses",
+        "A": "liste",
+        "B": "récompenses"
+    },
+    {
+        "texte_complet": "direction du luna",
+        "A": "direction",
+        "B": "luna"
+    },
+    {
+        "texte_complet": "centaines de mètres",
+        "A": "centaines",
+        "B": "mètres"
+    },
+    {
+        "texte_complet": "nord du comté",
+        "A": "nord",
+        "B": "comté"
+    },
+    {
+        "texte_complet": "nom de north",
+        "A": "nom",
+        "B": "north"
+    },
+    {
+        "texte_complet": "sélection de la pintade",
+        "A": "sélection",
+        "B": "pintade"
+    },
+    {
+        "texte_complet": "application de la force",
+        "A": "application",
+        "B": "force"
+    },
+    {
+        "texte_complet": "stations de radio",
+        "A": "stations",
+        "B": "radio"
+    },
+    {
+        "texte_complet": "gestion du portefeuille",
+        "A": "gestion",
+        "B": "portefeuille"
+    },
+    {
+        "texte_complet": "président de bologne",
+        "A": "président",
+        "B": "bologne"
+    },
+    {
+        "texte_complet": "importance de la géométrie",
+        "A": "importance",
+        "B": "géométrie"
+    },
+    {
+        "texte_complet": "million de ruches",
+        "A": "million",
+        "B": "ruches"
+    },
+    {
+        "texte_complet": "séance de balnéothérapie",
+        "A": "séance",
+        "B": "balnéothérapie"
+    },
+    {
+        "texte_complet": "nom du dirigeant",
+        "A": "nom",
+        "B": "dirigeant"
+    },
+    {
+        "texte_complet": "matière d'alimentation",
+        "A": "matière",
+        "B": "alimentation"
+    },
+    {
+        "texte_complet": "outil de diagnostic",
+        "A": "outil",
+        "B": "diagnostic"
+    },
+    {
+        "texte_complet": "prévision de rationnement",
+        "A": "prévision",
+        "B": "rationnement"
+    },
+    {
+        "texte_complet": "type d'animal",
+        "A": "type",
+        "B": "animal"
+    },
+    {
+        "texte_complet": "comité de lutte",
+        "A": "comité",
+        "B": "lutte"
+    },
+    {
+        "texte_complet": "représentant du région",
+        "A": "représentant",
+        "B": "région"
+    },
+    {
+        "texte_complet": "responsable de la santé",
+        "A": "responsable",
+        "B": "santé"
+    },
+    {
+        "texte_complet": "ministère de la santé",
+        "A": "ministère",
+        "B": "santé"
+    },
+    {
+        "texte_complet": "vue de jérusalem",
+        "A": "vue",
+        "B": "jérusalem"
+    },
+    {
+        "texte_complet": "motorisation de l'automotrice",
+        "A": "motorisation",
+        "B": "automotrice"
+    },
+    {
+        "texte_complet": "expansion de l'épizootie",
+        "A": "expansion",
+        "B": "épizootie"
+    },
+    {
+        "texte_complet": "sud de la province",
+        "A": "sud",
+        "B": "province"
+    },
+    {
+        "texte_complet": "régiments d'infanterie",
+        "A": "régiments",
+        "B": "infanterie"
+    },
+    {
+        "texte_complet": "casse du bout",
+        "A": "casse",
+        "B": "bout"
+    },
+    {
+        "texte_complet": "phénomène du détachement",
+        "A": "phénomène",
+        "B": "détachement"
+    },
+    {
+        "texte_complet": "tonnes de photos",
+        "A": "tonnes",
+        "B": "photos"
+    },
+    {
+        "texte_complet": "carte d'acquisition",
+        "A": "carte",
+        "B": "acquisition"
+    },
+    {
+        "texte_complet": "services du gouvernement",
+        "A": "services",
+        "B": "gouvernement"
+    },
+    {
+        "texte_complet": "nostalgie des manifestations",
+        "A": "nostalgie",
+        "B": "manifestations"
+    },
+    {
+        "texte_complet": "changements d'emploi",
+        "A": "changements",
+        "B": "emploi"
+    },
+    {
+        "texte_complet": "lieu de travail",
+        "A": "lieu",
+        "B": "travail"
+    },
+    {
+        "texte_complet": "repas du condamné",
+        "A": "repas",
+        "B": "condamné"
+    },
+    {
+        "texte_complet": "h5n1 de la grippe",
+        "A": "h5n1",
+        "B": "grippe"
+    },
+    {
+        "texte_complet": "élevages de volaille",
+        "A": "élevages",
+        "B": "volaille"
+    }
+]

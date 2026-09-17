@@ -1,0 +1,236 @@
+[
+    {
+        "texte_complet": "cratère d'impact",
+        "A": "cratère",
+        "B": "impact",
+        "relation": "r_has_causatif"
+    },
+    {
+        "texte_complet": "reprise du travail",
+        "A": "reprise",
+        "B": "travail",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "reprise du travail",
+        "A": "reprise",
+        "B": "travail",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "préavis de grève",
+        "A": "préavis",
+        "B": "grève",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "bouillie de sel",
+        "A": "bouillie",
+        "B": "sel",
+        "relation": "r_objet>matiere"
+    },
+    {
+        "texte_complet": "terminal de rafah",
+        "A": "terminal",
+        "B": "rafah",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "acheminement d'aide",
+        "A": "acheminement",
+        "B": "aide",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "bande de gaza",
+        "A": "bande",
+        "B": "gaza",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "entrée de blessés",
+        "A": "entrée",
+        "B": "blessés",
+        "relation": "r_processus_agent"
+    },
+    {
+        "texte_complet": "journaliste de l'afp",
+        "A": "journaliste",
+        "B": "afp",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "attribution des places",
+        "A": "attribution",
+        "B": "places",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "cadre de la mission",
+        "A": "cadre",
+        "B": "mission",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "responsable de la plateforme",
+        "A": "responsable",
+        "B": "plateforme",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "conception des systèmes",
+        "A": "conception",
+        "B": "systèmes",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "marche de cavalerie",
+        "A": "marche",
+        "B": "cavalerie",
+        "relation": "r_processus_agent"
+    },
+    {
+        "texte_complet": "film de la série",
+        "A": "film",
+        "B": "série",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "complexe de jeux",
+        "A": "complexe",
+        "B": "jeux",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "hôtel de luxe",
+        "A": "hôtel",
+        "B": "luxe",
+        "relation": "r_has_property-1"
+    },
+    {
+        "texte_complet": "arrivée de paul",
+        "A": "arrivée",
+        "B": "paul",
+        "relation": "r_processus_agent"
+    },
+    {
+        "texte_complet": "présidence du conseil",
+        "A": "présidence",
+        "B": "conseil",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "sous-secrétariat d'etat",
+        "A": "sous-secrétariat",
+        "B": "etat",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "ministère de la guerre",
+        "A": "ministère",
+        "B": "guerre",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "mesure de la diffusion",
+        "A": "mesure",
+        "B": "diffusion",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "objet de référence",
+        "A": "objet",
+        "B": "référence",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "numéros de pages",
+        "A": "numéros",
+        "B": "pages",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "calcul du coût",
+        "A": "calcul",
+        "B": "coût",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "maîtresse d'école",
+        "A": "maîtresse",
+        "B": "école",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "dimanches de l'année",
+        "A": "dimanches",
+        "B": "année",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "demande de la famille",
+        "A": "demande",
+        "B": "famille",
+        "relation": "r_processus_agent"
+    },
+    {
+        "texte_complet": "oncologie de l'hôpital",
+        "A": "oncologie",
+        "B": "hôpital",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "attentes des analystes",
+        "A": "attentes",
+        "B": "analystes",
+        "relation": "r_processus_agent"
+    },
+    {
+        "texte_complet": "société des loisirs",
+        "A": "société",
+        "B": "loisirs",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "prophète de l'islam",
+        "A": "prophète",
+        "B": "islam",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "plan de réduction",
+        "A": "plan",
+        "B": "réduction",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "suppressions d'emplois",
+        "A": "suppressions",
+        "B": "emplois",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "point d'entrée",
+        "A": "point",
+        "B": "entrée",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "multitude de suites",
+        "A": "multitude",
+        "B": "suites",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "système de tirs",
+        "A": "système",
+        "B": "tirs",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "intérêt des rencontres",
+        "A": "intérêt",
+        "B": "rencontres",
+        "relation": "r_has_property-1"
+    }
+]
