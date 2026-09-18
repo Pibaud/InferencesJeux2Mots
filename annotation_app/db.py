@@ -51,7 +51,7 @@ def importer_depuis_json(json_path):
 def get_prochain_syntagme(statut_cible='a_verifier'):
     with get_conn() as conn:
         row = conn.execute(
-            "SELECT * FROM annotations WHERE statut = ? ORDER BY id ASC LIMIT 1",
+            "SELECT * FROM annotations WHERE statut = ? ORDER BY RANDOM() LIMIT 1",
             (statut_cible,)
         ).fetchone()
         return dict(row) if row else None
@@ -95,3 +95,18 @@ def get_distribution_classes():
             ORDER BY compte DESC
         """).fetchall()
         return [{"relation": r["relation"], "compte": r["compte"]} for r in rows]
+    
+def maj_annotation(syntagme_id, relation_choisie, nouveau_statut, statut_attendu):
+    with get_conn() as conn:
+        # On ajoute "AND statut = ?" pour s'assurer que personne ne l'a modifié entre temps
+        cur = conn.execute(
+            """
+            UPDATE annotations 
+            SET relation_humaine = ?, statut = ?, date_annotation = CURRENT_TIMESTAMP
+            WHERE id = ? AND statut = ?
+            """,
+            (relation_choisie, nouveau_statut, syntagme_id, statut_attendu)
+        )
+        conn.commit()
+        # Si rowcount est 0, c'est que le statut avait déjà changé
+        return cur.rowcount > 0

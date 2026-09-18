@@ -232,5 +232,503 @@
         "A": "intérêt",
         "B": "rencontres",
         "relation": "r_has_property-1"
+    },
+    {
+        "texte_complet": "km de lignes",
+        "A": "km",
+        "B": "lignes",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "résultats des élections",
+        "A": "résultats",
+        "B": "élections",
+        "relation": "r_product_of"
+    },
+    {
+        "texte_complet": "wagon de tête",
+        "A": "wagon",
+        "B": "tête",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "cités de la mer",
+        "A": "cités",
+        "B": "mer",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "km de côtes",
+        "A": "km",
+        "B": "côtes",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "ports de plaisance",
+        "A": "ports",
+        "B": "plaisance",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "sauvegardées de la méditerranée",
+        "A": "sauvegardées",
+        "B": "méditerranée",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "situation des chemins",
+        "A": "situation",
+        "B": "chemins",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "développement du système",
+        "A": "développement",
+        "B": "système",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "atelier de l'action",
+        "A": "atelier",
+        "B": "action",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "joueur de tempérament",
+        "A": "joueur",
+        "B": "tempérament",
+        "relation": "r_has_property-1"
+    },
+    {
+        "texte_complet": "concept de l'observatoire",
+        "A": "concept",
+        "B": "observatoire",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "bureau d'ingénierie",
+        "A": "bureau",
+        "B": "ingénierie",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "albums des chatons",
+        "A": "albums",
+        "B": "chatons",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "choeur d'enfants",
+        "A": "choeur",
+        "B": "enfants",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "championnat de bundesliga",
+        "A": "championnat",
+        "B": "bundesliga",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "place du classement",
+        "A": "place",
+        "B": "classement",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "galbe des meubles",
+        "A": "galbe",
+        "B": "meubles",
+        "relation": "r_has_property-1"
+    },
+    {
+        "texte_complet": "chiffre d'affaires",
+        "A": "chiffre",
+        "B": "affaires",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "cas des attentats",
+        "A": "cas",
+        "B": "attentats",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "information de l'equipe",
+        "A": "information",
+        "B": "equipe",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "spécimens de poissons",
+        "A": "spécimens",
+        "B": "poissons",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "charte de l'énergie",
+        "A": "charte",
+        "B": "énergie",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "protocole de transit",
+        "A": "protocole",
+        "B": "transit",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "responsable de la croix",
+        "A": "responsable",
+        "B": "croix",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "téléphone de madrid",
+        "A": "téléphone",
+        "B": "madrid",
+        "relation": "r_lieu>origine"
+    },
+    {
+        "texte_complet": "création d'une allocation",
+        "A": "création",
+        "B": "allocation",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "projet de formation",
+        "A": "projet",
+        "B": "formation",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "séisme de magnitude",
+        "A": "séisme",
+        "B": "magnitude",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "travaux de forage",
+        "A": "travaux",
+        "B": "forage",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "pompage du projet",
+        "A": "pompage",
+        "B": "projet",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "mouvements de résistance",
+        "A": "mouvements",
+        "B": "résistance",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "marge des salles",
+        "A": "marge",
+        "B": "salles",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "centre de données",
+        "A": "centre",
+        "B": "données",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "département de l'ain",
+        "A": "département",
+        "B": "ain",
+        "relation": "r_lieu>origine"
+    },
+    {
+        "texte_complet": "espace de noms",
+        "A": "espace",
+        "B": "noms",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "adeptes du peer",
+        "A": "adeptes",
+        "B": "peer",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "lundi du mois",
+        "A": "lundi",
+        "B": "mois",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "lieu des séances",
+        "A": "lieu",
+        "B": "séances",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "vitesse de croisière",
+        "A": "vitesse",
+        "B": "croisière",
+        "relation": "r_has_property-1"
+    },
+    {
+        "texte_complet": "accélération du pouls",
+        "A": "accélération",
+        "B": "pouls",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "plan de soutien",
+        "A": "plan",
+        "B": "soutien",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "milliards de francs",
+        "A": "milliards",
+        "B": "francs",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "administration de la banque",
+        "A": "administration",
+        "B": "banque",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "actionnaire d'endesa",
+        "A": "actionnaire",
+        "B": "endesa",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "fond de salle",
+        "A": "fond",
+        "B": "salle",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "liste de récompenses",
+        "A": "liste",
+        "B": "récompenses",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "direction du luna",
+        "A": "direction",
+        "B": "luna",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "centaines de mètres",
+        "A": "centaines",
+        "B": "mètres",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "nord du comté",
+        "A": "nord",
+        "B": "comté",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "nom de north",
+        "A": "nom",
+        "B": "north",
+        "relation": "r_own-1"
+    },
+    {
+        "texte_complet": "sélection de la pintade",
+        "A": "sélection",
+        "B": "pintade",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "application de la force",
+        "A": "application",
+        "B": "force",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "stations de radio",
+        "A": "stations",
+        "B": "radio",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "gestion du portefeuille",
+        "A": "gestion",
+        "B": "portefeuille",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "président de bologne",
+        "A": "président",
+        "B": "bologne",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "importance de la géométrie",
+        "A": "importance",
+        "B": "géométrie",
+        "relation": "r_has_property-1"
+    },
+    {
+        "texte_complet": "million de ruches",
+        "A": "million",
+        "B": "ruches",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "séance de balnéothérapie",
+        "A": "séance",
+        "B": "balnéothérapie",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "nom du dirigeant",
+        "A": "nom",
+        "B": "dirigeant",
+        "relation": "r_own-1"
+    },
+    {
+        "texte_complet": "matière d'alimentation",
+        "A": "matière",
+        "B": "alimentation",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "outil de diagnostic",
+        "A": "outil",
+        "B": "diagnostic",
+        "relation": "r_processus>instr-1"
+    },
+    {
+        "texte_complet": "prévision de rationnement",
+        "A": "prévision",
+        "B": "rationnement",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "type d'animal",
+        "A": "type",
+        "B": "animal",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "comité de lutte",
+        "A": "comité",
+        "B": "lutte",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "représentant du région",
+        "A": "représentant",
+        "B": "région",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "responsable de la santé",
+        "A": "responsable",
+        "B": "santé",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "ministère de la santé",
+        "A": "ministère",
+        "B": "santé",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "vue de jérusalem",
+        "A": "vue",
+        "B": "jérusalem",
+        "relation": "r_depict"
+    },
+    {
+        "texte_complet": "motorisation de l'automotrice",
+        "A": "motorisation",
+        "B": "automotrice",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "expansion de l'épizootie",
+        "A": "expansion",
+        "B": "épizootie",
+        "relation": "r_processus_agent"
+    },
+    {
+        "texte_complet": "sud de la province",
+        "A": "sud",
+        "B": "province",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "régiments d'infanterie",
+        "A": "régiments",
+        "B": "infanterie",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "casse du bout",
+        "A": "casse",
+        "B": "bout",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "phénomène du détachement",
+        "A": "phénomène",
+        "B": "détachement",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "tonnes de photos",
+        "A": "tonnes",
+        "B": "photos",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "carte d'acquisition",
+        "A": "carte",
+        "B": "acquisition",
+        "relation": "r_processus>instr-1"
+    },
+    {
+        "texte_complet": "services du gouvernement",
+        "A": "services",
+        "B": "gouvernement",
+        "relation": "r_own-1"
+    },
+    {
+        "texte_complet": "nostalgie des manifestations",
+        "A": "nostalgie",
+        "B": "manifestations",
+        "relation": "r_has_causatif"
+    },
+    {
+        "texte_complet": "changements d'emploi",
+        "A": "changements",
+        "B": "emploi",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "lieu de travail",
+        "A": "lieu",
+        "B": "travail",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "repas du condamné",
+        "A": "repas",
+        "B": "condamné",
+        "relation": "r_own-1"
+    },
+    {
+        "texte_complet": "élevages de volaille",
+        "A": "élevages",
+        "B": "volaille",
+        "relation": "r_processus_patient"
     }
 ]

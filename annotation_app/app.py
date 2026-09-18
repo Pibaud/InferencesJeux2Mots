@@ -34,7 +34,6 @@ progress = faits / total if total > 0 else 0.0
 with st.sidebar:
     st.header("⚙️ Options")
     
-    # Sélecteur de mode de travail
     mode = st.radio(
         "Mode de travail :",
         options=["Flux normal (nouveaux)", f"Révision ({a_revoir} en attente)"],
@@ -60,10 +59,16 @@ with st.sidebar:
     for rel, desc in AIDE_RELATIONS.items():
         st.markdown(f"**{rel}** : {desc}")
 
+# === GESTION DE L'ÉTAT (Le Correctif) ===
+# On gèle le syntagme actuel tant qu'aucune action n'est effectuée ou qu'on ne change pas de mode
+if "dernier_statut" not in st.session_state or st.session_state.dernier_statut != statut_cible:
+    st.session_state.syntagme_en_cours = db.get_prochain_syntagme(statut_cible)
+    st.session_state.dernier_statut = statut_cible
+
+item = st.session_state.syntagme_en_cours
+
 # === INTERFACE PRINCIPALE ===
 st.progress(progress, text=f"Progression globale : {faits}/{total} traités (Validés ou Supprimés)")
-
-item = db.get_prochain_syntagme(statut_cible)
 
 if not item:
     if statut_cible == 'a_verifier':
@@ -85,20 +90,31 @@ else:
 
     with col1:
         if st.button("✅ Valider", use_container_width=True, type="primary"):
-            db.maj_annotation(item["id"], choix, "valide" if choix == item["relation_ia"] else "corrige")
+            succes = db.maj_annotation(item["id"], choix, "valide" if choix == item["relation_ia"] else "corrige", statut_cible)
+            if not succes:
+                st.toast("⚠️ Déjà traité par un autre utilisateur !", icon="🚨")
+            
+            # On force le chargement du suivant UNIQUEMENT après le succès du bouton
+            st.session_state.syntagme_en_cours = db.get_prochain_syntagme(statut_cible)
             st.rerun()
 
     with col2:
         if st.button("⏳ Plus tard", use_container_width=True):
-            db.maj_annotation(item["id"], "inconnu", "a_revoir")
+            succes = db.maj_annotation(item["id"], "inconnu", "a_revoir", statut_cible)
+            if not succes:
+                st.toast("⚠️ Déjà traité par un autre utilisateur !", icon="🚨")
+            st.session_state.syntagme_en_cours = db.get_prochain_syntagme(statut_cible)
             st.rerun()
 
     with col3:
         if st.button("🗑️ Supprimer", use_container_width=True):
-            db.maj_annotation(item["id"], "inconnu", "supprime")
+            succes = db.maj_annotation(item["id"], "inconnu", "supprime", statut_cible)
+            if not succes:
+                st.toast("⚠️ Déjà traité par un autre utilisateur !", icon="🚨")
+            st.session_state.syntagme_en_cours = db.get_prochain_syntagme(statut_cible)
             st.rerun()
 
-# === STATISTIQUES (S'affichent en bas) ===
+# === STATISTIQUES ===
 st.divider()
 st.subheader("📊 Représentativité des classes")
 

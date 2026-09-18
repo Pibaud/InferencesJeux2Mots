@@ -91,7 +91,7 @@ def annoter_dataset():
         
     print(f"Reprise de l'annotation à partir de l'index {index_depart}/{len(dataset_valide)}...")
 
-    nom_modele = "gemini-3.8-flash"
+    nom_modele = "gemini-3.5-flash-lite"
     
     config = types.GenerateContentConfig(
         system_instruction=SYSTEM_INSTRUCTION,
@@ -137,14 +137,7 @@ def annoter_dataset():
                 break  # Sortie de la boucle de retry
                 
             except Exception as e:
-                msg = str(e)
-                if "UNAVAILABLE" in msg or "503" in msg:
-                    delai = 15 * tentative  # 15s, 30s, 45s...
-                    print(f"Serveurs surchargés (tentative {tentative}/{MAX_RETRIES}). Pause de {delai}s...")
-                    time.sleep(delai)
-                else:
-                    print(f"Erreur critique sur le lot {i} : {e}")
-                    break
+                print(f"Exception : {type(e).__name__} - {e}")
 
         if not succes:
             print("Échec définitif du lot. Relance ultérieure nécessaire.")
