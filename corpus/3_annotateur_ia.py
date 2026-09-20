@@ -91,7 +91,7 @@ def annoter_dataset():
         
     print(f"Reprise de l'annotation à partir de l'index {index_depart}/{len(dataset_valide)}...")
 
-    nom_modele = "gemini-3.5-flash-lite"
+    nom_modele = "gemini-3.8-flash" # ou gemini-3.8-flash ou gemini-3.7-flash ou gemini-3.6-flash ou gemini-3.5-flash-lite
     
     config = types.GenerateContentConfig(
         system_instruction=SYSTEM_INSTRUCTION,
@@ -132,12 +132,15 @@ def annoter_dataset():
                 with open(FICHIER_SORTIE, 'w', encoding='utf-8') as f:
                     json.dump(dataset_annote, f, ensure_ascii=False, indent=4)
                     
-                time.sleep(15)  # Respect du quota 5 RPM
+                time.sleep(15 * MAX_RETRIES)  # Respect du quota 5 RPM
                 succes = True
                 break  # Sortie de la boucle de retry
                 
             except Exception as e:
                 print(f"Exception : {type(e).__name__} - {e}")
+                if tentative < MAX_RETRIES:
+                    print(f"Attente de 20s avant la tentative {tentative + 1}...")
+                    time.sleep(20)
 
         if not succes:
             print("Échec définitif du lot. Relance ultérieure nécessaire.")

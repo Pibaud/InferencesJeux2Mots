@@ -10,4 +10,5 @@ dependencies = [
     "requests==2.31.0",
     "spacy>=3.8.16",
     "streamlit>=1.64.0",
+    "wikiextractor>=3.1.0",
 ]
