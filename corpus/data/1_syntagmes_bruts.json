@@ -1,437 +1,2047 @@
 [
     {
-        "texte_complet": "épaisseur d'encre",
-        "A": "épaisseur",
-        "B": "encre"
+        "texte_complet": "portrait de moret",
+        "A": "portrait",
+        "B": "moret"
     },
     {
-        "texte_complet": "route de marchiennes",
-        "A": "route",
-        "B": "marchiennes"
+        "texte_complet": "ecole de pont-aven",
+        "A": "ecole",
+        "B": "pont-aven"
     },
     {
-        "texte_complet": "kilomètres de pavé",
-        "A": "kilomètres",
-        "B": "pavé"
+        "texte_complet": "travail d'un peintre",
+        "A": "travail",
+        "B": "peintre"
     },
     {
-        "texte_complet": "champs de betteraves",
-        "A": "champs",
-        "B": "betteraves"
+        "texte_complet": "sculpture de la renaissance",
+        "A": "sculpture",
+        "B": "renaissance"
     },
     {
-        "texte_complet": "sensation de l'immense",
-        "A": "sensation",
-        "B": "immense"
+        "texte_complet": "mètres de hauteur",
+        "A": "mètres",
+        "B": "hauteur"
     },
     {
-        "texte_complet": "souffles du vent",
-        "A": "souffles",
-        "B": "vent"
+        "texte_complet": "bloc de marbre",
+        "A": "bloc",
+        "B": "marbre"
     },
     {
-        "texte_complet": "lieues de marais",
-        "A": "lieues",
-        "B": "marais"
+        "texte_complet": "étroitesse du bloc",
+        "A": "étroitesse",
+        "B": "bloc"
     },
     {
-        "texte_complet": "ombre d'arbre",
-        "A": "ombre",
-        "B": "arbre"
+        "texte_complet": "lanière de cuir",
+        "A": "lanière",
+        "B": "cuir"
     },
     {
-        "texte_complet": "milieu de l'embrun",
-        "A": "milieu",
-        "B": "embrun"
+        "texte_complet": "accademia de florence",
+        "A": "accademia",
+        "B": "florence"
     },
     {
-        "texte_complet": "pantalon de velours",
-        "A": "pantalon",
-        "B": "velours"
+        "texte_complet": "façade du palazzo",
+        "A": "façade",
+        "B": "palazzo"
     },
     {
-        "texte_complet": "lanières du vent",
-        "A": "lanières",
-        "B": "vent"
+        "texte_complet": "cours du temps",
+        "A": "cours",
+        "B": "temps"
     },
     {
-        "texte_complet": "kilomètres de montsou",
-        "A": "kilomètres",
-        "B": "montsou"
+        "texte_complet": "forme de poésie",
+        "A": "forme",
+        "B": "poésie"
     },
     {
-        "texte_complet": "talus d'herbe",
-        "A": "talus",
-        "B": "herbe"
+        "texte_complet": "œuvres d'art",
+        "A": "œuvres",
+        "B": "art"
     },
     {
-        "texte_complet": "vision de village",
-        "A": "vision",
-        "B": "village"
+        "texte_complet": "systèmes de composition",
+        "A": "systèmes",
+        "B": "composition"
     },
     {
-        "texte_complet": "coude du chemin",
-        "A": "coude",
-        "B": "chemin"
+        "texte_complet": "notes de musique",
+        "A": "notes",
+        "B": "musique"
     },
     {
-        "texte_complet": "ras du sol",
-        "A": "ras",
-        "B": "sol"
+        "texte_complet": "instruments de musique",
+        "A": "instruments",
+        "B": "musique"
     },
     {
-        "texte_complet": "silhouette d'une cheminée",
-        "A": "silhouette",
-        "B": "cheminée"
+        "texte_complet": "forme d'expression",
+        "A": "forme",
+        "B": "expression"
     },
     {
-        "texte_complet": "profils de tréteaux",
-        "A": "profils",
-        "B": "tréteaux"
+        "texte_complet": "expression des sentiments",
+        "A": "expression",
+        "B": "sentiments"
     },
     {
-        "texte_complet": "échappement de vapeur",
-        "A": "échappement",
-        "B": "vapeur"
+        "texte_complet": "source de rassemblement",
+        "A": "source",
+        "B": "rassemblement"
     },
     {
-        "texte_complet": "feux de houille",
-        "A": "feux",
-        "B": "houille"
+        "texte_complet": "symbole d'une communauté",
+        "A": "symbole",
+        "B": "communauté"
     },
     {
-        "texte_complet": "corbeilles de fonte",
-        "A": "corbeilles",
-        "B": "fonte"
+        "texte_complet": "dérive du grec",
+        "A": "dérive",
+        "B": "grec"
     },
     {
-        "texte_complet": "ouvriers de la coupe",
-        "A": "ouvriers",
-        "B": "coupe"
+        "texte_complet": "idée d'une chose",
+        "A": "idée",
+        "B": "chose"
     },
     {
-        "texte_complet": "tricot de laine",
-        "A": "tricot",
-        "B": "laine"
+        "texte_complet": "compositeur de musique",
+        "A": "compositeur",
+        "B": "musique"
     },
     {
-        "texte_complet": "poil de lapin",
-        "A": "poil",
-        "B": "lapin"
-    },
-    {
-        "texte_complet": "immobilité de pierre",
-        "A": "immobilité",
-        "B": "pierre"
-    },
-    {
-        "texte_complet": "levier d'une main",
-        "A": "levier",
-        "B": "main"
-    },
-    {
-        "texte_complet": "pied du terri",
-        "A": "pied",
-        "B": "terri"
-    },
-    {
-        "texte_complet": "claquement de fouet",
-        "A": "claquement",
-        "B": "fouet"
-    },
-    {
-        "texte_complet": "partie de la fosse",
-        "A": "partie",
-        "B": "fosse"
-    },
-    {
-        "texte_complet": "beffroi du puits",
-        "A": "beffroi",
-        "B": "puits"
-    },
-    {
-        "texte_complet": "chambre de la machine",
-        "A": "chambre",
-        "B": "machine"
-    },
-    {
-        "texte_complet": "pompe d'épuisement",
-        "A": "pompe",
-        "B": "épuisement"
-    },
-    {
-        "texte_complet": "fond d'un creux",
-        "A": "fond",
-        "B": "creux"
-    },
-    {
-        "texte_complet": "existence de vagabond",
-        "A": "existence",
-        "B": "vagabond"
-    },
-    {
-        "texte_complet": "atelier du chemin",
-        "A": "atelier",
-        "B": "chemin"
-    },
-    {
-        "texte_complet": "bois d'un chantier",
-        "A": "bois",
-        "B": "chantier"
-    },
-    {
-        "texte_complet": "heures de la nuit",
-        "A": "heures",
-        "B": "nuit"
-    },
-    {
-        "texte_complet": "foyers des générateurs",
-        "A": "foyers",
-        "B": "générateurs"
-    },
-    {
-        "texte_complet": "échappement de la pompe",
-        "A": "échappement",
-        "B": "pompe"
-    },
-    {
-        "texte_complet": "manoeuvre du culbuteur",
-        "A": "manoeuvre",
-        "B": "culbuteur"
-    },
-    {
-        "texte_complet": "accès de toux",
-        "A": "accès",
-        "B": "toux"
-    },
-    {
-        "texte_complet": "retour du charretier",
-        "A": "retour",
-        "B": "charretier"
-    },
-    {
-        "texte_complet": "faute de l'empereur",
-        "A": "faute",
-        "B": "empereur"
-    },
-    {
-        "texte_complet": "ténèbres des points",
-        "A": "ténèbres",
-        "B": "points"
-    },
-    {
-        "texte_complet": "câbles de mine",
-        "A": "câbles",
-        "B": "mine"
-    },
-    {
-        "texte_complet": "moitié de l'horizon",
-        "A": "moitié",
-        "B": "horizon"
-    },
-    {
-        "texte_complet": "ateliers de construction",
-        "A": "ateliers",
+        "texte_complet": "règles de construction",
+        "A": "règles",
         "B": "construction"
     },
     {
-        "texte_complet": "fourneaux des forges",
-        "A": "fourneaux",
-        "B": "forges"
+        "texte_complet": "agencement d'espace",
+        "A": "agencement",
+        "B": "espace"
     },
     {
-        "texte_complet": "réduction de salaire",
-        "A": "réduction",
-        "B": "salaire"
+        "texte_complet": "fonction de l'édifice",
+        "A": "fonction",
+        "B": "édifice"
     },
     {
-        "texte_complet": "batteries de fours",
-        "A": "batteries",
-        "B": "fours"
+        "texte_complet": "expression de la culture",
+        "A": "expression",
+        "B": "culture"
     },
     {
-        "texte_complet": "main du vieillard",
-        "A": "main",
-        "B": "vieillard"
+        "texte_complet": "classification des arts",
+        "A": "classification",
+        "B": "arts"
     },
     {
-        "texte_complet": "cri de famine",
-        "A": "cri",
-        "B": "famine"
+        "texte_complet": "partie des beaux",
+        "A": "partie",
+        "B": "beaux"
     },
     {
-        "texte_complet": "vent de mars",
-        "A": "vent",
-        "B": "mars"
+        "texte_complet": "ensemble des connaissances",
+        "A": "ensemble",
+        "B": "connaissances"
     },
     {
-        "texte_complet": "mort du travail",
-        "A": "mort",
-        "B": "travail"
+        "texte_complet": "fil des millénaires",
+        "A": "fil",
+        "B": "millénaires"
     },
     {
-        "texte_complet": "fond de l'inconnu",
+        "texte_complet": "domaine de la planification",
+        "A": "domaine",
+        "B": "planification"
+    },
+    {
+        "texte_complet": "méthodes de la planification",
+        "A": "méthodes",
+        "B": "planification"
+    },
+    {
+        "texte_complet": "service de l'aménagement",
+        "A": "service",
+        "B": "aménagement"
+    },
+    {
+        "texte_complet": "échelles de la planification",
+        "A": "échelles",
+        "B": "planification"
+    },
+    {
+        "texte_complet": "aménagement du territoire",
+        "A": "aménagement",
+        "B": "territoire"
+    },
+    {
+        "texte_complet": "groupe de bâtiments",
+        "A": "groupe",
+        "B": "bâtiments"
+    },
+    {
+        "texte_complet": "superficie du quartier",
+        "A": "superficie",
+        "B": "quartier"
+    },
+    {
+        "texte_complet": "cadre des études",
+        "A": "cadre",
+        "B": "études"
+    },
+    {
+        "texte_complet": "pratique de la conception",
+        "A": "pratique",
+        "B": "conception"
+    },
+    {
+        "texte_complet": "saint-pierre de beauvais",
+        "A": "saint-pierre",
+        "B": "beauvais"
+    },
+    {
+        "texte_complet": "pierre de taille",
+        "A": "pierre",
+        "B": "taille"
+    },
+    {
+        "texte_complet": "coupole du panthéon",
+        "A": "coupole",
+        "B": "panthéon"
+    },
+    {
+        "texte_complet": "coupole du monde",
+        "A": "coupole",
+        "B": "monde"
+    },
+    {
+        "texte_complet": "dôme de la cathédrale",
+        "A": "dôme",
+        "B": "cathédrale"
+    },
+    {
+        "texte_complet": "début de la renaissance",
+        "A": "début",
+        "B": "renaissance"
+    },
+    {
+        "texte_complet": "cire d'abeille",
+        "A": "cire",
+        "B": "abeille"
+    },
+    {
+        "texte_complet": "fil de coton",
+        "A": "fil",
+        "B": "coton"
+    },
+    {
+        "texte_complet": "plateaux de la vallée",
+        "A": "plateaux",
+        "B": "vallée"
+    },
+    {
+        "texte_complet": "république du congo",
+        "A": "république",
+        "B": "congo"
+    },
+    {
+        "texte_complet": "muséum d'histoire",
+        "A": "muséum",
+        "B": "histoire"
+    },
+    {
+        "texte_complet": "blocs de grès",
+        "A": "blocs",
+        "B": "grès"
+    },
+    {
+        "texte_complet": "sculpture de sable",
+        "A": "sculpture",
+        "B": "sable"
+    },
+    {
+        "texte_complet": "palette du peintre",
+        "A": "palette",
+        "B": "peintre"
+    },
+    {
+        "texte_complet": "graines de lin",
+        "A": "graines",
+        "B": "lin"
+    },
+    {
+        "texte_complet": "portrait de mona",
+        "A": "portrait",
+        "B": "mona"
+    },
+    {
+        "texte_complet": "tableau de léonard",
+        "A": "tableau",
+        "B": "léonard"
+    },
+    {
+        "texte_complet": "épouse de francesco",
+        "A": "épouse",
+        "B": "francesco"
+    },
+    {
+        "texte_complet": "panneau de bois",
+        "A": "panneau",
+        "B": "bois"
+    },
+    {
+        "texte_complet": "musée du louvre",
+        "A": "musée",
+        "B": "louvre"
+    },
+    {
+        "texte_complet": "léonard de vinci",
+        "A": "léonard",
+        "B": "vinci"
+    },
+    {
+        "texte_complet": "nombre d'artistes",
+        "A": "nombre",
+        "B": "artistes"
+    },
+    {
+        "texte_complet": "représentations d'un visage",
+        "A": "représentations",
+        "B": "visage"
+    },
+    {
+        "texte_complet": "objet d'art",
+        "A": "objet",
+        "B": "art"
+    },
+    {
+        "texte_complet": "portrait d'une femme",
+        "A": "portrait",
+        "B": "femme"
+    },
+    {
+        "texte_complet": "fond d'un paysage",
         "A": "fond",
-        "B": "inconnu"
+        "B": "paysage"
     },
     {
-        "texte_complet": "rampes de flammes",
-        "A": "rampes",
-        "B": "flammes"
+        "texte_complet": "hauteur des épaules",
+        "A": "hauteur",
+        "B": "épaules"
     },
     {
-        "texte_complet": "tristesse d'incendie",
-        "A": "tristesse",
-        "B": "incendie"
+        "texte_complet": "haut du front",
+        "A": "haut",
+        "B": "front"
     },
     {
-        "texte_complet": "pays de la houille",
-        "A": "pays",
-        "B": "houille"
+        "texte_complet": "sorte de mantille",
+        "A": "sorte",
+        "B": "mantille"
     },
     {
-        "texte_complet": "cage d'extraction",
-        "A": "cage",
+        "texte_complet": "naissance des seins",
+        "A": "naissance",
+        "B": "seins"
+    },
+    {
+        "texte_complet": "absence de bijoux",
+        "A": "absence",
+        "B": "bijoux"
+    },
+    {
+        "texte_complet": "obscurcissement des vernis",
+        "A": "obscurcissement",
+        "B": "vernis"
+    },
+    {
+        "texte_complet": "choix du peintre",
+        "A": "choix",
+        "B": "peintre"
+    },
+    {
+        "texte_complet": "région du cœur",
+        "A": "région",
+        "B": "cœur"
+    },
+    {
+        "texte_complet": "centre du tableau",
+        "A": "centre",
+        "B": "tableau"
+    },
+    {
+        "texte_complet": "crème de bresse",
+        "A": "crème",
+        "B": "bresse"
+    },
+    {
+        "texte_complet": "pineau des charentes",
+        "A": "pineau",
+        "B": "charentes"
+    },
+    {
+        "texte_complet": "huile d'olive",
+        "A": "huile",
+        "B": "olive"
+    },
+    {
+        "texte_complet": "châtaigne des cévennes",
+        "A": "châtaigne",
+        "B": "cévennes"
+    },
+    {
+        "texte_complet": "taureau de camargue",
+        "A": "taureau",
+        "B": "camargue"
+    },
+    {
+        "texte_complet": "camembert de normandie",
+        "A": "camembert",
+        "B": "normandie"
+    },
+    {
+        "texte_complet": "mesure d'angle",
+        "A": "mesure",
+        "B": "angle"
+    },
+    {
+        "texte_complet": "système de visée",
+        "A": "système",
+        "B": "visée"
+    },
+    {
+        "texte_complet": "pinnule de visée",
+        "A": "pinnule",
+        "B": "visée"
+    },
+    {
+        "texte_complet": "axe du fût",
+        "A": "axe",
+        "B": "fût"
+    },
+    {
+        "texte_complet": "mm de la pointe",
+        "A": "mm",
+        "B": "pointe"
+    },
+    {
+        "texte_complet": "lame de rasoir",
+        "A": "lame",
+        "B": "rasoir"
+    },
+    {
+        "texte_complet": "brins de cuivre",
+        "A": "brins",
+        "B": "cuivre"
+    },
+    {
+        "texte_complet": "taille du fil",
+        "A": "taille",
+        "B": "fil"
+    },
+    {
+        "texte_complet": "-vous du trou",
+        "A": "-vous",
+        "B": "trou"
+    },
+    {
+        "texte_complet": "taille du câble",
+        "A": "taille",
+        "B": "câble"
+    },
+    {
+        "texte_complet": "trous de la pince",
+        "A": "trous",
+        "B": "pince"
+    },
+    {
+        "texte_complet": "temps de pluie",
+        "A": "temps",
+        "B": "pluie"
+    },
+    {
+        "texte_complet": "monsieur de fontaine",
+        "A": "monsieur",
+        "B": "fontaine"
+    },
+    {
+        "texte_complet": "complicité d'émigration",
+        "A": "complicité",
+        "B": "émigration"
+    },
+    {
+        "texte_complet": "compagnons de l'exil",
+        "A": "compagnons",
+        "B": "exil"
+    },
+    {
+        "texte_complet": "établissement de la république",
+        "A": "établissement",
+        "B": "république"
+    },
+    {
+        "texte_complet": "papier des résultats",
+        "A": "papier",
+        "B": "résultats"
+    },
+    {
+        "texte_complet": "exil de la cour",
+        "A": "exil",
+        "B": "cour"
+    },
+    {
+        "texte_complet": "absence de la royauté",
+        "A": "absence",
+        "B": "royauté"
+    },
+    {
+        "texte_complet": "mémoire du roi",
+        "A": "mémoire",
+        "B": "roi"
+    },
+    {
+        "texte_complet": "fauteurs de la rébellion",
+        "A": "fauteurs",
+        "B": "rébellion"
+    },
+    {
+        "texte_complet": "fauteuils du conseil",
+        "A": "fauteuils",
+        "B": "conseil"
+    },
+    {
+        "texte_complet": "-d'état",
+        "A": "-",
+        "B": "état"
+    },
+    {
+        "texte_complet": "intimité du prince",
+        "A": "intimité",
+        "B": "prince"
+    },
+    {
+        "texte_complet": "secrétaires d'état",
+        "A": "secrétaires",
+        "B": "état"
+    },
+    {
+        "texte_complet": "adresse de monsieur",
+        "A": "adresse",
+        "B": "monsieur"
+    },
+    {
+        "texte_complet": "comte de fontaine",
+        "A": "comte",
+        "B": "fontaine"
+    },
+    {
+        "texte_complet": "feuilles du budget",
+        "A": "feuilles",
+        "B": "budget"
+    },
+    {
+        "texte_complet": "bontés du roi",
+        "A": "bontés",
+        "B": "roi"
+    },
+    {
+        "texte_complet": "retour de gand",
+        "A": "retour",
+        "B": "gand"
+    },
+    {
+        "texte_complet": "faveur des mouvements",
+        "A": "faveur",
+        "B": "mouvements"
+    },
+    {
+        "texte_complet": "affaire du trocadéro",
+        "A": "affaire",
+        "B": "trocadéro"
+    },
+    {
+        "texte_complet": "maître des requêtes",
+        "A": "maître",
+        "B": "requêtes"
+    },
+    {
+        "texte_complet": "directeur d'une administration",
+        "A": "directeur",
+        "B": "administration"
+    },
+    {
+        "texte_complet": "ville de paris",
+        "A": "ville",
+        "B": "paris"
+    },
+    {
+        "texte_complet": "abri des tempêtes",
+        "A": "abri",
+        "B": "tempêtes"
+    },
+    {
+        "texte_complet": "faveur du comte",
+        "A": "faveur",
+        "B": "comte"
+    },
+    {
+        "texte_complet": "envie de personne",
+        "A": "envie",
+        "B": "personne"
+    },
+    {
+        "texte_complet": "établissement du système",
+        "A": "établissement",
+        "B": "système"
+    },
+    {
+        "texte_complet": "équivalent des abbayes",
+        "A": "équivalent",
+        "B": "abbayes"
+    },
+    {
+        "texte_complet": "avidité des courtisans",
+        "A": "avidité",
+        "B": "courtisans"
+    },
+    {
+        "texte_complet": "ressources du représentatif",
+        "A": "ressources",
+        "B": "représentatif"
+    },
+    {
+        "texte_complet": "sécurité des carrières",
+        "A": "sécurité",
+        "B": "carrières"
+    },
+    {
+        "texte_complet": "tête d'une famille",
+        "A": "tête",
+        "B": "famille"
+    },
+    {
+        "texte_complet": "bonté du monarque",
+        "A": "bonté",
+        "B": "monarque"
+    },
+    {
+        "texte_complet": "demoiselle de fontaine",
+        "A": "demoiselle",
+        "B": "fontaine"
+    },
+    {
+        "texte_complet": "magistrat d'extraction",
+        "A": "magistrat",
         "B": "extraction"
     },
     {
-        "texte_complet": "quart d'heure",
-        "A": "quart",
-        "B": "heure"
+        "texte_complet": "émilie de fontaine",
+        "A": "émilie",
+        "B": "fontaine"
     },
     {
-        "texte_complet": "bas du terri",
+        "texte_complet": "fontaine d'un quatrain",
+        "A": "fontaine",
+        "B": "quatrain"
+    },
+    {
+        "texte_complet": "forme d'une trinité",
+        "A": "forme",
+        "B": "trinité"
+    },
+    {
+        "texte_complet": "place de la concorde",
+        "A": "place",
+        "B": "concorde"
+    },
+    {
+        "texte_complet": "quai de la conférence",
+        "A": "quai",
+        "B": "conférence"
+    },
+    {
+        "texte_complet": "quai de billy",
+        "A": "quai",
+        "B": "billy"
+    },
+    {
+        "texte_complet": "leçons de géographie",
+        "A": "leçons",
+        "B": "géographie"
+    },
+    {
+        "texte_complet": "milieu du champ",
+        "A": "milieu",
+        "B": "champ"
+    },
+    {
+        "texte_complet": "tertres de gazon",
+        "A": "tertres",
+        "B": "gazon"
+    },
+    {
+        "texte_complet": "public des courses",
+        "A": "public",
+        "B": "courses"
+    },
+    {
+        "texte_complet": "époque des sous-pieds",
+        "A": "époque",
+        "B": "sous-pieds"
+    },
+    {
+        "texte_complet": "collets de velours",
+        "A": "collets",
+        "B": "velours"
+    },
+    {
+        "texte_complet": "gradins des estrades",
+        "A": "gradins",
+        "B": "estrades"
+    },
+    {
+        "texte_complet": "massifs de fleurs",
+        "A": "massifs",
+        "B": "fleurs"
+    },
+    {
+        "texte_complet": "tachetées de noir",
+        "A": "tachetées",
+        "B": "noir"
+    },
+    {
+        "texte_complet": "costumes des hommes",
+        "A": "costumes",
+        "B": "hommes"
+    },
+    {
+        "texte_complet": "lignes de bâtons",
+        "A": "lignes",
+        "B": "bâtons"
+    },
+    {
+        "texte_complet": "programme des courses",
+        "A": "programme",
+        "B": "courses"
+    },
+    {
+        "texte_complet": "cime des ormes",
+        "A": "cime",
+        "B": "ormes"
+    },
+    {
+        "texte_complet": "peur de la pluie",
+        "A": "peur",
+        "B": "pluie"
+    },
+    {
+        "texte_complet": "provisions de bouche",
+        "A": "provisions",
+        "B": "bouche"
+    },
+    {
+        "texte_complet": "casaque de soie",
+        "A": "casaque",
+        "B": "soie"
+    },
+    {
+        "texte_complet": "baraques de planches",
+        "A": "baraques",
+        "B": "planches"
+    },
+    {
+        "texte_complet": "mot de rosanette",
+        "A": "mot",
+        "B": "rosanette"
+    },
+    {
+        "texte_complet": "ganse du chapeau",
+        "A": "ganse",
+        "B": "chapeau"
+    },
+    {
+        "texte_complet": "champ de mars",
+        "A": "champ",
+        "B": "mars"
+    },
+    {
+        "texte_complet": "courses de chantilly",
+        "A": "courses",
+        "B": "chantilly"
+    },
+    {
+        "texte_complet": "verres de vin",
+        "A": "verres",
+        "B": "vin"
+    },
+    {
+        "texte_complet": "coups de minuit",
+        "A": "coups",
+        "B": "minuit"
+    },
+    {
+        "texte_complet": "plaisir de rosanette",
+        "A": "plaisir",
+        "B": "rosanette"
+    },
+    {
+        "texte_complet": "prix de la ville",
+        "A": "prix",
+        "B": "ville"
+    },
+    {
+        "texte_complet": "spectateurs des tribunes",
+        "A": "spectateurs",
+        "B": "tribunes"
+    },
+    {
+        "texte_complet": "évolution des jockeys",
+        "A": "évolution",
+        "B": "jockeys"
+    },
+    {
+        "texte_complet": "longueur de la foule",
+        "A": "longueur",
+        "B": "foule"
+    },
+    {
+        "texte_complet": "bout du champ",
+        "A": "bout",
+        "B": "champ"
+    },
+    {
+        "texte_complet": "sorte de glissement",
+        "A": "sorte",
+        "B": "glissement"
+    },
+    {
+        "texte_complet": "ventres des chevaux",
+        "A": "ventres",
+        "B": "chevaux"
+    },
+    {
+        "texte_complet": "casaques des jockeys",
+        "A": "casaques",
+        "B": "jockeys"
+    },
+    {
+        "texte_complet": "coups de cravache",
+        "A": "coups",
+        "B": "cravache"
+    },
+    {
+        "texte_complet": "milieu des applaudissements",
+        "A": "milieu",
+        "B": "applaudissements"
+    },
+    {
+        "texte_complet": "couvert de sueur",
+        "A": "couvert",
+        "B": "sueur"
+    },
+    {
+        "texte_complet": "bas des tribunes",
         "A": "bas",
-        "B": "terri"
+        "B": "tribunes"
     },
     {
-        "texte_complet": "tréteaux d'un roulement",
-        "A": "tréteaux",
-        "B": "roulement"
+        "texte_complet": "femmes du monde",
+        "A": "femmes",
+        "B": "monde"
     },
     {
-        "texte_complet": "visage de l'inconnu",
-        "A": "visage",
-        "B": "inconnu"
+        "texte_complet": "voisinage des lorettes",
+        "A": "voisinage",
+        "B": "lorettes"
     },
     {
-        "texte_complet": "démangeaisons de confidences",
-        "A": "démangeaisons",
+        "texte_complet": "illustrations de bals",
+        "A": "illustrations",
+        "B": "bals"
+    },
+    {
+        "texte_complet": "8comédiennes du boulevard;—et",
+        "A": "8comédiennes",
+        "B": "boulevard;—et"
+    },
+    {
+        "texte_complet": "xi de la prostitution",
+        "A": "xi",
+        "B": "prostitution"
+    },
+    {
+        "texte_complet": "espèce de rire",
+        "A": "espèce",
+        "B": "rire"
+    },
+    {
+        "texte_complet": "palatine de martre",
+        "A": "palatine",
+        "B": "martre"
+    },
+    {
+        "texte_complet": "mme de remoussot",
+        "A": "mme",
+        "B": "remoussot"
+    },
+    {
+        "texte_complet": "air de vierge",
+        "A": "air",
+        "B": "vierge"
+    },
+    {
+        "texte_complet": "place du tablier",
+        "A": "place",
+        "B": "tablier"
+    },
+    {
+        "texte_complet": "rideaux de cuir",
+        "A": "rideaux",
+        "B": "cuir"
+    },
+    {
+        "texte_complet": "prudence des pères",
+        "A": "prudence",
+        "B": "pères"
+    },
+    {
+        "texte_complet": "siège de drap",
+        "A": "siège",
+        "B": "drap"
+    },
+    {
+        "texte_complet": "files de voitures",
+        "A": "files",
+        "B": "voitures"
+    },
+    {
+        "texte_complet": "bord des panneaux",
+        "A": "bord",
+        "B": "panneaux"
+    },
+    {
+        "texte_complet": "fond des fiacres",
+        "A": "fond",
+        "B": "fiacres"
+    },
+    {
+        "texte_complet": "ports de tête",
+        "A": "ports",
+        "B": "tête"
+    },
+    {
+        "texte_complet": "milieu de la voie",
+        "A": "milieu",
+        "B": "voie"
+    },
+    {
+        "texte_complet": "arc de triomphe",
+        "A": "arc",
+        "B": "triomphe"
+    },
+    {
+        "texte_complet": "moyeux des roues",
+        "A": "moyeux",
+        "B": "roues"
+    },
+    {
+        "texte_complet": "poignées des portières",
+        "A": "poignées",
+        "B": "portières"
+    },
+    {
+        "texte_complet": "bout des timons",
+        "A": "bout",
+        "B": "timons"
+    },
+    {
+        "texte_complet": "anneaux des sellettes",
+        "A": "anneaux",
+        "B": "sellettes"
+    },
+    {
+        "texte_complet": "bleu du ciel",
+        "A": "bleu",
+        "B": "ciel"
+    },
+    {
+        "texte_complet": "douceurs de satin",
+        "A": "douceurs",
+        "B": "satin"
+    },
+    {
+        "texte_complet": "colonnes du garde-meuble",
+        "A": "colonnes",
+        "B": "garde-meuble"
+    },
+    {
+        "texte_complet": "hôtel des affaires",
+        "A": "hôtel",
+        "B": "affaires"
+    },
+    {
+        "texte_complet": "file de badauds",
+        "A": "file",
+        "B": "badauds"
+    },
+    {
+        "texte_complet": "hauteur des bains",
+        "A": "hauteur",
+        "B": "bains"
+    },
+    {
+        "texte_complet": "bord du trottoir",
+        "A": "bord",
+        "B": "trottoir"
+    },
+    {
+        "texte_complet": "porte du café",
+        "A": "porte",
+        "B": "café"
+    },
+    {
+        "texte_complet": "milieu du corridor",
+        "A": "milieu",
+        "B": "corridor"
+    },
+    {
+        "texte_complet": "bord du balcon",
+        "A": "bord",
+        "B": "balcon"
+    },
+    {
+        "texte_complet": "dessous de la glace",
+        "A": "dessous",
+        "B": "glace"
+    },
+    {
+        "texte_complet": "pétale de fleur",
+        "A": "pétale",
+        "B": "fleur"
+    },
+    {
+        "texte_complet": "tu de la peine",
+        "A": "tu",
+        "B": "peine"
+    },
+    {
+        "texte_complet": "robe de soie",
+        "A": "robe",
+        "B": "soie"
+    },
+    {
+        "texte_complet": "bout du cabinet",
+        "A": "bout",
+        "B": "cabinet"
+    },
+    {
+        "texte_complet": "sorte de sujets",
+        "A": "sorte",
+        "B": "sujets"
+    },
+    {
+        "texte_complet": "propos de la danse",
+        "A": "propos",
+        "B": "danse"
+    },
+    {
+        "texte_complet": "collège de france",
+        "A": "collège",
+        "B": "france"
+    },
+    {
+        "texte_complet": "admirateur de m.",
+        "A": "admirateur",
+        "B": "m."
+    },
+    {
+        "texte_complet": "milieu des confidences",
+        "A": "milieu",
         "B": "confidences"
     },
     {
-        "texte_complet": "ricanement d'aise",
-        "A": "ricanement",
-        "B": "aise"
+        "texte_complet": "perspectives de félicité",
+        "A": "perspectives",
+        "B": "félicité"
     },
     {
-        "texte_complet": "grincement de poulie",
-        "A": "grincement",
-        "B": "poulie"
+        "texte_complet": "liste de blessés",
+        "A": "liste",
+        "B": "blessés"
     },
     {
-        "texte_complet": "corbeille de feu",
-        "A": "corbeille",
-        "B": "feu"
+        "texte_complet": "nom de dussardier",
+        "A": "nom",
+        "B": "dussardier"
     },
     {
-        "texte_complet": "pied de la corbeille",
-        "A": "pied",
-        "B": "corbeille"
+        "texte_complet": "malheurs de la patrie",
+        "A": "malheurs",
+        "B": "patrie"
     },
     {
-        "texte_complet": "ans de mine",
-        "A": "ans",
-        "B": "mine"
+        "texte_complet": "chose de mesquin",
+        "A": "chose",
+        "B": "mesquin"
     },
     {
-        "texte_complet": "morceaux de houille",
-        "A": "morceaux",
-        "B": "houille"
+        "texte_complet": "voiture des messageries",
+        "A": "voiture",
+        "B": "messageries"
     },
     {
-        "texte_complet": "bouche d'un revers",
-        "A": "bouche",
-        "B": "revers"
+        "texte_complet": "diligence du bourbonnais",
+        "A": "diligence",
+        "B": "bourbonnais"
     },
     {
-        "texte_complet": "cri de faim",
-        "A": "cri",
-        "B": "faim"
+        "texte_complet": "maître de poste",
+        "A": "maître",
+        "B": "poste"
     },
     {
-        "texte_complet": "profondeurs de la nuit",
-        "A": "profondeurs",
-        "B": "nuit"
+        "texte_complet": "point de passeport",
+        "A": "point",
+        "B": "passeport"
     },
     {
-        "texte_complet": "compagnie des mines",
-        "A": "compagnie",
-        "B": "mines"
+        "texte_complet": "hôtel du commerce",
+        "A": "hôtel",
+        "B": "commerce"
     },
     {
-        "texte_complet": "fosse de la compagnie",
-        "A": "fosse",
-        "B": "compagnie"
+        "texte_complet": "place du marché",
+        "A": "place",
+        "B": "marché"
     },
     {
-        "texte_complet": "mort de vieillesse",
-        "A": "mort",
-        "B": "vieillesse"
-    },
-    {
-        "texte_complet": "ans d'abattage",
-        "A": "ans",
-        "B": "abattage"
-    },
-    {
-        "texte_complet": "clocher de montsou",
-        "A": "clocher",
-        "B": "montsou"
-    },
-    {
-        "texte_complet": "écroulement d'écus",
-        "A": "écroulement",
-        "B": "écus"
-    },
-    {
-        "texte_complet": "compagnie d'anzin",
-        "A": "compagnie",
-        "B": "anzin"
-    },
-    {
-        "texte_complet": "chemin de fer",
-        "A": "chemin",
-        "B": "fer"
-    },
-    {
-        "texte_complet": "roulement de berlines",
-        "A": "roulement",
-        "B": "berlines"
-    },
-    {
-        "texte_complet": "immensité des ténèbres",
-        "A": "immensité",
-        "B": "ténèbres"
-    },
-    {
-        "texte_complet": "sorte de peur",
-        "A": "sorte",
+        "texte_complet": "prise de peur",
+        "A": "prise",
         "B": "peur"
     },
     {
-        "texte_complet": "carcasse de chien",
-        "A": "carcasse",
-        "B": "chien"
+        "texte_complet": "poste de la barrière",
+        "A": "poste",
+        "B": "barrière"
     },
     {
-        "texte_complet": "peur du voreux",
-        "A": "peur",
-        "B": "voreux"
+        "texte_complet": "boulevards des gobelins",
+        "A": "boulevards",
+        "B": "gobelins"
     },
     {
-        "texte_complet": "tassement de bête",
-        "A": "tassement",
-        "B": "bête"
+        "texte_complet": "talus de pavés",
+        "A": "talus",
+        "B": "pavés"
+    },
+    {
+        "texte_complet": "fantassins de la ligne",
+        "A": "fantassins",
+        "B": "ligne"
+    },
+    {
+        "texte_complet": "rue de bellefond",
+        "A": "rue",
+        "B": "bellefond"
+    },
+    {
+        "texte_complet": "poste du jardin",
+        "A": "poste",
+        "B": "jardin"
+    },
+    {
+        "texte_complet": "rue du marché-aux-chevaux",
+        "A": "rue",
+        "B": "marché-aux-chevaux"
+    },
+    {
+        "texte_complet": "jardin des plantes",
+        "A": "jardin",
+        "B": "plantes"
+    },
+    {
+        "texte_complet": "hommes de frédéric",
+        "A": "hommes",
+        "B": "frédéric"
+    },
+    {
+        "texte_complet": "bec de gaz",
+        "A": "bec",
+        "B": "gaz"
+    },
+    {
+        "texte_complet": "milieu du silence",
+        "A": "milieu",
+        "B": "silence"
+    },
+    {
+        "texte_complet": "cliquetis de fer",
+        "A": "cliquetis",
+        "B": "fer"
+    },
+    {
+        "texte_complet": "centre des carrefours",
+        "A": "centre",
+        "B": "carrefours"
+    },
+    {
+        "texte_complet": "place du panthéon",
+        "A": "place",
+        "B": "panthéon"
+    },
+    {
+        "texte_complet": "feux de bivouac",
+        "A": "feux",
+        "B": "bivouac"
+    },
+    {
+        "texte_complet": "sol des rues",
+        "A": "sol",
+        "B": "rues"
+    },
+    {
+        "texte_complet": "tuyaux de gaz",
+        "A": "tuyaux",
+        "B": "gaz"
+    },
+    {
+        "texte_complet": "roues de charrettes",
+        "A": "roues",
+        "B": "charrettes"
+    },
+    {
+        "texte_complet": "écaillures du plâtre",
+        "A": "écaillures",
+        "B": "plâtre"
+    },
+    {
+        "texte_complet": "intérieur des chambres",
+        "A": "intérieur",
+        "B": "chambres"
+    },
+    {
+        "texte_complet": "bâton de perroquet",
+        "A": "bâton",
+        "B": "perroquet"
+    },
+    {
+        "texte_complet": "morts de bréa",
+        "A": "morts",
+        "B": "bréa"
+    },
+    {
+        "texte_complet": "archevêque de paris",
+        "A": "archevêque",
+        "B": "paris"
+    },
+    {
+        "texte_complet": "secours de la province",
+        "A": "secours",
+        "B": "province"
+    },
+    {
+        "texte_complet": "bouteilles de vin",
+        "A": "bouteilles",
+        "B": "vin"
+    },
+    {
+        "texte_complet": "heures du matin",
+        "A": "heures",
+        "B": "matin"
+    },
+    {
+        "texte_complet": "manches de chemise",
+        "A": "manches",
+        "B": "chemise"
+    },
+    {
+        "texte_complet": "arbres des tuileries",
+        "A": "arbres",
+        "B": "tuileries"
+    },
+    {
+        "texte_complet": "groupe de gens",
+        "A": "groupe",
+        "B": "gens"
+    },
+    {
+        "texte_complet": "proclamation de cavaignac",
+        "A": "proclamation",
+        "B": "cavaignac"
+    },
+    {
+        "texte_complet": "peloton de mobiles",
+        "A": "peloton",
+        "B": "mobiles"
+    },
+    {
+        "texte_complet": "boire,—et des fleurs",
+        "A": "boire,—et",
+        "B": "fleurs"
+    },
+    {
+        "texte_complet": "coup de savate",
+        "A": "coup",
+        "B": "savate"
+    },
+    {
+        "texte_complet": "lingot de cuivre",
+        "A": "lingot",
+        "B": "cuivre"
+    },
+    {
+        "texte_complet": "jours de suite",
+        "A": "jours",
+        "B": "suite"
+    },
+    {
+        "texte_complet": "lambeaux d'armée",
+        "A": "lambeaux",
+        "B": "armée"
+    },
+    {
+        "texte_complet": "poids du fusil",
+        "A": "poids",
+        "B": "fusil"
+    },
+    {
+        "texte_complet": "débris d'une division",
+        "A": "débris",
+        "B": "division"
+    },
+    {
+        "texte_complet": "légions de francs-tireurs",
+        "A": "légions",
+        "B": "francs-tireurs"
+    },
+    {
+        "texte_complet": "vengeurs de la défaite",
+        "A": "vengeurs",
+        "B": "défaite"
+    },
+    {
+        "texte_complet": "airs de bandits",
+        "A": "airs",
+        "B": "bandits"
+    },
+    {
+        "texte_complet": "ex-marchands de suif",
+        "A": "ex-marchands",
+        "B": "suif"
+    },
+    {
+        "texte_complet": "guerriers de circonstance",
+        "A": "guerriers",
+        "B": "circonstance"
+    },
+    {
+        "texte_complet": "couverts d'armes",
+        "A": "couverts",
+        "B": "armes"
+    },
+    {
+        "texte_complet": "plans de campagne",
+        "A": "plans",
+        "B": "campagne"
+    },
+    {
+        "texte_complet": "gens de sac",
+        "A": "gens",
+        "B": "sac"
+    },
+    {
+        "texte_complet": "bornes des routes",
+        "A": "bornes",
+        "B": "routes"
+    },
+    {
+        "texte_complet": "débâcle d'un peuple",
+        "A": "débâcle",
+        "B": "peuple"
+    },
+    {
+        "texte_complet": "officiers d'ordonnance",
+        "A": "officiers",
+        "B": "ordonnance"
+    },
+    {
+        "texte_complet": "couteaux de cuisine",
+        "A": "couteaux",
+        "B": "cuisine"
+    },
+    {
+        "texte_complet": "long des murs",
+        "A": "long",
+        "B": "murs"
+    },
+    {
+        "texte_complet": "angoisse de l'attente",
+        "A": "angoisse",
+        "B": "attente"
+    },
+    {
+        "texte_complet": "venue de l'ennemi",
+        "A": "venue",
+        "B": "ennemi"
+    },
+    {
+        "texte_complet": "après-midi du jour",
+        "A": "après-midi",
+        "B": "jour"
+    },
+    {
+        "texte_complet": "départ des troupes",
+        "A": "départ",
+        "B": "troupes"
+    },
+    {
+        "texte_complet": "routes de darnetal",
+        "A": "routes",
+        "B": "darnetal"
+    },
+    {
+        "texte_complet": "place de l'hôtel-de-ville",
+        "A": "place",
+        "B": "hôtel-de-ville"
+    },
+    {
+        "texte_complet": "long des maisons",
+        "A": "long",
+        "B": "maisons"
+    },
+    {
+        "texte_complet": "maîtres de la cité",
+        "A": "maîtres",
+        "B": "cité"
+    },
+    {
+        "texte_complet": "droit de guerre",
+        "A": "droit",
+        "B": "guerre"
+    },
+    {
+        "texte_complet": "lois des hommes",
+        "A": "lois",
+        "B": "hommes"
+    },
+    {
+        "texte_complet": "merci d'une brutalité",
+        "A": "merci",
+        "B": "brutalité"
+    },
+    {
+        "texte_complet": "tremblement de terre",
+        "A": "tremblement",
+        "B": "terre"
+    },
+    {
+        "texte_complet": "cadavres des boeufs",
+        "A": "cadavres",
+        "B": "boeufs"
+    },
+    {
+        "texte_complet": "nom du sabre",
+        "A": "nom",
+        "B": "sabre"
+    },
+    {
+        "texte_complet": "protection du ciel",
+        "A": "protection",
+        "B": "ciel"
+    },
+    {
+        "texte_complet": "raison de l'homme",
+        "A": "raison",
+        "B": "homme"
+    },
+    {
+        "texte_complet": "défaut des bourgeois",
+        "A": "défaut",
+        "B": "bourgeois"
+    },
+    {
+        "texte_complet": "temps des défenses",
+        "A": "temps",
+        "B": "défenses"
+    },
+    {
+        "texte_complet": "officiers de hussards",
+        "A": "officiers",
+        "B": "hussards"
+    },
+    {
+        "texte_complet": "outils de mort",
+        "A": "outils",
+        "B": "mort"
+    },
+    {
+        "texte_complet": "officiers de chasseurs",
+        "A": "officiers",
+        "B": "chasseurs"
+    },
+    {
+        "texte_complet": "chose de subtil",
+        "A": "chose",
+        "B": "subtil"
+    },
+    {
+        "texte_complet": "odeur de l'invasion",
+        "A": "odeur",
+        "B": "invasion"
+    },
+    {
+        "texte_complet": "goût des aliments",
+        "A": "goût",
+        "B": "aliments"
+    },
+    {
+        "texte_complet": "cours de la rivière",
+        "A": "cours",
+        "B": "rivière"
+    },
+    {
+        "texte_complet": "fond de l'eau",
+        "A": "fond",
+        "B": "eau"
+    },
+    {
+        "texte_complet": "cadavre d'allemand",
+        "A": "cadavre",
+        "B": "allemand"
+    },
+    {
+        "texte_complet": "coup de couteau",
+        "A": "coup",
+        "B": "couteau"
+    },
+    {
+        "texte_complet": "eau d'une poussée",
+        "A": "eau",
+        "B": "poussée"
+    },
+    {
+        "texte_complet": "vases du fleuve",
+        "A": "vases",
+        "B": "fleuve"
+    },
+    {
+        "texte_complet": "retentissement de la gloire",
+        "A": "retentissement",
+        "B": "gloire"
+    },
+    {
+        "texte_complet": "haine de l'étranger",
+        "A": "haine",
+        "B": "étranger"
+    },
+    {
+        "texte_complet": "besoin du négoce",
+        "A": "besoin",
+        "B": "négoce"
+    },
+    {
+        "texte_complet": "coeur des commerçants",
+        "A": "coeur",
+        "B": "commerçants"
+    },
+    {
+        "texte_complet": "influence des officiers",
+        "A": "influence",
+        "B": "officiers"
+    },
+    {
+        "texte_complet": "autorisation de départ",
+        "A": "autorisation",
+        "B": "départ"
+    },
+    {
+        "texte_complet": "demie du matin",
+        "A": "demie",
+        "B": "matin"
+    },
+    {
+        "texte_complet": "cour de l'hôtel",
+        "A": "cour",
+        "B": "hôtel"
+    },
+    {
+        "texte_complet": "grelottaient de froid",
+        "A": "grelottaient",
+        "B": "froid"
+    },
+    {
+        "texte_complet": "vêtements d'hiver",
+        "A": "vêtements",
+        "B": "hiver"
+    },
+    {
+        "texte_complet": "valet d'écurie",
+        "A": "valet",
+        "B": "écurie"
+    },
+    {
+        "texte_complet": "pieds de chevaux",
+        "A": "pieds",
+        "B": "chevaux"
+    },
+    {
+        "texte_complet": "fumier des litières",
+        "A": "fumier",
+        "B": "litières"
+    },
+    {
+        "texte_complet": "voix d'homme",
+        "A": "voix",
+        "B": "homme"
+    },
+    {
+        "texte_complet": "fond du bâtiment",
+        "A": "fond",
+        "B": "bâtiment"
+    },
+    {
+        "texte_complet": "murmure de grelots",
+        "A": "murmure",
+        "B": "grelots"
+    },
+    {
+        "texte_complet": "mouvement de l'animal",
+        "A": "mouvement",
+        "B": "animal"
+    },
+    {
+        "texte_complet": "rideau de flocons",
+        "A": "rideau",
+        "B": "flocons"
+    },
+    {
+        "texte_complet": "choses d'une mousse",
+        "A": "choses",
+        "B": "mousse"
+    },
+    {
+        "texte_complet": "silence de la ville",
+        "A": "silence",
+        "B": "ville"
+    },
+    {
+        "texte_complet": "entremêlement d'atomes",
+        "A": "entremêlement",
+        "B": "atomes"
+    },
+    {
+        "texte_complet": "bout d'une corde",
+        "A": "bout",
+        "B": "corde"
+    },
+    {
+        "texte_complet": "dames du fond",
+        "A": "dames",
+        "B": "fond"
+    },
+    {
+        "texte_complet": "cause du tirage",
+        "A": "cause",
+        "B": "tirage"
+    },
+    {
+        "texte_complet": "voix du dedans",
+        "A": "voix",
+        "B": "dedans"
+    },
+    {
+        "texte_complet": "pluie de coton",
+        "A": "pluie",
+        "B": "coton"
+    },
+    {
+        "texte_complet": "blancheur de la campagne",
+        "A": "blancheur",
+        "B": "campagne"
+    },
+    {
+        "texte_complet": "capuchon de neige",
+        "A": "capuchon",
+        "B": "neige"
+    },
+    {
+        "texte_complet": "marchands de vins",
+        "A": "marchands",
+        "B": "vins"
+    },
+    {
+        "texte_complet": "débitants des campagnes",
+        "A": "débitants",
+        "B": "campagnes"
+    },
+    {
+        "texte_complet": "réputation de filou",
+        "A": "réputation",
+        "B": "filou"
+    },
+    {
+        "texte_complet": "auteur de fables",
+        "A": "auteur",
+        "B": "fables"
+    },
+    {
+        "texte_complet": "salons du préfet",
+        "A": "salons",
+        "B": "préfet"
+    },
+    {
+        "texte_complet": "mâchoires de la province",
+        "A": "mâchoires",
+        "B": "province"
+    },
+    {
+        "texte_complet": "arithmétique de la maison",
+        "A": "arithmétique",
+        "B": "maison"
+    },
+    {
+        "texte_complet": "officier de la légion",
+        "A": "officier",
+        "B": "légion"
+    },
+    {
+        "texte_complet": "membre du conseil",
+        "A": "membre",
+        "B": "conseil"
+    },
+    {
+        "texte_complet": "temps de l'empire",
+        "A": "temps",
+        "B": "empire"
+    },
+    {
+        "texte_complet": "chef de l'opposition",
+        "A": "chef",
+        "B": "opposition"
+    },
+    {
+        "texte_complet": "consolation des officiers",
+        "A": "consolation",
+        "B": "officiers"
+    },
+    {
+        "texte_complet": "hubert de bréville",
+        "A": "hubert",
+        "B": "bréville"
+    },
+    {
+        "texte_complet": "dame de bréville",
+        "A": "dame",
+        "B": "bréville"
+    },
+    {
+        "texte_complet": "gouverneur de province",
+        "A": "gouverneur",
+        "B": "province"
+    },
+    {
+        "texte_complet": "collègue de m.",
+        "A": "collègue",
+        "B": "m."
+    },
+    {
+        "texte_complet": "fils de louis-philippe",
+        "A": "fils",
+        "B": "louis-philippe"
+    },
+    {
+        "texte_complet": "sceau du secret",
+        "A": "sceau",
+        "B": "secret"
+    },
+    {
+        "texte_complet": "atteinte d'une maladie",
+        "A": "atteinte",
+        "B": "maladie"
+    },
+    {
+        "texte_complet": "verre d'eau",
+        "A": "verre",
+        "B": "eau"
+    },
+    {
+        "texte_complet": "meubles d'un air",
+        "A": "meubles",
+        "B": "air"
+    },
+    {
+        "texte_complet": "mois de juillet",
+        "A": "mois",
+        "B": "juillet"
+    },
+    {
+        "texte_complet": "air d'un honnête",
+        "A": "air",
+        "B": "honnête"
+    },
+    {
+        "texte_complet": "yeux de la main",
+        "A": "yeux",
+        "B": "main"
+    },
+    {
+        "texte_complet": "mêlée de colère",
+        "A": "mêlée",
+        "B": "colère"
+    },
+    {
+        "texte_complet": "soulèvement de la justice",
+        "A": "soulèvement",
+        "B": "justice"
+    },
+    {
+        "texte_complet": "long de la seine",
+        "A": "long",
+        "B": "seine"
+    },
+    {
+        "texte_complet": "gare de chatou",
+        "A": "gare",
+        "B": "chatou"
+    },
+    {
+        "texte_complet": "salade de haricots",
+        "A": "salade",
+        "B": "haricots"
+    },
+    {
+        "texte_complet": "houmous de haricots",
+        "A": "houmous",
+        "B": "haricots"
+    },
+    {
+        "texte_complet": "lamelles de poivron",
+        "A": "lamelles",
+        "B": "poivron"
+    },
+    {
+        "texte_complet": "blancs de poulet",
+        "A": "blancs",
+        "B": "poulet"
+    },
+    {
+        "texte_complet": "note de l'auteur",
+        "A": "note",
+        "B": "auteur"
+    },
+    {
+        "texte_complet": "ravioles du dauphiné",
+        "A": "ravioles",
+        "B": "dauphiné"
+    },
+    {
+        "texte_complet": "g de ravioles",
+        "A": "g",
+        "B": "ravioles"
+    },
+    {
+        "texte_complet": "% de mg",
+        "A": "%",
+        "B": "mg"
+    },
+    {
+        "texte_complet": "cl de crème",
+        "A": "cl",
+        "B": "crème"
+    },
+    {
+        "texte_complet": "noix de muscade",
+        "A": "noix",
+        "B": "muscade"
+    },
+    {
+        "texte_complet": "pincées de noix",
+        "A": "pincées",
+        "B": "noix"
+    },
+    {
+        "texte_complet": "poivre du moulin",
+        "A": "poivre",
+        "B": "moulin"
+    },
+    {
+        "texte_complet": "pincées de poivre",
+        "A": "pincées",
+        "B": "poivre"
+    },
+    {
+        "texte_complet": "g de comté",
+        "A": "g",
+        "B": "comté"
+    },
+    {
+        "texte_complet": "g de beurre",
+        "A": "g",
+        "B": "beurre"
+    },
+    {
+        "texte_complet": "plaques de ravioles",
+        "A": "plaques",
+        "B": "ravioles"
+    },
+    {
+        "texte_complet": "fond du plat",
+        "A": "fond",
+        "B": "plat"
+    },
+    {
+        "texte_complet": "couche de ravioles",
+        "A": "couche",
+        "B": "ravioles"
+    },
+    {
+        "texte_complet": "épuisement des ingrédients",
+        "A": "épuisement",
+        "B": "ingrédients"
+    },
+    {
+        "texte_complet": "tour de poivre",
+        "A": "tour",
+        "B": "poivre"
+    },
+    {
+        "texte_complet": "surface du gratin",
+        "A": "surface",
+        "B": "gratin"
+    },
+    {
+        "texte_complet": "ensemble de sonomètre",
+        "A": "ensemble",
+        "B": "sonomètre"
+    },
+    {
+        "texte_complet": "kit de sonomètre",
+        "A": "kit",
+        "B": "sonomètre"
+    },
+    {
+        "texte_complet": "étui de transport",
+        "A": "étui",
+        "B": "transport"
+    },
+    {
+        "texte_complet": "mesureur d'isolement",
+        "A": "mesureur",
+        "B": "isolement"
+    },
+    {
+        "texte_complet": "distance des températures",
+        "A": "distance",
+        "B": "températures"
+    },
+    {
+        "texte_complet": "détecteur de co2",
+        "A": "détecteur",
+        "B": "co2"
+    },
+    {
+        "texte_complet": "mesure de la qualité",
+        "A": "mesure",
+        "B": "qualité"
+    },
+    {
+        "texte_complet": "jauge de l'épaisseur",
+        "A": "jauge",
+        "B": "épaisseur"
+    },
+    {
+        "texte_complet": "dosimètre de bruit",
+        "A": "dosimètre",
+        "B": "bruit"
+    },
+    {
+        "texte_complet": "enregistreur de données",
+        "A": "enregistreur",
+        "B": "données"
+    },
+    {
+        "texte_complet": "mesure de -40",
+        "A": "mesure",
+        "B": "-40"
+    },
+    {
+        "texte_complet": "données de température",
+        "A": "données",
+        "B": "température"
+    },
+    {
+        "texte_complet": "canal de perçage",
+        "A": "canal",
+        "B": "perçage"
+    },
+    {
+        "texte_complet": "mesure de l'épaisseur",
+        "A": "mesure",
+        "B": "épaisseur"
+    },
+    {
+        "texte_complet": "mesure de force",
+        "A": "mesure",
+        "B": "force"
+    },
+    {
+        "texte_complet": "certificats d'étalonnage",
+        "A": "certificats",
+        "B": "étalonnage"
+    },
+    {
+        "texte_complet": "chronomètre de contrainte",
+        "A": "chronomètre",
+        "B": "contrainte"
+    },
+    {
+        "texte_complet": "mesure de -5",
+        "A": "mesure",
+        "B": "-5"
+    },
+    {
+        "texte_complet": "hygromètre de poche",
+        "A": "hygromètre",
+        "B": "poche"
+    },
+    {
+        "texte_complet": "usb de temp",
+        "A": "usb",
+        "B": "temp"
+    },
+    {
+        "texte_complet": "appareil de mesure",
+        "A": "appareil",
+        "B": "mesure"
+    },
+    {
+        "texte_complet": "mesure de -20",
+        "A": "mesure",
+        "B": "-20"
+    },
+    {
+        "texte_complet": "plage de mesure",
+        "A": "plage",
+        "B": "mesure"
+    },
+    {
+        "texte_complet": "compteur de contrainte",
+        "A": "compteur",
+        "B": "contrainte"
+    },
+    {
+        "texte_complet": "mesureur d'environnement",
+        "A": "mesureur",
+        "B": "environnement"
+    },
+    {
+        "texte_complet": "minuterie d'entrainement",
+        "A": "minuterie",
+        "B": "entrainement"
     }
 ]

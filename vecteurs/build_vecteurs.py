@@ -24,35 +24,52 @@ def term2sig(term_id : int, HSize : int = 10, TRTSize : int = 5,SSTSize : int = 
     
     # ============== HYPERONYMES =============== 
     data = api.get_relations_from_by_id(term_id, types_ids=6)  # 6 = r_isa
-    h_relations = [(rel["node2"], rel["w"]) for rel in data.get("relations", [])]
+    h_relations = [
+        (rel["node2"], rel["w"])
+        for rel in data.get("relations", [])
+        if rel["w"] > 0
+    ]
     max_h = max((weight for _, weight in h_relations), default=0)
     if max_h == 0:
         max_h = 1
 
     for parent_id, weight in sorted(h_relations, key=lambda x: x[1], reverse=True)[:HSize]:
-        sig["H"][parent_id] = weight / max_h
+        normalized_weight = weight / max_h
+        sig["H"][parent_id] = max(sig["H"].get(parent_id, 0), normalized_weight)
 
     sig["H"][term_id] = 1.0
 
     # ============== TRT : cibles types de relations =============== 
     data = api.get_relations_to_by_id(term_id)
-    trt_relations = [(rel["type"], rel["w"]) for rel in data.get("relations", [])]
+    trt_relations = [
+        (rel["type"], rel["w"])
+        for rel in data.get("relations", [])
+        if rel["w"] > 0
+    ]
     max_trt = max((weight for _, weight in trt_relations), default=0)
     if max_trt == 0:
         max_trt = 1
 
-    for rel_type, weight in sorted(trt_relations, key=lambda x: x[1], reverse=True)[:TRTSize]:
-        sig["TRT"][rel_type] = weight / max_trt
+    for rel_type, weight in sorted(trt_relations, key=lambda x: x[1], reverse=True):
+        normalized_weight = weight / max_trt
+        sig["TRT"][rel_type] = max(sig["TRT"].get(rel_type, 0), normalized_weight)
+        if len(sig["TRT"]) >= TRTSize:
+            break
 
     # ============== INFOSEM: informations sémantiques supplémentaires (r_infopot) ===============
     data = api.get_relations_from_by_id(term_id, types_ids=36)  # 36 = r_infopot
-    sst_relations = [(rel["node2"], rel["w"]) for rel in data.get("relations", [])]
+    sst_relations = [
+        (rel["node2"], rel["w"])
+        for rel in data.get("relations", [])
+        if rel["w"] > 0
+    ]
     max_sst = max((weight for _, weight in sst_relations), default=0)
     if max_sst == 0:
         max_sst = 1
 
     for node_id, weight in sorted(sst_relations, key=lambda x: x[1], reverse=True)[:SSTSize]:
-        sig["SST"][node_id] = weight / max_sst
+        normalized_weight = weight / max_sst
+        sig["SST"][node_id] = max(sig["SST"].get(node_id, 0), normalized_weight)
 
     return sig
 
@@ -109,6 +126,6 @@ def debugVecteur(vecteur: dict, term_id: int | None = None) -> None:
 
 
 if __name__ == "__main__":
-    sig = term2sig(6, 10, 10, 10)
-    debugVecteur(sig, 6)
+    sig = term2sig(43, 10, 10, 10)
+    debugVecteur(sig, 43)
 

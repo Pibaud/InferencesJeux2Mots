@@ -50,10 +50,23 @@ def importer_depuis_json(json_path):
 
 def get_prochain_syntagme(statut_cible='a_verifier'):
     with get_conn() as conn:
-        row = conn.execute(
-            "SELECT * FROM annotations WHERE statut = ? ORDER BY RANDOM() LIMIT 1",
-            (statut_cible,)
-        ).fetchone()
+        row = conn.execute("""
+            WITH ClassCounts AS (
+                -- 1. On calcule la répartition actuelle des classes validées
+                SELECT relation_humaine AS relation, COUNT(*) AS compte
+                FROM annotations
+                WHERE statut IN ('valide', 'corrige')
+                GROUP BY relation_humaine
+            )
+            SELECT a.*
+            FROM annotations a
+            -- 2. On associe chaque syntagme en attente à la popularité de sa pré-annotation IA
+            LEFT JOIN ClassCounts c ON a.relation_ia = c.relation
+            WHERE a.statut = ?
+            -- 3. On trie par classe la moins représentée, puis au hasard pour éviter les conflits
+            ORDER BY COALESCE(c.compte, 0) ASC, RANDOM()
+            LIMIT 1
+        """, (statut_cible,)).fetchone()
         return dict(row) if row else None
 
 def get_stats():
