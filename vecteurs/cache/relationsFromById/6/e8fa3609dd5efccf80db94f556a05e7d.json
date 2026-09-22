@@ -1,0 +1,2067 @@
+{
+    "nodes": [
+        {
+            "id": 15630207,
+            "name": "en:come to somebody's place",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15513296,
+            "name": "en:put something towards something",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15210887,
+            "name": "discuter de qqch",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15504735,
+            "name": "en:force somebody to do something",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15772452,
+            "name": "en:obligate somebody to do something",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15335510,
+            "name": "en:suppose that",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15743005,
+            "name": "en:urge somebody to do something",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15685773,
+            "name": "en:move up by something",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15549324,
+            "name": "faire de quelque chose",
+            "type": 1,
+            "w": 85
+        },
+        {
+            "id": 15256772,
+            "name": "en:to compel sb to do sth",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15743012,
+            "name": "en:drive somebody to do something",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15793553,
+            "name": "prendre quelque chose en charge",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 106325,
+            "name": "faire naître",
+            "type": 1,
+            "w": 327
+        },
+        {
+            "id": 15813644,
+            "name": "en:to bludgeon sb into doing sth",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15692360,
+            "name": "en:carry somebody off",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15568919,
+            "name": "en:compel sb to do sth",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15743028,
+            "name": "en:lead somebody astray",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15750591,
+            "name": "en:pull somebody away",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15435033,
+            "name": "pousser au crime",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15630211,
+            "name": "en:stop by something",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15630205,
+            "name": "en:come to somebody's house",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15630208,
+            "name": "en:go to somebody's",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15755333,
+            "name": "en:pray somebody to do something",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 14958215,
+            "name": "en:reclaim",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15504734,
+            "name": "en:make somebody do something",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 14932682,
+            "name": "en:spend",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15771147,
+            "name": "en:pressure somebody into doing something",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15732077,
+            "name": "en:encourage somebody to do something",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15694263,
+            "name": "en:subject somebody to something",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 14926695,
+            "name": "en:give rise to",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15504736,
+            "name": "en:oblige somebody to do something",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 7290836,
+            "name": "en:spread",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 90891,
+            "name": "se faire",
+            "type": 1,
+            "w": 1149
+        },
+        {
+            "id": 15483863,
+            "name": "en:to force sb to do sth",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 35853579,
+            "name": "absorber quelque chose",
+            "type": 1,
+            "w": 35
+        },
+        {
+            "id": 15635138,
+            "name": "en:make something up",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15504737,
+            "name": "forcer quelqu'un à faire quelque chose",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15462764,
+            "name": "assujettir [qqn] à [qch]",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 57733,
+            "name": "astreindre",
+            "type": 1,
+            "w": 118
+        },
+        {
+            "id": 29576600,
+            "name": "en:originate in something",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15772453,
+            "name": "obliger quelqu'un à faire quelque chose",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 27441789,
+            "name": "faire son",
+            "type": 1,
+            "w": 4920
+        },
+        {
+            "id": 15430102,
+            "name": "en:be the done thing",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15583186,
+            "name": "en:ask somebody to do something",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 6905151,
+            "name": "en:gain",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15451620,
+            "name": "prendre en charge [qch]",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 211242,
+            "name": "mettre de l'argent de côté",
+            "type": 1,
+            "w": 54
+        },
+        {
+            "id": 15635460,
+            "name": "en:take something on",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15430261,
+            "name": "forcer [qqn] à faire [qch]",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15513295,
+            "name": "en:put something toward something",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15256781,
+            "name": "en:force sb to do sth",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15453159,
+            "name": "contraindre [qqn] à faire [qch]",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15444625,
+            "name": "prier [qqn] de faire [qch]",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15587219,
+            "name": "en:take somebody off",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15750592,
+            "name": "en:carry somebody away",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 14921152,
+            "name": "en:happen",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15513293,
+            "name": "en:slip into something",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15685771,
+            "name": "gagner quelque chose",
+            "type": 1,
+            "w": 42
+        },
+        {
+            "id": 15596187,
+            "name": "en:get somebody something",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15370048,
+            "name": "aller chercher qch",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15755332,
+            "name": "en:request somebody to do something",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15635461,
+            "name": "en:take over something",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15751339,
+            "name": "en:beg somebody to do something",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15438781,
+            "name": "passer chez [qqn]",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15427820,
+            "name": "gagner [qch]",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15630213,
+            "name": "passer chez quelqu'un",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15685779,
+            "name": "en:make a saving of something",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15630206,
+            "name": "en:go to somebody's place",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15630214,
+            "name": "passer chez",
+            "type": 1,
+            "w": 53
+        },
+        {
+            "id": 15630210,
+            "name": "en:go to something",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 7440918,
+            "name": "en:make",
+            "type": 1,
+            "w": 6
+        },
+        {
+            "id": 33760516,
+            "name": "passer en [qch]",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15793554,
+            "name": "prendre en charge quelque chose",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15431834,
+            "name": "prendre [qch] à son compte",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15750593,
+            "name": "entraîner quelqu'un",
+            "type": 1,
+            "w": 46
+        },
+        {
+            "id": 15218337,
+            "name": "en:to give rise to",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15713132,
+            "name": "astreindre quelqu'un à faire quelque chose",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15450468,
+            "name": "inviter [qqn] à faire [qch]",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15458936,
+            "name": "arriver à [qch]",
+            "type": 1,
+            "w": 26
+        },
+        {
+            "id": 15504726,
+            "name": "en:put something on",
+            "type": 1,
+            "w": 2
+        },
+        {
+            "id": 15513179,
+            "name": "en:pick something up",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15513292,
+            "name": "en:slip something on",
+            "type": 1,
+            "w": 2
+        },
+        {
+            "id": 15635459,
+            "name": "en:take something and use it to do something",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 14919585,
+            "name": "en:entertain",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15432987,
+            "name": "aller chercher [qch]",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15750590,
+            "name": "en:drag somebody away",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15771149,
+            "name": "contraindre quelqu'un à faire quelque chose",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 211233,
+            "name": "mettre à l'aise",
+            "type": 1,
+            "w": 74
+        },
+        {
+            "id": 15525034,
+            "name": "astreindre qn à faire qch",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15743006,
+            "name": "pousser quelqu'un à faire quelque chose",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15692604,
+            "name": "en:invite somebody to do something",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15694264,
+            "name": "en:compel somebody to do something",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15771148,
+            "name": "en:coerce somebody into doing something",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15635456,
+            "name": "récupérer quelque chose",
+            "type": 1,
+            "w": 30
+        },
+        {
+            "id": 14937123,
+            "name": "en:evolve",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15445044,
+            "name": "pousser [qqn] à faire [qch]",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15771146,
+            "name": "en:constrain somebody to do something",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15504725,
+            "name": "en:turn something on",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 38873065,
+            "name": "taper dans [qch]",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15630209,
+            "name": "en:come to somebody's",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 105060,
+            "name": "se dérider",
+            "type": 1,
+            "w": 50
+        },
+        {
+            "id": 14929826,
+            "name": "en:save",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 14927300,
+            "name": "en:turn",
+            "type": 1,
+            "w": 4
+        },
+        {
+            "id": 15630204,
+            "name": "en:go to somebody's house",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15370044,
+            "name": "aller chercher quelque chose",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15513297,
+            "name": "en:spend something on something",
+            "type": 1,
+            "w": 2
+        },
+        {
+            "id": 7053768,
+            "name": "en:have",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15701973,
+            "name": "en:say that",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15430096,
+            "name": "faire de [qch]",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15685778,
+            "name": "en:spread to something",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 7440920,
+            "name": "en:put",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 16037542,
+            "name": "en:allow that",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15566020,
+            "name": "en:come to something",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15504724,
+            "name": "en:switch something on",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 14921478,
+            "name": "en:compel",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15444071,
+            "name": "venir sur [qch]",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 8102263,
+            "name": "en:regain",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 14959072,
+            "name": "en:retrieve",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15444459,
+            "name": "mettre [qch]",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15363350,
+            "name": "en:be made",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15700555,
+            "name": "s'équiper de quelque chose",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15513298,
+            "name": "en:get to something",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15663193,
+            "name": "arriver à quelque chose",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15685772,
+            "name": "en:make a profit of something",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 14916989,
+            "name": "en:get",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15383941,
+            "name": "prendre qch à son compte",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15449702,
+            "name": "obliger [qqn] à faire [qch]",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 199954,
+            "name": "être de mise",
+            "type": 1,
+            "w": 683
+        },
+        {
+            "id": 14941184,
+            "name": "en:recover",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15743004,
+            "name": "en:push somebody to do something",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15430148,
+            "name": "astreindre [qqn] à faire [qch]",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15216553,
+            "name": "en:to ask somebody to do something",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15693992,
+            "name": "en:take on the responsibility for something",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15451619,
+            "name": "prendre [qch] en charge",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15635458,
+            "name": "en:seize upon something",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15692606,
+            "name": "inviter quelqu'un à faire quelque chose",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15455760,
+            "name": "entraîner [qqn]",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15645702,
+            "name": "en:be a bad influence on somebody",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 9806795,
+            "name": "en:coach",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15513291,
+            "name": "mettre quelque chose",
+            "type": 1,
+            "w": 654
+        },
+        {
+            "id": 15060006,
+            "name": "en:loosen up",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15456669,
+            "name": "récupérer [qch]",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 6,
+            "name": "provenir",
+            "type": 1,
+            "w": 2947
+        },
+        {
+            "id": 11000652,
+            "name": "prier quelqu'un de faire quelque chose",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 14929453,
+            "name": "en:create",
+            "type": 1,
+            "w": 6
+        },
+        {
+            "id": 15518814,
+            "name": "en:get something back",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15750421,
+            "name": "astreindre qn à faire quelque chose",
+            "type": 1,
+            "w": 27
+        },
+        {
+            "id": 15630212,
+            "name": "en:call in at something",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 29576599,
+            "name": "tirer son origine de [qch]",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15639737,
+            "name": "monter à quelque chose",
+            "type": 1,
+            "w": 27
+        },
+        {
+            "id": 15596506,
+            "name": "en:put something up",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 14486277,
+            "name": "en faire son affaire",
+            "type": 1,
+            "w": 26
+        },
+        {
+            "id": 15700549,
+            "name": "s'équiper de [qch]",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 7290930,
+            "name": "en:constrain",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15693993,
+            "name": "prendre quelque chose à son compte",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15743003,
+            "name": "en:push somebody into doing something",
+            "type": 1,
+            "w": 25
+        },
+        {
+            "id": 15694265,
+            "name": "assujettir quelqu'un à quelque chose",
+            "type": 1,
+            "w": 25
+        }
+    ],
+    "relations": [
+        {
+            "id": 691289406,
+            "node1": 6,
+            "node2": 57733,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289469,
+            "node1": 6,
+            "node2": 90891,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289519,
+            "node1": 6,
+            "node2": 105060,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289452,
+            "node1": 6,
+            "node2": 106325,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289450,
+            "node1": 6,
+            "node2": 199954,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289422,
+            "node1": 6,
+            "node2": 211233,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289441,
+            "node1": 6,
+            "node2": 211242,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289408,
+            "node1": 6,
+            "node2": 6905151,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289486,
+            "node1": 6,
+            "node2": 7053768,
+            "type": 6,
+            "w": -10.0
+        },
+        {
+            "id": 691289415,
+            "node1": 6,
+            "node2": 7290836,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289489,
+            "node1": 6,
+            "node2": 7290930,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 578094728,
+            "node1": 6,
+            "node2": 7440918,
+            "type": 6,
+            "w": 22.0
+        },
+        {
+            "id": 691289432,
+            "node1": 6,
+            "node2": 7440920,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289508,
+            "node1": 6,
+            "node2": 8102263,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289496,
+            "node1": 6,
+            "node2": 9806795,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289458,
+            "node1": 6,
+            "node2": 11000652,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289513,
+            "node1": 6,
+            "node2": 14486277,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289443,
+            "node1": 6,
+            "node2": 14916989,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 578094737,
+            "node1": 6,
+            "node2": 14919585,
+            "type": 6,
+            "w": 22.0
+        },
+        {
+            "id": 691289485,
+            "node1": 6,
+            "node2": 14921152,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289520,
+            "node1": 6,
+            "node2": 14921478,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289503,
+            "node1": 6,
+            "node2": 14926695,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 578094738,
+            "node1": 6,
+            "node2": 14927300,
+            "type": 6,
+            "w": 30.0
+        },
+        {
+            "id": 578094727,
+            "node1": 6,
+            "node2": 14929453,
+            "type": 6,
+            "w": 21.0
+        },
+        {
+            "id": 691289492,
+            "node1": 6,
+            "node2": 14929826,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289483,
+            "node1": 6,
+            "node2": 14932682,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 578094726,
+            "node1": 6,
+            "node2": 14937123,
+            "type": 6,
+            "w": 24.0
+        },
+        {
+            "id": 691289461,
+            "node1": 6,
+            "node2": 14941184,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289527,
+            "node1": 6,
+            "node2": 14958215,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289511,
+            "node1": 6,
+            "node2": 14959072,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289418,
+            "node1": 6,
+            "node2": 15060006,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289550,
+            "node1": 6,
+            "node2": 15210887,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289428,
+            "node1": 6,
+            "node2": 15216553,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289413,
+            "node1": 6,
+            "node2": 15218337,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289490,
+            "node1": 6,
+            "node2": 15256772,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289434,
+            "node1": 6,
+            "node2": 15256781,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289420,
+            "node1": 6,
+            "node2": 15335510,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289473,
+            "node1": 6,
+            "node2": 15363350,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289512,
+            "node1": 6,
+            "node2": 15370044,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289464,
+            "node1": 6,
+            "node2": 15370048,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289533,
+            "node1": 6,
+            "node2": 15383941,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289522,
+            "node1": 6,
+            "node2": 15427820,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289484,
+            "node1": 6,
+            "node2": 15430096,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289549,
+            "node1": 6,
+            "node2": 15430102,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289423,
+            "node1": 6,
+            "node2": 15430148,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289506,
+            "node1": 6,
+            "node2": 15430261,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289532,
+            "node1": 6,
+            "node2": 15431834,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289530,
+            "node1": 6,
+            "node2": 15432987,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289429,
+            "node1": 6,
+            "node2": 15435033,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289499,
+            "node1": 6,
+            "node2": 15438781,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289446,
+            "node1": 6,
+            "node2": 15444071,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289445,
+            "node1": 6,
+            "node2": 15444459,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289440,
+            "node1": 6,
+            "node2": 15444625,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289425,
+            "node1": 6,
+            "node2": 15445044,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289410,
+            "node1": 6,
+            "node2": 15449702,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289444,
+            "node1": 6,
+            "node2": 15450468,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289414,
+            "node1": 6,
+            "node2": 15451619,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289447,
+            "node1": 6,
+            "node2": 15451620,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289510,
+            "node1": 6,
+            "node2": 15453159,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289455,
+            "node1": 6,
+            "node2": 15455760,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289538,
+            "node1": 6,
+            "node2": 15456669,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289442,
+            "node1": 6,
+            "node2": 15458936,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289536,
+            "node1": 6,
+            "node2": 15462764,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289505,
+            "node1": 6,
+            "node2": 15483863,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289417,
+            "node1": 6,
+            "node2": 15504724,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289501,
+            "node1": 6,
+            "node2": 15504725,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289502,
+            "node1": 6,
+            "node2": 15504726,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289424,
+            "node1": 6,
+            "node2": 15504734,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289475,
+            "node1": 6,
+            "node2": 15504735,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289521,
+            "node1": 6,
+            "node2": 15504736,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289453,
+            "node1": 6,
+            "node2": 15504737,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289427,
+            "node1": 6,
+            "node2": 15513179,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289466,
+            "node1": 6,
+            "node2": 15513291,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289544,
+            "node1": 6,
+            "node2": 15513292,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289518,
+            "node1": 6,
+            "node2": 15513293,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289543,
+            "node1": 6,
+            "node2": 15513295,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289416,
+            "node1": 6,
+            "node2": 15513296,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289517,
+            "node1": 6,
+            "node2": 15513297,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289537,
+            "node1": 6,
+            "node2": 15513298,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289426,
+            "node1": 6,
+            "node2": 15518814,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289523,
+            "node1": 6,
+            "node2": 15525034,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289433,
+            "node1": 6,
+            "node2": 15549324,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289514,
+            "node1": 6,
+            "node2": 15566020,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289504,
+            "node1": 6,
+            "node2": 15568919,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289478,
+            "node1": 6,
+            "node2": 15583186,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289525,
+            "node1": 6,
+            "node2": 15587219,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289463,
+            "node1": 6,
+            "node2": 15596187,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289545,
+            "node1": 6,
+            "node2": 15596506,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289542,
+            "node1": 6,
+            "node2": 15630204,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289448,
+            "node1": 6,
+            "node2": 15630205,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289467,
+            "node1": 6,
+            "node2": 15630206,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289449,
+            "node1": 6,
+            "node2": 15630207,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289500,
+            "node1": 6,
+            "node2": 15630208,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289482,
+            "node1": 6,
+            "node2": 15630209,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289551,
+            "node1": 6,
+            "node2": 15630210,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289481,
+            "node1": 6,
+            "node2": 15630211,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289468,
+            "node1": 6,
+            "node2": 15630212,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289516,
+            "node1": 6,
+            "node2": 15630213,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289431,
+            "node1": 6,
+            "node2": 15630214,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289477,
+            "node1": 6,
+            "node2": 15635138,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289526,
+            "node1": 6,
+            "node2": 15635456,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289459,
+            "node1": 6,
+            "node2": 15635458,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289460,
+            "node1": 6,
+            "node2": 15635459,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289528,
+            "node1": 6,
+            "node2": 15635460,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289509,
+            "node1": 6,
+            "node2": 15635461,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289470,
+            "node1": 6,
+            "node2": 15639737,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289456,
+            "node1": 6,
+            "node2": 15645702,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289462,
+            "node1": 6,
+            "node2": 15663193,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289407,
+            "node1": 6,
+            "node2": 15685771,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289435,
+            "node1": 6,
+            "node2": 15685772,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289436,
+            "node1": 6,
+            "node2": 15685773,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289546,
+            "node1": 6,
+            "node2": 15685778,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289437,
+            "node1": 6,
+            "node2": 15685779,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289497,
+            "node1": 6,
+            "node2": 15692360,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289515,
+            "node1": 6,
+            "node2": 15692604,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289552,
+            "node1": 6,
+            "node2": 15692606,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289465,
+            "node1": 6,
+            "node2": 15693992,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289480,
+            "node1": 6,
+            "node2": 15693993,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289535,
+            "node1": 6,
+            "node2": 15694263,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289548,
+            "node1": 6,
+            "node2": 15694264,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289524,
+            "node1": 6,
+            "node2": 15694265,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 578094755,
+            "node1": 6,
+            "node2": 15700549,
+            "type": 6,
+            "w": 27.0
+        },
+        {
+            "id": 691289472,
+            "node1": 6,
+            "node2": 15700555,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289419,
+            "node1": 6,
+            "node2": 15701973,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289488,
+            "node1": 6,
+            "node2": 15713132,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289494,
+            "node1": 6,
+            "node2": 15732077,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289553,
+            "node1": 6,
+            "node2": 15743003,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289454,
+            "node1": 6,
+            "node2": 15743004,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289493,
+            "node1": 6,
+            "node2": 15743005,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289491,
+            "node1": 6,
+            "node2": 15743006,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289438,
+            "node1": 6,
+            "node2": 15743012,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289495,
+            "node1": 6,
+            "node2": 15743028,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289534,
+            "node1": 6,
+            "node2": 15750421,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289547,
+            "node1": 6,
+            "node2": 15750590,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289457,
+            "node1": 6,
+            "node2": 15750591,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289409,
+            "node1": 6,
+            "node2": 15750592,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289439,
+            "node1": 6,
+            "node2": 15750593,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289529,
+            "node1": 6,
+            "node2": 15751339,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289539,
+            "node1": 6,
+            "node2": 15755332,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289411,
+            "node1": 6,
+            "node2": 15755333,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289531,
+            "node1": 6,
+            "node2": 15771146,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289479,
+            "node1": 6,
+            "node2": 15771147,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289540,
+            "node1": 6,
+            "node2": 15771148,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289498,
+            "node1": 6,
+            "node2": 15771149,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289476,
+            "node1": 6,
+            "node2": 15772452,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289507,
+            "node1": 6,
+            "node2": 15772453,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289430,
+            "node1": 6,
+            "node2": 15793553,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289541,
+            "node1": 6,
+            "node2": 15793554,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289412,
+            "node1": 6,
+            "node2": 15813644,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 691289471,
+            "node1": 6,
+            "node2": 16037542,
+            "type": 6,
+            "w": 10.0
+        },
+        {
+            "id": 578094754,
+            "node1": 6,
+            "node2": 27441789,
+            "type": 6,
+            "w": -10.0
+        },
+        {
+            "id": 578094749,
+            "node1": 6,
+            "node2": 29576599,
+            "type": 6,
+            "w": 28.0
+        },
+        {
+            "id": 578094750,
+            "node1": 6,
+            "node2": 29576600,
+            "type": 6,
+            "w": 23.0
+        },
+        {
+            "id": 578094753,
+            "node1": 6,
+            "node2": 33760516,
+            "type": 6,
+            "w": 30.0
+        },
+        {
+            "id": 578094752,
+            "node1": 6,
+            "node2": 35853579,
+            "type": 6,
+            "w": 23.0
+        },
+        {
+            "id": 578094751,
+            "node1": 6,
+            "node2": 38873065,
+            "type": 6,
+            "w": 23.0
+        }
+    ],
+    "request": {
+        "types_ids": [
+            6
+        ],
+        "not_types_ids": null,
+        "min_weight": null,
+        "max_weight": null,
+        "start": "2026-09-22T17:30:19.891990",
+        "relation_fields": [
+            "id",
+            "node1",
+            "node2",
+            "type",
+            "w"
+        ],
+        "node_fields": [
+            "id",
+            "name",
+            "type",
+            "w"
+        ],
+        "without_nodes": false,
+        "#relations": 156,
+        "max_relation_weight": 30.0,
+        "#nodes": 157,
+        "duration": "0:00:00.003103"
+    }
+}
