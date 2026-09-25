@@ -124,8 +124,27 @@ def debugVecteur(vecteur: dict, term_id: int | None = None) -> None:
     else:
         print("\nSST: []")
 
+def sigs2vec(sig1 : dict, sig2 : dict, type_relation : str) -> list:
+    """Transforme deux signatures en un vecteur.
+
+    Args:
+        sig1 (dict): signature du terme 1
+        sig2 (dict): signature du terme 2
+
+    Returns:
+        list: vecteur
+    """
+    return [sig1, sig2, type_relation]
+
 
 if __name__ == "__main__":
-    sig = term2sig(43, 10, 10, 10)
-    debugVecteur(sig, 43)
-
+    # trône et fer pour tester les fonctions
+    # pour connaître les ids des termes, utiliser utils.py avec des arguments, par exemple : python utils.py "trône" donnera 16813 et python utils.py "fer" donnera 124092
+    sigL = term2sig(16813, 10, 10, 10)
+    sigR = term2sig(124092, 10, 10, 10)
+    type_relation = "r_objet>matiere"
+    vec = sigs2vec(sigL, sigR, type_relation)
+    debugVecteur(sigL, 16813)
+    debugVecteur(sigR, 124092)
+    print("\nVecteur final :")
+    print(vec)
