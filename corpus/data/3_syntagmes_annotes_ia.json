@@ -1,57 +1,1005 @@
 [
     {
-        "texte_complet": "portrait de moret",
-        "A": "portrait",
-        "B": "moret",
-        "relation": "r_product_of"
-    },
-    {
-        "texte_complet": "ecole de pont-aven",
-        "A": "ecole",
-        "B": "pont-aven",
-        "relation": "r_lieu>origine"
-    },
-    {
-        "texte_complet": "travail d'un peintre",
-        "A": "travail",
-        "B": "peintre",
+        "texte_complet": "allégations du doj",
+        "A": "allégations",
+        "B": "doj",
         "relation": "r_processus_agent"
     },
     {
-        "texte_complet": "sculpture de la renaissance",
-        "A": "sculpture",
-        "B": "renaissance",
-        "relation": "r_lieu>origine"
+        "texte_complet": "programme de fidélisation",
+        "A": "programme",
+        "B": "fidélisation",
+        "relation": "r_topic"
     },
     {
-        "texte_complet": "mètres de hauteur",
-        "A": "mètres",
-        "B": "hauteur",
+        "texte_complet": "conférence de presse",
+        "A": "conférence",
+        "B": "presse",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "tas de fonctionnalités",
+        "A": "tas",
+        "B": "fonctionnalités",
         "relation": "r_quantificateur"
     },
     {
-        "texte_complet": "bloc de marbre",
-        "A": "bloc",
-        "B": "marbre",
-        "relation": "r_objet>matiere"
+        "texte_complet": "oxymètre de pouls",
+        "A": "oxymètre",
+        "B": "pouls",
+        "relation": "r_topic"
     },
     {
-        "texte_complet": "étroitesse du bloc",
-        "A": "étroitesse",
-        "B": "bloc",
+        "texte_complet": "tour du parcours",
+        "A": "tour",
+        "B": "parcours",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "approche de la course",
+        "A": "approche",
+        "B": "course",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "lot de défis",
+        "A": "lot",
+        "B": "défis",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "groupe de parole",
+        "A": "groupe",
+        "B": "parole",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "arrêts de jeu",
+        "A": "arrêts",
+        "B": "jeu",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "effet de levier",
+        "A": "effet",
+        "B": "levier",
+        "relation": "r_has_causatif"
+    },
+    {
+        "texte_complet": "soins de santé",
+        "A": "soins",
+        "B": "santé",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "sessions de jeu",
+        "A": "sessions",
+        "B": "jeu",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "reproduction du tremblement",
+        "A": "reproduction",
+        "B": "tremblement",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "prévention des séismes",
+        "A": "prévention",
+        "B": "séismes",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "scène du film",
+        "A": "scène",
+        "B": "film",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "fiction de quentin",
+        "A": "fiction",
+        "B": "quentin",
+        "relation": "r_product_of"
+    },
+    {
+        "texte_complet": "% des voyageurs",
+        "A": "%",
+        "B": "voyageurs",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "mois d'avril",
+        "A": "mois",
+        "B": "avril",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "étude de la commission",
+        "A": "étude",
+        "B": "commission",
+        "relation": "r_product_of"
+    },
+    {
+        "texte_complet": "paquet de frites",
+        "A": "paquet",
+        "B": "frites",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "gueule de charles",
+        "A": "gueule",
+        "B": "charles",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "hausses de prix",
+        "A": "hausses",
+        "B": "prix",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "fermeture de l'espace",
+        "A": "fermeture",
+        "B": "espace",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "services de police",
+        "A": "services",
+        "B": "police",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "père du héros",
+        "A": "père",
+        "B": "héros",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "simplification des contrôles",
+        "A": "simplification",
+        "B": "contrôles",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "régions du nord-ouest",
+        "A": "régions",
+        "B": "nord-ouest",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "mois de manifestations",
+        "A": "mois",
+        "B": "manifestations",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "montée des actes",
+        "A": "montée",
+        "B": "actes",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "mosquée de paris",
+        "A": "mosquée",
+        "B": "paris",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "quête de protection",
+        "A": "quête",
+        "B": "protection",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "canal de suez",
+        "A": "canal",
+        "B": "suez",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "chargement de gaz",
+        "A": "chargement",
+        "B": "gaz",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "mer du nord",
+        "A": "mer",
+        "B": "nord",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "effigie de la pochette",
+        "A": "effigie",
+        "B": "pochette",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "arme de guerre",
+        "A": "arme",
+        "B": "guerre",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "forces de police",
+        "A": "forces",
+        "B": "police",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "système de retraite",
+        "A": "système",
+        "B": "retraite",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "réforme des retraites",
+        "A": "réforme",
+        "B": "retraites",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "ministère de la santé",
+        "A": "ministère",
+        "B": "santé",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "cas de problème",
+        "A": "cas",
+        "B": "problème",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "patron de bercy",
+        "A": "patron",
+        "B": "bercy",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "supporters de la jeunesse",
+        "A": "supporters",
+        "B": "jeunesse",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "visite du ministre",
+        "A": "visite",
+        "B": "ministre",
+        "relation": "r_processus_agent"
+    },
+    {
+        "texte_complet": "recherche du consensus",
+        "A": "recherche",
+        "B": "consensus",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "vie des gens",
+        "A": "vie",
+        "B": "gens",
         "relation": "r_has_property-1"
     },
     {
-        "texte_complet": "lanière de cuir",
-        "A": "lanière",
-        "B": "cuir",
+        "texte_complet": "responsables de la sûreté",
+        "A": "responsables",
+        "B": "sûreté",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "sanction des entreprises",
+        "A": "sanction",
+        "B": "entreprises",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "projet de clémentine",
+        "A": "projet",
+        "B": "clémentine",
+        "relation": "r_product_of"
+    },
+    {
+        "texte_complet": "bris de glace",
+        "A": "bris",
+        "B": "glace",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "technicien de l'ordre",
+        "A": "technicien",
+        "B": "ordre",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "liste de têtes",
+        "A": "liste",
+        "B": "têtes",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "omnium de madrid",
+        "A": "omnium",
+        "B": "madrid",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "péréquation de la pension",
+        "A": "péréquation",
+        "B": "pension",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "sorte de mécanisme",
+        "A": "sorte",
+        "B": "mécanisme",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "adaptation des pensions",
+        "A": "adaptation",
+        "B": "pensions",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "% de la masse",
+        "A": "%",
+        "B": "masse",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "pensions des fonctionnaires",
+        "A": "pensions",
+        "B": "fonctionnaires",
+        "relation": "r_own-1"
+    },
+    {
+        "texte_complet": "carte de crédit",
+        "A": "carte",
+        "B": "crédit",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "bol de riz",
+        "A": "bol",
+        "B": "riz",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "syndicat des chargées",
+        "A": "syndicat",
+        "B": "chargées",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "chargés de cours",
+        "A": "chargés",
+        "B": "cours",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "université du québec",
+        "A": "université",
+        "B": "québec",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "raviole de foie",
+        "A": "raviole",
+        "B": "foie",
         "relation": "r_objet>matiere"
     },
     {
-        "texte_complet": "façade du palazzo",
-        "A": "façade",
-        "B": "palazzo",
+        "texte_complet": "cappuccino de truffe",
+        "A": "cappuccino",
+        "B": "truffe",
+        "relation": "r_objet>matiere"
+    },
+    {
+        "texte_complet": "gelée de framboise",
+        "A": "gelée",
+        "B": "framboise",
+        "relation": "r_objet>matiere"
+    },
+    {
+        "texte_complet": "relations de l'ue",
+        "A": "relations",
+        "B": "ue",
+        "relation": "r_processus_agent"
+    },
+    {
+        "texte_complet": "mai du président",
+        "A": "mai",
+        "B": "président",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "heures du matin",
+        "A": "heures",
+        "B": "matin",
         "relation": "r_holo"
+    },
+    {
+        "texte_complet": "lieutenants de louveterie",
+        "A": "lieutenants",
+        "B": "louveterie",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "faveur du qatar",
+        "A": "faveur",
+        "B": "qatar",
+        "relation": "r_own-1"
+    },
+    {
+        "texte_complet": "décisions du parlement",
+        "A": "décisions",
+        "B": "parlement",
+        "relation": "r_processus_agent"
+    },
+    {
+        "texte_complet": "versements d'argent",
+        "A": "versements",
+        "B": "argent",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "lauréats du prix",
+        "A": "lauréats",
+        "B": "prix",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "excellence du gouvernement",
+        "A": "excellence",
+        "B": "gouvernement",
+        "relation": "r_has_property-1"
+    },
+    {
+        "texte_complet": "titre de rochefort",
+        "A": "titre",
+        "B": "rochefort",
+        "relation": "r_own-1"
+    },
+    {
+        "texte_complet": "évacuation du squat",
+        "A": "évacuation",
+        "B": "squat",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "dépassement de la terre",
+        "A": "dépassement",
+        "B": "terre",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "juridiction de la loi",
+        "A": "juridiction",
+        "B": "loi",
+        "relation": "r_has_property-1"
+    },
+    {
+        "texte_complet": "chef de la cour",
+        "A": "chef",
+        "B": "cour",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "tour de france",
+        "A": "tour",
+        "B": "france",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "capacité de calcul",
+        "A": "capacité",
+        "B": "calcul",
+        "relation": "r_has_property-1"
+    },
+    {
+        "texte_complet": "temps des développeurs",
+        "A": "temps",
+        "B": "développeurs",
+        "relation": "r_own-1"
+    },
+    {
+        "texte_complet": "cheffe de l'unité",
+        "A": "cheffe",
+        "B": "unité",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "sûreté du québec",
+        "A": "sûreté",
+        "B": "québec",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "sorties de route",
+        "A": "sorties",
+        "B": "route",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "questions de politique",
+        "A": "questions",
+        "B": "politique",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "présentation de budget",
+        "A": "présentation",
+        "B": "budget",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "fond de bras",
+        "A": "fond",
+        "B": "bras",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "plafond de la dette",
+        "A": "plafond",
+        "B": "dette",
+        "relation": "r_has_property-1"
+    },
+    {
+        "texte_complet": "% de bulletins",
+        "A": "%",
+        "B": "bulletins",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "ordre d'arrivée",
+        "A": "ordre",
+        "B": "arrivée",
+        "relation": "r_has_property-1"
+    },
+    {
+        "texte_complet": "ire d'emmanuel",
+        "A": "ire",
+        "B": "emmanuel",
+        "relation": "r_has_property-1"
+    },
+    {
+        "texte_complet": "% du chiffre",
+        "A": "%",
+        "B": "chiffre",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "université de louisiane",
+        "A": "université",
+        "B": "louisiane",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "millions de colombiens",
+        "A": "millions",
+        "B": "colombiens",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "galerie de personnages",
+        "A": "galerie",
+        "B": "personnages",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "heure de l'exécution",
+        "A": "heure",
+        "B": "exécution",
+        "relation": "r_has_property-1"
+    },
+    {
+        "texte_complet": "% d'emploi",
+        "A": "%",
+        "B": "emploi",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "olympique de marseille",
+        "A": "olympique",
+        "B": "marseille",
+        "relation": "r_lieu>origine"
+    },
+    {
+        "texte_complet": "classique de la ligue",
+        "A": "classique",
+        "B": "ligue",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "marge de la rencontre",
+        "A": "marge",
+        "B": "rencontre",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "ensemble du titre",
+        "A": "ensemble",
+        "B": "titre",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "bloc de compétences",
+        "A": "bloc",
+        "B": "compétences",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "sud du cachemire",
+        "A": "sud",
+        "B": "cachemire",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "échange de tirs",
+        "A": "échange",
+        "B": "tirs",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "social de la part",
+        "A": "social",
+        "B": "part",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "bases de données",
+        "A": "bases",
+        "B": "données",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "yeux du monde",
+        "A": "yeux",
+        "B": "monde",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "bourse des valeurs",
+        "A": "bourse",
+        "B": "valeurs",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "cotation des titres",
+        "A": "cotation",
+        "B": "titres",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "société de production",
+        "A": "société",
+        "B": "production",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "caste du cinéma",
+        "A": "caste",
+        "B": "cinéma",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "connaissance du changement",
+        "A": "connaissance",
+        "B": "changement",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "ministre de la justice",
+        "A": "ministre",
+        "B": "justice",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "égide de la metteure",
+        "A": "égide",
+        "B": "metteure",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "sein de la compétition",
+        "A": "sein",
+        "B": "compétition",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "quinzaine des cinéastes",
+        "A": "quinzaine",
+        "B": "cinéastes",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "répression de la délinquance",
+        "A": "répression",
+        "B": "délinquance",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "objet de poursuites",
+        "A": "objet",
+        "B": "poursuites",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "accords de grenelle",
+        "A": "accords",
+        "B": "grenelle",
+        "relation": "r_lieu>origine"
+    },
+    {
+        "texte_complet": "bouquets de fleurs",
+        "A": "bouquets",
+        "B": "fleurs",
+        "relation": "r_objet>matiere"
+    },
+    {
+        "texte_complet": "genre de match",
+        "A": "genre",
+        "B": "match",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "ligue des champions",
+        "A": "ligue",
+        "B": "champions",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "chef du gouvernement",
+        "A": "chef",
+        "B": "gouvernement",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "fin de la souveraineté",
+        "A": "fin",
+        "B": "souveraineté",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "solutions de prévention",
+        "A": "solutions",
+        "B": "prévention",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "festives des étudiants",
+        "A": "festives",
+        "B": "étudiants",
+        "relation": "r_own-1"
+    },
+    {
+        "texte_complet": "% des cabinets",
+        "A": "%",
+        "B": "cabinets",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "termes de réalisation",
+        "A": "termes",
+        "B": "réalisation",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "exploit des lions",
+        "A": "exploit",
+        "B": "lions",
+        "relation": "r_own-1"
+    },
+    {
+        "texte_complet": "devant de la scène",
+        "A": "devant",
+        "B": "scène",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "millions de dollars",
+        "A": "millions",
+        "B": "dollars",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "étape du sénat",
+        "A": "étape",
+        "B": "sénat",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "projet de scission",
+        "A": "projet",
+        "B": "scission",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "persistance de déficits",
+        "A": "persistance",
+        "B": "déficits",
+        "relation": "r_has_property-1"
+    },
+    {
+        "texte_complet": "échéances de la dette",
+        "A": "échéances",
+        "B": "dette",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "% du pib",
+        "A": "%",
+        "B": "pib",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "prix de revente",
+        "A": "prix",
+        "B": "revente",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "responsable du ministère",
+        "A": "responsable",
+        "B": "ministère",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "millions de quintaux",
+        "A": "millions",
+        "B": "quintaux",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "hectares de terre",
+        "A": "hectares",
+        "B": "terre",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "gens du coin",
+        "A": "gens",
+        "B": "coin",
+        "relation": "r_lieu>origine"
+    },
+    {
+        "texte_complet": "catholique d'avant-guerre",
+        "A": "catholique",
+        "B": "avant-guerre",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "crise du covid",
+        "A": "crise",
+        "B": "covid",
+        "relation": "r_has_causatif"
+    },
+    {
+        "texte_complet": "ventes du guide",
+        "A": "ventes",
+        "B": "guide",
+        "relation": "r_product_of"
+    },
+    {
+        "texte_complet": "statut de victime",
+        "A": "statut",
+        "B": "victime",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "mois de revalidation",
+        "A": "mois",
+        "B": "revalidation",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "période de détention",
+        "A": "période",
+        "B": "détention",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "musiques des années",
+        "A": "musiques",
+        "B": "années",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "habitant du quartier",
+        "A": "habitant",
+        "B": "quartier",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "résidants de floride",
+        "A": "résidants",
+        "B": "floride",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "passion de jim",
+        "A": "passion",
+        "B": "jim",
+        "relation": "r_own-1"
+    },
+    {
+        "texte_complet": "boulet de canon",
+        "A": "boulet",
+        "B": "canon",
+        "relation": "r_processus>instr-1"
+    },
+    {
+        "texte_complet": "nombre de bulletins",
+        "A": "nombre",
+        "B": "bulletins",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "déception de gens",
+        "A": "déception",
+        "B": "gens",
+        "relation": "r_has_causatif"
+    },
+    {
+        "texte_complet": "gestionnaire de l'infrastructure",
+        "A": "gestionnaire",
+        "B": "infrastructure",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "police de la ville",
+        "A": "police",
+        "B": "ville",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "théâtre du tsar",
+        "A": "théâtre",
+        "B": "tsar",
+        "relation": "r_own-1"
+    },
+    {
+        "texte_complet": "biologie des insectes",
+        "A": "biologie",
+        "B": "insectes",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "sort des otages",
+        "A": "sort",
+        "B": "otages",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "cœur de la visite",
+        "A": "cœur",
+        "B": "visite",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "dispositif de formation",
+        "A": "dispositif",
+        "B": "formation",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "autrice du texte",
+        "A": "autrice",
+        "B": "texte",
+        "relation": "r_product_of"
+    },
+    {
+        "texte_complet": "niveau de précision",
+        "A": "niveau",
+        "B": "précision",
+        "relation": "r_has_property-1"
+    },
+    {
+        "texte_complet": "vue de la saison",
+        "A": "vue",
+        "B": "saison",
+        "relation": "inconnu"
     },
     {
         "texte_complet": "cours du temps",
@@ -60,2271 +1008,855 @@
         "relation": "inconnu"
     },
     {
-        "texte_complet": "forme de poésie",
-        "A": "forme",
-        "B": "poésie",
+        "texte_complet": "projet de station",
+        "A": "projet",
+        "B": "station",
         "relation": "r_topic"
     },
     {
-        "texte_complet": "œuvres d'art",
-        "A": "œuvres",
-        "B": "art",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "systèmes de composition",
-        "A": "systèmes",
-        "B": "composition",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "notes de musique",
-        "A": "notes",
-        "B": "musique",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "instruments de musique",
-        "A": "instruments",
-        "B": "musique",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "forme d'expression",
-        "A": "forme",
-        "B": "expression",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "expression des sentiments",
-        "A": "expression",
-        "B": "sentiments",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "source de rassemblement",
-        "A": "source",
-        "B": "rassemblement",
-        "relation": "r_has_causatif"
-    },
-    {
-        "texte_complet": "symbole d'une communauté",
-        "A": "symbole",
-        "B": "communauté",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "dérive du grec",
-        "A": "dérive",
-        "B": "grec",
-        "relation": "r_lieu>origine"
-    },
-    {
-        "texte_complet": "idée d'une chose",
-        "A": "idée",
-        "B": "chose",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "compositeur de musique",
-        "A": "compositeur",
-        "B": "musique",
-        "relation": "r_social_tie"
-    },
-    {
-        "texte_complet": "règles de construction",
-        "A": "règles",
-        "B": "construction",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "agencement d'espace",
-        "A": "agencement",
-        "B": "espace",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "fonction de l'édifice",
-        "A": "fonction",
-        "B": "édifice",
-        "relation": "r_has_property-1"
-    },
-    {
-        "texte_complet": "expression de la culture",
-        "A": "expression",
-        "B": "culture",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "classification des arts",
-        "A": "classification",
-        "B": "arts",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "partie des beaux",
-        "A": "partie",
-        "B": "beaux",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "ensemble des connaissances",
-        "A": "ensemble",
-        "B": "connaissances",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "fil des millénaires",
-        "A": "fil",
-        "B": "millénaires",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "domaine de la planification",
-        "A": "domaine",
-        "B": "planification",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "méthodes de la planification",
-        "A": "méthodes",
-        "B": "planification",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "service de l'aménagement",
-        "A": "service",
-        "B": "aménagement",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "échelles de la planification",
-        "A": "échelles",
-        "B": "planification",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "aménagement du territoire",
-        "A": "aménagement",
-        "B": "territoire",
+        "texte_complet": "retrait des listes",
+        "A": "retrait",
+        "B": "listes",
         "relation": "r_processus_patient"
     },
     {
-        "texte_complet": "groupe de bâtiments",
-        "A": "groupe",
-        "B": "bâtiments",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "superficie du quartier",
-        "A": "superficie",
-        "B": "quartier",
-        "relation": "r_has_property-1"
-    },
-    {
-        "texte_complet": "cadre des études",
-        "A": "cadre",
-        "B": "études",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "pratique de la conception",
-        "A": "pratique",
-        "B": "conception",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "saint-pierre de beauvais",
-        "A": "saint-pierre",
-        "B": "beauvais",
+        "texte_complet": "classe de dakar",
+        "A": "classe",
+        "B": "dakar",
         "relation": "r_lieu"
     },
     {
-        "texte_complet": "pierre de taille",
-        "A": "pierre",
-        "B": "taille",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "coupole du panthéon",
-        "A": "coupole",
-        "B": "panthéon",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "coupole du monde",
-        "A": "coupole",
-        "B": "monde",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "dôme de la cathédrale",
-        "A": "dôme",
-        "B": "cathédrale",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "début de la renaissance",
-        "A": "début",
-        "B": "renaissance",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "cire d'abeille",
-        "A": "cire",
-        "B": "abeille",
-        "relation": "r_product_of"
-    },
-    {
-        "texte_complet": "fil de coton",
-        "A": "fil",
-        "B": "coton",
-        "relation": "r_objet>matiere"
-    },
-    {
-        "texte_complet": "plateaux de la vallée",
-        "A": "plateaux",
-        "B": "vallée",
-        "relation": "r_lieu"
-    },
-    {
-        "texte_complet": "république du congo",
-        "A": "république",
-        "B": "congo",
-        "relation": "r_lieu>origine"
-    },
-    {
-        "texte_complet": "muséum d'histoire",
-        "A": "muséum",
-        "B": "histoire",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "blocs de grès",
-        "A": "blocs",
-        "B": "grès",
-        "relation": "r_objet>matiere"
-    },
-    {
-        "texte_complet": "sculpture de sable",
-        "A": "sculpture",
-        "B": "sable",
-        "relation": "r_objet>matiere"
-    },
-    {
-        "texte_complet": "palette du peintre",
-        "A": "palette",
-        "B": "peintre",
-        "relation": "r_own-1"
-    },
-    {
-        "texte_complet": "graines de lin",
-        "A": "graines",
-        "B": "lin",
-        "relation": "r_objet>matiere"
-    },
-    {
-        "texte_complet": "portrait de mona",
-        "A": "portrait",
-        "B": "mona",
-        "relation": "r_depict"
-    },
-    {
-        "texte_complet": "tableau de léonard",
-        "A": "tableau",
-        "B": "léonard",
-        "relation": "r_product_of"
-    },
-    {
-        "texte_complet": "épouse de francesco",
-        "A": "épouse",
-        "B": "francesco",
-        "relation": "r_social_tie"
-    },
-    {
-        "texte_complet": "panneau de bois",
-        "A": "panneau",
-        "B": "bois",
-        "relation": "r_objet>matiere"
-    },
-    {
-        "texte_complet": "musée du louvre",
-        "A": "musée",
-        "B": "louvre",
-        "relation": "r_lieu"
-    },
-    {
-        "texte_complet": "nombre d'artistes",
-        "A": "nombre",
-        "B": "artistes",
-        "relation": "r_quantificateur"
-    },
-    {
-        "texte_complet": "représentations d'un visage",
-        "A": "représentations",
-        "B": "visage",
-        "relation": "r_depict"
-    },
-    {
-        "texte_complet": "objet d'art",
-        "A": "objet",
-        "B": "art",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "portrait d'une femme",
-        "A": "portrait",
-        "B": "femme",
-        "relation": "r_depict"
-    },
-    {
-        "texte_complet": "fond d'un paysage",
-        "A": "fond",
-        "B": "paysage",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "hauteur des épaules",
-        "A": "hauteur",
-        "B": "épaules",
-        "relation": "r_has_property-1"
-    },
-    {
-        "texte_complet": "haut du front",
-        "A": "haut",
-        "B": "front",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "sorte de mantille",
-        "A": "sorte",
-        "B": "mantille",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "naissance des seins",
-        "A": "naissance",
-        "B": "seins",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "absence de bijoux",
-        "A": "absence",
-        "B": "bijoux",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "obscurcissement des vernis",
-        "A": "obscurcissement",
-        "B": "vernis",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "choix du peintre",
-        "A": "choix",
-        "B": "peintre",
-        "relation": "r_processus_agent"
-    },
-    {
-        "texte_complet": "région du cœur",
-        "A": "région",
-        "B": "cœur",
-        "relation": "r_lieu"
-    },
-    {
-        "texte_complet": "centre du tableau",
-        "A": "centre",
-        "B": "tableau",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "crème de bresse",
-        "A": "crème",
-        "B": "bresse",
-        "relation": "r_lieu>origine"
-    },
-    {
-        "texte_complet": "pineau des charentes",
-        "A": "pineau",
-        "B": "charentes",
-        "relation": "r_lieu>origine"
-    },
-    {
-        "texte_complet": "huile d'olive",
-        "A": "huile",
-        "B": "olive",
-        "relation": "r_objet>matiere"
-    },
-    {
-        "texte_complet": "châtaigne des cévennes",
-        "A": "châtaigne",
-        "B": "cévennes",
-        "relation": "r_lieu>origine"
-    },
-    {
-        "texte_complet": "taureau de camargue",
-        "A": "taureau",
-        "B": "camargue",
-        "relation": "r_lieu>origine"
-    },
-    {
-        "texte_complet": "camembert de normandie",
-        "A": "camembert",
-        "B": "normandie",
-        "relation": "r_lieu>origine"
-    },
-    {
-        "texte_complet": "mesure d'angle",
-        "A": "mesure",
-        "B": "angle",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "système de visée",
-        "A": "système",
-        "B": "visée",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "pinnule de visée",
-        "A": "pinnule",
-        "B": "visée",
-        "relation": "r_processus>instr-1"
-    },
-    {
-        "texte_complet": "axe du fût",
-        "A": "axe",
-        "B": "fût",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "mm de la pointe",
-        "A": "mm",
-        "B": "pointe",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "lame de rasoir",
-        "A": "lame",
-        "B": "rasoir",
-        "relation": "r_processus>instr-1"
-    },
-    {
-        "texte_complet": "brins de cuivre",
-        "A": "brins",
-        "B": "cuivre",
-        "relation": "r_objet>matiere"
-    },
-    {
-        "texte_complet": "taille du fil",
-        "A": "taille",
-        "B": "fil",
-        "relation": "r_has_property-1"
-    },
-    {
-        "texte_complet": "taille du câble",
-        "A": "taille",
-        "B": "câble",
-        "relation": "r_has_property-1"
-    },
-    {
-        "texte_complet": "trous de la pince",
-        "A": "trous",
-        "B": "pince",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "temps de pluie",
-        "A": "temps",
-        "B": "pluie",
-        "relation": "r_has_causatif"
-    },
-    {
-        "texte_complet": "monsieur de fontaine",
-        "A": "monsieur",
-        "B": "fontaine",
-        "relation": "r_lieu>origine"
-    },
-    {
-        "texte_complet": "complicité d'émigration",
-        "A": "complicité",
-        "B": "émigration",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "compagnons de l'exil",
-        "A": "compagnons",
-        "B": "exil",
-        "relation": "r_social_tie"
-    },
-    {
-        "texte_complet": "établissement de la république",
-        "A": "établissement",
+        "texte_complet": "procureure de la république",
+        "A": "procureure",
         "B": "république",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "corruption d'élus",
+        "A": "corruption",
+        "B": "élus",
         "relation": "r_processus_patient"
     },
     {
-        "texte_complet": "papier des résultats",
-        "A": "papier",
-        "B": "résultats",
-        "relation": "r_topic"
+        "texte_complet": "délégation de l'om",
+        "A": "délégation",
+        "B": "om",
+        "relation": "r_social_tie"
     },
     {
-        "texte_complet": "exil de la cour",
-        "A": "exil",
-        "B": "cour",
-        "relation": "r_processus_agent"
-    },
-    {
-        "texte_complet": "absence de la royauté",
-        "A": "absence",
-        "B": "royauté",
+        "texte_complet": "montagnes de feux",
+        "A": "montagnes",
+        "B": "feux",
         "relation": "inconnu"
     },
     {
-        "texte_complet": "mémoire du roi",
-        "A": "mémoire",
-        "B": "roi",
+        "texte_complet": "amour du duo",
+        "A": "amour",
+        "B": "duo",
         "relation": "r_own-1"
     },
     {
-        "texte_complet": "fauteurs de la rébellion",
-        "A": "fauteurs",
-        "B": "rébellion",
-        "relation": "r_social_tie"
-    },
-    {
-        "texte_complet": "fauteuils du conseil",
-        "A": "fauteuils",
-        "B": "conseil",
-        "relation": "r_own-1"
-    },
-    {
-        "texte_complet": "-d'état",
-        "A": "–",
-        "B": "état",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "intimité du prince",
-        "A": "intimité",
-        "B": "prince",
-        "relation": "r_has_property-1"
-    },
-    {
-        "texte_complet": "secrétaires d'état",
-        "A": "secrétaires",
-        "B": "état",
-        "relation": "r_social_tie"
-    },
-    {
-        "texte_complet": "adresse de monsieur",
-        "A": "adresse",
-        "B": "monsieur",
-        "relation": "r_own-1"
-    },
-    {
-        "texte_complet": "comte de fontaine",
-        "A": "comte",
-        "B": "fontaine",
-        "relation": "r_lieu>origine"
-    },
-    {
-        "texte_complet": "feuilles du budget",
-        "A": "feuilles",
-        "B": "budget",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "bontés du roi",
-        "A": "bontés",
-        "B": "roi",
-        "relation": "r_has_property-1"
-    },
-    {
-        "texte_complet": "retour de gand",
-        "A": "retour",
-        "B": "gand",
-        "relation": "r_lieu>origine"
-    },
-    {
-        "texte_complet": "faveur des mouvements",
-        "A": "faveur",
-        "B": "mouvements",
-        "relation": "r_has_causatif"
-    },
-    {
-        "texte_complet": "maître des requêtes",
-        "A": "maître",
-        "B": "requêtes",
-        "relation": "r_social_tie"
-    },
-    {
-        "texte_complet": "directeur d'une administration",
-        "A": "directeur",
-        "B": "administration",
-        "relation": "r_social_tie"
-    },
-    {
-        "texte_complet": "ville de paris",
-        "A": "ville",
-        "B": "paris",
-        "relation": "r_lieu>origine"
-    },
-    {
-        "texte_complet": "abri des tempêtes",
-        "A": "abri",
-        "B": "tempêtes",
-        "relation": "r_processus>instr-1"
-    },
-    {
-        "texte_complet": "faveur du comte",
-        "A": "faveur",
-        "B": "comte",
-        "relation": "r_has_property-1"
-    },
-    {
-        "texte_complet": "envie de personne",
-        "A": "envie",
-        "B": "personne",
-        "relation": "r_has_property-1"
-    },
-    {
-        "texte_complet": "établissement du système",
-        "A": "établissement",
-        "B": "système",
+        "texte_complet": "destitution du président",
+        "A": "destitution",
+        "B": "président",
         "relation": "r_processus_patient"
     },
     {
-        "texte_complet": "équivalent des abbayes",
-        "A": "équivalent",
-        "B": "abbayes",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "avidité des courtisans",
-        "A": "avidité",
-        "B": "courtisans",
-        "relation": "r_has_property-1"
-    },
-    {
-        "texte_complet": "ressources du représentatif",
-        "A": "ressources",
-        "B": "représentatif",
-        "relation": "r_own-1"
-    },
-    {
-        "texte_complet": "sécurité des carrières",
-        "A": "sécurité",
-        "B": "carrières",
+        "texte_complet": "culture de la corruption",
+        "A": "culture",
+        "B": "corruption",
         "relation": "r_topic"
     },
     {
-        "texte_complet": "tête d'une famille",
-        "A": "tête",
-        "B": "famille",
+        "texte_complet": "échevin du patrimoine",
+        "A": "échevin",
+        "B": "patrimoine",
         "relation": "r_social_tie"
     },
     {
-        "texte_complet": "bonté du monarque",
-        "A": "bonté",
-        "B": "monarque",
-        "relation": "r_has_property-1"
-    },
-    {
-        "texte_complet": "demoiselle de fontaine",
-        "A": "demoiselle",
-        "B": "fontaine",
-        "relation": "r_lieu>origine"
-    },
-    {
-        "texte_complet": "magistrat d'extraction",
-        "A": "magistrat",
-        "B": "extraction",
+        "texte_complet": "goût du jour",
+        "A": "goût",
+        "B": "jour",
         "relation": "inconnu"
     },
     {
-        "texte_complet": "émilie de fontaine",
-        "A": "émilie",
-        "B": "fontaine",
-        "relation": "r_lieu>origine"
-    },
-    {
-        "texte_complet": "fontaine d'un quatrain",
-        "A": "fontaine",
-        "B": "quatrain",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "forme d'une trinité",
-        "A": "forme",
-        "B": "trinité",
-        "relation": "r_has_property-1"
-    },
-    {
-        "texte_complet": "place de la concorde",
-        "A": "place",
-        "B": "concorde",
-        "relation": "r_lieu>origine"
-    },
-    {
-        "texte_complet": "quai de la conférence",
-        "A": "quai",
-        "B": "conférence",
-        "relation": "r_lieu>origine"
-    },
-    {
-        "texte_complet": "quai de billy",
-        "A": "quai",
-        "B": "billy",
-        "relation": "r_lieu>origine"
-    },
-    {
-        "texte_complet": "leçons de géographie",
-        "A": "leçons",
-        "B": "géographie",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "milieu du champ",
-        "A": "milieu",
-        "B": "champ",
+        "texte_complet": "œuvre de la collection",
+        "A": "œuvre",
+        "B": "collection",
         "relation": "r_holo"
     },
     {
-        "texte_complet": "tertres de gazon",
-        "A": "tertres",
-        "B": "gazon",
-        "relation": "r_objet>matiere"
-    },
-    {
-        "texte_complet": "public des courses",
-        "A": "public",
-        "B": "courses",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "époque des sous-pieds",
-        "A": "époque",
-        "B": "sous-pieds",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "collets de velours",
-        "A": "collets",
-        "B": "velours",
-        "relation": "r_objet>matiere"
-    },
-    {
-        "texte_complet": "gradins des estrades",
-        "A": "gradins",
-        "B": "estrades",
+        "texte_complet": "manche de la guitare",
+        "A": "manche",
+        "B": "guitare",
         "relation": "r_holo"
     },
     {
-        "texte_complet": "massifs de fleurs",
-        "A": "massifs",
-        "B": "fleurs",
-        "relation": "r_objet>matiere"
-    },
-    {
-        "texte_complet": "tachetées de noir",
-        "A": "tachetées",
-        "B": "noir",
-        "relation": "r_objet>matiere"
-    },
-    {
-        "texte_complet": "costumes des hommes",
-        "A": "costumes",
-        "B": "hommes",
+        "texte_complet": "commandes du restaurant",
+        "A": "commandes",
+        "B": "restaurant",
         "relation": "r_own-1"
     },
     {
-        "texte_complet": "lignes de bâtons",
-        "A": "lignes",
-        "B": "bâtons",
-        "relation": "r_objet>matiere"
+        "texte_complet": "tir de feu",
+        "A": "tir",
+        "B": "feu",
+        "relation": "r_processus>instr-1"
     },
     {
-        "texte_complet": "programme des courses",
-        "A": "programme",
-        "B": "courses",
+        "texte_complet": "communiqué de presse",
+        "A": "communiqué",
+        "B": "presse",
         "relation": "r_topic"
     },
     {
-        "texte_complet": "cime des ormes",
-        "A": "cime",
-        "B": "ormes",
+        "texte_complet": "fin de l'année",
+        "A": "fin",
+        "B": "année",
         "relation": "r_holo"
     },
     {
-        "texte_complet": "peur de la pluie",
-        "A": "peur",
-        "B": "pluie",
-        "relation": "r_has_causatif"
-    },
-    {
-        "texte_complet": "provisions de bouche",
-        "A": "provisions",
-        "B": "bouche",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "casaque de soie",
-        "A": "casaque",
-        "B": "soie",
-        "relation": "r_objet>matiere"
-    },
-    {
-        "texte_complet": "baraques de planches",
-        "A": "baraques",
-        "B": "planches",
-        "relation": "r_objet>matiere"
-    },
-    {
-        "texte_complet": "ganse du chapeau",
-        "A": "ganse",
-        "B": "chapeau",
+        "texte_complet": "partie des images",
+        "A": "partie",
+        "B": "images",
         "relation": "r_holo"
     },
     {
-        "texte_complet": "champ de mars",
-        "A": "champ",
-        "B": "mars",
-        "relation": "r_lieu>origine"
-    },
-    {
-        "texte_complet": "courses de chantilly",
-        "A": "courses",
-        "B": "chantilly",
-        "relation": "r_lieu>origine"
-    },
-    {
-        "texte_complet": "verres de vin",
-        "A": "verres",
-        "B": "vin",
-        "relation": "r_quantificateur"
-    },
-    {
-        "texte_complet": "coups de minuit",
-        "A": "coups",
-        "B": "minuit",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "prix de la ville",
-        "A": "prix",
-        "B": "ville",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "spectateurs des tribunes",
-        "A": "spectateurs",
-        "B": "tribunes",
-        "relation": "r_lieu"
-    },
-    {
-        "texte_complet": "évolution des jockeys",
-        "A": "évolution",
-        "B": "jockeys",
+        "texte_complet": "présence du président",
+        "A": "présence",
+        "B": "président",
         "relation": "r_processus_agent"
     },
     {
-        "texte_complet": "longueur de la foule",
-        "A": "longueur",
-        "B": "foule",
-        "relation": "r_has_property-1"
-    },
-    {
-        "texte_complet": "bout du champ",
-        "A": "bout",
-        "B": "champ",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "sorte de glissement",
-        "A": "sorte",
-        "B": "glissement",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "ventres des chevaux",
-        "A": "ventres",
-        "B": "chevaux",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "casaques des jockeys",
-        "A": "casaques",
-        "B": "jockeys",
-        "relation": "r_own-1"
-    },
-    {
-        "texte_complet": "coups de cravache",
-        "A": "coups",
-        "B": "cravache",
-        "relation": "r_processus>instr-1"
-    },
-    {
-        "texte_complet": "milieu des applaudissements",
-        "A": "milieu",
-        "B": "applaudissements",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "couvert de sueur",
-        "A": "couvert",
-        "B": "sueur",
-        "relation": "r_has_property-1"
-    },
-    {
-        "texte_complet": "bas des tribunes",
-        "A": "bas",
-        "B": "tribunes",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "femmes du monde",
-        "A": "femmes",
-        "B": "monde",
+        "texte_complet": "sommet de vilnius",
+        "A": "sommet",
+        "B": "vilnius",
         "relation": "r_lieu"
     },
     {
-        "texte_complet": "voisinage des lorettes",
-        "A": "voisinage",
-        "B": "lorettes",
-        "relation": "inconnu"
+        "texte_complet": "corée du nord",
+        "A": "corée",
+        "B": "nord",
+        "relation": "r_has_property-1"
     },
     {
-        "texte_complet": "illustrations de bals",
-        "A": "illustrations",
-        "B": "bals",
+        "texte_complet": "choix de programmation",
+        "A": "choix",
+        "B": "programmation",
         "relation": "r_topic"
     },
     {
-        "texte_complet": "xi de la prostitution",
-        "A": "xi",
-        "B": "prostitution",
+        "texte_complet": "question du député",
+        "A": "question",
+        "B": "député",
+        "relation": "r_processus_agent"
+    },
+    {
+        "texte_complet": "début de la rencontre",
+        "A": "début",
+        "B": "rencontre",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "ordre du jour",
+        "A": "ordre",
+        "B": "jour",
         "relation": "inconnu"
     },
     {
-        "texte_complet": "espèce de rire",
-        "A": "espèce",
-        "B": "rire",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "palatine de martre",
-        "A": "palatine",
-        "B": "martre",
-        "relation": "r_objet>matiere"
-    },
-    {
-        "texte_complet": "air de vierge",
-        "A": "air",
-        "B": "vierge",
-        "relation": "r_has_property-1"
-    },
-    {
-        "texte_complet": "place du tablier",
-        "A": "place",
-        "B": "tablier",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "rideaux de cuir",
-        "A": "rideaux",
-        "B": "cuir",
-        "relation": "r_objet>matiere"
-    },
-    {
-        "texte_complet": "prudence des pères",
-        "A": "prudence",
-        "B": "pères",
-        "relation": "r_has_property-1"
-    },
-    {
-        "texte_complet": "siège de drap",
-        "A": "siège",
-        "B": "drap",
-        "relation": "r_objet>matiere"
-    },
-    {
-        "texte_complet": "files de voitures",
-        "A": "files",
-        "B": "voitures",
-        "relation": "r_quantificateur"
-    },
-    {
-        "texte_complet": "bord des panneaux",
-        "A": "bord",
-        "B": "panneaux",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "fond des fiacres",
-        "A": "fond",
-        "B": "fiacres",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "ports de tête",
-        "A": "ports",
-        "B": "tête",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "milieu de la voie",
-        "A": "milieu",
-        "B": "voie",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "arc de triomphe",
-        "A": "arc",
-        "B": "triomphe",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "moyeux des roues",
-        "A": "moyeux",
-        "B": "roues",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "poignées des portières",
-        "A": "poignées",
-        "B": "portières",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "bout des timons",
-        "A": "bout",
-        "B": "timons",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "anneaux des sellettes",
-        "A": "anneaux",
-        "B": "sellettes",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "bleu du ciel",
-        "A": "bleu",
-        "B": "ciel",
-        "relation": "r_has_property-1"
-    },
-    {
-        "texte_complet": "douceurs de satin",
-        "A": "douceurs",
-        "B": "satin",
-        "relation": "r_objet>matiere"
-    },
-    {
-        "texte_complet": "colonnes du garde-meuble",
-        "A": "colonnes",
-        "B": "garde-meuble",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "hôtel des affaires",
-        "A": "hôtel",
-        "B": "affaires",
-        "relation": "r_lieu"
-    },
-    {
-        "texte_complet": "file de badauds",
-        "A": "file",
-        "B": "badauds",
-        "relation": "r_quantificateur"
-    },
-    {
-        "texte_complet": "hauteur des bains",
-        "A": "hauteur",
-        "B": "bains",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "bord du trottoir",
-        "A": "bord",
-        "B": "trottoir",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "porte du café",
-        "A": "porte",
-        "B": "café",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "milieu du corridor",
-        "A": "milieu",
-        "B": "corridor",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "bord du balcon",
-        "A": "bord",
-        "B": "balcon",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "dessous de la glace",
-        "A": "dessous",
-        "B": "glace",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "pétale de fleur",
-        "A": "pétale",
-        "B": "fleur",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "tu de la peine",
-        "A": "tu",
-        "B": "peine",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "robe de soie",
-        "A": "robe",
-        "B": "soie",
-        "relation": "r_objet>matiere"
-    },
-    {
-        "texte_complet": "bout du cabinet",
-        "A": "bout",
-        "B": "cabinet",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "sorte de sujets",
-        "A": "sorte",
-        "B": "sujets",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "propos de la danse",
-        "A": "propos",
-        "B": "danse",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "collège de france",
-        "A": "collège",
-        "B": "france",
-        "relation": "r_lieu>origine"
-    },
-    {
-        "texte_complet": "milieu des confidences",
-        "A": "milieu",
-        "B": "confidences",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "perspectives de félicité",
-        "A": "perspectives",
-        "B": "félicité",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "liste de blessés",
-        "A": "liste",
-        "B": "blessés",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "malheurs de la patrie",
-        "A": "malheurs",
-        "B": "patrie",
-        "relation": "r_has_causatif"
-    },
-    {
-        "texte_complet": "chose de mesquin",
-        "A": "chose",
-        "B": "mesquin",
-        "relation": "r_has_property-1"
-    },
-    {
-        "texte_complet": "voiture des messageries",
-        "A": "voiture",
-        "B": "messageries",
-        "relation": "r_own-1"
-    },
-    {
-        "texte_complet": "diligence du bourbonnais",
-        "A": "diligence",
-        "B": "bourbonnais",
-        "relation": "r_lieu>origine"
-    },
-    {
-        "texte_complet": "maître de poste",
-        "A": "maître",
-        "B": "poste",
+        "texte_complet": "député de la douma",
+        "A": "député",
+        "B": "douma",
         "relation": "r_social_tie"
     },
     {
-        "texte_complet": "point de passeport",
-        "A": "point",
-        "B": "passeport",
-        "relation": "inconnu"
+        "texte_complet": "coupure d'un câble",
+        "A": "coupure",
+        "B": "câble",
+        "relation": "r_processus_patient"
     },
     {
-        "texte_complet": "hôtel du commerce",
-        "A": "hôtel",
-        "B": "commerce",
-        "relation": "r_lieu"
+        "texte_complet": "dizaine de chefs",
+        "A": "dizaine",
+        "B": "chefs",
+        "relation": "r_quantificateur"
     },
     {
-        "texte_complet": "place du marché",
-        "A": "place",
-        "B": "marché",
-        "relation": "r_lieu"
+        "texte_complet": "partage des données",
+        "A": "partage",
+        "B": "données",
+        "relation": "r_processus_patient"
     },
     {
-        "texte_complet": "prise de peur",
-        "A": "prise",
-        "B": "peur",
-        "relation": "r_has_causatif"
+        "texte_complet": "bord des véhicules",
+        "A": "bord",
+        "B": "véhicules",
+        "relation": "r_holo"
     },
     {
-        "texte_complet": "poste de la barrière",
-        "A": "poste",
-        "B": "barrière",
-        "relation": "r_lieu"
-    },
-    {
-        "texte_complet": "boulevards des gobelins",
-        "A": "boulevards",
-        "B": "gobelins",
-        "relation": "r_lieu"
-    },
-    {
-        "texte_complet": "talus de pavés",
-        "A": "talus",
-        "B": "pavés",
-        "relation": "r_objet>matiere"
-    },
-    {
-        "texte_complet": "fantassins de la ligne",
-        "A": "fantassins",
-        "B": "ligne",
-        "relation": "r_social_tie"
-    },
-    {
-        "texte_complet": "poste du jardin",
-        "A": "poste",
-        "B": "jardin",
-        "relation": "r_lieu"
-    },
-    {
-        "texte_complet": "jardin des plantes",
-        "A": "jardin",
-        "B": "plantes",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "hommes de frédéric",
-        "A": "hommes",
-        "B": "frédéric",
-        "relation": "r_own-1"
-    },
-    {
-        "texte_complet": "bec de gaz",
-        "A": "bec",
-        "B": "gaz",
-        "relation": "r_processus>instr-1"
-    },
-    {
-        "texte_complet": "milieu du silence",
-        "A": "milieu",
-        "B": "silence",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "cliquetis de fer",
-        "A": "cliquetis",
+        "texte_complet": "bras de fer",
+        "A": "bras",
         "B": "fer",
         "relation": "r_objet>matiere"
     },
     {
-        "texte_complet": "centre des carrefours",
-        "A": "centre",
-        "B": "carrefours",
+        "texte_complet": "promenade des anglais",
+        "A": "promenade",
+        "B": "anglais",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "point de chute",
+        "A": "point",
+        "B": "chute",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "possession des biens",
+        "A": "possession",
+        "B": "biens",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "suppressions de trains",
+        "A": "suppressions",
+        "B": "trains",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "partie du quotidien",
+        "A": "partie",
+        "B": "quotidien",
         "relation": "r_holo"
     },
     {
-        "texte_complet": "place du panthéon",
+        "texte_complet": "sortie de route",
+        "A": "sortie",
+        "B": "route",
+        "relation": "r_lieu>origine"
+    },
+    {
+        "texte_complet": "dizaine de mètres",
+        "A": "dizaine",
+        "B": "mètres",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "contrebas de la chaussée",
+        "A": "contrebas",
+        "B": "chaussée",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "acteurs de la compagnie",
+        "A": "acteurs",
+        "B": "compagnie",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "scène de la table",
+        "A": "scène",
+        "B": "table",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "producteur du film",
+        "A": "producteur",
+        "B": "film",
+        "relation": "r_product_of"
+    },
+    {
+        "texte_complet": "décision de justice",
+        "A": "décision",
+        "B": "justice",
+        "relation": "r_processus_agent"
+    },
+    {
+        "texte_complet": "réintégration des soignants",
+        "A": "réintégration",
+        "B": "soignants",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "raison de la situation",
+        "A": "raison",
+        "B": "situation",
+        "relation": "r_has_causatif"
+    },
+    {
+        "texte_complet": "discours de clôture",
+        "A": "discours",
+        "B": "clôture",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "chef de la diplomatie",
+        "A": "chef",
+        "B": "diplomatie",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "carrossier de métier",
+        "A": "carrossier",
+        "B": "métier",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "place d'une force",
         "A": "place",
-        "B": "panthéon",
-        "relation": "r_lieu"
+        "B": "force",
+        "relation": "inconnu"
     },
     {
-        "texte_complet": "feux de bivouac",
-        "A": "feux",
-        "B": "bivouac",
-        "relation": "r_lieu"
+        "texte_complet": "infraction de dénonciation",
+        "A": "infraction",
+        "B": "dénonciation",
+        "relation": "r_topic"
     },
     {
-        "texte_complet": "sol des rues",
-        "A": "sol",
-        "B": "rues",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "tuyaux de gaz",
-        "A": "tuyaux",
-        "B": "gaz",
-        "relation": "r_processus>instr-1"
-    },
-    {
-        "texte_complet": "roues de charrettes",
-        "A": "roues",
-        "B": "charrettes",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "écaillures du plâtre",
-        "A": "écaillures",
-        "B": "plâtre",
-        "relation": "r_objet>matiere"
-    },
-    {
-        "texte_complet": "intérieur des chambres",
-        "A": "intérieur",
-        "B": "chambres",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "bâton de perroquet",
-        "A": "bâton",
-        "B": "perroquet",
+        "texte_complet": "fonds des établissements",
+        "A": "fonds",
+        "B": "établissements",
         "relation": "r_own-1"
     },
     {
-        "texte_complet": "archevêque de paris",
-        "A": "archevêque",
+        "texte_complet": "sous-compte du compte",
+        "A": "sous-compte",
+        "B": "compte",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "république de guinée",
+        "A": "république",
+        "B": "guinée",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "direction de la sncf",
+        "A": "direction",
+        "B": "sncf",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "production de mignonnettes",
+        "A": "production",
+        "B": "mignonnettes",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "voies de fait",
+        "A": "voies",
+        "B": "fait",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "baisse de l'activité",
+        "A": "baisse",
+        "B": "activité",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "marché de l'immobilier",
+        "A": "marché",
+        "B": "immobilier",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "province de namur",
+        "A": "province",
+        "B": "namur",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "plan de relève",
+        "A": "plan",
+        "B": "relève",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "marraine de lucas",
+        "A": "marraine",
+        "B": "lucas",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "mère de famille",
+        "A": "mère",
+        "B": "famille",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "domaine de l'énergie",
+        "A": "domaine",
+        "B": "énergie",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "chef du secrétariat",
+        "A": "chef",
+        "B": "secrétariat",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "forum du partenariat",
+        "A": "forum",
+        "B": "partenariat",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "fin du mois",
+        "A": "fin",
+        "B": "mois",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "taux de croissance",
+        "A": "taux",
+        "B": "croissance",
+        "relation": "r_has_property-1"
+    },
+    {
+        "texte_complet": "mois de l'année",
+        "A": "mois",
+        "B": "année",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "kit de départ",
+        "A": "kit",
+        "B": "départ",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "appareils de service",
+        "A": "appareils",
+        "B": "service",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "œuvre des marchands",
+        "A": "œuvre",
+        "B": "marchands",
+        "relation": "r_product_of"
+    },
+    {
+        "texte_complet": "salissure des méandres",
+        "A": "salissure",
+        "B": "méandres",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "couleur du disque",
+        "A": "couleur",
+        "B": "disque",
+        "relation": "r_has_property-1"
+    },
+    {
+        "texte_complet": "mois de mars",
+        "A": "mois",
+        "B": "mars",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "gare de val",
+        "A": "gare",
+        "B": "val",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "heure de paris",
+        "A": "heure",
         "B": "paris",
         "relation": "r_lieu>origine"
     },
     {
-        "texte_complet": "secours de la province",
-        "A": "secours",
-        "B": "province",
-        "relation": "r_has_causatif"
-    },
-    {
-        "texte_complet": "bouteilles de vin",
-        "A": "bouteilles",
-        "B": "vin",
-        "relation": "r_quantificateur"
-    },
-    {
-        "texte_complet": "heures du matin",
-        "A": "heures",
-        "B": "matin",
-        "relation": "r_lieu"
-    },
-    {
-        "texte_complet": "manches de chemise",
-        "A": "manches",
-        "B": "chemise",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "arbres des tuileries",
-        "A": "arbres",
-        "B": "tuileries",
-        "relation": "r_lieu"
-    },
-    {
-        "texte_complet": "groupe de gens",
-        "A": "groupe",
-        "B": "gens",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "peloton de mobiles",
-        "A": "peloton",
-        "B": "mobiles",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "coup de savate",
-        "A": "coup",
-        "B": "savate",
-        "relation": "r_processus>instr-1"
-    },
-    {
-        "texte_complet": "lingot de cuivre",
-        "A": "lingot",
-        "B": "cuivre",
-        "relation": "r_objet>matiere"
-    },
-    {
-        "texte_complet": "jours de suite",
-        "A": "jours",
-        "B": "suite",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "lambeaux d'armée",
-        "A": "lambeaux",
-        "B": "armée",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "poids du fusil",
-        "A": "poids",
-        "B": "fusil",
-        "relation": "r_has_property-1"
-    },
-    {
-        "texte_complet": "débris d'une division",
-        "A": "débris",
-        "B": "division",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "légions de francs-tireurs",
-        "A": "légions",
-        "B": "francs-tireurs",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "vengeurs de la défaite",
-        "A": "vengeurs",
-        "B": "défaite",
-        "relation": "r_has_causatif"
-    },
-    {
-        "texte_complet": "airs de bandits",
-        "A": "airs",
-        "B": "bandits",
-        "relation": "r_has_property-1"
-    },
-    {
-        "texte_complet": "guerriers de circonstance",
-        "A": "guerriers",
-        "B": "circonstance",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "couverts d'armes",
-        "A": "couverts",
-        "B": "armes",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "plans de campagne",
-        "A": "plans",
-        "B": "campagne",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "gens de sac",
-        "A": "gens",
-        "B": "sac",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "bornes des routes",
-        "A": "bornes",
-        "B": "routes",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "débâcle d'un peuple",
-        "A": "débâcle",
-        "B": "peuple",
+        "texte_complet": "funérailles de denise",
+        "A": "funérailles",
+        "B": "denise",
         "relation": "r_processus_patient"
     },
     {
-        "texte_complet": "officiers d'ordonnance",
-        "A": "officiers",
-        "B": "ordonnance",
-        "relation": "r_social_tie"
+        "texte_complet": "membres du public",
+        "A": "membres",
+        "B": "public",
+        "relation": "r_holo"
     },
     {
-        "texte_complet": "couteaux de cuisine",
-        "A": "couteaux",
-        "B": "cuisine",
+        "texte_complet": "rue du miroir",
+        "A": "rue",
+        "B": "miroir",
         "relation": "r_lieu"
     },
     {
-        "texte_complet": "long des murs",
-        "A": "long",
-        "B": "murs",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "angoisse de l'attente",
-        "A": "angoisse",
-        "B": "attente",
-        "relation": "r_has_causatif"
-    },
-    {
-        "texte_complet": "venue de l'ennemi",
-        "A": "venue",
-        "B": "ennemi",
-        "relation": "r_processus_agent"
-    },
-    {
-        "texte_complet": "après-midi du jour",
-        "A": "après-midi",
-        "B": "jour",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "départ des troupes",
-        "A": "départ",
-        "B": "troupes",
-        "relation": "r_processus_agent"
-    },
-    {
-        "texte_complet": "place de l'hôtel-de-ville",
-        "A": "place",
-        "B": "hôtel-de-ville",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "long des maisons",
-        "A": "long",
-        "B": "maisons",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "maîtres de la cité",
-        "A": "maîtres",
-        "B": "cité",
-        "relation": "r_social_tie"
-    },
-    {
-        "texte_complet": "droit de guerre",
-        "A": "droit",
-        "B": "guerre",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "lois des hommes",
-        "A": "lois",
-        "B": "hommes",
-        "relation": "r_processus_agent"
-    },
-    {
-        "texte_complet": "merci d'une brutalité",
-        "A": "merci",
-        "B": "brutalité",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "tremblement de terre",
-        "A": "tremblement",
-        "B": "terre",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "cadavres des boeufs",
-        "A": "cadavres",
-        "B": "boeufs",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "nom du sabre",
-        "A": "nom",
-        "B": "sabre",
-        "relation": "r_has_property-1"
-    },
-    {
-        "texte_complet": "protection du ciel",
-        "A": "protection",
-        "B": "ciel",
-        "relation": "r_processus_agent"
-    },
-    {
-        "texte_complet": "raison de l'homme",
-        "A": "raison",
-        "B": "homme",
-        "relation": "r_has_property-1"
-    },
-    {
-        "texte_complet": "défaut des bourgeois",
-        "A": "défaut",
-        "B": "bourgeois",
-        "relation": "r_has_property-1"
-    },
-    {
-        "texte_complet": "temps des défenses",
-        "A": "temps",
-        "B": "défenses",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "officiers de hussards",
-        "A": "officiers",
-        "B": "hussards",
-        "relation": "r_social_tie"
-    },
-    {
-        "texte_complet": "outils de mort",
-        "A": "outils",
-        "B": "mort",
-        "relation": "r_processus>instr-1"
-    },
-    {
-        "texte_complet": "officiers de chasseurs",
-        "A": "officiers",
-        "B": "chasseurs",
-        "relation": "r_social_tie"
-    },
-    {
-        "texte_complet": "chose de subtil",
-        "A": "chose",
-        "B": "subtil",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "odeur de l'invasion",
-        "A": "odeur",
-        "B": "invasion",
-        "relation": "r_has_causatif"
-    },
-    {
-        "texte_complet": "goût des aliments",
-        "A": "goût",
-        "B": "aliments",
-        "relation": "r_has_property-1"
-    },
-    {
-        "texte_complet": "cours de la rivière",
-        "A": "cours",
-        "B": "rivière",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "fond de l'eau",
-        "A": "fond",
-        "B": "eau",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "cadavre d'allemand",
-        "A": "cadavre",
-        "B": "allemand",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "coup de couteau",
-        "A": "coup",
-        "B": "couteau",
-        "relation": "r_processus>instr-1"
-    },
-    {
-        "texte_complet": "eau d'une poussée",
-        "A": "eau",
-        "B": "poussée",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "vases du fleuve",
-        "A": "vases",
-        "B": "fleuve",
-        "relation": "r_lieu"
-    },
-    {
-        "texte_complet": "retentissement de la gloire",
-        "A": "retentissement",
-        "B": "gloire",
-        "relation": "r_has_causatif"
-    },
-    {
-        "texte_complet": "haine de l'étranger",
-        "A": "haine",
-        "B": "étranger",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "besoin du négoce",
-        "A": "besoin",
-        "B": "négoce",
-        "relation": "r_has_causatif"
-    },
-    {
-        "texte_complet": "coeur des commerçants",
-        "A": "coeur",
-        "B": "commerçants",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "influence des officiers",
-        "A": "influence",
-        "B": "officiers",
-        "relation": "r_processus_agent"
-    },
-    {
-        "texte_complet": "autorisation de départ",
-        "A": "autorisation",
+        "texte_complet": "altercation de départ",
+        "A": "altercation",
         "B": "départ",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "demie du matin",
-        "A": "demie",
-        "B": "matin",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "cour de l'hôtel",
-        "A": "cour",
-        "B": "hôtel",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "grelottaient de froid",
-        "A": "grelottaient",
-        "B": "froid",
-        "relation": "r_has_causatif"
-    },
-    {
-        "texte_complet": "vêtements d'hiver",
-        "A": "vêtements",
-        "B": "hiver",
-        "relation": "r_lieu"
-    },
-    {
-        "texte_complet": "valet d'écurie",
-        "A": "valet",
-        "B": "écurie",
-        "relation": "r_social_tie"
-    },
-    {
-        "texte_complet": "pieds de chevaux",
-        "A": "pieds",
-        "B": "chevaux",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "fumier des litières",
-        "A": "fumier",
-        "B": "litières",
-        "relation": "r_product_of"
-    },
-    {
-        "texte_complet": "voix d'homme",
-        "A": "voix",
-        "B": "homme",
-        "relation": "r_has_property-1"
-    },
-    {
-        "texte_complet": "fond du bâtiment",
-        "A": "fond",
-        "B": "bâtiment",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "murmure de grelots",
-        "A": "murmure",
-        "B": "grelots",
-        "relation": "r_product_of"
-    },
-    {
-        "texte_complet": "mouvement de l'animal",
-        "A": "mouvement",
-        "B": "animal",
-        "relation": "r_processus_agent"
-    },
-    {
-        "texte_complet": "rideau de flocons",
-        "A": "rideau",
-        "B": "flocons",
-        "relation": "r_objet>matiere"
-    },
-    {
-        "texte_complet": "choses d'une mousse",
-        "A": "choses",
-        "B": "mousse",
         "relation": "inconnu"
     },
     {
-        "texte_complet": "silence de la ville",
-        "A": "silence",
-        "B": "ville",
-        "relation": "r_lieu"
+        "texte_complet": "jeu de mots",
+        "A": "jeu",
+        "B": "mots",
+        "relation": "r_topic"
     },
     {
-        "texte_complet": "entremêlement d'atomes",
-        "A": "entremêlement",
-        "B": "atomes",
-        "relation": "r_processus_patient"
+        "texte_complet": "veille du rendez-vous",
+        "A": "veille",
+        "B": "rendez-vous",
+        "relation": "inconnu"
     },
     {
-        "texte_complet": "bout d'une corde",
-        "A": "bout",
-        "B": "corde",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "dames du fond",
-        "A": "dames",
-        "B": "fond",
-        "relation": "r_lieu"
-    },
-    {
-        "texte_complet": "cause du tirage",
-        "A": "cause",
-        "B": "tirage",
-        "relation": "r_has_causatif"
-    },
-    {
-        "texte_complet": "voix du dedans",
-        "A": "voix",
-        "B": "dedans",
-        "relation": "r_lieu"
-    },
-    {
-        "texte_complet": "pluie de coton",
-        "A": "pluie",
-        "B": "coton",
-        "relation": "r_objet>matiere"
-    },
-    {
-        "texte_complet": "blancheur de la campagne",
-        "A": "blancheur",
-        "B": "campagne",
-        "relation": "r_has_property-1"
-    },
-    {
-        "texte_complet": "capuchon de neige",
-        "A": "capuchon",
-        "B": "neige",
-        "relation": "r_objet>matiere"
-    },
-    {
-        "texte_complet": "marchands de vins",
-        "A": "marchands",
-        "B": "vins",
+        "texte_complet": "présidente de l'adam",
+        "A": "présidente",
+        "B": "adam",
         "relation": "r_social_tie"
     },
     {
-        "texte_complet": "débitants des campagnes",
-        "A": "débitants",
-        "B": "campagnes",
-        "relation": "r_lieu"
-    },
-    {
-        "texte_complet": "réputation de filou",
-        "A": "réputation",
-        "B": "filou",
-        "relation": "r_has_property-1"
-    },
-    {
-        "texte_complet": "auteur de fables",
-        "A": "auteur",
-        "B": "fables",
-        "relation": "r_social_tie"
-    },
-    {
-        "texte_complet": "salons du préfet",
-        "A": "salons",
-        "B": "préfet",
+        "texte_complet": "droits des actionnaires",
+        "A": "droits",
+        "B": "actionnaires",
         "relation": "r_own-1"
     },
     {
-        "texte_complet": "mâchoires de la province",
-        "A": "mâchoires",
-        "B": "province",
-        "relation": "inconnu"
+        "texte_complet": "diane de selliers",
+        "A": "diane",
+        "B": "selliers",
+        "relation": "r_lieu>origine"
     },
     {
-        "texte_complet": "arithmétique de la maison",
-        "A": "arithmétique",
-        "B": "maison",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "officier de la légion",
-        "A": "officier",
-        "B": "légion",
-        "relation": "r_social_tie"
-    },
-    {
-        "texte_complet": "membre du conseil",
-        "A": "membre",
-        "B": "conseil",
-        "relation": "r_social_tie"
-    },
-    {
-        "texte_complet": "temps de l'empire",
-        "A": "temps",
-        "B": "empire",
-        "relation": "r_lieu"
-    },
-    {
-        "texte_complet": "chef de l'opposition",
-        "A": "chef",
-        "B": "opposition",
-        "relation": "r_social_tie"
-    },
-    {
-        "texte_complet": "consolation des officiers",
-        "A": "consolation",
-        "B": "officiers",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "gouverneur de province",
-        "A": "gouverneur",
-        "B": "province",
-        "relation": "r_social_tie"
-    },
-    {
-        "texte_complet": "fils de louis-philippe",
-        "A": "fils",
-        "B": "louis-philippe",
-        "relation": "r_social_tie"
-    },
-    {
-        "texte_complet": "sceau du secret",
-        "A": "sceau",
-        "B": "secret",
+        "texte_complet": "cantique des oiseaux",
+        "A": "cantique",
+        "B": "oiseaux",
         "relation": "r_topic"
     },
     {
-        "texte_complet": "atteinte d'une maladie",
-        "A": "atteinte",
-        "B": "maladie",
-        "relation": "r_processus_patient"
+        "texte_complet": "question des ordures",
+        "A": "question",
+        "B": "ordures",
+        "relation": "r_topic"
     },
     {
-        "texte_complet": "verre d'eau",
-        "A": "verre",
-        "B": "eau",
+        "texte_complet": "arrivée des touristes",
+        "A": "arrivée",
+        "B": "touristes",
+        "relation": "r_processus_agent"
+    },
+    {
+        "texte_complet": "plupart des cas",
+        "A": "plupart",
+        "B": "cas",
         "relation": "r_quantificateur"
     },
     {
-        "texte_complet": "meubles d'un air",
-        "A": "meubles",
-        "B": "air",
+        "texte_complet": "place des mesures",
+        "A": "place",
+        "B": "mesures",
         "relation": "inconnu"
+    },
+    {
+        "texte_complet": "hommes de couloir",
+        "A": "hommes",
+        "B": "couloir",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "parquet d'anvers",
+        "A": "parquet",
+        "B": "anvers",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "intervention d'un tiers",
+        "A": "intervention",
+        "B": "tiers",
+        "relation": "r_processus_agent"
+    },
+    {
+        "texte_complet": "présidente de sud",
+        "A": "présidente",
+        "B": "sud",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "existence de centaines",
+        "A": "existence",
+        "B": "centaines",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "mois des élections",
+        "A": "mois",
+        "B": "élections",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "pays du monde",
+        "A": "pays",
+        "B": "monde",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "ministère de la digitalisation",
+        "A": "ministère",
+        "B": "digitalisation",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "chambre de commerce",
+        "A": "chambre",
+        "B": "commerce",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "ensemble de la population",
+        "A": "ensemble",
+        "B": "population",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "capacité du président",
+        "A": "capacité",
+        "B": "président",
+        "relation": "r_has_property-1"
+    },
+    {
+        "texte_complet": "besoins de la population",
+        "A": "besoins",
+        "B": "population",
+        "relation": "r_has_property-1"
+    },
+    {
+        "texte_complet": "empereur de chine",
+        "A": "empereur",
+        "B": "chine",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "système du jeudi",
+        "A": "système",
+        "B": "jeudi",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "producteur de films",
+        "A": "producteur",
+        "B": "films",
+        "relation": "r_product_of"
+    },
+    {
+        "texte_complet": "kilomètres de wolfville",
+        "A": "kilomètres",
+        "B": "wolfville",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "huskies de saint",
+        "A": "huskies",
+        "B": "saint",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "encontre de la philosophie",
+        "A": "encontre",
+        "B": "philosophie",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "heure du repas",
+        "A": "heure",
+        "B": "repas",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "feuilles de chou",
+        "A": "feuilles",
+        "B": "chou",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "sous-sol du parc",
+        "A": "sous-sol",
+        "B": "parc",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "stockage des terres",
+        "A": "stockage",
+        "B": "terres",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "réutilisation des souches",
+        "A": "réutilisation",
+        "B": "souches",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "pompiers de luxembourg",
+        "A": "pompiers",
+        "B": "luxembourg",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "place de metz",
+        "A": "place",
+        "B": "metz",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "cheval de bataille",
+        "A": "cheval",
+        "B": "bataille",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "footing du dimanche",
+        "A": "footing",
+        "B": "dimanche",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "représentant du hamas",
+        "A": "représentant",
+        "B": "hamas",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "bande de gaza",
+        "A": "bande",
+        "B": "gaza",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "affiche du parti",
+        "A": "affiche",
+        "B": "parti",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "vue des votations",
+        "A": "vue",
+        "B": "votations",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "forum de la radio",
+        "A": "forum",
+        "B": "radio",
+        "relation": "r_topic"
     },
     {
         "texte_complet": "mois de juillet",
         "A": "mois",
         "B": "juillet",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "air d'un honnête",
-        "A": "air",
-        "B": "honnête",
-        "relation": "r_has_property-1"
-    },
-    {
-        "texte_complet": "yeux de la main",
-        "A": "yeux",
-        "B": "main",
         "relation": "inconnu"
     },
     {
-        "texte_complet": "mêlée de colère",
-        "A": "mêlée",
-        "B": "colère",
-        "relation": "r_objet>matiere"
+        "texte_complet": "auteurs d'un sans-faute",
+        "A": "auteurs",
+        "B": "sans-faute",
+        "relation": "r_social_tie"
     },
     {
-        "texte_complet": "soulèvement de la justice",
-        "A": "soulèvement",
-        "B": "justice",
+        "texte_complet": "équipe de nettoyeurs",
+        "A": "équipe",
+        "B": "nettoyeurs",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "régularisation de dette",
+        "A": "régularisation",
+        "B": "dette",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "place de plan",
+        "A": "place",
+        "B": "plan",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "traitement de contestations",
+        "A": "traitement",
+        "B": "contestations",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "projet de mandat",
+        "A": "projet",
+        "B": "mandat",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "nobles de westeros",
+        "A": "nobles",
+        "B": "westeros",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "% des pertes",
+        "A": "%",
+        "B": "pertes",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "allocations de chômage",
+        "A": "allocations",
+        "B": "chômage",
+        "relation": "r_has_causatif"
+    },
+    {
+        "texte_complet": "charge de famille",
+        "A": "charge",
+        "B": "famille",
+        "relation": "r_own-1"
+    },
+    {
+        "texte_complet": "chef de ménage",
+        "A": "chef",
+        "B": "ménage",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "signature d'un accord",
+        "A": "signature",
+        "B": "accord",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "ministère de l'alimentation",
+        "A": "ministère",
+        "B": "alimentation",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "fournisseur de gaz",
+        "A": "fournisseur",
+        "B": "gaz",
+        "relation": "r_product_of"
+    },
+    {
+        "texte_complet": "conduite de la police",
+        "A": "conduite",
+        "B": "police",
         "relation": "r_processus_agent"
     },
     {
-        "texte_complet": "long de la seine",
-        "A": "long",
-        "B": "seine",
-        "relation": "r_lieu"
-    },
-    {
-        "texte_complet": "gare de chatou",
-        "A": "gare",
-        "B": "chatou",
-        "relation": "r_lieu>origine"
-    },
-    {
-        "texte_complet": "salade de haricots",
-        "A": "salade",
-        "B": "haricots",
-        "relation": "r_objet>matiere"
-    },
-    {
-        "texte_complet": "houmous de haricots",
-        "A": "houmous",
-        "B": "haricots",
-        "relation": "r_objet>matiere"
-    },
-    {
-        "texte_complet": "lamelles de poivron",
-        "A": "lamelles",
-        "B": "poivron",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "blancs de poulet",
-        "A": "blancs",
-        "B": "poulet",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "note de l'auteur",
-        "A": "note",
-        "B": "auteur",
-        "relation": "r_product_of"
-    },
-    {
-        "texte_complet": "ravioles du dauphiné",
-        "A": "ravioles",
-        "B": "dauphiné",
-        "relation": "r_lieu>origine"
-    },
-    {
-        "texte_complet": "g de ravioles",
-        "A": "g",
-        "B": "ravioles",
-        "relation": "r_quantificateur"
-    },
-    {
-        "texte_complet": "% de mg",
-        "A": "%",
-        "B": "mg",
-        "relation": "r_quantificateur"
-    },
-    {
-        "texte_complet": "cl de crème",
-        "A": "cl",
-        "B": "crème",
-        "relation": "r_quantificateur"
-    },
-    {
-        "texte_complet": "noix de muscade",
-        "A": "noix",
-        "B": "muscade",
+        "texte_complet": "encontre de manifestants",
+        "A": "encontre",
+        "B": "manifestants",
         "relation": "inconnu"
     },
     {
-        "texte_complet": "pincées de noix",
-        "A": "pincées",
-        "B": "noix",
-        "relation": "r_quantificateur"
-    },
-    {
-        "texte_complet": "poivre du moulin",
-        "A": "poivre",
-        "B": "moulin",
-        "relation": "r_product_of"
-    },
-    {
-        "texte_complet": "pincées de poivre",
-        "A": "pincées",
-        "B": "poivre",
-        "relation": "r_quantificateur"
-    },
-    {
-        "texte_complet": "g de comté",
-        "A": "g",
-        "B": "comté",
-        "relation": "r_quantificateur"
-    },
-    {
-        "texte_complet": "g de beurre",
-        "A": "g",
-        "B": "beurre",
-        "relation": "r_quantificateur"
-    },
-    {
-        "texte_complet": "plaques de ravioles",
-        "A": "plaques",
-        "B": "ravioles",
-        "relation": "r_quantificateur"
-    },
-    {
-        "texte_complet": "fond du plat",
-        "A": "fond",
-        "B": "plat",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "couche de ravioles",
-        "A": "couche",
-        "B": "ravioles",
-        "relation": "r_quantificateur"
-    },
-    {
-        "texte_complet": "épuisement des ingrédients",
-        "A": "épuisement",
-        "B": "ingrédients",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "tour de poivre",
-        "A": "tour",
-        "B": "poivre",
-        "relation": "r_quantificateur"
-    },
-    {
-        "texte_complet": "surface du gratin",
-        "A": "surface",
-        "B": "gratin",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "ensemble de sonomètre",
-        "A": "ensemble",
-        "B": "sonomètre",
+        "texte_complet": "chair de poule",
+        "A": "chair",
+        "B": "poule",
         "relation": "inconnu"
     },
     {
-        "texte_complet": "kit de sonomètre",
-        "A": "kit",
-        "B": "sonomètre",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "étui de transport",
-        "A": "étui",
-        "B": "transport",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "mesureur d'isolement",
-        "A": "mesureur",
-        "B": "isolement",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "distance des températures",
-        "A": "distance",
-        "B": "températures",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "détecteur de co2",
-        "A": "détecteur",
-        "B": "co2",
-        "relation": "r_processus>instr-1"
-    },
-    {
-        "texte_complet": "mesure de la qualité",
-        "A": "mesure",
-        "B": "qualité",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "jauge de l'épaisseur",
-        "A": "jauge",
-        "B": "épaisseur",
-        "relation": "r_processus>instr-1"
-    },
-    {
-        "texte_complet": "dosimètre de bruit",
-        "A": "dosimètre",
-        "B": "bruit",
-        "relation": "r_processus>instr-1"
-    },
-    {
-        "texte_complet": "enregistreur de données",
-        "A": "enregistreur",
-        "B": "données",
-        "relation": "r_processus>instr-1"
-    },
-    {
-        "texte_complet": "données de température",
-        "A": "données",
-        "B": "température",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "canal de perçage",
-        "A": "canal",
-        "B": "perçage",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "mesure de l'épaisseur",
-        "A": "mesure",
-        "B": "épaisseur",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "mesure de force",
-        "A": "mesure",
-        "B": "force",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "certificats d'étalonnage",
-        "A": "certificats",
-        "B": "étalonnage",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "chronomètre de contrainte",
-        "A": "chronomètre",
-        "B": "contrainte",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "mesure de -5",
-        "A": "mesure",
-        "B": "-5",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "hygromètre de poche",
-        "A": "hygromètre",
-        "B": "poche",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "usb de temp",
-        "A": "usb",
-        "B": "temp",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "appareil de mesure",
-        "A": "appareil",
-        "B": "mesure",
-        "relation": "r_processus>instr-1"
-    },
-    {
-        "texte_complet": "mesure de -20",
-        "A": "mesure",
-        "B": "-20",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "plage de mesure",
-        "A": "plage",
-        "B": "mesure",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "compteur de contrainte",
-        "A": "compteur",
-        "B": "contrainte",
-        "relation": "r_processus>instr-1"
-    },
-    {
-        "texte_complet": "mesureur d'environnement",
-        "A": "mesureur",
-        "B": "environnement",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "minuterie d'entrainement",
-        "A": "minuterie",
-        "B": "entrainement",
-        "relation": "r_processus>instr-1"
+        "texte_complet": "vidéo des joueuses",
+        "A": "vidéo",
+        "B": "joueuses",
+        "relation": "r_depict"
     }
 ]

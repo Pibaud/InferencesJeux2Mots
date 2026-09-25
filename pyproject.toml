@@ -5,15 +5,11 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "datasets>=2.19.1",
     "google-genai>=2.24.0",
     "pydantic>=2.13.5",
     "requests==2.31.0",
     "spacy>=3.8.16",
     "streamlit>=1.64.0",
     "wikiextractor>=3.1.0",
-]
-
-[tool.uv.workspace]
-members = [
-    "vecteurs",
 ]
