@@ -1,0 +1,1976 @@
+[
+    {
+        "texte_complet": "cratère d'impact",
+        "mot_a": "cratère",
+        "mot_b": "impact",
+        "relation_humaine": "r_has_causatif",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "reprise du travail",
+        "mot_a": "reprise",
+        "mot_b": "travail",
+        "relation_humaine": "r_processus_patient",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "préavis de grève",
+        "mot_a": "préavis",
+        "mot_b": "grève",
+        "relation_humaine": "r_topic",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "bouillie de sel",
+        "mot_a": "bouillie",
+        "mot_b": "sel",
+        "relation_humaine": "r_objet>matiere",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "terminal de rafah",
+        "mot_a": "terminal",
+        "mot_b": "rafah",
+        "relation_humaine": "r_lieu",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "acheminement d'aide",
+        "mot_a": "acheminement",
+        "mot_b": "aide",
+        "relation_humaine": "r_processus_patient",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "bande de gaza",
+        "mot_a": "bande",
+        "mot_b": "gaza",
+        "relation_humaine": "r_lieu",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "entrée de blessés",
+        "mot_a": "entrée",
+        "mot_b": "blessés",
+        "relation_humaine": "r_processus_agent",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "journaliste de l'afp",
+        "mot_a": "journaliste",
+        "mot_b": "afp",
+        "relation_humaine": "r_social_tie",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "attribution des places",
+        "mot_a": "attribution",
+        "mot_b": "places",
+        "relation_humaine": "r_processus_patient",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "marche de cavalerie",
+        "mot_a": "marche",
+        "mot_b": "cavalerie",
+        "relation_humaine": "r_processus_agent",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "complexe de jeux",
+        "mot_a": "complexe",
+        "mot_b": "jeux",
+        "relation_humaine": "r_topic",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "hôtel de luxe",
+        "mot_a": "hôtel",
+        "mot_b": "luxe",
+        "relation_humaine": "r_has_property-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "arrivée de paul",
+        "mot_a": "arrivée",
+        "mot_b": "paul",
+        "relation_humaine": "r_processus_agent",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "ministère de la guerre",
+        "mot_a": "ministère",
+        "mot_b": "guerre",
+        "relation_humaine": "r_topic",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "numéros de pages",
+        "mot_a": "numéros",
+        "mot_b": "pages",
+        "relation_humaine": "r_holo",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "calcul du coût",
+        "mot_a": "calcul",
+        "mot_b": "coût",
+        "relation_humaine": "r_processus_patient",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "maîtresse d'école",
+        "mot_a": "maîtresse",
+        "mot_b": "école",
+        "relation_humaine": "r_social_tie",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "dimanches de l'année",
+        "mot_a": "dimanches",
+        "mot_b": "année",
+        "relation_humaine": "r_holo",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "demande de la famille",
+        "mot_a": "demande",
+        "mot_b": "famille",
+        "relation_humaine": "r_processus_agent",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "oncologie de l'hôpital",
+        "mot_a": "oncologie",
+        "mot_b": "hôpital",
+        "relation_humaine": "r_holo",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "attentes des analystes",
+        "mot_a": "attentes",
+        "mot_b": "analystes",
+        "relation_humaine": "r_processus_agent",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "société des loisirs",
+        "mot_a": "société",
+        "mot_b": "loisirs",
+        "relation_humaine": "r_topic",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "multitude de suites",
+        "mot_a": "multitude",
+        "mot_b": "suites",
+        "relation_humaine": "r_quantificateur",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "système de tirs",
+        "mot_a": "système",
+        "mot_b": "tirs",
+        "relation_humaine": "r_topic",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "intérêt des rencontres",
+        "mot_a": "intérêt",
+        "mot_b": "rencontres",
+        "relation_humaine": "r_has_property-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "km de lignes",
+        "mot_a": "km",
+        "mot_b": "lignes",
+        "relation_humaine": "r_quantificateur",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "résultats des élections",
+        "mot_a": "résultats",
+        "mot_b": "élections",
+        "relation_humaine": "r_product_of",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "km de côtes",
+        "mot_a": "km",
+        "mot_b": "côtes",
+        "relation_humaine": "r_quantificateur",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "ports de plaisance",
+        "mot_a": "ports",
+        "mot_b": "plaisance",
+        "relation_humaine": "r_topic",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "développement du système",
+        "mot_a": "développement",
+        "mot_b": "système",
+        "relation_humaine": "r_processus_patient",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "joueur de tempérament",
+        "mot_a": "joueur",
+        "mot_b": "tempérament",
+        "relation_humaine": "r_has_property-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "bureau d'ingénierie",
+        "mot_a": "bureau",
+        "mot_b": "ingénierie",
+        "relation_humaine": "r_topic",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "albums des chatons",
+        "mot_a": "albums",
+        "mot_b": "chatons",
+        "relation_humaine": "r_topic",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "galbe des meubles",
+        "mot_a": "galbe",
+        "mot_b": "meubles",
+        "relation_humaine": "r_has_property-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "charte de l'énergie",
+        "mot_a": "charte",
+        "mot_b": "énergie",
+        "relation_humaine": "r_topic",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "téléphone de madrid",
+        "mot_a": "téléphone",
+        "mot_b": "madrid",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "création d'une allocation",
+        "mot_a": "création",
+        "mot_b": "allocation",
+        "relation_humaine": "r_processus_patient",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "projet de formation",
+        "mot_a": "projet",
+        "mot_b": "formation",
+        "relation_humaine": "r_topic",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "travaux de forage",
+        "mot_a": "travaux",
+        "mot_b": "forage",
+        "relation_humaine": "r_topic",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "centre de données",
+        "mot_a": "centre",
+        "mot_b": "données",
+        "relation_humaine": "r_topic",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "lundi du mois",
+        "mot_a": "lundi",
+        "mot_b": "mois",
+        "relation_humaine": "r_holo",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "lieu des séances",
+        "mot_a": "lieu",
+        "mot_b": "séances",
+        "relation_humaine": "r_lieu",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "accélération du pouls",
+        "mot_a": "accélération",
+        "mot_b": "pouls",
+        "relation_humaine": "r_processus_patient",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "milliards de francs",
+        "mot_a": "milliards",
+        "mot_b": "francs",
+        "relation_humaine": "r_quantificateur",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "actionnaire d'endesa",
+        "mot_a": "actionnaire",
+        "mot_b": "endesa",
+        "relation_humaine": "r_social_tie",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "liste de récompenses",
+        "mot_a": "liste",
+        "mot_b": "récompenses",
+        "relation_humaine": "r_topic",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "direction du luna",
+        "mot_a": "direction",
+        "mot_b": "luna",
+        "relation_humaine": "r_social_tie",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "centaines de mètres",
+        "mot_a": "centaines",
+        "mot_b": "mètres",
+        "relation_humaine": "r_quantificateur",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "sélection de la pintade",
+        "mot_a": "sélection",
+        "mot_b": "pintade",
+        "relation_humaine": "r_processus_patient",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "application de la force",
+        "mot_a": "application",
+        "mot_b": "force",
+        "relation_humaine": "r_processus_patient",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "stations de radio",
+        "mot_a": "stations",
+        "mot_b": "radio",
+        "relation_humaine": "r_topic",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "gestion du portefeuille",
+        "mot_a": "gestion",
+        "mot_b": "portefeuille",
+        "relation_humaine": "r_processus_patient",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "président de bologne",
+        "mot_a": "président",
+        "mot_b": "bologne",
+        "relation_humaine": "r_social_tie",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "million de ruches",
+        "mot_a": "million",
+        "mot_b": "ruches",
+        "relation_humaine": "r_quantificateur",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "séance de balnéothérapie",
+        "mot_a": "séance",
+        "mot_b": "balnéothérapie",
+        "relation_humaine": "r_topic",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "outil de diagnostic",
+        "mot_a": "outil",
+        "mot_b": "diagnostic",
+        "relation_humaine": "r_processus>instr-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "comité de lutte",
+        "mot_a": "comité",
+        "mot_b": "lutte",
+        "relation_humaine": "r_topic",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "responsable de la santé",
+        "mot_a": "responsable",
+        "mot_b": "santé",
+        "relation_humaine": "r_social_tie",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "ministère de la santé",
+        "mot_a": "ministère",
+        "mot_b": "santé",
+        "relation_humaine": "r_topic",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "vue de jérusalem",
+        "mot_a": "vue",
+        "mot_b": "jérusalem",
+        "relation_humaine": "r_depict",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "motorisation de l'automotrice",
+        "mot_a": "motorisation",
+        "mot_b": "automotrice",
+        "relation_humaine": "r_holo",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "expansion de l'épizootie",
+        "mot_a": "expansion",
+        "mot_b": "épizootie",
+        "relation_humaine": "r_processus_agent",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "régiments d'infanterie",
+        "mot_a": "régiments",
+        "mot_b": "infanterie",
+        "relation_humaine": "r_holo",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "tonnes de photos",
+        "mot_a": "tonnes",
+        "mot_b": "photos",
+        "relation_humaine": "r_quantificateur",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "carte d'acquisition",
+        "mot_a": "carte",
+        "mot_b": "acquisition",
+        "relation_humaine": "r_processus>instr-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "services du gouvernement",
+        "mot_a": "services",
+        "mot_b": "gouvernement",
+        "relation_humaine": "r_own-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "nostalgie des manifestations",
+        "mot_a": "nostalgie",
+        "mot_b": "manifestations",
+        "relation_humaine": "r_has_causatif",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "repas du condamné",
+        "mot_a": "repas",
+        "mot_b": "condamné",
+        "relation_humaine": "r_own-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "kilomètres de pavé",
+        "mot_a": "kilomètres",
+        "mot_b": "pavé",
+        "relation_humaine": "r_quantificateur",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "champs de betteraves",
+        "mot_a": "champs",
+        "mot_b": "betteraves",
+        "relation_humaine": "r_topic",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "souffles du vent",
+        "mot_a": "souffles",
+        "mot_b": "vent",
+        "relation_humaine": "r_processus_agent",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "ombre d'arbre",
+        "mot_a": "ombre",
+        "mot_b": "arbre",
+        "relation_humaine": "r_has_causatif",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "pantalon de velours",
+        "mot_a": "pantalon",
+        "mot_b": "velours",
+        "relation_humaine": "r_objet>matiere",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "talus d'herbe",
+        "mot_a": "talus",
+        "mot_b": "herbe",
+        "relation_humaine": "r_objet>matiere",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "coude du chemin",
+        "mot_a": "coude",
+        "mot_b": "chemin",
+        "relation_humaine": "r_holo",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "silhouette d'une cheminée",
+        "mot_a": "silhouette",
+        "mot_b": "cheminée",
+        "relation_humaine": "r_depict",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "corbeilles de fonte",
+        "mot_a": "corbeilles",
+        "mot_b": "fonte",
+        "relation_humaine": "r_objet>matiere",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "tricot de laine",
+        "mot_a": "tricot",
+        "mot_b": "laine",
+        "relation_humaine": "r_objet>matiere",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "poil de lapin",
+        "mot_a": "poil",
+        "mot_b": "lapin",
+        "relation_humaine": "r_holo",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "immobilité de pierre",
+        "mot_a": "immobilité",
+        "mot_b": "pierre",
+        "relation_humaine": "r_has_property-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "pied du terri",
+        "mot_a": "pied",
+        "mot_b": "terri",
+        "relation_humaine": "r_holo",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "claquement de fouet",
+        "mot_a": "claquement",
+        "mot_b": "fouet",
+        "relation_humaine": "r_has_causatif",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "partie de la fosse",
+        "mot_a": "partie",
+        "mot_b": "fosse",
+        "relation_humaine": "r_holo",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "fond d'un creux",
+        "mot_a": "fond",
+        "mot_b": "creux",
+        "relation_humaine": "r_holo",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "heures de la nuit",
+        "mot_a": "heures",
+        "mot_b": "nuit",
+        "relation_humaine": "r_holo",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "foyers des générateurs",
+        "mot_a": "foyers",
+        "mot_b": "générateurs",
+        "relation_humaine": "r_holo",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "retour du charretier",
+        "mot_a": "retour",
+        "mot_b": "charretier",
+        "relation_humaine": "r_processus_agent",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "fourneaux des forges",
+        "mot_a": "fourneaux",
+        "mot_b": "forges",
+        "relation_humaine": "r_holo",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "réduction de salaire",
+        "mot_a": "réduction",
+        "mot_b": "salaire",
+        "relation_humaine": "r_processus_patient",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "batteries de fours",
+        "mot_a": "batteries",
+        "mot_b": "fours",
+        "relation_humaine": "r_quantificateur",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "main du vieillard",
+        "mot_a": "main",
+        "mot_b": "vieillard",
+        "relation_humaine": "r_holo",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "cri de famine",
+        "mot_a": "cri",
+        "mot_b": "famine",
+        "relation_humaine": "r_has_causatif",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "rampes de flammes",
+        "mot_a": "rampes",
+        "mot_b": "flammes",
+        "relation_humaine": "r_objet>matiere",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "tristesse d'incendie",
+        "mot_a": "tristesse",
+        "mot_b": "incendie",
+        "relation_humaine": "r_has_causatif",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "cage d'extraction",
+        "mot_a": "cage",
+        "mot_b": "extraction",
+        "relation_humaine": "r_processus>instr-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "quart d'heure",
+        "mot_a": "quart",
+        "mot_b": "heure",
+        "relation_humaine": "r_quantificateur",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "visage de l'inconnu",
+        "mot_a": "visage",
+        "mot_b": "inconnu",
+        "relation_humaine": "r_holo",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "grincement de poulie",
+        "mot_a": "grincement",
+        "mot_b": "poulie",
+        "relation_humaine": "r_has_causatif",
+        "statut": "corrige"
+    },
+    {
+        "texte_complet": "morceaux de houille",
+        "mot_a": "morceaux",
+        "mot_b": "houille",
+        "relation_humaine": "r_quantificateur",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "cri de faim",
+        "mot_a": "cri",
+        "mot_b": "faim",
+        "relation_humaine": "r_has_causatif",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "compagnie des mines",
+        "mot_a": "compagnie",
+        "mot_b": "mines",
+        "relation_humaine": "r_topic",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "mort de vieillesse",
+        "mot_a": "mort",
+        "mot_b": "vieillesse",
+        "relation_humaine": "r_has_causatif",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "chemin de fer",
+        "mot_a": "chemin",
+        "mot_b": "fer",
+        "relation_humaine": "r_objet>matiere",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "cabinet de travail",
+        "mot_a": "cabinet",
+        "mot_b": "travail",
+        "relation_humaine": "r_topic",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "art du maquillage",
+        "mot_a": "art",
+        "mot_b": "maquillage",
+        "relation_humaine": "r_topic",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "danger d'une personnalité",
+        "mot_a": "danger",
+        "mot_b": "personnalité",
+        "relation_humaine": "r_has_property-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "ruines de jumièges",
+        "mot_a": "ruines",
+        "mot_b": "jumièges",
+        "relation_humaine": "r_lieu",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "arche d'un pont",
+        "mot_a": "arche",
+        "mot_b": "pont",
+        "relation_humaine": "r_holo",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "abbaye de jumièges",
+        "mot_a": "abbaye",
+        "mot_b": "jumièges",
+        "relation_humaine": "r_lieu",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "manoir d'agnès",
+        "mot_a": "manoir",
+        "mot_b": "agnès",
+        "relation_humaine": "r_own-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "amie de charles",
+        "mot_a": "amie",
+        "mot_b": "charles",
+        "relation_humaine": "r_social_tie",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "repaire de héros",
+        "mot_a": "repaire",
+        "mot_b": "héros",
+        "relation_humaine": "r_lieu",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "morceau de pain",
+        "mot_a": "morceau",
+        "mot_b": "pain",
+        "relation_humaine": "r_holo",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "perspicacité d'un amateur",
+        "mot_a": "perspicacité",
+        "mot_b": "amateur",
+        "relation_humaine": "r_has_property-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "extrémités du pont",
+        "mot_a": "extrémités",
+        "mot_b": "pont",
+        "relation_humaine": "r_holo",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "côté de la seine",
+        "mot_a": "côté",
+        "mot_b": "seine",
+        "relation_humaine": "r_holo",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "pile de journaux",
+        "mot_a": "pile",
+        "mot_b": "journaux",
+        "relation_humaine": "r_quantificateur",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "tournant de la route",
+        "mot_a": "tournant",
+        "mot_b": "route",
+        "relation_humaine": "r_holo",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "feuille de papier",
+        "mot_a": "feuille",
+        "mot_b": "papier",
+        "relation_humaine": "r_objet>matiere",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "tableau de philippe",
+        "mot_a": "tableau",
+        "mot_b": "philippe",
+        "relation_humaine": "r_product_of",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "tapisseries de beauvais",
+        "mot_a": "tapisseries",
+        "mot_b": "beauvais",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "gare des batignolles",
+        "mot_a": "gare",
+        "mot_b": "batignolles",
+        "relation_humaine": "r_lieu",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "procureur de la république",
+        "mot_a": "procureur",
+        "mot_b": "république",
+        "relation_humaine": "r_social_tie",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "lettre de menaces",
+        "mot_a": "lettre",
+        "mot_b": "menaces",
+        "relation_humaine": "r_topic",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "œuvre d'un mystificateur",
+        "mot_a": "œuvre",
+        "mot_b": "mystificateur",
+        "relation_humaine": "r_product_of",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "réalité des faits",
+        "mot_a": "réalité",
+        "mot_b": "faits",
+        "relation_humaine": "r_has_property-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "examen de l'écriture",
+        "mot_a": "examen",
+        "mot_b": "écriture",
+        "relation_humaine": "r_processus_patient",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "projets de lupin",
+        "mot_a": "projets",
+        "mot_b": "lupin",
+        "relation_humaine": "r_own-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "ville de caudebec",
+        "mot_a": "ville",
+        "mot_b": "caudebec",
+        "relation_humaine": "r_lieu",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "rédacteur de l'entrefilet",
+        "mot_a": "rédacteur",
+        "mot_b": "entrefilet",
+        "relation_humaine": "r_social_tie",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "arbres de la promenade",
+        "mot_a": "arbres",
+        "mot_b": "promenade",
+        "relation_humaine": "r_holo",
+        "statut": "corrige"
+    },
+    {
+        "texte_complet": "chapeau de paille",
+        "mot_a": "chapeau",
+        "mot_b": "paille",
+        "relation_humaine": "r_objet>matiere",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "prise de tabac",
+        "mot_a": "prise",
+        "mot_b": "tabac",
+        "relation_humaine": "r_processus_patient",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "bout du château",
+        "mot_a": "bout",
+        "mot_b": "château",
+        "relation_humaine": "r_holo",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "mètres de falaise",
+        "mot_a": "mètres",
+        "mot_b": "falaise",
+        "relation_humaine": "r_quantificateur",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "épaisseur des murailles",
+        "mot_a": "épaisseur",
+        "mot_b": "murailles",
+        "relation_humaine": "r_has_property-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "entrée des souterrains",
+        "mot_a": "entrée",
+        "mot_b": "souterrains",
+        "relation_humaine": "r_holo",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "portrait de moret",
+        "mot_a": "portrait",
+        "mot_b": "moret",
+        "relation_humaine": "r_product_of",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "travail d'un peintre",
+        "mot_a": "travail",
+        "mot_b": "peintre",
+        "relation_humaine": "r_processus_agent",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "mètres de hauteur",
+        "mot_a": "mètres",
+        "mot_b": "hauteur",
+        "relation_humaine": "r_quantificateur",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "bloc de marbre",
+        "mot_a": "bloc",
+        "mot_b": "marbre",
+        "relation_humaine": "r_objet>matiere",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "étroitesse du bloc",
+        "mot_a": "étroitesse",
+        "mot_b": "bloc",
+        "relation_humaine": "r_has_property-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "lanière de cuir",
+        "mot_a": "lanière",
+        "mot_b": "cuir",
+        "relation_humaine": "r_objet>matiere",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "œuvres d'art",
+        "mot_a": "œuvres",
+        "mot_b": "art",
+        "relation_humaine": "r_topic",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "notes de musique",
+        "mot_a": "notes",
+        "mot_b": "musique",
+        "relation_humaine": "r_topic",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "instruments de musique",
+        "mot_a": "instruments",
+        "mot_b": "musique",
+        "relation_humaine": "r_topic",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "règles de construction",
+        "mot_a": "règles",
+        "mot_b": "construction",
+        "relation_humaine": "r_topic",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "agencement d'espace",
+        "mot_a": "agencement",
+        "mot_b": "espace",
+        "relation_humaine": "r_topic",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "aménagement du territoire",
+        "mot_a": "aménagement",
+        "mot_b": "territoire",
+        "relation_humaine": "r_processus_patient",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "superficie du quartier",
+        "mot_a": "superficie",
+        "mot_b": "quartier",
+        "relation_humaine": "r_has_property-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "coupole du panthéon",
+        "mot_a": "coupole",
+        "mot_b": "panthéon",
+        "relation_humaine": "r_holo",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "cire d'abeille",
+        "mot_a": "cire",
+        "mot_b": "abeille",
+        "relation_humaine": "r_product_of",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "fil de coton",
+        "mot_a": "fil",
+        "mot_b": "coton",
+        "relation_humaine": "r_objet>matiere",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "muséum d'histoire",
+        "mot_a": "muséum",
+        "mot_b": "histoire",
+        "relation_humaine": "r_topic",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "blocs de grès",
+        "mot_a": "blocs",
+        "mot_b": "grès",
+        "relation_humaine": "r_objet>matiere",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "sculpture de sable",
+        "mot_a": "sculpture",
+        "mot_b": "sable",
+        "relation_humaine": "r_objet>matiere",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "palette du peintre",
+        "mot_a": "palette",
+        "mot_b": "peintre",
+        "relation_humaine": "r_own-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "graines de lin",
+        "mot_a": "graines",
+        "mot_b": "lin",
+        "relation_humaine": "r_objet>matiere",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "portrait de mona",
+        "mot_a": "portrait",
+        "mot_b": "mona",
+        "relation_humaine": "r_depict",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "tableau de léonard",
+        "mot_a": "tableau",
+        "mot_b": "léonard",
+        "relation_humaine": "r_product_of",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "épouse de francesco",
+        "mot_a": "épouse",
+        "mot_b": "francesco",
+        "relation_humaine": "r_social_tie",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "panneau de bois",
+        "mot_a": "panneau",
+        "mot_b": "bois",
+        "relation_humaine": "r_objet>matiere",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "musée du louvre",
+        "mot_a": "musée",
+        "mot_b": "louvre",
+        "relation_humaine": "r_lieu",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "nombre d'artistes",
+        "mot_a": "nombre",
+        "mot_b": "artistes",
+        "relation_humaine": "r_quantificateur",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "représentations d'un visage",
+        "mot_a": "représentations",
+        "mot_b": "visage",
+        "relation_humaine": "r_depict",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "objet d'art",
+        "mot_a": "objet",
+        "mot_b": "art",
+        "relation_humaine": "r_topic",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "portrait d'une femme",
+        "mot_a": "portrait",
+        "mot_b": "femme",
+        "relation_humaine": "r_depict",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "hauteur des épaules",
+        "mot_a": "hauteur",
+        "mot_b": "épaules",
+        "relation_humaine": "r_has_property-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "haut du front",
+        "mot_a": "haut",
+        "mot_b": "front",
+        "relation_humaine": "r_holo",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "obscurcissement des vernis",
+        "mot_a": "obscurcissement",
+        "mot_b": "vernis",
+        "relation_humaine": "r_processus_patient",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "choix du peintre",
+        "mot_a": "choix",
+        "mot_b": "peintre",
+        "relation_humaine": "r_processus_agent",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "crème de bresse",
+        "mot_a": "crème",
+        "mot_b": "bresse",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "pineau des charentes",
+        "mot_a": "pineau",
+        "mot_b": "charentes",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "châtaigne des cévennes",
+        "mot_a": "châtaigne",
+        "mot_b": "cévennes",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "taureau de camargue",
+        "mot_a": "taureau",
+        "mot_b": "camargue",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "camembert de normandie",
+        "mot_a": "camembert",
+        "mot_b": "normandie",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "mesure d'angle",
+        "mot_a": "mesure",
+        "mot_b": "angle",
+        "relation_humaine": "r_processus_patient",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "système de visée",
+        "mot_a": "système",
+        "mot_b": "visée",
+        "relation_humaine": "r_topic",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "pinnule de visée",
+        "mot_a": "pinnule",
+        "mot_b": "visée",
+        "relation_humaine": "r_processus>instr-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "lame de rasoir",
+        "mot_a": "lame",
+        "mot_b": "rasoir",
+        "relation_humaine": "r_holo",
+        "statut": "corrige"
+    },
+    {
+        "texte_complet": "brins de cuivre",
+        "mot_a": "brins",
+        "mot_b": "cuivre",
+        "relation_humaine": "r_objet>matiere",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "taille du fil",
+        "mot_a": "taille",
+        "mot_b": "fil",
+        "relation_humaine": "r_has_property-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "taille du câble",
+        "mot_a": "taille",
+        "mot_b": "câble",
+        "relation_humaine": "r_has_property-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "papier des résultats",
+        "mot_a": "papier",
+        "mot_b": "résultats",
+        "relation_humaine": "r_topic",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "secrétaires d'état",
+        "mot_a": "secrétaires",
+        "mot_b": "état",
+        "relation_humaine": "r_social_tie",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "adresse de monsieur",
+        "mot_a": "adresse",
+        "mot_b": "monsieur",
+        "relation_humaine": "r_own-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "bontés du roi",
+        "mot_a": "bontés",
+        "mot_b": "roi",
+        "relation_humaine": "r_has_property-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "directeur d'une administration",
+        "mot_a": "directeur",
+        "mot_b": "administration",
+        "relation_humaine": "r_social_tie",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "ville de paris",
+        "mot_a": "ville",
+        "mot_b": "paris",
+        "relation_humaine": "r_lieu",
+        "statut": "corrige"
+    },
+    {
+        "texte_complet": "faveur du comte",
+        "mot_a": "faveur",
+        "mot_b": "comte",
+        "relation_humaine": "r_has_property-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "avidité des courtisans",
+        "mot_a": "avidité",
+        "mot_b": "courtisans",
+        "relation_humaine": "r_has_property-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "bonté du monarque",
+        "mot_a": "bonté",
+        "mot_b": "monarque",
+        "relation_humaine": "r_has_property-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "forme d'une trinité",
+        "mot_a": "forme",
+        "mot_b": "trinité",
+        "relation_humaine": "r_has_property-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "place de la concorde",
+        "mot_a": "place",
+        "mot_b": "concorde",
+        "relation_humaine": "r_lieu",
+        "statut": "corrige"
+    },
+    {
+        "texte_complet": "quai de billy",
+        "mot_a": "quai",
+        "mot_b": "billy",
+        "relation_humaine": "r_lieu",
+        "statut": "corrige"
+    },
+    {
+        "texte_complet": "leçons de géographie",
+        "mot_a": "leçons",
+        "mot_b": "géographie",
+        "relation_humaine": "r_topic",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "milieu du champ",
+        "mot_a": "milieu",
+        "mot_b": "champ",
+        "relation_humaine": "r_holo",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "tertres de gazon",
+        "mot_a": "tertres",
+        "mot_b": "gazon",
+        "relation_humaine": "r_objet>matiere",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "collets de velours",
+        "mot_a": "collets",
+        "mot_b": "velours",
+        "relation_humaine": "r_objet>matiere",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "massifs de fleurs",
+        "mot_a": "massifs",
+        "mot_b": "fleurs",
+        "relation_humaine": "r_topic",
+        "statut": "corrige"
+    },
+    {
+        "texte_complet": "costumes des hommes",
+        "mot_a": "costumes",
+        "mot_b": "hommes",
+        "relation_humaine": "r_own-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "programme des courses",
+        "mot_a": "programme",
+        "mot_b": "courses",
+        "relation_humaine": "r_topic",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "cime des ormes",
+        "mot_a": "cime",
+        "mot_b": "ormes",
+        "relation_humaine": "r_holo",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "peur de la pluie",
+        "mot_a": "peur",
+        "mot_b": "pluie",
+        "relation_humaine": "r_has_causatif",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "casaque de soie",
+        "mot_a": "casaque",
+        "mot_b": "soie",
+        "relation_humaine": "r_objet>matiere",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "baraques de planches",
+        "mot_a": "baraques",
+        "mot_b": "planches",
+        "relation_humaine": "r_objet>matiere",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "verres de vin",
+        "mot_a": "verres",
+        "mot_b": "vin",
+        "relation_humaine": "r_quantificateur",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "longueur de la foule",
+        "mot_a": "longueur",
+        "mot_b": "foule",
+        "relation_humaine": "r_has_property-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "bout du champ",
+        "mot_a": "bout",
+        "mot_b": "champ",
+        "relation_humaine": "r_holo",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "ventres des chevaux",
+        "mot_a": "ventres",
+        "mot_b": "chevaux",
+        "relation_humaine": "r_holo",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "casaques des jockeys",
+        "mot_a": "casaques",
+        "mot_b": "jockeys",
+        "relation_humaine": "r_own-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "illustrations de bals",
+        "mot_a": "illustrations",
+        "mot_b": "bals",
+        "relation_humaine": "r_topic",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "rideaux de cuir",
+        "mot_a": "rideaux",
+        "mot_b": "cuir",
+        "relation_humaine": "r_objet>matiere",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "prudence des pères",
+        "mot_a": "prudence",
+        "mot_b": "pères",
+        "relation_humaine": "r_has_property-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "files de voitures",
+        "mot_a": "files",
+        "mot_b": "voitures",
+        "relation_humaine": "r_quantificateur",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "bord des panneaux",
+        "mot_a": "bord",
+        "mot_b": "panneaux",
+        "relation_humaine": "r_holo",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "moyeux des roues",
+        "mot_a": "moyeux",
+        "mot_b": "roues",
+        "relation_humaine": "r_holo",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "poignées des portières",
+        "mot_a": "poignées",
+        "mot_b": "portières",
+        "relation_humaine": "r_holo",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "bleu du ciel",
+        "mot_a": "bleu",
+        "mot_b": "ciel",
+        "relation_humaine": "r_has_property-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "file de badauds",
+        "mot_a": "file",
+        "mot_b": "badauds",
+        "relation_humaine": "r_quantificateur",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "pétale de fleur",
+        "mot_a": "pétale",
+        "mot_b": "fleur",
+        "relation_humaine": "r_holo",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "robe de soie",
+        "mot_a": "robe",
+        "mot_b": "soie",
+        "relation_humaine": "r_objet>matiere",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "maître de poste",
+        "mot_a": "maître",
+        "mot_b": "poste",
+        "relation_humaine": "r_social_tie",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "poste de la barrière",
+        "mot_a": "poste",
+        "mot_b": "barrière",
+        "relation_humaine": "r_lieu",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "talus de pavés",
+        "mot_a": "talus",
+        "mot_b": "pavés",
+        "relation_humaine": "r_objet>matiere",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "place du panthéon",
+        "mot_a": "place",
+        "mot_b": "panthéon",
+        "relation_humaine": "r_lieu",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "sol des rues",
+        "mot_a": "sol",
+        "mot_b": "rues",
+        "relation_humaine": "r_holo",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "roues de charrettes",
+        "mot_a": "roues",
+        "mot_b": "charrettes",
+        "relation_humaine": "r_holo",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "écaillures du plâtre",
+        "mot_a": "écaillures",
+        "mot_b": "plâtre",
+        "relation_humaine": "r_has_property-1",
+        "statut": "corrige"
+    },
+    {
+        "texte_complet": "archevêque de paris",
+        "mot_a": "archevêque",
+        "mot_b": "paris",
+        "relation_humaine": "r_social_tie",
+        "statut": "corrige"
+    },
+    {
+        "texte_complet": "arbres des tuileries",
+        "mot_a": "arbres",
+        "mot_b": "tuileries",
+        "relation_humaine": "r_lieu",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "lingot de cuivre",
+        "mot_a": "lingot",
+        "mot_b": "cuivre",
+        "relation_humaine": "r_objet>matiere",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "poids du fusil",
+        "mot_a": "poids",
+        "mot_b": "fusil",
+        "relation_humaine": "r_has_property-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "plans de campagne",
+        "mot_a": "plans",
+        "mot_b": "campagne",
+        "relation_humaine": "r_topic",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "débâcle d'un peuple",
+        "mot_a": "débâcle",
+        "mot_b": "peuple",
+        "relation_humaine": "r_processus_patient",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "angoisse de l'attente",
+        "mot_a": "angoisse",
+        "mot_b": "attente",
+        "relation_humaine": "r_has_causatif",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "venue de l'ennemi",
+        "mot_a": "venue",
+        "mot_b": "ennemi",
+        "relation_humaine": "r_processus_agent",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "départ des troupes",
+        "mot_a": "départ",
+        "mot_b": "troupes",
+        "relation_humaine": "r_processus_agent",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "maîtres de la cité",
+        "mot_a": "maîtres",
+        "mot_b": "cité",
+        "relation_humaine": "r_social_tie",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "tremblement de terre",
+        "mot_a": "tremblement",
+        "mot_b": "terre",
+        "relation_humaine": "r_processus_patient",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "nom du sabre",
+        "mot_a": "nom",
+        "mot_b": "sabre",
+        "relation_humaine": "r_has_property-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "raison de l'homme",
+        "mot_a": "raison",
+        "mot_b": "homme",
+        "relation_humaine": "r_has_property-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "défaut des bourgeois",
+        "mot_a": "défaut",
+        "mot_b": "bourgeois",
+        "relation_humaine": "r_has_property-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "officiers de chasseurs",
+        "mot_a": "officiers",
+        "mot_b": "chasseurs",
+        "relation_humaine": "r_social_tie",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "goût des aliments",
+        "mot_a": "goût",
+        "mot_b": "aliments",
+        "relation_humaine": "r_has_property-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "influence des officiers",
+        "mot_a": "influence",
+        "mot_b": "officiers",
+        "relation_humaine": "r_has_property-1",
+        "statut": "corrige"
+    },
+    {
+        "texte_complet": "autorisation de départ",
+        "mot_a": "autorisation",
+        "mot_b": "départ",
+        "relation_humaine": "r_topic",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "cour de l'hôtel",
+        "mot_a": "cour",
+        "mot_b": "hôtel",
+        "relation_humaine": "r_holo",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "vêtements d'hiver",
+        "mot_a": "vêtements",
+        "mot_b": "hiver",
+        "relation_humaine": "r_topic",
+        "statut": "corrige"
+    },
+    {
+        "texte_complet": "valet d'écurie",
+        "mot_a": "valet",
+        "mot_b": "écurie",
+        "relation_humaine": "r_social_tie",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "mouvement de l'animal",
+        "mot_a": "mouvement",
+        "mot_b": "animal",
+        "relation_humaine": "r_processus_agent",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "bout d'une corde",
+        "mot_a": "bout",
+        "mot_b": "corde",
+        "relation_humaine": "r_holo",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "blancheur de la campagne",
+        "mot_a": "blancheur",
+        "mot_b": "campagne",
+        "relation_humaine": "r_has_property-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "marchands de vins",
+        "mot_a": "marchands",
+        "mot_b": "vins",
+        "relation_humaine": "r_topic",
+        "statut": "corrige"
+    },
+    {
+        "texte_complet": "salons du préfet",
+        "mot_a": "salons",
+        "mot_b": "préfet",
+        "relation_humaine": "r_own-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "officier de la légion",
+        "mot_a": "officier",
+        "mot_b": "légion",
+        "relation_humaine": "r_social_tie",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "membre du conseil",
+        "mot_a": "membre",
+        "mot_b": "conseil",
+        "relation_humaine": "r_social_tie",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "chef de l'opposition",
+        "mot_a": "chef",
+        "mot_b": "opposition",
+        "relation_humaine": "r_social_tie",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "gouverneur de province",
+        "mot_a": "gouverneur",
+        "mot_b": "province",
+        "relation_humaine": "r_social_tie",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "fils de louis-philippe",
+        "mot_a": "fils",
+        "mot_b": "louis-philippe",
+        "relation_humaine": "r_social_tie",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "verre d'eau",
+        "mot_a": "verre",
+        "mot_b": "eau",
+        "relation_humaine": "r_quantificateur",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "gare de chatou",
+        "mot_a": "gare",
+        "mot_b": "chatou",
+        "relation_humaine": "r_lieu",
+        "statut": "corrige"
+    },
+    {
+        "texte_complet": "blancs de poulet",
+        "mot_a": "blancs",
+        "mot_b": "poulet",
+        "relation_humaine": "r_holo",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "ravioles du dauphiné",
+        "mot_a": "ravioles",
+        "mot_b": "dauphiné",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "pincées de noix",
+        "mot_a": "pincées",
+        "mot_b": "noix",
+        "relation_humaine": "r_quantificateur",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "poivre du moulin",
+        "mot_a": "poivre",
+        "mot_b": "moulin",
+        "relation_humaine": "r_product_of",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "fond du plat",
+        "mot_a": "fond",
+        "mot_b": "plat",
+        "relation_humaine": "r_holo",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "épuisement des ingrédients",
+        "mot_a": "épuisement",
+        "mot_b": "ingrédients",
+        "relation_humaine": "r_processus_patient",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "étui de transport",
+        "mot_a": "étui",
+        "mot_b": "transport",
+        "relation_humaine": "r_topic",
+        "statut": "corrige"
+    },
+    {
+        "texte_complet": "mesure de la qualité",
+        "mot_a": "mesure",
+        "mot_b": "qualité",
+        "relation_humaine": "r_processus_patient",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "mesure de l'épaisseur",
+        "mot_a": "mesure",
+        "mot_b": "épaisseur",
+        "relation_humaine": "r_processus_patient",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "mesure de force",
+        "mot_a": "mesure",
+        "mot_b": "force",
+        "relation_humaine": "r_processus_patient",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "certificats d'étalonnage",
+        "mot_a": "certificats",
+        "mot_b": "étalonnage",
+        "relation_humaine": "r_topic",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "appareil de mesure",
+        "mot_a": "appareil",
+        "mot_b": "mesure",
+        "relation_humaine": "r_processus>instr-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "accords de grenelle",
+        "mot_a": "accords",
+        "mot_b": "grenelle",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "gens du coin",
+        "mot_a": "gens",
+        "mot_b": "coin",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "ventes du guide",
+        "mot_a": "ventes",
+        "mot_b": "guide",
+        "relation_humaine": "r_product_of",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "fonds des établissements",
+        "mot_a": "fonds",
+        "mot_b": "établissements",
+        "relation_humaine": "r_own-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "œuvre des marchands",
+        "mot_a": "œuvre",
+        "mot_b": "marchands",
+        "relation_humaine": "r_product_of",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "cheval de bataille",
+        "mot_a": "cheval",
+        "mot_b": "bataille",
+        "relation_humaine": "r_topic",
+        "statut": "corrige"
+    },
+    {
+        "texte_complet": "vidéo des joueuses",
+        "mot_a": "vidéo",
+        "mot_b": "joueuses",
+        "relation_humaine": "r_depict",
+        "statut": "valide"
+    }
+]
