@@ -2,6 +2,9 @@ import requests
 import hashlib
 import os
 import json
+from pathlib import Path
+
+CACHE_DIR = Path(__file__).resolve().parents[1] / "cache"
 
 class JDM_API:
     def __init__(self):
@@ -13,8 +16,8 @@ class JDM_API:
         url = f"{self.base_url}/node_by_name/{node_name}"
         md5String = hashlib.md5(url.encode()).hexdigest()
         
-        dossier = "cache/nodeByName/"
-        path_complet = os.path.join(dossier,(md5String+".json"))
+        dossier = CACHE_DIR / "nodeByName"
+        path_complet = dossier / f"{md5String}.json"
         if os.path.isfile(path_complet):
             with open(path_complet, 'r', encoding='utf-8') as f:
                 data = json.load(f)
@@ -32,8 +35,8 @@ class JDM_API:
     def get_node_by_id(self, node_id):
         url = f"{self.base_url}/node_by_id/{node_id}"
         md5String = hashlib.md5(url.encode()).hexdigest()
-        dossier = "cache/nodeById/"
-        path_complet = os.path.join(dossier, (md5String + ".json"))
+        dossier = CACHE_DIR / "nodeById"
+        path_complet = dossier / f"{md5String}.json"
         
         if os.path.isfile(path_complet):
             with open(path_complet, 'r', encoding='utf-8') as f:
@@ -50,11 +53,11 @@ class JDM_API:
             
         return data
     
-    def get_relations_to_by_id(self, node2_id, **kwargs):
+    def     get_relations_to_by_id(self, node2_id, **kwargs):
         url = f"{self.base_url}/relations/to_by_id/{node2_id}"
         md5String = hashlib.md5(url.encode()).hexdigest()
-        dossier = "cache/relationToById/"
-        path_complet = os.path.join(dossier,(md5String+".json"))
+        dossier = CACHE_DIR / "relationToById"
+        path_complet = dossier / f"{md5String}.json"
         if os.path.isfile(path_complet):
             with open(path_complet, 'r', encoding='utf-8') as f:
                 data = json.load(f)
@@ -72,8 +75,8 @@ class JDM_API:
     def get_relations_from_to_by_id(self, node1_id, node2_id, **kwargs):
         url = f"{self.base_url}/relations/from_by_id/{node1_id}/to_by_id/{node2_id}"
         md5String = hashlib.md5(url.encode()).hexdigest()
-        dossier = "cache/relationFromTo/"
-        path_complet = os.path.join(dossier,(md5String+".json"))
+        dossier = CACHE_DIR / "relationFromTo"
+        path_complet = dossier / f"{md5String}.json"
         if os.path.isfile(path_complet):
             with open(path_complet, 'r', encoding='utf-8') as f:
                 data = json.load(f)
@@ -91,8 +94,8 @@ class JDM_API:
     def get_refinements(self, node_name):
         url = f"{self.base_url}/refinements/{node_name}"
         md5String = hashlib.md5(url.encode()).hexdigest()
-        dossier = "cache/refinements/"
-        path_complet = os.path.join(dossier,(md5String+".json"))
+        dossier = CACHE_DIR / "refinements"
+        path_complet = dossier / f"{md5String}.json"
         if os.path.isfile(path_complet):
             try:
                 with open(path_complet, 'r', encoding='utf-8') as f:
@@ -130,11 +133,11 @@ class JDM_API:
         md5String = hashlib.md5(cache_key.encode()).hexdigest()
 
         if types_ids is None:
-            dossier = "cache/relationsFromById/"
+            dossier = CACHE_DIR / "relationsFromById"
         else:
-            dossier = "cache/relationsFromById/" + str(types_ids) + "/"
+            dossier = CACHE_DIR / "relationsFromById" / str(types_ids)
 
-        path_complet = os.path.join(dossier, (md5String + ".json"))
+        path_complet = dossier / f"{md5String}.json"
         if os.path.isfile(path_complet):
             with open(path_complet, 'r', encoding='utf-8') as f:
                 data = json.load(f)
@@ -156,8 +159,8 @@ class JDM_API:
         """
         url = f"{self.base_url}/relations_types"
         md5String = hashlib.md5(url.encode()).hexdigest()
-        dossier = "cache/relationTypes/"
-        path_complet = os.path.join(dossier,(md5String+".json"))
+        dossier = CACHE_DIR / "relationTypes"
+        path_complet = dossier / f"{md5String}.json"
         if os.path.isfile(path_complet):
             with open(path_complet, 'r', encoding='utf-8') as f:
                 data = json.load(f)
@@ -182,8 +185,8 @@ class JDM_API:
     def get_relations_from(self, node_name):
         url = f"{self.base_url}/relations/from/{node_name}"
         md5String = hashlib.md5(url.encode()).hexdigest()
-        dossier = "cache/relationsFromByName/"
-        path_complet = os.path.join(dossier,(md5String+".json"))
+        dossier = CACHE_DIR / "relationsFromByName"
+        path_complet = dossier / f"{md5String}.json"
         if os.path.isfile(path_complet):
             with open(path_complet, 'r', encoding='utf-8') as f:
                 data = json.load(f)
@@ -202,8 +205,8 @@ class JDM_API:
     def get_relations_from_to(self, node_name1, node_name2):
         url = f"{self.base_url}/relations/from/{node_name1}/to/{node_name2}"
         md5String = hashlib.md5(url.encode()).hexdigest()
-        dossier = "cache/relationsFromToByName/"
-        path_complet = os.path.join(dossier,(md5String+".json"))
+        dossier = CACHE_DIR / "relationsFromToByName"
+        path_complet = dossier / f"{md5String}.json"
         if os.path.isfile(path_complet):
             with open(path_complet, 'r', encoding='utf-8') as f:
                 data = json.load(f)

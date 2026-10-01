@@ -2,6 +2,7 @@ import json
 import math
 import re
 import sys
+from statistics import mean
 from pathlib import Path
 from qdrant_client import QdrantClient
 from qdrant_client.http import models
@@ -17,22 +18,50 @@ client = QdrantClient(url="http://localhost:6333")
 COLLECTION_NAME = "syntagmes_grasp_it"
 
 def init_qdrant():
-    """Crée la collection avec la configuration pour vecteurs creux."""
+    """Vide la collection existante ou la crée avec ses vecteurs creux."""
     if client.collection_exists(collection_name=COLLECTION_NAME):
-        client.delete_collection(collection_name=COLLECTION_NAME)
-        
+        client.delete(
+            collection_name=COLLECTION_NAME,
+            points_selector=models.FilterSelector(filter=models.Filter()),
+            wait=True,
+        )
+        print(f"Collection '{COLLECTION_NAME}' vidée.")
+        return
+
     client.create_collection(
         collection_name=COLLECTION_NAME,
         vectors_config={},
         sparse_vectors_config={
             "s_L": models.SparseVectorParams(),
             "s_R": models.SparseVectorParams(),
-        }
+        },
     )
     print(f"Collection '{COLLECTION_NAME}' créée.")
 
 
-def term2sig(term_id: int, HSize: int = 10, TRTSize: int = 5, SSTSize: int = 5) -> dict:
+def regrouper_trt_par_type(
+    relations: list[tuple[int, float]], aggregation: str
+) -> list[tuple[int, float]]:
+    """Regroupe les poids TRT par type avec une agrégation configurable."""
+    if aggregation not in {"max", "mean"}:
+        raise ValueError("aggregation doit valoir 'max' ou 'mean'")
+
+    poids_par_type: dict[int, list[float]] = {}
+    for type_id, poids in relations:
+        poids_par_type.setdefault(type_id, []).append(poids)
+
+    relations_groupees = []
+    for type_id, poids in poids_par_type.items():
+        poids_agreges = max(poids) if aggregation == "max" else mean(poids)
+        relations_groupees.append((type_id, poids_agreges))
+    return relations_groupees
+
+
+def term2sig(
+    term_id: int,
+    stats: dict | None = None,
+    trt_aggregation: str = "max",
+) -> dict:
     """Génère la signature pondérée d'un terme."""
     sig = {}
     
@@ -40,23 +69,27 @@ def term2sig(term_id: int, HSize: int = 10, TRTSize: int = 5, SSTSize: int = 5) 
     data = api.get_relations_from_by_id(term_id, types_ids=6)
     h_relations = [(rel["node2"], rel["w"]) for rel in data.get("relations", []) if rel["w"] > 0]
     max_h = max((w for _, w in h_relations), default=1)
-    for parent_id, weight in sorted(h_relations, key=lambda x: x[1], reverse=True)[:HSize]:
+    for parent_id, weight in sorted(h_relations, key=lambda x: x[1], reverse=True):
         sig[parent_id] = max(sig.get(parent_id, 0), weight / max_h)
     sig[term_id] = 1.0
 
     # Cibles TRT
     data = api.get_relations_to_by_id(term_id)
     trt_relations = [(rel["type"], rel["w"]) for rel in data.get("relations", []) if rel["w"] > 0]
+    if stats is not None:
+        stats["avant"].append(len(trt_relations))
+    trt_relations = regrouper_trt_par_type(trt_relations, trt_aggregation)
     max_trt = max((w for _, w in trt_relations), default=1)
-    for i, (rel_type, weight) in enumerate(sorted(trt_relations, key=lambda x: x[1], reverse=True)):
-        if i >= TRTSize: break
+    if stats is not None:
+        stats["apres"].append(len(trt_relations))
+    for rel_type, weight in sorted(trt_relations, key=lambda x: x[1], reverse=True):
         sig[rel_type] = max(sig.get(rel_type, 0), weight / max_trt)
 
     # InfoSem (SST)
     data = api.get_relations_from_by_id(term_id, types_ids=36)
     sst_relations = [(rel["node2"], rel["w"]) for rel in data.get("relations", []) if rel["w"] > 0]
     max_sst = max((w for _, w in sst_relations), default=1)
-    for node_id, weight in sorted(sst_relations, key=lambda x: x[1], reverse=True)[:SSTSize]:
+    for node_id, weight in sorted(sst_relations, key=lambda x: x[1], reverse=True):
         sig[node_id] = max(sig.get(node_id, 0), weight / max_sst)
 
     return sig
@@ -95,13 +128,14 @@ def determiner_definitude(texte_complet: str, mot_b: str) -> int:
     return 0
 
 
-def inserer_dataset():
+def inserer_dataset(trt_aggregation: str = "max"):
     chemin_dataset = Path(__file__).parent / "dataset.json"
     
     with open(chemin_dataset, "r", encoding="utf-8") as f:
         dataset = json.load(f)
 
     points_a_inserer = []
+    tailles = {"avant": [], "apres": []}
     
     for i, item in enumerate(dataset):
         if item.get("statut") not in ["valide", "corrige"]:
@@ -121,8 +155,8 @@ def inserer_dataset():
             print(f"  -> Ignoré : ID introuvable pour {mot_a} ou {mot_b}")
             continue
 
-        sig_a = term2sig(id_a)
-        sig_b = term2sig(id_b)
+        sig_a = term2sig(id_a, stats=tailles, trt_aggregation=trt_aggregation)
+        sig_b = term2sig(id_b, stats=tailles, trt_aggregation=trt_aggregation)
 
         # Calcul correct de la définitude
         is_def = determiner_definitude(texte_complet, mot_b)
@@ -134,7 +168,8 @@ def inserer_dataset():
                 "mot_a": mot_a,
                 "mot_b": mot_b,
                 "relation": relation,
-                "is_def": is_def
+                "is_def": is_def,
+                "fus": 0,
             },
             vector={
                 "s_L": sig2vec(sig_a),

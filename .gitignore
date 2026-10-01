@@ -1,5 +1,5 @@
 /.venv/
 /cache/
-/__pycache__
-/corpus/cache/
-/vecteurs/cache/
+/__pycache__/
+*/qdrant_storage/
+*/__pycache__/

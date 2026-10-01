@@ -1,0 +1,218 @@
+[{
+        "texte_complet": "résidants de floride",
+        "mot_a": "résidants",
+        "mot_b": "floride",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "corrige"
+    },
+    {
+        "texte_complet": "nombre de bulletins",
+        "mot_a": "nombre",
+        "mot_b": "bulletins",
+        "relation_humaine": "r_quantificateur",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "gestionnaire de l'infrastructure",
+        "mot_a": "gestionnaire",
+        "mot_b": "infrastructure",
+        "relation_humaine": "r_social_tie",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "théâtre du tsar",
+        "mot_a": "théâtre",
+        "mot_b": "tsar",
+        "relation_humaine": "r_own-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "sommet de vilnius",
+        "mot_a": "sommet",
+        "mot_b": "vilnius",
+        "relation_humaine": "r_lieu",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "dizaine de chefs",
+        "mot_a": "dizaine",
+        "mot_b": "chefs",
+        "relation_humaine": "r_quantificateur",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "partie du quotidien",
+        "mot_a": "partie",
+        "mot_b": "quotidien",
+        "relation_humaine": "r_holo",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "dizaine de mètres",
+        "mot_a": "dizaine",
+        "mot_b": "mètres",
+        "relation_humaine": "r_quantificateur",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "réintégration des soignants",
+        "mot_a": "réintégration",
+        "mot_b": "soignants",
+        "relation_humaine": "r_processus_patient",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "fonds des établissements",
+        "mot_a": "fonds",
+        "mot_b": "établissements",
+        "relation_humaine": "r_own-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "production de mignonnettes",
+        "mot_a": "production",
+        "mot_b": "mignonnettes",
+        "relation_humaine": "r_processus_patient",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "œuvre des marchands",
+        "mot_a": "œuvre",
+        "mot_b": "marchands",
+        "relation_humaine": "r_product_of",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "gare de val",
+        "mot_a": "gare",
+        "mot_b": "val",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "corrige"
+    },
+    {
+        "texte_complet": "arrivée des touristes",
+        "mot_a": "arrivée",
+        "mot_b": "touristes",
+        "relation_humaine": "r_processus_agent",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "intervention d'un tiers",
+        "mot_a": "intervention",
+        "mot_b": "tiers",
+        "relation_humaine": "r_processus_agent",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "capacité du président",
+        "mot_a": "capacité",
+        "mot_b": "président",
+        "relation_humaine": "r_has_property-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "représentant du hamas",
+        "mot_a": "représentant",
+        "mot_b": "hamas",
+        "relation_humaine": "r_social_tie",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "allocations de chômage",
+        "mot_a": "allocations",
+        "mot_b": "chômage",
+        "relation_humaine": "r_topic",
+        "statut": "corrige"
+    },
+    {
+        "texte_complet": "fournisseur de gaz",
+        "mot_a": "fournisseur",
+        "mot_b": "gaz",
+        "relation_humaine": "r_topic",
+        "statut": "corrige"
+    },
+    {
+        "texte_complet": "conduite de la police",
+        "mot_a": "conduite",
+        "mot_b": "police",
+        "relation_humaine": "r_has_property-1",
+        "statut": "corrige"
+    },
+    {
+        "texte_complet": "vidéo des joueuses",
+        "mot_a": "vidéo",
+        "mot_b": "joueuses",
+        "relation_humaine": "r_depict",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "fissure du séisme",
+        "mot_a": "fissure",
+        "mot_b": "séisme",
+        "relation_humaine": "r_has_causatif",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "cratère du météore",
+        "mot_a": "cratère",
+        "mot_b": "météore",
+        "relation_humaine": "r_has_causatif",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "mur de briques",
+        "mot_a": "mur",
+        "mot_b": "briques",
+        "relation_humaine": "r_objet>matiere",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "statue de bronze",
+        "mot_a": "statue",
+        "mot_b": "bronze",
+        "relation_humaine": "r_objet>matiere",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "sculpture du pharaon",
+        "mot_a": "sculpture",
+        "mot_b": "pharaon",
+        "relation_humaine": "r_depict",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "moteur de la fusée",
+        "mot_a": "moteur",
+        "mot_b": "fusée",
+        "relation_humaine": "r_holo",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "bataille de waterloo",
+        "mot_a": "bataille",
+        "mot_b": "waterloo",
+        "relation_humaine": "r_lieu",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "outil de forage",
+        "mot_a": "outil",
+        "mot_b": "forage",
+        "relation_humaine": "r_processus>instr-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "pinceau de maquillage",
+        "mot_a": "pinceau",
+        "mot_b": "maquillage",
+        "relation_humaine": "r_processus>instr-1",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "roman de l'écrivain",
+        "mot_a": "roman",
+        "mot_b": "écrivain",
+        "relation_humaine": "r_product_of",
+        "statut": "valide"
+    }
+]

@@ -1,801 +1,417 @@
 [
     {
-        "texte_complet": "allégations du doj",
-        "A": "allégations",
-        "B": "doj",
-        "relation": "r_processus_agent"
-    },
-    {
-        "texte_complet": "programme de fidélisation",
-        "A": "programme",
-        "B": "fidélisation",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "conférence de presse",
-        "A": "conférence",
-        "B": "presse",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "tas de fonctionnalités",
-        "A": "tas",
-        "B": "fonctionnalités",
-        "relation": "r_quantificateur"
-    },
-    {
-        "texte_complet": "oxymètre de pouls",
-        "A": "oxymètre",
-        "B": "pouls",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "tour du parcours",
-        "A": "tour",
-        "B": "parcours",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "approche de la course",
-        "A": "approche",
-        "B": "course",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "lot de défis",
-        "A": "lot",
-        "B": "défis",
-        "relation": "r_quantificateur"
-    },
-    {
-        "texte_complet": "groupe de parole",
-        "A": "groupe",
-        "B": "parole",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "arrêts de jeu",
-        "A": "arrêts",
-        "B": "jeu",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "effet de levier",
-        "A": "effet",
-        "B": "levier",
-        "relation": "r_has_causatif"
-    },
-    {
-        "texte_complet": "soins de santé",
-        "A": "soins",
-        "B": "santé",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "sessions de jeu",
-        "A": "sessions",
-        "B": "jeu",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "reproduction du tremblement",
-        "A": "reproduction",
-        "B": "tremblement",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "prévention des séismes",
-        "A": "prévention",
-        "B": "séismes",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "scène du film",
-        "A": "scène",
-        "B": "film",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "fiction de quentin",
-        "A": "fiction",
-        "B": "quentin",
-        "relation": "r_product_of"
-    },
-    {
-        "texte_complet": "% des voyageurs",
-        "A": "%",
-        "B": "voyageurs",
-        "relation": "r_quantificateur"
-    },
-    {
-        "texte_complet": "mois d'avril",
-        "A": "mois",
-        "B": "avril",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "étude de la commission",
-        "A": "étude",
-        "B": "commission",
-        "relation": "r_product_of"
-    },
-    {
-        "texte_complet": "paquet de frites",
-        "A": "paquet",
-        "B": "frites",
-        "relation": "r_quantificateur"
-    },
-    {
-        "texte_complet": "gueule de charles",
-        "A": "gueule",
-        "B": "charles",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "hausses de prix",
-        "A": "hausses",
-        "B": "prix",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "fermeture de l'espace",
-        "A": "fermeture",
-        "B": "espace",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "services de police",
-        "A": "services",
-        "B": "police",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "père du héros",
-        "A": "père",
-        "B": "héros",
-        "relation": "r_social_tie"
-    },
-    {
-        "texte_complet": "simplification des contrôles",
-        "A": "simplification",
-        "B": "contrôles",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "régions du nord-ouest",
-        "A": "régions",
-        "B": "nord-ouest",
-        "relation": "r_lieu"
-    },
-    {
-        "texte_complet": "mois de manifestations",
-        "A": "mois",
-        "B": "manifestations",
-        "relation": "r_quantificateur"
-    },
-    {
-        "texte_complet": "montée des actes",
-        "A": "montée",
-        "B": "actes",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "mosquée de paris",
-        "A": "mosquée",
-        "B": "paris",
-        "relation": "r_lieu"
-    },
-    {
-        "texte_complet": "quête de protection",
-        "A": "quête",
-        "B": "protection",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "canal de suez",
-        "A": "canal",
-        "B": "suez",
-        "relation": "r_lieu"
-    },
-    {
-        "texte_complet": "chargement de gaz",
-        "A": "chargement",
-        "B": "gaz",
-        "relation": "r_quantificateur"
-    },
-    {
-        "texte_complet": "mer du nord",
-        "A": "mer",
-        "B": "nord",
-        "relation": "r_lieu"
-    },
-    {
-        "texte_complet": "effigie de la pochette",
-        "A": "effigie",
-        "B": "pochette",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "arme de guerre",
-        "A": "arme",
-        "B": "guerre",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "forces de police",
-        "A": "forces",
-        "B": "police",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "système de retraite",
-        "A": "système",
-        "B": "retraite",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "réforme des retraites",
-        "A": "réforme",
-        "B": "retraites",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "ministère de la santé",
+        "texte_complet": "ministère des affaires",
         "A": "ministère",
-        "B": "santé",
+        "B": "affaires",
         "relation": "r_topic"
     },
     {
-        "texte_complet": "cas de problème",
-        "A": "cas",
-        "B": "problème",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "patron de bercy",
-        "A": "patron",
-        "B": "bercy",
-        "relation": "r_social_tie"
-    },
-    {
-        "texte_complet": "supporters de la jeunesse",
-        "A": "supporters",
-        "B": "jeunesse",
-        "relation": "r_social_tie"
-    },
-    {
-        "texte_complet": "visite du ministre",
-        "A": "visite",
+        "texte_complet": "présidence du ministre",
+        "A": "présidence",
         "B": "ministre",
         "relation": "r_processus_agent"
     },
     {
-        "texte_complet": "recherche du consensus",
-        "A": "recherche",
-        "B": "consensus",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "vie des gens",
-        "A": "vie",
-        "B": "gens",
-        "relation": "r_has_property-1"
-    },
-    {
-        "texte_complet": "responsables de la sûreté",
-        "A": "responsables",
-        "B": "sûreté",
-        "relation": "r_social_tie"
-    },
-    {
-        "texte_complet": "sanction des entreprises",
-        "A": "sanction",
-        "B": "entreprises",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "projet de clémentine",
-        "A": "projet",
-        "B": "clémentine",
-        "relation": "r_product_of"
-    },
-    {
-        "texte_complet": "bris de glace",
-        "A": "bris",
-        "B": "glace",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "technicien de l'ordre",
-        "A": "technicien",
-        "B": "ordre",
-        "relation": "r_social_tie"
-    },
-    {
-        "texte_complet": "liste de têtes",
-        "A": "liste",
-        "B": "têtes",
-        "relation": "r_quantificateur"
-    },
-    {
-        "texte_complet": "omnium de madrid",
-        "A": "omnium",
-        "B": "madrid",
-        "relation": "r_lieu"
-    },
-    {
-        "texte_complet": "péréquation de la pension",
-        "A": "péréquation",
-        "B": "pension",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "sorte de mécanisme",
-        "A": "sorte",
-        "B": "mécanisme",
+        "texte_complet": "manifestants de droite",
+        "A": "manifestants",
+        "B": "droite",
         "relation": "inconnu"
     },
     {
-        "texte_complet": "adaptation des pensions",
-        "A": "adaptation",
-        "B": "pensions",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "% de la masse",
-        "A": "%",
-        "B": "masse",
-        "relation": "r_quantificateur"
-    },
-    {
-        "texte_complet": "pensions des fonctionnaires",
-        "A": "pensions",
-        "B": "fonctionnaires",
-        "relation": "r_own-1"
-    },
-    {
-        "texte_complet": "carte de crédit",
-        "A": "carte",
-        "B": "crédit",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "bol de riz",
-        "A": "bol",
-        "B": "riz",
-        "relation": "r_quantificateur"
-    },
-    {
-        "texte_complet": "syndicat des chargées",
-        "A": "syndicat",
-        "B": "chargées",
-        "relation": "r_social_tie"
-    },
-    {
-        "texte_complet": "chargés de cours",
-        "A": "chargés",
-        "B": "cours",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "université du québec",
-        "A": "université",
-        "B": "québec",
-        "relation": "r_lieu"
-    },
-    {
-        "texte_complet": "raviole de foie",
-        "A": "raviole",
-        "B": "foie",
-        "relation": "r_objet>matiere"
-    },
-    {
-        "texte_complet": "cappuccino de truffe",
-        "A": "cappuccino",
-        "B": "truffe",
-        "relation": "r_objet>matiere"
-    },
-    {
-        "texte_complet": "gelée de framboise",
-        "A": "gelée",
-        "B": "framboise",
-        "relation": "r_objet>matiere"
-    },
-    {
-        "texte_complet": "relations de l'ue",
-        "A": "relations",
-        "B": "ue",
-        "relation": "r_processus_agent"
-    },
-    {
-        "texte_complet": "mai du président",
-        "A": "mai",
-        "B": "président",
+        "texte_complet": "cadre de la gestion",
+        "A": "cadre",
+        "B": "gestion",
         "relation": "inconnu"
     },
     {
-        "texte_complet": "heures du matin",
-        "A": "heures",
-        "B": "matin",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "lieutenants de louveterie",
-        "A": "lieutenants",
-        "B": "louveterie",
-        "relation": "r_social_tie"
-    },
-    {
-        "texte_complet": "faveur du qatar",
-        "A": "faveur",
-        "B": "qatar",
-        "relation": "r_own-1"
-    },
-    {
-        "texte_complet": "décisions du parlement",
-        "A": "décisions",
-        "B": "parlement",
-        "relation": "r_processus_agent"
-    },
-    {
-        "texte_complet": "versements d'argent",
-        "A": "versements",
-        "B": "argent",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "lauréats du prix",
-        "A": "lauréats",
-        "B": "prix",
-        "relation": "r_social_tie"
-    },
-    {
-        "texte_complet": "excellence du gouvernement",
-        "A": "excellence",
-        "B": "gouvernement",
-        "relation": "r_has_property-1"
-    },
-    {
-        "texte_complet": "titre de rochefort",
-        "A": "titre",
-        "B": "rochefort",
-        "relation": "r_own-1"
-    },
-    {
-        "texte_complet": "évacuation du squat",
-        "A": "évacuation",
-        "B": "squat",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "dépassement de la terre",
-        "A": "dépassement",
-        "B": "terre",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "juridiction de la loi",
-        "A": "juridiction",
-        "B": "loi",
-        "relation": "r_has_property-1"
-    },
-    {
-        "texte_complet": "chef de la cour",
-        "A": "chef",
-        "B": "cour",
-        "relation": "r_social_tie"
-    },
-    {
-        "texte_complet": "tour de france",
-        "A": "tour",
-        "B": "france",
-        "relation": "r_lieu"
-    },
-    {
-        "texte_complet": "capacité de calcul",
-        "A": "capacité",
-        "B": "calcul",
-        "relation": "r_has_property-1"
-    },
-    {
-        "texte_complet": "temps des développeurs",
-        "A": "temps",
-        "B": "développeurs",
-        "relation": "r_own-1"
-    },
-    {
-        "texte_complet": "cheffe de l'unité",
-        "A": "cheffe",
-        "B": "unité",
-        "relation": "r_social_tie"
-    },
-    {
-        "texte_complet": "sûreté du québec",
-        "A": "sûreté",
-        "B": "québec",
-        "relation": "r_lieu"
-    },
-    {
-        "texte_complet": "sorties de route",
-        "A": "sorties",
-        "B": "route",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "questions de politique",
-        "A": "questions",
-        "B": "politique",
+        "texte_complet": "plan de match",
+        "A": "plan",
+        "B": "match",
         "relation": "r_topic"
     },
     {
-        "texte_complet": "présentation de budget",
-        "A": "présentation",
-        "B": "budget",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "fond de bras",
-        "A": "fond",
-        "B": "bras",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "plafond de la dette",
-        "A": "plafond",
-        "B": "dette",
-        "relation": "r_has_property-1"
-    },
-    {
-        "texte_complet": "% de bulletins",
-        "A": "%",
-        "B": "bulletins",
-        "relation": "r_quantificateur"
-    },
-    {
-        "texte_complet": "ordre d'arrivée",
-        "A": "ordre",
-        "B": "arrivée",
-        "relation": "r_has_property-1"
-    },
-    {
-        "texte_complet": "ire d'emmanuel",
-        "A": "ire",
-        "B": "emmanuel",
-        "relation": "r_has_property-1"
-    },
-    {
-        "texte_complet": "% du chiffre",
-        "A": "%",
-        "B": "chiffre",
-        "relation": "r_quantificateur"
-    },
-    {
-        "texte_complet": "université de louisiane",
-        "A": "université",
-        "B": "louisiane",
-        "relation": "r_lieu"
-    },
-    {
-        "texte_complet": "millions de colombiens",
-        "A": "millions",
-        "B": "colombiens",
-        "relation": "r_quantificateur"
-    },
-    {
-        "texte_complet": "galerie de personnages",
-        "A": "galerie",
-        "B": "personnages",
-        "relation": "r_quantificateur"
-    },
-    {
-        "texte_complet": "heure de l'exécution",
-        "A": "heure",
-        "B": "exécution",
-        "relation": "r_has_property-1"
-    },
-    {
-        "texte_complet": "% d'emploi",
-        "A": "%",
-        "B": "emploi",
-        "relation": "r_quantificateur"
-    },
-    {
-        "texte_complet": "olympique de marseille",
-        "A": "olympique",
-        "B": "marseille",
-        "relation": "r_lieu>origine"
-    },
-    {
-        "texte_complet": "classique de la ligue",
-        "A": "classique",
-        "B": "ligue",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "marge de la rencontre",
-        "A": "marge",
-        "B": "rencontre",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "ensemble du titre",
-        "A": "ensemble",
-        "B": "titre",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "bloc de compétences",
-        "A": "bloc",
-        "B": "compétences",
+        "texte_complet": "émission de télé-réalité",
+        "A": "émission",
+        "B": "télé-réalité",
         "relation": "r_topic"
     },
     {
-        "texte_complet": "sud du cachemire",
-        "A": "sud",
-        "B": "cachemire",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "échange de tirs",
-        "A": "échange",
-        "B": "tirs",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "social de la part",
-        "A": "social",
-        "B": "part",
+        "texte_complet": "cas de la wilaya",
+        "A": "cas",
+        "B": "wilaya",
         "relation": "inconnu"
     },
     {
-        "texte_complet": "bases de données",
-        "A": "bases",
-        "B": "données",
+        "texte_complet": "lancement de la campagne",
+        "A": "lancement",
+        "B": "campagne",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "tâches de façon",
+        "A": "tâches",
+        "B": "façon",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "frais de délivrance",
+        "A": "frais",
+        "B": "délivrance",
         "relation": "r_topic"
     },
     {
-        "texte_complet": "yeux du monde",
-        "A": "yeux",
+        "texte_complet": "plan de travail",
+        "A": "plan",
+        "B": "travail",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "réalités du monde",
+        "A": "réalités",
         "B": "monde",
         "relation": "r_holo"
     },
     {
-        "texte_complet": "bourse des valeurs",
-        "A": "bourse",
-        "B": "valeurs",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "cotation des titres",
-        "A": "cotation",
-        "B": "titres",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "société de production",
-        "A": "société",
-        "B": "production",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "caste du cinéma",
-        "A": "caste",
-        "B": "cinéma",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "connaissance du changement",
-        "A": "connaissance",
-        "B": "changement",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "ministre de la justice",
-        "A": "ministre",
-        "B": "justice",
-        "relation": "r_social_tie"
-    },
-    {
-        "texte_complet": "égide de la metteure",
-        "A": "égide",
-        "B": "metteure",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "sein de la compétition",
-        "A": "sein",
-        "B": "compétition",
+        "texte_complet": "platines du char",
+        "A": "platines",
+        "B": "char",
         "relation": "r_holo"
     },
     {
-        "texte_complet": "quinzaine des cinéastes",
-        "A": "quinzaine",
-        "B": "cinéastes",
-        "relation": "r_quantificateur"
+        "texte_complet": "tête de parade",
+        "A": "tête",
+        "B": "parade",
+        "relation": "r_holo"
     },
     {
-        "texte_complet": "répression de la délinquance",
-        "A": "répression",
-        "B": "délinquance",
-        "relation": "r_processus_patient"
+        "texte_complet": "conclusions du sommet",
+        "A": "conclusions",
+        "B": "sommet",
+        "relation": "r_product_of"
     },
     {
-        "texte_complet": "objet de poursuites",
-        "A": "objet",
-        "B": "poursuites",
+        "texte_complet": "sein de la diaspora",
+        "A": "sein",
+        "B": "diaspora",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "jeux de rôle",
+        "A": "jeux",
+        "B": "rôle",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "niveau de la commune",
+        "A": "niveau",
+        "B": "commune",
         "relation": "inconnu"
     },
     {
-        "texte_complet": "accords de grenelle",
-        "A": "accords",
-        "B": "grenelle",
+        "texte_complet": "sûreté de la wilaya",
+        "A": "sûreté",
+        "B": "wilaya",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "coupe du monde",
+        "A": "coupe",
+        "B": "monde",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "actes de cardiologie",
+        "A": "actes",
+        "B": "cardiologie",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "unité de prise",
+        "A": "unité",
+        "B": "prise",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "professionnels du secteur",
+        "A": "professionnels",
+        "B": "secteur",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "arrondissement de la commune",
+        "A": "arrondissement",
+        "B": "commune",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "s de commerce",
+        "A": "s",
+        "B": "commerce",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "avenue des croix",
+        "A": "avenue",
+        "B": "croix",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "personnages de la franchise",
+        "A": "personnages",
+        "B": "franchise",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "droits de l'homme",
+        "A": "droits",
+        "B": "homme",
+        "relation": "r_has_property-1"
+    },
+    {
+        "texte_complet": "parlementaire du parti",
+        "A": "parlementaire",
+        "B": "parti",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "prises de vues",
+        "A": "prises",
+        "B": "vues",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "photos de l'actrice",
+        "A": "photos",
+        "B": "actrice",
+        "relation": "r_depict"
+    },
+    {
+        "texte_complet": "cité du citron",
+        "A": "cité",
+        "B": "citron",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "partie de la taille",
+        "A": "partie",
+        "B": "taille",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "roman de bernard",
+        "A": "roman",
+        "B": "bernard",
+        "relation": "r_product_of"
+    },
+    {
+        "texte_complet": "sommet du g7",
+        "A": "sommet",
+        "B": "g7",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "métier de photographe",
+        "A": "métier",
+        "B": "photographe",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "service des magasins",
+        "A": "service",
+        "B": "magasins",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "leclerc de la france",
+        "A": "leclerc",
+        "B": "france",
         "relation": "r_lieu>origine"
     },
     {
-        "texte_complet": "bouquets de fleurs",
-        "A": "bouquets",
-        "B": "fleurs",
-        "relation": "r_objet>matiere"
+        "texte_complet": "aggravation des problèmes",
+        "A": "aggravation",
+        "B": "problèmes",
+        "relation": "r_processus_patient"
     },
     {
-        "texte_complet": "genre de match",
-        "A": "genre",
-        "B": "match",
-        "relation": "inconnu"
+        "texte_complet": "augmentation des suicides",
+        "A": "augmentation",
+        "B": "suicides",
+        "relation": "r_processus_patient"
     },
     {
-        "texte_complet": "ligue des champions",
-        "A": "ligue",
-        "B": "champions",
-        "relation": "r_social_tie"
-    },
-    {
-        "texte_complet": "chef du gouvernement",
-        "A": "chef",
-        "B": "gouvernement",
-        "relation": "r_social_tie"
-    },
-    {
-        "texte_complet": "fin de la souveraineté",
-        "A": "fin",
-        "B": "souveraineté",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "solutions de prévention",
-        "A": "solutions",
-        "B": "prévention",
+        "texte_complet": "tentatives de suicide",
+        "A": "tentatives",
+        "B": "suicide",
         "relation": "r_topic"
     },
     {
-        "texte_complet": "festives des étudiants",
-        "A": "festives",
-        "B": "étudiants",
-        "relation": "r_own-1"
+        "texte_complet": "angoisse du gardien",
+        "A": "angoisse",
+        "B": "gardien",
+        "relation": "r_has_property-1"
     },
     {
-        "texte_complet": "% des cabinets",
-        "A": "%",
-        "B": "cabinets",
-        "relation": "r_quantificateur"
+        "texte_complet": "questions des lecteurs",
+        "A": "questions",
+        "B": "lecteurs",
+        "relation": "r_product_of"
     },
     {
-        "texte_complet": "termes de réalisation",
-        "A": "termes",
-        "B": "réalisation",
+        "texte_complet": "effets du phosphore",
+        "A": "effets",
+        "B": "phosphore",
+        "relation": "r_has_causatif"
+    },
+    {
+        "texte_complet": "festival de musique",
+        "A": "festival",
+        "B": "musique",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "projet de sauna",
+        "A": "projet",
+        "B": "sauna",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "chute des revenus",
+        "A": "chute",
+        "B": "revenus",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "fond de sanctions",
+        "A": "fond",
+        "B": "sanctions",
         "relation": "inconnu"
     },
     {
-        "texte_complet": "exploit des lions",
-        "A": "exploit",
-        "B": "lions",
+        "texte_complet": "membre du personnel",
+        "A": "membre",
+        "B": "personnel",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "trajectoires des perturbations",
+        "A": "trajectoires",
+        "B": "perturbations",
+        "relation": "r_has_causatif"
+    },
+    {
+        "texte_complet": "ministre de la transition",
+        "A": "ministre",
+        "B": "transition",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "décisions de restriction",
+        "A": "décisions",
+        "B": "restriction",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "contraste de la lavallière",
+        "A": "contraste",
+        "B": "lavallière",
+        "relation": "r_has_property-1"
+    },
+    {
+        "texte_complet": "feux de forêt",
+        "A": "feux",
+        "B": "forêt",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "présence des membres",
+        "A": "présence",
+        "B": "membres",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "place du village",
+        "A": "place",
+        "B": "village",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "profits des épiceries",
+        "A": "profits",
+        "B": "épiceries",
         "relation": "r_own-1"
     },
     {
-        "texte_complet": "devant de la scène",
-        "A": "devant",
-        "B": "scène",
+        "texte_complet": "films d'animation",
+        "A": "films",
+        "B": "animation",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "bâtiments de la ville",
+        "A": "bâtiments",
+        "B": "ville",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "résultat de roussel",
+        "A": "résultat",
+        "B": "roussel",
+        "relation": "r_product_of"
+    },
+    {
+        "texte_complet": "médaille de bronze",
+        "A": "médaille",
+        "B": "bronze",
+        "relation": "r_objet>matiere"
+    },
+    {
+        "texte_complet": "attitude de paul",
+        "A": "attitude",
+        "B": "paul",
+        "relation": "r_has_property-1"
+    },
+    {
+        "texte_complet": "homme d'affaires",
+        "A": "homme",
+        "B": "affaires",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "club de l'olympique",
+        "A": "club",
+        "B": "olympique",
         "relation": "r_holo"
+    },
+    {
+        "texte_complet": "ministre de la ville",
+        "A": "ministre",
+        "B": "ville",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "majorité des civils",
+        "A": "majorité",
+        "B": "civils",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "décompte de l'afp",
+        "A": "décompte",
+        "B": "afp",
+        "relation": "r_product_of"
+    },
+    {
+        "texte_complet": "message de soutien",
+        "A": "message",
+        "B": "soutien",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "pensions des députés",
+        "A": "pensions",
+        "B": "députés",
+        "relation": "r_own-1"
     },
     {
         "texte_complet": "millions de dollars",
@@ -804,603 +420,999 @@
         "relation": "r_quantificateur"
     },
     {
-        "texte_complet": "étape du sénat",
-        "A": "étape",
-        "B": "sénat",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "projet de scission",
-        "A": "projet",
-        "B": "scission",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "persistance de déficits",
-        "A": "persistance",
-        "B": "déficits",
-        "relation": "r_has_property-1"
-    },
-    {
-        "texte_complet": "échéances de la dette",
-        "A": "échéances",
-        "B": "dette",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "% du pib",
-        "A": "%",
-        "B": "pib",
-        "relation": "r_quantificateur"
-    },
-    {
-        "texte_complet": "prix de revente",
-        "A": "prix",
-        "B": "revente",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "responsable du ministère",
-        "A": "responsable",
-        "B": "ministère",
+        "texte_complet": "ministres des finances",
+        "A": "ministres",
+        "B": "finances",
         "relation": "r_social_tie"
     },
     {
-        "texte_complet": "millions de quintaux",
-        "A": "millions",
-        "B": "quintaux",
+        "texte_complet": "figure de favoris",
+        "A": "figure",
+        "B": "favoris",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "ministre de nicola",
+        "A": "ministre",
+        "B": "nicola",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "termes de personnes",
+        "A": "termes",
+        "B": "personnes",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "fond de l'affaire",
+        "A": "fond",
+        "B": "affaire",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "clause de douleur",
+        "A": "clause",
+        "B": "douleur",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "espace de la place",
+        "A": "espace",
+        "B": "place",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "édition du marathon",
+        "A": "édition",
+        "B": "marathon",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "début de semaine",
+        "A": "début",
+        "B": "semaine",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "doute des citoyens",
+        "A": "doute",
+        "B": "citoyens",
+        "relation": "r_has_property-1"
+    },
+    {
+        "texte_complet": "efficacité de la gouvernance",
+        "A": "efficacité",
+        "B": "gouvernance",
+        "relation": "r_has_property-1"
+    },
+    {
+        "texte_complet": "territoire du yukon",
+        "A": "territoire",
+        "B": "yukon",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "actionnaire de la banque",
+        "A": "actionnaire",
+        "B": "banque",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "% du capital",
+        "A": "%",
+        "B": "capital",
         "relation": "r_quantificateur"
     },
     {
-        "texte_complet": "hectares de terre",
-        "A": "hectares",
-        "B": "terre",
-        "relation": "r_quantificateur"
+        "texte_complet": "cuvée du centenaire",
+        "A": "cuvée",
+        "B": "centenaire",
+        "relation": "r_topic"
     },
     {
-        "texte_complet": "gens du coin",
-        "A": "gens",
-        "B": "coin",
+        "texte_complet": "géant des mondiaux",
+        "A": "géant",
+        "B": "mondiaux",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "fin de compte",
+        "A": "fin",
+        "B": "compte",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "mercato de l'union",
+        "A": "mercato",
+        "B": "union",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "officialisation du départ",
+        "A": "officialisation",
+        "B": "départ",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "préoccupations de la justice",
+        "A": "préoccupations",
+        "B": "justice",
+        "relation": "r_has_property-1"
+    },
+    {
+        "texte_complet": "produits des champs",
+        "A": "produits",
+        "B": "champs",
         "relation": "r_lieu>origine"
     },
     {
-        "texte_complet": "catholique d'avant-guerre",
-        "A": "catholique",
-        "B": "avant-guerre",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "crise du covid",
-        "A": "crise",
-        "B": "covid",
-        "relation": "r_has_causatif"
-    },
-    {
-        "texte_complet": "ventes du guide",
-        "A": "ventes",
-        "B": "guide",
-        "relation": "r_product_of"
-    },
-    {
-        "texte_complet": "statut de victime",
-        "A": "statut",
-        "B": "victime",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "mois de revalidation",
-        "A": "mois",
-        "B": "revalidation",
-        "relation": "r_quantificateur"
-    },
-    {
-        "texte_complet": "période de détention",
-        "A": "période",
-        "B": "détention",
-        "relation": "r_quantificateur"
-    },
-    {
-        "texte_complet": "musiques des années",
-        "A": "musiques",
-        "B": "années",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "habitant du quartier",
-        "A": "habitant",
-        "B": "quartier",
-        "relation": "r_lieu"
-    },
-    {
-        "texte_complet": "résidants de floride",
-        "A": "résidants",
-        "B": "floride",
-        "relation": "r_lieu"
-    },
-    {
-        "texte_complet": "passion de jim",
-        "A": "passion",
-        "B": "jim",
+        "texte_complet": "athlétisme de herve",
+        "A": "athlétisme",
+        "B": "herve",
         "relation": "r_own-1"
     },
     {
-        "texte_complet": "boulet de canon",
-        "A": "boulet",
-        "B": "canon",
-        "relation": "r_processus>instr-1"
-    },
-    {
-        "texte_complet": "nombre de bulletins",
-        "A": "nombre",
-        "B": "bulletins",
+        "texte_complet": "km de voies",
+        "A": "km",
+        "B": "voies",
         "relation": "r_quantificateur"
     },
     {
-        "texte_complet": "déception de gens",
-        "A": "déception",
-        "B": "gens",
-        "relation": "r_has_causatif"
+        "texte_complet": "conseil des états",
+        "A": "conseil",
+        "B": "états",
+        "relation": "r_holo"
     },
     {
-        "texte_complet": "gestionnaire de l'infrastructure",
-        "A": "gestionnaire",
-        "B": "infrastructure",
-        "relation": "r_social_tie"
-    },
-    {
-        "texte_complet": "police de la ville",
-        "A": "police",
-        "B": "ville",
-        "relation": "r_social_tie"
-    },
-    {
-        "texte_complet": "théâtre du tsar",
-        "A": "théâtre",
-        "B": "tsar",
-        "relation": "r_own-1"
-    },
-    {
-        "texte_complet": "biologie des insectes",
-        "A": "biologie",
-        "B": "insectes",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "sort des otages",
-        "A": "sort",
-        "B": "otages",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "cœur de la visite",
-        "A": "cœur",
-        "B": "visite",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "dispositif de formation",
-        "A": "dispositif",
-        "B": "formation",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "autrice du texte",
-        "A": "autrice",
-        "B": "texte",
-        "relation": "r_product_of"
-    },
-    {
-        "texte_complet": "niveau de précision",
-        "A": "niveau",
-        "B": "précision",
+        "texte_complet": "qualité de vie",
+        "A": "qualité",
+        "B": "vie",
         "relation": "r_has_property-1"
     },
     {
-        "texte_complet": "vue de la saison",
-        "A": "vue",
-        "B": "saison",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "cours du temps",
-        "A": "cours",
-        "B": "temps",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "projet de station",
-        "A": "projet",
-        "B": "station",
+        "texte_complet": "anniversaire du départ",
+        "A": "anniversaire",
+        "B": "départ",
         "relation": "r_topic"
     },
     {
-        "texte_complet": "retrait des listes",
-        "A": "retrait",
-        "B": "listes",
-        "relation": "r_processus_patient"
+        "texte_complet": "convoi de déportés",
+        "A": "convoi",
+        "B": "déportés",
+        "relation": "r_processus_agent"
     },
     {
-        "texte_complet": "classe de dakar",
-        "A": "classe",
-        "B": "dakar",
-        "relation": "r_lieu"
+        "texte_complet": "suite de la défaite",
+        "A": "suite",
+        "B": "défaite",
+        "relation": "r_has_causatif"
     },
     {
-        "texte_complet": "procureure de la république",
-        "A": "procureure",
-        "B": "république",
-        "relation": "r_social_tie"
-    },
-    {
-        "texte_complet": "corruption d'élus",
-        "A": "corruption",
-        "B": "élus",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "délégation de l'om",
-        "A": "délégation",
-        "B": "om",
-        "relation": "r_social_tie"
-    },
-    {
-        "texte_complet": "montagnes de feux",
-        "A": "montagnes",
-        "B": "feux",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "amour du duo",
-        "A": "amour",
-        "B": "duo",
-        "relation": "r_own-1"
-    },
-    {
-        "texte_complet": "destitution du président",
-        "A": "destitution",
-        "B": "président",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "culture de la corruption",
-        "A": "culture",
-        "B": "corruption",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "échevin du patrimoine",
-        "A": "échevin",
-        "B": "patrimoine",
-        "relation": "r_social_tie"
-    },
-    {
-        "texte_complet": "goût du jour",
-        "A": "goût",
-        "B": "jour",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "œuvre de la collection",
-        "A": "œuvre",
-        "B": "collection",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "manche de la guitare",
-        "A": "manche",
-        "B": "guitare",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "commandes du restaurant",
-        "A": "commandes",
-        "B": "restaurant",
-        "relation": "r_own-1"
-    },
-    {
-        "texte_complet": "tir de feu",
-        "A": "tir",
-        "B": "feu",
+        "texte_complet": "système de repérage",
+        "A": "système",
+        "B": "repérage",
         "relation": "r_processus>instr-1"
     },
     {
-        "texte_complet": "communiqué de presse",
-        "A": "communiqué",
+        "texte_complet": "fête des canadiens",
+        "A": "fête",
+        "B": "canadiens",
+        "relation": "r_own-1"
+    },
+    {
+        "texte_complet": "ouest de l'ukraine",
+        "A": "ouest",
+        "B": "ukraine",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "conférence de presse",
+        "A": "conférence",
         "B": "presse",
         "relation": "r_topic"
     },
     {
-        "texte_complet": "fin de l'année",
-        "A": "fin",
-        "B": "année",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "partie des images",
-        "A": "partie",
-        "B": "images",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "présence du président",
-        "A": "présence",
-        "B": "président",
-        "relation": "r_processus_agent"
-    },
-    {
-        "texte_complet": "sommet de vilnius",
-        "A": "sommet",
-        "B": "vilnius",
-        "relation": "r_lieu"
-    },
-    {
-        "texte_complet": "corée du nord",
-        "A": "corée",
-        "B": "nord",
+        "texte_complet": "ampleur du chantier",
+        "A": "ampleur",
+        "B": "chantier",
         "relation": "r_has_property-1"
     },
     {
-        "texte_complet": "choix de programmation",
-        "A": "choix",
-        "B": "programmation",
+        "texte_complet": "histoire du psg",
+        "A": "histoire",
+        "B": "psg",
         "relation": "r_topic"
     },
     {
-        "texte_complet": "question du député",
-        "A": "question",
-        "B": "député",
-        "relation": "r_processus_agent"
-    },
-    {
-        "texte_complet": "début de la rencontre",
-        "A": "début",
-        "B": "rencontre",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "ordre du jour",
-        "A": "ordre",
-        "B": "jour",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "député de la douma",
-        "A": "député",
-        "B": "douma",
+        "texte_complet": "frères d'armes",
+        "A": "frères",
+        "B": "armes",
         "relation": "r_social_tie"
     },
     {
-        "texte_complet": "coupure d'un câble",
-        "A": "coupure",
-        "B": "câble",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "dizaine de chefs",
-        "A": "dizaine",
-        "B": "chefs",
-        "relation": "r_quantificateur"
-    },
-    {
-        "texte_complet": "partage des données",
-        "A": "partage",
-        "B": "données",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "bord des véhicules",
-        "A": "bord",
-        "B": "véhicules",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "bras de fer",
-        "A": "bras",
-        "B": "fer",
-        "relation": "r_objet>matiere"
-    },
-    {
-        "texte_complet": "promenade des anglais",
-        "A": "promenade",
-        "B": "anglais",
-        "relation": "r_lieu"
-    },
-    {
-        "texte_complet": "point de chute",
-        "A": "point",
-        "B": "chute",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "possession des biens",
-        "A": "possession",
-        "B": "biens",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "suppressions de trains",
-        "A": "suppressions",
-        "B": "trains",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "partie du quotidien",
-        "A": "partie",
-        "B": "quotidien",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "sortie de route",
-        "A": "sortie",
-        "B": "route",
-        "relation": "r_lieu>origine"
-    },
-    {
-        "texte_complet": "dizaine de mètres",
-        "A": "dizaine",
-        "B": "mètres",
-        "relation": "r_quantificateur"
-    },
-    {
-        "texte_complet": "contrebas de la chaussée",
-        "A": "contrebas",
-        "B": "chaussée",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "acteurs de la compagnie",
-        "A": "acteurs",
-        "B": "compagnie",
-        "relation": "r_social_tie"
-    },
-    {
-        "texte_complet": "scène de la table",
-        "A": "scène",
-        "B": "table",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "producteur du film",
-        "A": "producteur",
-        "B": "film",
-        "relation": "r_product_of"
-    },
-    {
-        "texte_complet": "décision de justice",
-        "A": "décision",
-        "B": "justice",
-        "relation": "r_processus_agent"
-    },
-    {
-        "texte_complet": "réintégration des soignants",
-        "A": "réintégration",
-        "B": "soignants",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "raison de la situation",
-        "A": "raison",
-        "B": "situation",
-        "relation": "r_has_causatif"
-    },
-    {
-        "texte_complet": "discours de clôture",
-        "A": "discours",
-        "B": "clôture",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "chef de la diplomatie",
-        "A": "chef",
+        "texte_complet": "chefs de la diplomatie",
+        "A": "chefs",
         "B": "diplomatie",
         "relation": "r_social_tie"
     },
     {
-        "texte_complet": "carrossier de métier",
-        "A": "carrossier",
-        "B": "métier",
+        "texte_complet": "baisse de l'action",
+        "A": "baisse",
+        "B": "action",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "chambre de fortune",
+        "A": "chambre",
+        "B": "fortune",
         "relation": "inconnu"
     },
     {
-        "texte_complet": "place d'une force",
-        "A": "place",
-        "B": "force",
+        "texte_complet": "type de véhicules",
+        "A": "type",
+        "B": "véhicules",
         "relation": "inconnu"
     },
     {
-        "texte_complet": "infraction de dénonciation",
-        "A": "infraction",
-        "B": "dénonciation",
+        "texte_complet": "nombre de places",
+        "A": "nombre",
+        "B": "places",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "chute des adoptions",
+        "A": "chute",
+        "B": "adoptions",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "campagne de déclaration",
+        "A": "campagne",
+        "B": "déclaration",
         "relation": "r_topic"
     },
     {
-        "texte_complet": "fonds des établissements",
-        "A": "fonds",
-        "B": "établissements",
-        "relation": "r_own-1"
+        "texte_complet": "oralité des débats",
+        "A": "oralité",
+        "B": "débats",
+        "relation": "r_has_property-1"
     },
     {
-        "texte_complet": "sous-compte du compte",
-        "A": "sous-compte",
-        "B": "compte",
+        "texte_complet": "caractéristique de la cour",
+        "A": "caractéristique",
+        "B": "cour",
+        "relation": "r_has_property-1"
+    },
+    {
+        "texte_complet": "records de chaleur",
+        "A": "records",
+        "B": "chaleur",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "début du mois",
+        "A": "début",
+        "B": "mois",
         "relation": "r_holo"
     },
     {
-        "texte_complet": "république de guinée",
-        "A": "république",
-        "B": "guinée",
-        "relation": "r_lieu"
+        "texte_complet": "conducteur de la moto",
+        "A": "conducteur",
+        "B": "moto",
+        "relation": "r_processus>instr-1"
     },
     {
-        "texte_complet": "direction de la sncf",
-        "A": "direction",
-        "B": "sncf",
+        "texte_complet": "pompiers du var",
+        "A": "pompiers",
+        "B": "var",
+        "relation": "r_lieu>origine"
+    },
+    {
+        "texte_complet": "date du décollage",
+        "A": "date",
+        "B": "décollage",
+        "relation": "r_has_property-1"
+    },
+    {
+        "texte_complet": "gardiens de la galaxy",
+        "A": "gardiens",
+        "B": "galaxy",
         "relation": "r_social_tie"
     },
     {
-        "texte_complet": "production de mignonnettes",
-        "A": "production",
-        "B": "mignonnettes",
+        "texte_complet": "police de la pensée",
+        "A": "police",
+        "B": "pensée",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "équipes du monde",
+        "A": "équipes",
+        "B": "monde",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "destitution de luca",
+        "A": "destitution",
+        "B": "luca",
         "relation": "r_processus_patient"
     },
     {
-        "texte_complet": "voies de fait",
-        "A": "voies",
-        "B": "fait",
+        "texte_complet": "tête de la confédération",
+        "A": "tête",
+        "B": "confédération",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "élue de projet",
+        "A": "élue",
+        "B": "projet",
         "relation": "inconnu"
     },
     {
-        "texte_complet": "baisse de l'activité",
-        "A": "baisse",
-        "B": "activité",
+        "texte_complet": "attention du ministre",
+        "A": "attention",
+        "B": "ministre",
+        "relation": "r_processus_agent"
+    },
+    {
+        "texte_complet": "gardes du corps",
+        "A": "gardes",
+        "B": "corps",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "défis du monde",
+        "A": "défis",
+        "B": "monde",
+        "relation": "r_own-1"
+    },
+    {
+        "texte_complet": "star du foot",
+        "A": "star",
+        "B": "foot",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "% du total",
+        "A": "%",
+        "B": "total",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "lutte des classes",
+        "A": "lutte",
+        "B": "classes",
         "relation": "r_processus_patient"
     },
     {
-        "texte_complet": "marché de l'immobilier",
-        "A": "marché",
-        "B": "immobilier",
+        "texte_complet": "socialistes de gand",
+        "A": "socialistes",
+        "B": "gand",
+        "relation": "r_lieu>origine"
+    },
+    {
+        "texte_complet": "groupe de gestion",
+        "A": "groupe",
+        "B": "gestion",
         "relation": "r_topic"
     },
     {
-        "texte_complet": "province de namur",
-        "A": "province",
-        "B": "namur",
+        "texte_complet": "palais de la bahia",
+        "A": "palais",
+        "B": "bahia",
         "relation": "r_lieu"
     },
     {
-        "texte_complet": "plan de relève",
-        "A": "plan",
-        "B": "relève",
+        "texte_complet": "palais du royaume",
+        "A": "palais",
+        "B": "royaume",
+        "relation": "r_own-1"
+    },
+    {
+        "texte_complet": "% de réussite",
+        "A": "%",
+        "B": "réussite",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "% de points",
+        "A": "%",
+        "B": "points",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "incapacités de travail",
+        "A": "incapacités",
+        "B": "travail",
+        "relation": "r_has_property-1"
+    },
+    {
+        "texte_complet": "grand-place de mons",
+        "A": "grand-place",
+        "B": "mons",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "poids du tourisme",
+        "A": "poids",
+        "B": "tourisme",
+        "relation": "r_has_property-1"
+    },
+    {
+        "texte_complet": "couverture du déficit",
+        "A": "couverture",
+        "B": "déficit",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "entrée des devises",
+        "A": "entrée",
+        "B": "devises",
+        "relation": "r_processus_agent"
+    },
+    {
+        "texte_complet": "problème de temporalité",
+        "A": "problème",
+        "B": "temporalité",
+        "relation": "r_has_property-1"
+    },
+    {
+        "texte_complet": "travailleuse du sexe",
+        "A": "travailleuse",
+        "B": "sexe",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "salon de massage",
+        "A": "salon",
+        "B": "massage",
         "relation": "r_topic"
     },
     {
-        "texte_complet": "marraine de lucas",
-        "A": "marraine",
-        "B": "lucas",
+        "texte_complet": "nombre de fonctionnaires",
+        "A": "nombre",
+        "B": "fonctionnaires",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "membres du jury",
+        "A": "membres",
+        "B": "jury",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "vingtaine de communes",
+        "A": "vingtaine",
+        "B": "communes",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "creux de la nuit",
+        "A": "creux",
+        "B": "nuit",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "parvis de l'hôtel",
+        "A": "parvis",
+        "B": "hôtel",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "prises de parole",
+        "A": "prises",
+        "B": "parole",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "plupart des côtes",
+        "A": "plupart",
+        "B": "côtes",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "quai de bouctouche",
+        "A": "quai",
+        "B": "bouctouche",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "projectiles de lance",
+        "A": "projectiles",
+        "B": "lance",
+        "relation": "r_processus>instr-1"
+    },
+    {
+        "texte_complet": "maire de marseille",
+        "A": "maire",
+        "B": "marseille",
         "relation": "r_social_tie"
     },
     {
-        "texte_complet": "mère de famille",
-        "A": "mère",
-        "B": "famille",
-        "relation": "r_social_tie"
+        "texte_complet": "effondrement d'un immeuble",
+        "A": "effondrement",
+        "B": "immeuble",
+        "relation": "r_has_causatif"
     },
     {
-        "texte_complet": "domaine de l'énergie",
-        "A": "domaine",
-        "B": "énergie",
+        "texte_complet": "personnes d'immeubles",
+        "A": "personnes",
+        "B": "immeubles",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "syrie des sites",
+        "A": "syrie",
+        "B": "sites",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "bénéfice de la suspension",
+        "A": "bénéfice",
+        "B": "suspension",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "lieux de la ville",
+        "A": "lieux",
+        "B": "ville",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "musée de la ville",
+        "A": "musée",
+        "B": "ville",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "nord de paris",
+        "A": "nord",
+        "B": "paris",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "livre de boba",
+        "A": "livre",
+        "B": "boba",
         "relation": "r_topic"
     },
     {
-        "texte_complet": "chef du secrétariat",
-        "A": "chef",
-        "B": "secrétariat",
+        "texte_complet": "arrivée de gens",
+        "A": "arrivée",
+        "B": "gens",
+        "relation": "r_processus_agent"
+    },
+    {
+        "texte_complet": "lendemain de la déclaration",
+        "A": "lendemain",
+        "B": "déclaration",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "feuille de route",
+        "A": "feuille",
+        "B": "route",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "secteur du tourisme",
+        "A": "secteur",
+        "B": "tourisme",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "millions de touristes",
+        "A": "millions",
+        "B": "touristes",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "fin du match",
+        "A": "fin",
+        "B": "match",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "début d'après-midi",
+        "A": "début",
+        "B": "après-midi",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "marge des célébrations",
+        "A": "marge",
+        "B": "célébrations",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "début de l'année",
+        "A": "début",
+        "B": "année",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "pointe du doigt",
+        "A": "pointe",
+        "B": "doigt",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "fin de fermentation",
+        "A": "fin",
+        "B": "fermentation",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "caractéristiques de muscat",
+        "A": "caractéristiques",
+        "B": "muscat",
+        "relation": "r_has_property-1"
+    },
+    {
+        "texte_complet": "portes du monde",
+        "A": "portes",
+        "B": "monde",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "soutien de pays",
+        "A": "soutien",
+        "B": "pays",
+        "relation": "r_processus_agent"
+    },
+    {
+        "texte_complet": "responsables du régime",
+        "A": "responsables",
+        "B": "régime",
         "relation": "r_social_tie"
     },
     {
-        "texte_complet": "forum du partenariat",
-        "A": "forum",
-        "B": "partenariat",
+        "texte_complet": "animaux de compagnie",
+        "A": "animaux",
+        "B": "compagnie",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "rapports de pouvoir",
+        "A": "rapports",
+        "B": "pouvoir",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "lac de zurich",
+        "A": "lac",
+        "B": "zurich",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "jets d'eau",
+        "A": "jets",
+        "B": "eau",
+        "relation": "r_objet>matiere"
+    },
+    {
+        "texte_complet": "achat de voitures",
+        "A": "achat",
+        "B": "voitures",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "date du dépôt",
+        "A": "date",
+        "B": "dépôt",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "bilan de creusot",
+        "A": "bilan",
+        "B": "creusot",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "filiale du groupe",
+        "A": "filiale",
+        "B": "groupe",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "dépit du coup",
+        "A": "dépit",
+        "B": "coup",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "sein du service",
+        "A": "sein",
+        "B": "service",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "lois de finance",
+        "A": "lois",
+        "B": "finance",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "concurrente des x",
+        "A": "concurrente",
+        "B": "x",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "corée du sud",
+        "A": "corée",
+        "B": "sud",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "histoire des sports",
+        "A": "histoire",
+        "B": "sports",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "pays d'afrique",
+        "A": "pays",
+        "B": "afrique",
+        "relation": "r_lieu>origine"
+    },
+    {
+        "texte_complet": "cible d'attaques",
+        "A": "cible",
+        "B": "attaques",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "lits de la maison",
+        "A": "lits",
+        "B": "maison",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "-de-",
+        "A": "#",
+        "B": "#",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "club de la capitale",
+        "A": "club",
+        "B": "capitale",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "grève de la wga",
+        "A": "grève",
+        "B": "wga",
+        "relation": "r_processus_agent"
+    },
+    {
+        "texte_complet": "action de la sag",
+        "A": "action",
+        "B": "sag",
+        "relation": "r_processus_agent"
+    },
+    {
+        "texte_complet": "meeting de ralliements",
+        "A": "meeting",
+        "B": "ralliements",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "sécurité de la planification",
+        "A": "sécurité",
+        "B": "planification",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "proximité de téhéran",
+        "A": "proximité",
+        "B": "téhéran",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "chansons des années",
+        "A": "chansons",
+        "B": "années",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "accident du short",
+        "A": "accident",
+        "B": "short",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "question de créatures",
+        "A": "question",
+        "B": "créatures",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "bout du rouleau",
+        "A": "bout",
+        "B": "rouleau",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "quête du mot",
+        "A": "quête",
+        "B": "mot",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "% du kraken",
+        "A": "%",
+        "B": "kraken",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "ans de prison",
+        "A": "ans",
+        "B": "prison",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "objets de valeur",
+        "A": "objets",
+        "B": "valeur",
+        "relation": "r_has_property-1"
+    },
+    {
+        "texte_complet": "écriture de rostand",
+        "A": "écriture",
+        "B": "rostand",
+        "relation": "r_product_of"
+    },
+    {
+        "texte_complet": "collectif de partis",
+        "A": "collectif",
+        "B": "partis",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "quête de changement",
+        "A": "quête",
+        "B": "changement",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "arme de service",
+        "A": "arme",
+        "B": "service",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "systèmes de défense",
+        "A": "systèmes",
+        "B": "défense",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "réfection de la rue",
+        "A": "réfection",
+        "B": "rue",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "point du quai",
+        "A": "point",
+        "B": "quai",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "couac de la déclaration",
+        "A": "couac",
+        "B": "déclaration",
+        "relation": "r_has_causatif"
+    },
+    {
+        "texte_complet": "gouvernement du québec",
+        "A": "gouvernement",
+        "B": "québec",
+        "relation": "r_lieu>origine"
+    },
+    {
+        "texte_complet": "projet de tramway",
+        "A": "projet",
+        "B": "tramway",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "ville de québec",
+        "A": "ville",
+        "B": "québec",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "nombre de requérants",
+        "A": "nombre",
+        "B": "requérants",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "pouvoir d'achat",
+        "A": "pouvoir",
+        "B": "achat",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "café de la rue",
+        "A": "café",
+        "B": "rue",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "cible de coups",
+        "A": "cible",
+        "B": "coups",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "secrétaire d'état",
+        "A": "secrétaire",
+        "B": "état",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "début des pourparlers",
+        "A": "début",
+        "B": "pourparlers",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "secrétaires d'état",
+        "A": "secrétaires",
+        "B": "état",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "contenus de divertissement",
+        "A": "contenus",
+        "B": "divertissement",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "directeur des programmes",
+        "A": "directeur",
+        "B": "programmes",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "novas de givre",
+        "A": "novas",
+        "B": "givre",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "nova de givre",
+        "A": "nova",
+        "B": "givre",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "brûlure de givre",
+        "A": "brûlure",
+        "B": "givre",
+        "relation": "r_has_causatif"
+    },
+    {
+        "texte_complet": "vainqueur de la guerre",
+        "A": "vainqueur",
+        "B": "guerre",
+        "relation": "r_processus_agent"
+    },
+    {
+        "texte_complet": "bilan de la plateforme",
+        "A": "bilan",
+        "B": "plateforme",
+        "relation": "r_own-1"
+    },
+    {
+        "texte_complet": "projet de loi",
+        "A": "projet",
+        "B": "loi",
         "relation": "r_topic"
     },
     {
@@ -1410,453 +1422,1845 @@
         "relation": "r_holo"
     },
     {
-        "texte_complet": "taux de croissance",
-        "A": "taux",
-        "B": "croissance",
-        "relation": "r_has_property-1"
-    },
-    {
-        "texte_complet": "mois de l'année",
-        "A": "mois",
-        "B": "année",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "kit de départ",
-        "A": "kit",
-        "B": "départ",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "appareils de service",
-        "A": "appareils",
-        "B": "service",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "œuvre des marchands",
-        "A": "œuvre",
-        "B": "marchands",
-        "relation": "r_product_of"
-    },
-    {
-        "texte_complet": "salissure des méandres",
-        "A": "salissure",
-        "B": "méandres",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "couleur du disque",
-        "A": "couleur",
-        "B": "disque",
-        "relation": "r_has_property-1"
-    },
-    {
-        "texte_complet": "mois de mars",
-        "A": "mois",
-        "B": "mars",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "gare de val",
-        "A": "gare",
-        "B": "val",
-        "relation": "r_lieu"
-    },
-    {
-        "texte_complet": "heure de paris",
-        "A": "heure",
-        "B": "paris",
-        "relation": "r_lieu>origine"
-    },
-    {
-        "texte_complet": "funérailles de denise",
-        "A": "funérailles",
-        "B": "denise",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "membres du public",
-        "A": "membres",
-        "B": "public",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "rue du miroir",
-        "A": "rue",
-        "B": "miroir",
-        "relation": "r_lieu"
-    },
-    {
-        "texte_complet": "altercation de départ",
-        "A": "altercation",
-        "B": "départ",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "jeu de mots",
-        "A": "jeu",
-        "B": "mots",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "veille du rendez-vous",
-        "A": "veille",
-        "B": "rendez-vous",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "présidente de l'adam",
-        "A": "présidente",
-        "B": "adam",
+        "texte_complet": "porte-parole du quai",
+        "A": "porte-parole",
+        "B": "quai",
         "relation": "r_social_tie"
     },
     {
-        "texte_complet": "droits des actionnaires",
-        "A": "droits",
-        "B": "actionnaires",
+        "texte_complet": "biais de genre",
+        "A": "biais",
+        "B": "genre",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "universités de hambourg",
+        "A": "universités",
+        "B": "hambourg",
+        "relation": "r_lieu>origine"
+    },
+    {
+        "texte_complet": "fois de la volta",
+        "A": "fois",
+        "B": "volta",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "arrivée de ken",
+        "A": "arrivée",
+        "B": "ken",
+        "relation": "r_processus_agent"
+    },
+    {
+        "texte_complet": "vestiaire de football",
+        "A": "vestiaire",
+        "B": "football",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "bord de mer",
+        "A": "bord",
+        "B": "mer",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "tracé du rem",
+        "A": "tracé",
+        "B": "rem",
         "relation": "r_own-1"
     },
     {
-        "texte_complet": "diane de selliers",
-        "A": "diane",
-        "B": "selliers",
+        "texte_complet": "début de construction",
+        "A": "début",
+        "B": "construction",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "terminal de rafah",
+        "A": "terminal",
+        "B": "rafah",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "obtention d'informations",
+        "A": "obtention",
+        "B": "informations",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "signe du début",
+        "A": "signe",
+        "B": "début",
+        "relation": "r_has_causatif"
+    },
+    {
+        "texte_complet": "notions de solfège",
+        "A": "notions",
+        "B": "solfège",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "degré du secondaire",
+        "A": "degré",
+        "B": "secondaire",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "réserves d'oxygène",
+        "A": "réserves",
+        "B": "oxygène",
+        "relation": "r_objet>matiere"
+    },
+    {
+        "texte_complet": "vision d'alice",
+        "A": "vision",
+        "B": "alice",
+        "relation": "r_has_property-1"
+    },
+    {
+        "texte_complet": "transport des défunts",
+        "A": "transport",
+        "B": "défunts",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "renommée de la maison",
+        "A": "renommée",
+        "B": "maison",
+        "relation": "r_has_property-1"
+    },
+    {
+        "texte_complet": "création du rmi",
+        "A": "création",
+        "B": "rmi",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "quart des allocataires",
+        "A": "quart",
+        "B": "allocataires",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "omnisports du boulevard",
+        "A": "omnisports",
+        "B": "boulevard",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "place de no",
+        "A": "place",
+        "B": "no",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "coéquipières des canadian",
+        "A": "coéquipières",
+        "B": "canadian",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "or du tournoi",
+        "A": "or",
+        "B": "tournoi",
         "relation": "r_lieu>origine"
     },
     {
-        "texte_complet": "cantique des oiseaux",
-        "A": "cantique",
-        "B": "oiseaux",
-        "relation": "r_topic"
+        "texte_complet": "quarts de finale",
+        "A": "quarts",
+        "B": "finale",
+        "relation": "r_holo"
     },
     {
-        "texte_complet": "question des ordures",
-        "A": "question",
-        "B": "ordures",
-        "relation": "r_topic"
+        "texte_complet": "titre de square",
+        "A": "titre",
+        "B": "square",
+        "relation": "inconnu"
     },
     {
-        "texte_complet": "arrivée des touristes",
-        "A": "arrivée",
-        "B": "touristes",
-        "relation": "r_processus_agent"
+        "texte_complet": "douilles de calibre",
+        "A": "douilles",
+        "B": "calibre",
+        "relation": "inconnu"
     },
     {
-        "texte_complet": "plupart des cas",
-        "A": "plupart",
-        "B": "cas",
+        "texte_complet": "milliards de frais",
+        "A": "milliards",
+        "B": "frais",
         "relation": "r_quantificateur"
     },
     {
-        "texte_complet": "place des mesures",
-        "A": "place",
-        "B": "mesures",
+        "texte_complet": "bas de laine",
+        "A": "bas",
+        "B": "laine",
+        "relation": "r_objet>matiere"
+    },
+    {
+        "texte_complet": "conviction de wcs",
+        "A": "conviction",
+        "B": "wcs",
+        "relation": "r_has_property-1"
+    },
+    {
+        "texte_complet": "réussite du projet",
+        "A": "réussite",
+        "B": "projet",
+        "relation": "r_has_property-1"
+    },
+    {
+        "texte_complet": "limite de candidature",
+        "A": "limite",
+        "B": "candidature",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "fin de course",
+        "A": "fin",
+        "B": "course",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "appels de pékin",
+        "A": "appels",
+        "B": "pékin",
+        "relation": "r_lieu>origine"
+    },
+    {
+        "texte_complet": "soixantaine de villes",
+        "A": "soixantaine",
+        "B": "villes",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "long de la matinée",
+        "A": "long",
+        "B": "matinée",
         "relation": "inconnu"
     },
     {
-        "texte_complet": "hommes de couloir",
-        "A": "hommes",
-        "B": "couloir",
-        "relation": "r_lieu"
+        "texte_complet": "barrage d'accession",
+        "A": "barrage",
+        "B": "accession",
+        "relation": "r_topic"
     },
     {
-        "texte_complet": "parquet d'anvers",
-        "A": "parquet",
-        "B": "anvers",
-        "relation": "r_lieu"
+        "texte_complet": "bonus de statistiques",
+        "A": "bonus",
+        "B": "statistiques",
+        "relation": "r_topic"
     },
     {
-        "texte_complet": "intervention d'un tiers",
-        "A": "intervention",
-        "B": "tiers",
+        "texte_complet": "buts des visiteurs",
+        "A": "buts",
+        "B": "visiteurs",
         "relation": "r_processus_agent"
     },
     {
-        "texte_complet": "présidente de sud",
-        "A": "présidente",
-        "B": "sud",
-        "relation": "r_social_tie"
+        "texte_complet": "processus de nomination",
+        "A": "processus",
+        "B": "nomination",
+        "relation": "r_topic"
     },
     {
-        "texte_complet": "existence de centaines",
-        "A": "existence",
-        "B": "centaines",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "mois des élections",
-        "A": "mois",
-        "B": "élections",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "pays du monde",
-        "A": "pays",
+        "texte_complet": "énormément de monde",
+        "A": "énormément",
         "B": "monde",
-        "relation": "r_holo"
+        "relation": "r_quantificateur"
     },
     {
-        "texte_complet": "ministère de la digitalisation",
-        "A": "ministère",
-        "B": "digitalisation",
+        "texte_complet": "examens de santé",
+        "A": "examens",
+        "B": "santé",
         "relation": "r_topic"
     },
     {
-        "texte_complet": "chambre de commerce",
-        "A": "chambre",
-        "B": "commerce",
+        "texte_complet": "point de presse",
+        "A": "point",
+        "B": "presse",
         "relation": "r_topic"
     },
     {
-        "texte_complet": "ensemble de la population",
-        "A": "ensemble",
-        "B": "population",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "capacité du président",
-        "A": "capacité",
-        "B": "président",
-        "relation": "r_has_property-1"
-    },
-    {
-        "texte_complet": "besoins de la population",
-        "A": "besoins",
-        "B": "population",
-        "relation": "r_has_property-1"
-    },
-    {
-        "texte_complet": "empereur de chine",
-        "A": "empereur",
-        "B": "chine",
-        "relation": "r_social_tie"
-    },
-    {
-        "texte_complet": "système du jeudi",
-        "A": "système",
-        "B": "jeudi",
+        "texte_complet": "épingle du jeu",
+        "A": "épingle",
+        "B": "jeu",
         "relation": "inconnu"
     },
     {
-        "texte_complet": "producteur de films",
-        "A": "producteur",
-        "B": "films",
+        "texte_complet": "taux de rafraîchissement",
+        "A": "taux",
+        "B": "rafraîchissement",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "nuit de mardi",
+        "A": "nuit",
+        "B": "mardi",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "communiqué de la police",
+        "A": "communiqué",
+        "B": "police",
         "relation": "r_product_of"
     },
     {
-        "texte_complet": "kilomètres de wolfville",
-        "A": "kilomètres",
-        "B": "wolfville",
+        "texte_complet": "regard du brouillard",
+        "A": "regard",
+        "B": "brouillard",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "millions d'euros",
+        "A": "millions",
+        "B": "euros",
         "relation": "r_quantificateur"
     },
     {
-        "texte_complet": "huskies de saint",
-        "A": "huskies",
-        "B": "saint",
+        "texte_complet": "haine du genre",
+        "A": "haine",
+        "B": "genre",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "chef des tigres",
+        "A": "chef",
+        "B": "tigres",
         "relation": "r_social_tie"
     },
     {
-        "texte_complet": "encontre de la philosophie",
-        "A": "encontre",
-        "B": "philosophie",
+        "texte_complet": "paquet de soutien",
+        "A": "paquet",
+        "B": "soutien",
         "relation": "inconnu"
     },
     {
-        "texte_complet": "heure du repas",
-        "A": "heure",
-        "B": "repas",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "feuilles de chou",
-        "A": "feuilles",
-        "B": "chou",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "sous-sol du parc",
-        "A": "sous-sol",
-        "B": "parc",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "stockage des terres",
-        "A": "stockage",
-        "B": "terres",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "réutilisation des souches",
-        "A": "réutilisation",
-        "B": "souches",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "pompiers de luxembourg",
-        "A": "pompiers",
-        "B": "luxembourg",
+        "texte_complet": "membre de la garde",
+        "A": "membre",
+        "B": "garde",
         "relation": "r_social_tie"
     },
     {
-        "texte_complet": "place de metz",
-        "A": "place",
-        "B": "metz",
+        "texte_complet": "portraits de groupe",
+        "A": "portraits",
+        "B": "groupe",
+        "relation": "r_depict"
+    },
+    {
+        "texte_complet": "talent du maître",
+        "A": "talent",
+        "B": "maître",
+        "relation": "r_has_property-1"
+    },
+    {
+        "texte_complet": "dépôt d'une motion",
+        "A": "dépôt",
+        "B": "motion",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "éléments des livres",
+        "A": "éléments",
+        "B": "livres",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "associations de consommateurs",
+        "A": "associations",
+        "B": "consommateurs",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "activités de déneigement",
+        "A": "activités",
+        "B": "déneigement",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "ministre des affaires",
+        "A": "ministre",
+        "B": "affaires",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "greffière du conseil",
+        "A": "greffière",
+        "B": "conseil",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "centre de reproduction",
+        "A": "centre",
+        "B": "reproduction",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "scénario d'un blocage",
+        "A": "scénario",
+        "B": "blocage",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "réforme des retraites",
+        "A": "réforme",
+        "B": "retraites",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "championnat d'europe",
+        "A": "championnat",
+        "B": "europe",
+        "relation": "r_lieu>origine"
+    },
+    {
+        "texte_complet": "match d'ouverture",
+        "A": "match",
+        "B": "ouverture",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "arena de munich",
+        "A": "arena",
+        "B": "munich",
         "relation": "r_lieu"
     },
     {
-        "texte_complet": "cheval de bataille",
-        "A": "cheval",
-        "B": "bataille",
+        "texte_complet": "langage de programmation",
+        "A": "langage",
+        "B": "programmation",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "joséphine de beauharnais",
+        "A": "joséphine",
+        "B": "beauharnais",
         "relation": "inconnu"
     },
     {
-        "texte_complet": "footing du dimanche",
-        "A": "footing",
-        "B": "dimanche",
+        "texte_complet": "millions de recettes",
+        "A": "millions",
+        "B": "recettes",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "cœur de l'été",
+        "A": "cœur",
+        "B": "été",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "dossier des attentats",
+        "A": "dossier",
+        "B": "attentats",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "supporters de foot",
+        "A": "supporters",
+        "B": "foot",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "avenir du bâtiment",
+        "A": "avenir",
+        "B": "bâtiment",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "niveaux de crise",
+        "A": "niveaux",
+        "B": "crise",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "système de jeu",
+        "A": "système",
+        "B": "jeu",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "boîtes de nuit",
+        "A": "boîtes",
+        "B": "nuit",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "profit du misa",
+        "A": "profit",
+        "B": "misa",
         "relation": "inconnu"
     },
     {
-        "texte_complet": "représentant du hamas",
-        "A": "représentant",
+        "texte_complet": "chambre des représentants",
+        "A": "chambre",
+        "B": "représentants",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "niveau de la gare",
+        "A": "niveau",
+        "B": "gare",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "périphérie de la région",
+        "A": "périphérie",
+        "B": "région",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "supports de cours",
+        "A": "supports",
+        "B": "cours",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "directeurs du festival",
+        "A": "directeurs",
+        "B": "festival",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "spécialistes du trapèze",
+        "A": "spécialistes",
+        "B": "trapèze",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "part du blâme",
+        "A": "part",
+        "B": "blâme",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "intervention de la gendarmerie",
+        "A": "intervention",
+        "B": "gendarmerie",
+        "relation": "r_processus_agent"
+    },
+    {
+        "texte_complet": "frontière du mexique",
+        "A": "frontière",
+        "B": "mexique",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "chef des militaires",
+        "A": "chef",
+        "B": "militaires",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "minutes de jeu",
+        "A": "minutes",
+        "B": "jeu",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "recherche de mutations",
+        "A": "recherche",
+        "B": "mutations",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "données de profil",
+        "A": "données",
+        "B": "profil",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "jours de la fin",
+        "A": "jours",
+        "B": "fin",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "masse de documents",
+        "A": "masse",
+        "B": "documents",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "caméras de surveillance",
+        "A": "caméras",
+        "B": "surveillance",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "suite des émeutes",
+        "A": "suite",
+        "B": "émeutes",
+        "relation": "r_has_causatif"
+    },
+    {
+        "texte_complet": "actions des autorités",
+        "A": "actions",
+        "B": "autorités",
+        "relation": "r_processus_agent"
+    },
+    {
+        "texte_complet": "copie du saint",
+        "A": "copie",
+        "B": "saint",
+        "relation": "r_depict"
+    },
+    {
+        "texte_complet": "début de séance",
+        "A": "début",
+        "B": "séance",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "changement de dénomination",
+        "A": "changement",
+        "B": "dénomination",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "place du centenaire",
+        "A": "place",
+        "B": "centenaire",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "place du tilleul",
+        "A": "place",
+        "B": "tilleul",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "demande des habitants",
+        "A": "demande",
+        "B": "habitants",
+        "relation": "r_processus_agent"
+    },
+    {
+        "texte_complet": "commission des attaques",
+        "A": "commission",
+        "B": "attaques",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "guerre de bouche",
+        "A": "guerre",
+        "B": "bouche",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "sort de la planète",
+        "A": "sort",
+        "B": "planète",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "organisation de la can",
+        "A": "organisation",
+        "B": "can",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "ministère de la défense",
+        "A": "ministère",
+        "B": "défense",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "houthis du yémen",
+        "A": "houthis",
+        "B": "yémen",
+        "relation": "r_lieu>origine"
+    },
+    {
+        "texte_complet": "urine de lapin",
+        "A": "urine",
+        "B": "lapin",
+        "relation": "r_product_of"
+    },
+    {
+        "texte_complet": "livraison du reste",
+        "A": "livraison",
+        "B": "reste",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "puissance des outils",
+        "A": "puissance",
+        "B": "outils",
+        "relation": "r_has_property-1"
+    },
+    {
+        "texte_complet": "système d'ia",
+        "A": "système",
+        "B": "ia",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "vainqueur du route",
+        "A": "vainqueur",
+        "B": "route",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "cours de développement",
+        "A": "cours",
+        "B": "développement",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "descente des groupes",
+        "A": "descente",
+        "B": "groupes",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "heures de la campagne",
+        "A": "heures",
+        "B": "campagne",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "gens de québec",
+        "A": "gens",
+        "B": "québec",
+        "relation": "r_lieu>origine"
+    },
+    {
+        "texte_complet": "onze de base",
+        "A": "onze",
+        "B": "base",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "milieu de terrain",
+        "A": "milieu",
+        "B": "terrain",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "heures de pointe",
+        "A": "heures",
+        "B": "pointe",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "dizaines de véhicules",
+        "A": "dizaines",
+        "B": "véhicules",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "rues du village",
+        "A": "rues",
+        "B": "village",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "investiture du rassemblement",
+        "A": "investiture",
+        "B": "rassemblement",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "auteur des faits",
+        "A": "auteur",
+        "B": "faits",
+        "relation": "r_processus_agent"
+    },
+    {
+        "texte_complet": "différence de prix",
+        "A": "différence",
+        "B": "prix",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "alpes du sud",
+        "A": "alpes",
+        "B": "sud",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "tête du chenal",
+        "A": "tête",
+        "B": "chenal",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "centimètres de sédiments",
+        "A": "centimètres",
+        "B": "sédiments",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "espace de stockage",
+        "A": "espace",
+        "B": "stockage",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "effets du coronavirus",
+        "A": "effets",
+        "B": "coronavirus",
+        "relation": "r_has_causatif"
+    },
+    {
+        "texte_complet": "hausse de l'inflation",
+        "A": "hausse",
+        "B": "inflation",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "coiffe des rotateurs",
+        "A": "coiffe",
+        "B": "rotateurs",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "recul des ventes",
+        "A": "recul",
+        "B": "ventes",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "échec de la cvr",
+        "A": "échec",
+        "B": "cvr",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "coup de pierre",
+        "A": "coup",
+        "B": "pierre",
+        "relation": "r_processus>instr-1"
+    },
+    {
+        "texte_complet": "gain de cause",
+        "A": "gain",
+        "B": "cause",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "modèle de gestion",
+        "A": "modèle",
+        "B": "gestion",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "offre de soins",
+        "A": "offre",
+        "B": "soins",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "fond de triple",
+        "A": "fond",
+        "B": "triple",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "hauteur du carrefour",
+        "A": "hauteur",
+        "B": "carrefour",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "rue du tilleul",
+        "A": "rue",
+        "B": "tilleul",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "mesures de contention",
+        "A": "mesures",
+        "B": "contention",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "sud du pays",
+        "A": "sud",
+        "B": "pays",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "application de rencontre",
+        "A": "application",
+        "B": "rencontre",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "accès des classes",
+        "A": "accès",
+        "B": "classes",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "stade de france",
+        "A": "stade",
+        "B": "france",
+        "relation": "r_lieu>origine"
+    },
+    {
+        "texte_complet": "magie des assises",
+        "A": "magie",
+        "B": "assises",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "manifestation de la vérité",
+        "A": "manifestation",
+        "B": "vérité",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "membres du comité",
+        "A": "membres",
+        "B": "comité",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "raptors de toronto",
+        "A": "raptors",
+        "B": "toronto",
+        "relation": "r_lieu>origine"
+    },
+    {
+        "texte_complet": "réalité des crimes",
+        "A": "réalité",
+        "B": "crimes",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "degré de fiabilité",
+        "A": "degré",
+        "B": "fiabilité",
+        "relation": "r_has_property-1"
+    },
+    {
+        "texte_complet": "vétéran des yankees",
+        "A": "vétéran",
+        "B": "yankees",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "dépens des expos",
+        "A": "dépens",
+        "B": "expos",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "expression de la liberté",
+        "A": "expression",
+        "B": "liberté",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "réclamation des droits",
+        "A": "réclamation",
+        "B": "droits",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "passage des carrosses",
+        "A": "passage",
+        "B": "carrosses",
+        "relation": "r_processus_agent"
+    },
+    {
+        "texte_complet": "pays de galles",
+        "A": "pays",
+        "B": "galles",
+        "relation": "r_lieu>origine"
+    },
+    {
+        "texte_complet": "directeur du refuge",
+        "A": "directeur",
+        "B": "refuge",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "poignée de centièmes",
+        "A": "poignée",
+        "B": "centièmes",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "moteur de recherche",
+        "A": "moteur",
+        "B": "recherche",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "zone de départ",
+        "A": "zone",
+        "B": "départ",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "scripts de la saison",
+        "A": "scripts",
+        "B": "saison",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "grève des scénaristes",
+        "A": "grève",
+        "B": "scénaristes",
+        "relation": "r_processus_agent"
+    },
+    {
+        "texte_complet": "reste de la production",
+        "A": "reste",
+        "B": "production",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "abaissement du prix",
+        "A": "abaissement",
+        "B": "prix",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "détenteurs de passeports",
+        "A": "détenteurs",
+        "B": "passeports",
+        "relation": "r_own-1"
+    },
+    {
+        "texte_complet": "administration des douanes",
+        "A": "administration",
+        "B": "douanes",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "police de gatineau",
+        "A": "police",
+        "B": "gatineau",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "casse-croûte du pêcheur",
+        "A": "casse-croûte",
+        "B": "pêcheur",
+        "relation": "r_own-1"
+    },
+    {
+        "texte_complet": "satellites de manière",
+        "A": "satellites",
+        "B": "manière",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "jeudi des objectifs",
+        "A": "jeudi",
+        "B": "objectifs",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "entraînement des voltigeurs",
+        "A": "entraînement",
+        "B": "voltigeurs",
+        "relation": "r_processus_agent"
+    },
+    {
+        "texte_complet": "histoire de la littérature",
+        "A": "histoire",
+        "B": "littérature",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "corps de youssef",
+        "A": "corps",
+        "B": "youssef",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "milieu de la rue",
+        "A": "milieu",
+        "B": "rue",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "militants du hamas",
+        "A": "militants",
         "B": "hamas",
         "relation": "r_social_tie"
     },
     {
-        "texte_complet": "bande de gaza",
-        "A": "bande",
-        "B": "gaza",
-        "relation": "r_lieu"
-    },
-    {
-        "texte_complet": "affiche du parti",
-        "A": "affiche",
-        "B": "parti",
+        "texte_complet": "chapitre des visas",
+        "A": "chapitre",
+        "B": "visas",
         "relation": "r_topic"
     },
     {
-        "texte_complet": "vue des votations",
-        "A": "vue",
-        "B": "votations",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "forum de la radio",
-        "A": "forum",
-        "B": "radio",
-        "relation": "r_topic"
-    },
-    {
-        "texte_complet": "mois de juillet",
-        "A": "mois",
-        "B": "juillet",
-        "relation": "inconnu"
-    },
-    {
-        "texte_complet": "auteurs d'un sans-faute",
-        "A": "auteurs",
-        "B": "sans-faute",
+        "texte_complet": "responsables de l'academy",
+        "A": "responsables",
+        "B": "academy",
         "relation": "r_social_tie"
     },
     {
-        "texte_complet": "équipe de nettoyeurs",
-        "A": "équipe",
-        "B": "nettoyeurs",
-        "relation": "r_holo"
-    },
-    {
-        "texte_complet": "régularisation de dette",
-        "A": "régularisation",
-        "B": "dette",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "place de plan",
-        "A": "place",
-        "B": "plan",
+        "texte_complet": "mesure d'action",
+        "A": "mesure",
+        "B": "action",
         "relation": "inconnu"
     },
     {
-        "texte_complet": "traitement de contestations",
-        "A": "traitement",
-        "B": "contestations",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "projet de mandat",
-        "A": "projet",
-        "B": "mandat",
+        "texte_complet": "campagne de vaccination",
+        "A": "campagne",
+        "B": "vaccination",
         "relation": "r_topic"
     },
     {
-        "texte_complet": "nobles de westeros",
-        "A": "nobles",
-        "B": "westeros",
-        "relation": "r_social_tie"
+        "texte_complet": "secrets de la cuisine",
+        "A": "secrets",
+        "B": "cuisine",
+        "relation": "r_topic"
     },
     {
-        "texte_complet": "% des pertes",
-        "A": "%",
-        "B": "pertes",
+        "texte_complet": "origines de la photo",
+        "A": "origines",
+        "B": "photo",
+        "relation": "r_lieu>origine"
+    },
+    {
+        "texte_complet": "état de nécessité",
+        "A": "état",
+        "B": "nécessité",
+        "relation": "r_has_property-1"
+    },
+    {
+        "texte_complet": "actions de désobéissance",
+        "A": "actions",
+        "B": "désobéissance",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "ministère de la culture",
+        "A": "ministère",
+        "B": "culture",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "millions de livres",
+        "A": "millions",
+        "B": "livres",
         "relation": "r_quantificateur"
     },
     {
-        "texte_complet": "allocations de chômage",
-        "A": "allocations",
-        "B": "chômage",
-        "relation": "r_has_causatif"
-    },
-    {
-        "texte_complet": "charge de famille",
-        "A": "charge",
-        "B": "famille",
-        "relation": "r_own-1"
-    },
-    {
-        "texte_complet": "chef de ménage",
-        "A": "chef",
-        "B": "ménage",
-        "relation": "r_social_tie"
-    },
-    {
-        "texte_complet": "signature d'un accord",
-        "A": "signature",
-        "B": "accord",
-        "relation": "r_processus_patient"
-    },
-    {
-        "texte_complet": "ministère de l'alimentation",
-        "A": "ministère",
-        "B": "alimentation",
+        "texte_complet": "site des impôts",
+        "A": "site",
+        "B": "impôts",
         "relation": "r_topic"
     },
     {
-        "texte_complet": "fournisseur de gaz",
-        "A": "fournisseur",
-        "B": "gaz",
-        "relation": "r_product_of"
+        "texte_complet": "type de produit",
+        "A": "type",
+        "B": "produit",
+        "relation": "inconnu"
     },
     {
-        "texte_complet": "conduite de la police",
-        "A": "conduite",
-        "B": "police",
+        "texte_complet": "nutrition de qualité",
+        "A": "nutrition",
+        "B": "qualité",
+        "relation": "r_has_property-1"
+    },
+    {
+        "texte_complet": "soins de santé",
+        "A": "soins",
+        "B": "santé",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "images de course",
+        "A": "images",
+        "B": "course",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "avenue du maquis",
+        "A": "avenue",
+        "B": "maquis",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "équipe de football",
+        "A": "équipe",
+        "B": "football",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "officier de cavalerie",
+        "A": "officier",
+        "B": "cavalerie",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "description des faits",
+        "A": "description",
+        "B": "faits",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "accusations de fraude",
+        "A": "accusations",
+        "B": "fraude",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "district de columbia",
+        "A": "district",
+        "B": "columbia",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "capteurs de mouvement",
+        "A": "capteurs",
+        "B": "mouvement",
+        "relation": "r_processus>instr-1"
+    },
+    {
+        "texte_complet": "professionnels de la santé",
+        "A": "professionnels",
+        "B": "santé",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "régions de ségou",
+        "A": "régions",
+        "B": "ségou",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "président de la transition",
+        "A": "président",
+        "B": "transition",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "séance du conseil",
+        "A": "séance",
+        "B": "conseil",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "embarquement des piétons",
+        "A": "embarquement",
+        "B": "piétons",
         "relation": "r_processus_agent"
     },
     {
-        "texte_complet": "encontre de manifestants",
-        "A": "encontre",
-        "B": "manifestants",
+        "texte_complet": "accès des véhicules",
+        "A": "accès",
+        "B": "véhicules",
+        "relation": "r_processus_agent"
+    },
+    {
+        "texte_complet": "ministre de l'économie",
+        "A": "ministre",
+        "B": "économie",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "champs de mines",
+        "A": "champs",
+        "B": "mines",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "centaines de kilomètres",
+        "A": "centaines",
+        "B": "kilomètres",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "% du côté",
+        "A": "%",
+        "B": "côté",
         "relation": "inconnu"
     },
     {
-        "texte_complet": "chair de poule",
-        "A": "chair",
-        "B": "poule",
+        "texte_complet": "perte de sens",
+        "A": "perte",
+        "B": "sens",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "millions de clients",
+        "A": "millions",
+        "B": "clients",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "cheffe du gouvernement",
+        "A": "cheffe",
+        "B": "gouvernement",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "nobel de la paix",
+        "A": "nobel",
+        "B": "paix",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "ordre de la justice",
+        "A": "ordre",
+        "B": "justice",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "tournée de depardieu",
+        "A": "tournée",
+        "B": "depardieu",
+        "relation": "r_processus_agent"
+    },
+    {
+        "texte_complet": "plupart des blessés",
+        "A": "plupart",
+        "B": "blessés",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "ministère de la santé",
+        "A": "ministère",
+        "B": "santé",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "projets de recyclage",
+        "A": "projets",
+        "B": "recyclage",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "cadre de france",
+        "A": "cadre",
+        "B": "france",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "axes de donetsk",
+        "A": "axes",
+        "B": "donetsk",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "major des armées",
+        "A": "major",
+        "B": "armées",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "atouts du pays",
+        "A": "atouts",
+        "B": "pays",
+        "relation": "r_own-1"
+    },
+    {
+        "texte_complet": "bilan de la défense",
+        "A": "bilan",
+        "B": "défense",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "% des amphibiens",
+        "A": "%",
+        "B": "amphibiens",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "% des oiseaux",
+        "A": "%",
+        "B": "oiseaux",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "% des mammifères",
+        "A": "%",
+        "B": "mammifères",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "% des requins",
+        "A": "%",
+        "B": "requins",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "% des coraux",
+        "A": "%",
+        "B": "coraux",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "point de vue",
+        "A": "point",
+        "B": "vue",
         "relation": "inconnu"
     },
     {
-        "texte_complet": "vidéo des joueuses",
-        "A": "vidéo",
-        "B": "joueuses",
-        "relation": "r_depict"
+        "texte_complet": "jeunesse du cameroun",
+        "A": "jeunesse",
+        "B": "cameroun",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "finale de la coupe",
+        "A": "finale",
+        "B": "coupe",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "monde de football",
+        "A": "monde",
+        "B": "football",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "york des années",
+        "A": "york",
+        "B": "années",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "histoire de meurtre",
+        "A": "histoire",
+        "B": "meurtre",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "cadres de la croix",
+        "A": "cadres",
+        "B": "croix",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "état de santé",
+        "A": "état",
+        "B": "santé",
+        "relation": "r_has_property-1"
+    },
+    {
+        "texte_complet": "occupation des étrangers",
+        "A": "occupation",
+        "B": "étrangers",
+        "relation": "r_processus_agent"
+    },
+    {
+        "texte_complet": "coût de production",
+        "A": "coût",
+        "B": "production",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "origine du titre",
+        "A": "origine",
+        "B": "titre",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "chose de prévu",
+        "A": "chose",
+        "B": "prévu",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "bureau des douanes",
+        "A": "bureau",
+        "B": "douanes",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "principe de points",
+        "A": "principe",
+        "B": "points",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "mots de la maire",
+        "A": "mots",
+        "B": "maire",
+        "relation": "r_processus_agent"
+    },
+    {
+        "texte_complet": "partenaire du festival",
+        "A": "partenaire",
+        "B": "festival",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "fondateurs de la scale",
+        "A": "fondateurs",
+        "B": "scale",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "depart des juifs",
+        "A": "depart",
+        "B": "juifs",
+        "relation": "r_processus_agent"
+    },
+    {
+        "texte_complet": "création de contenu",
+        "A": "création",
+        "B": "contenu",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "surface de travail",
+        "A": "surface",
+        "B": "travail",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "part des politiciens",
+        "A": "part",
+        "B": "politiciens",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "histoire du peuple",
+        "A": "histoire",
+        "B": "peuple",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "conseil de planification",
+        "A": "conseil",
+        "B": "planification",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "bas de la tribune",
+        "A": "bas",
+        "B": "tribune",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "prévisions de trafic",
+        "A": "prévisions",
+        "B": "trafic",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "% des ventes",
+        "A": "%",
+        "B": "ventes",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "ordre des infirmières",
+        "A": "ordre",
+        "B": "infirmières",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "infirmiers du québec",
+        "A": "infirmiers",
+        "B": "québec",
+        "relation": "r_lieu>origine"
+    },
+    {
+        "texte_complet": "ensemble de programmes",
+        "A": "ensemble",
+        "B": "programmes",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "besoins des communautés",
+        "A": "besoins",
+        "B": "communautés",
+        "relation": "r_own-1"
+    },
+    {
+        "texte_complet": "police de la ville",
+        "A": "police",
+        "B": "ville",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "maladie des os",
+        "A": "maladie",
+        "B": "os",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "perspectives de vie",
+        "A": "perspectives",
+        "B": "vie",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "côtés de jon",
+        "A": "côtés",
+        "B": "jon",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "agents de la fonction",
+        "A": "agents",
+        "B": "fonction",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "matière de droits",
+        "A": "matière",
+        "B": "droits",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "points de sutures",
+        "A": "points",
+        "B": "sutures",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "titre de membre",
+        "A": "titre",
+        "B": "membre",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "choix des plateformes",
+        "A": "choix",
+        "B": "plateformes",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "peu d'entretien",
+        "A": "peu",
+        "B": "entretien",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "fiabilité du système",
+        "A": "fiabilité",
+        "B": "système",
+        "relation": "r_has_property-1"
+    },
+    {
+        "texte_complet": "tête de la cop",
+        "A": "tête",
+        "B": "cop",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "spécialiste du pétrole",
+        "A": "spécialiste",
+        "B": "pétrole",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "infrastructures de base",
+        "A": "infrastructures",
+        "B": "base",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "raison du manque",
+        "A": "raison",
+        "B": "manque",
+        "relation": "r_has_causatif"
+    },
+    {
+        "texte_complet": "routes de qualité",
+        "A": "routes",
+        "B": "qualité",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "sort des nord",
+        "A": "sort",
+        "B": "nord",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "options de financement",
+        "A": "options",
+        "B": "financement",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "personnage de flam",
+        "A": "personnage",
+        "B": "flam",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "manque de clarté",
+        "A": "manque",
+        "B": "clarté",
+        "relation": "r_has_property-1"
+    },
+    {
+        "texte_complet": "gestion des formations",
+        "A": "gestion",
+        "B": "formations",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "droit des conflits",
+        "A": "droit",
+        "B": "conflits",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "jours de congés",
+        "A": "jours",
+        "B": "congés",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "début de cycle",
+        "A": "début",
+        "B": "cycle",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "cas de règles",
+        "A": "cas",
+        "B": "règles",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "créations de l'année",
+        "A": "créations",
+        "B": "année",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "professionnel de golf",
+        "A": "professionnel",
+        "B": "golf",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "organisation du club",
+        "A": "organisation",
+        "B": "club",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "apport de françois",
+        "A": "apport",
+        "B": "françois",
+        "relation": "r_processus_agent"
+    },
+    {
+        "texte_complet": "colonnes de hln",
+        "A": "colonnes",
+        "B": "hln",
+        "relation": "r_holo"
+    },
+    {
+        "texte_complet": "thématique de la convivialité",
+        "A": "thématique",
+        "B": "convivialité",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "trentaine de membres",
+        "A": "trentaine",
+        "B": "membres",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "conditions de travail",
+        "A": "conditions",
+        "B": "travail",
+        "relation": "r_topic"
+    },
+    {
+        "texte_complet": "climat de terreur",
+        "A": "climat",
+        "B": "terreur",
+        "relation": "r_has_property-1"
+    },
+    {
+        "texte_complet": "bénédiction des chevaux",
+        "A": "bénédiction",
+        "B": "chevaux",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "arrivée des comoriens",
+        "A": "arrivée",
+        "B": "comoriens",
+        "relation": "r_processus_agent"
+    },
+    {
+        "texte_complet": "île de mayotte",
+        "A": "île",
+        "B": "mayotte",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "niveau de dividendes",
+        "A": "niveau",
+        "B": "dividendes",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "état de new",
+        "A": "état",
+        "B": "new",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "pont de buda",
+        "A": "pont",
+        "B": "buda",
+        "relation": "r_lieu"
+    },
+    {
+        "texte_complet": "propriété du port",
+        "A": "propriété",
+        "B": "port",
+        "relation": "r_own-1"
+    },
+    {
+        "texte_complet": "niveaux de gouvernement",
+        "A": "niveaux",
+        "B": "gouvernement",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "occasion du monde",
+        "A": "occasion",
+        "B": "monde",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "approche du vote",
+        "A": "approche",
+        "B": "vote",
+        "relation": "r_processus_patient"
+    },
+    {
+        "texte_complet": "petite-fille de survivants",
+        "A": "petite-fille",
+        "B": "survivants",
+        "relation": "r_social_tie"
+    },
+    {
+        "texte_complet": "journée de magasinage",
+        "A": "journée",
+        "B": "magasinage",
+        "relation": "r_quantificateur"
+    },
+    {
+        "texte_complet": "drôle de bicycle",
+        "A": "drôle",
+        "B": "bicycle",
+        "relation": "inconnu"
+    },
+    {
+        "texte_complet": "raison de santé",
+        "A": "raison",
+        "B": "santé",
+        "relation": "r_has_causatif"
+    },
+    {
+        "texte_complet": "” du président",
+        "A": "”",
+        "B": "président",
+        "relation": "inconnu"
     }
 ]
