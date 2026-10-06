@@ -1,6 +1,6 @@
 import argparse
 import sys
-from collections.abc import Iterator, Sequence
+from collections.abc import Collection, Iterator, Sequence
 from pathlib import Path
 from typing import cast
 
@@ -14,9 +14,7 @@ if str(ROOT) not in sys.path:
 from build_vecteurs import COLLECTION_NAME, client
 
 COLLECTION_PLUS_PROCHE = f"{COLLECTION_NAME}_plus_proche"
-COLLECTION_SEUIL_05 = f"{COLLECTION_NAME}_seuil_05"
 SEUIL_MINIMUM = 0.5
-
 
 def iter_points(collection_name: str = COLLECTION_NAME) -> Iterator[Record]:
     """Parcourt tous les points de la collection avec leurs deux vecteurs."""
@@ -26,13 +24,13 @@ def iter_points(collection_name: str = COLLECTION_NAME) -> Iterator[Record]:
             collection_name=collection_name,
             limit=256,
             offset=offset,
-            with_payload=["texte_complet", "relation", "is_def", "fus", "fusion_sources"],
+            # On remplace is_def par traits_morpho dans le payload récupéré
+            with_payload=["texte_complet", "relation", "traits_morpho", "fus", "fusion_sources"],
             with_vectors=["s_L", "s_R"],
         )
         yield from points
         if offset is None:
             break
-
 
 def sparse_similarity(left: object, right: object) -> float:
     """Calcule le produit scalaire de deux vecteurs creux normalises."""
@@ -46,7 +44,6 @@ def sparse_similarity(left: object, right: object) -> float:
         value * right_values.get(index, 0.0)
         for index, value in zip(left_indices, left_values)
     )
-
 
 def union_sparse_vectors(left: object, right: object) -> models.SparseVector:
     """Construit l'union des signatures en conservant le poids maximal."""
@@ -63,7 +60,6 @@ def union_sparse_vectors(left: object, right: object) -> models.SparseVector:
         indices=list(weights),
         values=[value / norm for value in weights.values()],
     )
-
 
 def combined_similarity(
     point: Record | models.PointStruct,
@@ -90,7 +86,6 @@ def find_nearest_neighbor(
         for candidate in points
         if candidate.id != point.id
         and (candidate.payload or {}).get("relation") == payload.get("relation")
-        and (candidate.payload or {}).get("is_def") == payload.get("is_def")
     )
     nearest = max(
         candidates,
@@ -125,7 +120,7 @@ def fuse_points(
         payload={
             "texte_complet": fused_text,
             "relation": point_payload.get("relation"),
-            "is_def": point_payload.get("is_def"),
+            "traits_morpho": point_payload.get("traits_morpho"), # On garde pour l'affichage
             "fus": 0,
             "fusion_sources": [point.id, nearest.id],
         },
@@ -169,7 +164,7 @@ def find_nearest_neighbors(
             "point_id": point.id,
             "texte_complet": payload.get("texte_complet"),
             "relation": payload.get("relation"),
-            "is_def": payload.get("is_def"),
+            "traits_morpho": payload.get("traits_morpho"),
             "nearest_point_id": nearest.id if nearest else None,
             "nearest_texte_complet": (nearest.payload or {}).get("texte_complet") if nearest else None,
             "score": score,
@@ -178,8 +173,12 @@ def find_nearest_neighbors(
     return results
 
 
-def clone_collection(source_name: str, target_name: str) -> None:
-    """Recrée une collection de travail avec les points de la collection source."""
+def clone_collection(
+    source_name: str,
+    target_name: str,
+    point_ids: Collection[int] | None = None,
+) -> None:
+    """Recrée une collection de travail, éventuellement limitée à certains points."""
     if client.collection_exists(collection_name=target_name):
         client.delete_collection(collection_name=target_name)
 
@@ -192,7 +191,11 @@ def clone_collection(source_name: str, target_name: str) -> None:
         },
     )
 
-    source_points = iter_points(source_name)
+    selected_ids = set(point_ids) if point_ids is not None else None
+    source_points = (
+        point for point in iter_points(source_name)
+        if selected_ids is None or point.id in selected_ids
+    )
     batch = list(source_points)
     while batch:
         client.upsert(
@@ -245,10 +248,11 @@ def run_learning(
         point.payload = {**payload, "fus": 1}
         nearest.payload = {**(nearest.payload or {}), "fus": 1}
         points_a_traiter.append(fused_point)
+        
         print(
             f"[{collection_name}] fusion {point.id} + {nearest.id} -> {fused_point.id} "
             f"score={score_text} relation={payload.get('relation')!r} "
-            f"is_def={payload.get('is_def')}"
+            f"traits={payload.get('traits_morpho')}"
         )
         print(f"  {payload.get('texte_complet')}")
         print(f"  voisin: {(nearest.payload or {}).get('texte_complet')}")
@@ -264,25 +268,18 @@ def main() -> int:
     )
     parser.add_argument(
         "--limit", type=int, default=None,
-        help="Limite le nombre de résultats affiches (par defaut: tous).",
+        help="Limite le nombre de résultats affichés (par défaut: tous).",
     )
     args = parser.parse_args()
 
     clone_collection(COLLECTION_NAME, COLLECTION_PLUS_PROCHE)
-    clone_collection(COLLECTION_NAME, COLLECTION_SEUIL_05)
 
     total_plus_proche = run_learning(
         COLLECTION_PLUS_PROCHE,
         limit=args.limit,
     )
-    total_seuil_05 = run_learning(
-        COLLECTION_SEUIL_05,
-        minimum_score=SEUIL_MINIMUM,
-        limit=args.limit,
-    )
     print(
-        f"Fusions realisees: {COLLECTION_PLUS_PROCHE}={total_plus_proche}, "
-        f"{COLLECTION_SEUIL_05}={total_seuil_05}."
+        f"Fusions realisees: {COLLECTION_PLUS_PROCHE}={total_plus_proche}"
     )
 
     return 0

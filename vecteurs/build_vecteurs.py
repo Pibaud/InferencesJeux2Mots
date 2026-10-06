@@ -112,20 +112,27 @@ def sig2vec(sig_dict: dict) -> models.SparseVector:
     return models.SparseVector(indices=indices, values=valeurs_normalisees)
 
 
-def determiner_definitude(texte_complet: str, mot_b: str) -> int:
+def determiner_traits_morpho(texte_complet: str, mot_b: str) -> tuple[str, str]:
     """
-    Détermine si le complément B est défini (1) ou non défini (0),
+    Extrait les deux symboles (Det/NoDet et Def/NoDef) du complément de nom B.
     """
     texte = texte_complet.strip()
 
+    # 1. Présence d'un déterminant défini (du, des, de la, de l')
     if re.search(r"\b(du|de la|de l'|des)\b", texte, flags=re.IGNORECASE):
-        return 1
+        return "Det", "Def"
 
+    # 2. Présence d'un déterminant indéfini (d'un, d'une)
+    if re.search(r"\b(d'un|d'une)\b", texte, flags=re.IGNORECASE):
+        return "Det", "NoDef"
+
+    # 3. Absence de déterminant (de, d')
+    # Cas particulier : l'attribut Def est forcé pour les entités nommées
     if mot_b and mot_b[0].isupper():
-        return 1
-
-    # Par défaut (" de ", " d' " devant nom commun sans déterminant) -> Non défini
-    return 0
+        return "NoDet", "Def"
+        
+    # Cas par défaut : nom commun sans déterminant
+    return "NoDet", "NoDef"
 
 
 def inserer_dataset(trt_aggregation: str = "max"):
@@ -137,6 +144,13 @@ def inserer_dataset(trt_aggregation: str = "max"):
     points_a_inserer = []
     tailles = {"avant": [], "apres": []}
     
+    TRAITS_MAP = { # Indices positifs reserves aux traits, hors des ID JDM.
+        "Det": 4_000_000_001,
+        "NoDet": 4_000_000_002,
+        "Def": 4_000_000_003,
+        "NoDef": 4_000_000_004,
+    }
+
     for i, item in enumerate(dataset):
         if item.get("statut") not in ["valide", "corrige"]:
             continue
@@ -158,8 +172,10 @@ def inserer_dataset(trt_aggregation: str = "max"):
         sig_a = term2sig(id_a, stats=tailles, trt_aggregation=trt_aggregation)
         sig_b = term2sig(id_b, stats=tailles, trt_aggregation=trt_aggregation)
 
-        # Calcul correct de la définitude
-        is_def = determiner_definitude(texte_complet, mot_b)
+        trait_det, trait_def = determiner_traits_morpho(texte_complet, mot_b)
+        
+        sig_b[TRAITS_MAP[trait_det]] = 1.0
+        sig_b[TRAITS_MAP[trait_def]] = 1.0
 
         point = models.PointStruct(
             id=i,
@@ -168,7 +184,7 @@ def inserer_dataset(trt_aggregation: str = "max"):
                 "mot_a": mot_a,
                 "mot_b": mot_b,
                 "relation": relation,
-                "is_def": is_def,
+                "traits_morpho": [trait_det, trait_def],
                 "fus": 0,
             },
             vector={

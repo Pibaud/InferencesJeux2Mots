@@ -15897,13 +15897,6 @@
         "statut": "valide"
     },
     {
-        "texte_complet": "baie de san-francisco",
-        "mot_a": "baie",
-        "mot_b": "san-francisco",
-        "relation_humaine": "r_lieu",
-        "statut": "valide"
-    },
-    {
         "texte_complet": "temple de karnak",
         "mot_a": "temple",
         "mot_b": "karnak",
@@ -15977,13 +15970,6 @@
         "texte_complet": "île de madagascar",
         "mot_a": "île",
         "mot_b": "madagascar",
-        "relation_humaine": "r_lieu",
-        "statut": "valide"
-    },
-    {
-        "texte_complet": "archipel de palawan",
-        "mot_a": "archipel",
-        "mot_b": "palawan",
         "relation_humaine": "r_lieu",
         "statut": "valide"
     },
@@ -16349,6 +16335,468 @@
         "mot_a": "investigation",
         "mot_b": "limier",
         "relation_humaine": "r_processus_agent",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "Cèdre du Liban",
+        "mot_a": "Cèdre",
+        "mot_b": "Liban",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "Sel de Guérande",
+        "mot_a": "Sel",
+        "mot_b": "Guérande",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "Saucisse de Morteau",
+        "mot_a": "Saucisse",
+        "mot_b": "Morteau",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "Chien de Norvège",
+        "mot_a": "Chien",
+        "mot_b": "Norvège",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "Dentelle d'Alençon",
+        "mot_a": "Dentelle",
+        "mot_b": "Alençon",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "Jambon de Bayonne",
+        "mot_a": "Jambon",
+        "mot_b": "Bayonne",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "Cheval d'Iran",
+        "mot_a": "Cheval",
+        "mot_b": "Iran",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "Argent des Pays-Bas",
+        "mot_a": "Argent",
+        "mot_b": "Pays-Bas",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "Miel du Japon",
+        "mot_a": "Miel",
+        "mot_b": "Japon",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "Musique de Suède",
+        "mot_a": "Musique",
+        "mot_b": "Suède",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "Fromage d'Iran",
+        "mot_a": "Fromage",
+        "mot_b": "Iran",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "Marbre d'Irlande",
+        "mot_a": "Marbre",
+        "mot_b": "Irlande",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "Cheval de Séoul",
+        "mot_a": "Cheval",
+        "mot_b": "Séoul",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "Zézette de Sète",
+        "mot_a": "Zézette",
+        "mot_b": "Sète",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "Algue de Roumanie",
+        "mot_a": "Algue",
+        "mot_b": "Roumanie",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "Huile de Berlin",
+        "mot_a": "Huile",
+        "mot_b": "Berlin",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "Blé d'Amazonie",
+        "mot_a": "Blé",
+        "mot_b": "Amazonie",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "Vêtement du Jura",
+        "mot_a": "Vêtement",
+        "mot_b": "Jura",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "Coton de Thaïlande",
+        "mot_a": "Coton",
+        "mot_b": "Thaïlande",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "Porcelaine de Madagascar",
+        "mot_a": "Porcelaine",
+        "mot_b": "Madagascar",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "Glace de l'Arctique",
+        "mot_a": "Glace",
+        "mot_b": "Arctique",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "Tomme de Savoie",
+        "mot_a": "Tomme",
+        "mot_b": "Savoie",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "Porc noir de Bigorre",
+        "mot_a": "Porc noir",
+        "mot_b": "Bigorre",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "Veau du Limousin",
+        "mot_a": "Veau",
+        "mot_b": "Limousin",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "Échalote d'Anjou",
+        "mot_a": "Échalote",
+        "mot_b": "Anjou",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "Vin de Bourgogne",
+        "mot_a": "Vin",
+        "mot_b": "Bourgogne",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "Whisky d'Écosse",
+        "mot_a": "Whisky",
+        "mot_b": "Écosse",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "Café de Colombie",
+        "mot_a": "Café",
+        "mot_b": "Colombie",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "Clémentine de Corse",
+        "mot_a": "Clémentine",
+        "mot_b": "Corse",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "Thé de Chine",
+        "mot_a": "Thé",
+        "mot_b": "Chine",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "Cigare de Cuba",
+        "mot_a": "Cigare",
+        "mot_b": "Cuba",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "Saumon de Norvège",
+        "mot_a": "Saumon",
+        "mot_b": "Norvège",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "Bière de Belgique",
+        "mot_a": "Bière",
+        "mot_b": "Belgique",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "Morue d'Islande",
+        "mot_a": "Morue",
+        "mot_b": "Islande",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "Cheddar d'Angleterre",
+        "mot_a": "Cheddar",
+        "mot_b": "Angleterre",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "Cacao du Pérou",
+        "mot_a": "Cacao",
+        "mot_b": "Pérou",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "Café du Brésil",
+        "mot_a": "Café",
+        "mot_b": "Brésil",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "Tapis de Perse",
+        "mot_a": "Tapis",
+        "mot_b": "Perse",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "Cuir de Florence",
+        "mot_a": "Cuir",
+        "mot_b": "Florence",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "sirop d'érable du Canada",
+        "mot_a": "sirop d'érable",
+        "mot_b": "Canada",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "poisson de Nice",
+        "mot_a": "poisson",
+        "mot_b": "Nice",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "pomme de Finlande",
+        "mot_a": "pomme",
+        "mot_b": "Finlande",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "pierre d'Amiens",
+        "mot_a": "pierre",
+        "mot_b": "Amiens",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "rose du Périgord",
+        "mot_a": "rose",
+        "mot_b": "Périgord",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "herbe de Sicile",
+        "mot_a": "herbe",
+        "mot_b": "Sicile",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "huile du Québec",
+        "mot_a": "huile",
+        "mot_b": "Québec",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "ardoise de Moscou",
+        "mot_a": "ardoise",
+        "mot_b": "Moscou",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "porc du Venezuela",
+        "mot_a": "porc",
+        "mot_b": "Venezuela",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "roquefort de l'aveyron",
+        "mot_a": "roquefort",
+        "mot_b": "aveyron",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "soie de damas",
+        "mot_a": "soie",
+        "mot_b": "damas",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "tigre du bengale",
+        "mot_a": "tigre",
+        "mot_b": "bengale",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "rhum de la martinique",
+        "mot_a": "rhum",
+        "mot_b": "martinique",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "bœuf de kobe",
+        "mot_a": "bœuf",
+        "mot_b": "kobe",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "rubis de birmanie",
+        "mot_a": "rubis",
+        "mot_b": "birmanie",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "émigré de prusse",
+        "mot_a": "émigré",
+        "mot_b": "prusse",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "melon de cavaillon",
+        "mot_a": "melon",
+        "mot_b": "cavaillon",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "cuir de cordoue",
+        "mot_a": "cuir",
+        "mot_b": "cordoue",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "tango d'argentine",
+        "mot_a": "tango",
+        "mot_b": "argentine",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "lapis-lazuli d'afghanistan",
+        "mot_a": "lapis-lazuli",
+        "mot_b": "afghanistan",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "obsidienne d'anatolie",
+        "mot_a": "obsidienne",
+        "mot_b": "anatolie",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "macadamia du queensland",
+        "mot_a": "macadamia",
+        "mot_b": "queensland",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "faïence de delft",
+        "mot_a": "faïence",
+        "mot_b": "delft",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "safran d'iran",
+        "mot_a": "safran",
+        "mot_b": "iran",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "malachite de l'oural",
+        "mot_a": "malachite",
+        "mot_b": "oural",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "guano du pérou",
+        "mot_a": "guano",
+        "mot_b": "pérou",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "charoïte de sibérie",
+        "mot_a": "charoïte",
+        "mot_b": "sibérie",
+        "relation_humaine": "r_lieu>origine",
         "statut": "valide"
     }
 ]

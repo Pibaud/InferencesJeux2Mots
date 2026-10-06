@@ -53,6 +53,7 @@ def valider_syntagmes():
             time.sleep(0.005)
         except Exception as e:
             print(f"⚠️ Erreur")
+            mots_absents_jdm.add(mot)
             time.sleep(1)
                 
     # 4. Création du dataset validé

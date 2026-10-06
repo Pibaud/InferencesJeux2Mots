@@ -1,9 +1,11 @@
 import argparse
 import json
+import random
 import re
 import sys
 import time
 from collections import Counter, defaultdict
+from collections.abc import Sequence
 from pathlib import Path
 from typing import TypedDict, cast
 
@@ -13,13 +15,15 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from apprentissage import COLLECTION_PLUS_PROCHE, COLLECTION_SEUIL_05
+from apprentissage import COLLECTION_PLUS_PROCHE, clone_collection, run_learning
 from build_vecteurs import COLLECTION_NAME, client, sig2vec, term2sig
 from model.api import JDM_API
 
 THRESHOLD = 0.3
 
 api = JDM_API()
+
+USABLE_STATUSES = {"valide", "corrige"}
 
 
 class EvaluationRow(TypedDict):
@@ -64,6 +68,46 @@ def parse_phrase(phrase: str) -> tuple[str, str]:
         raise ValueError(f"Le syntagme '{phrase}' n'a pas pu être découpé en forme 'A de B'.")
         
     return match.group(1).strip(), match.group(2).strip()
+
+
+def stratified_kfold(
+    dataset: Sequence[dict],
+    n_splits: int = 5,
+    seed: int = 42,
+) -> list[list[tuple[int, dict]]]:
+    """Construit des plis stratifies par relation_humaine."""
+    if n_splits < 2:
+        raise ValueError("n_splits doit etre au moins egal a 2")
+
+    by_relation: dict[str, list[tuple[int, dict]]] = defaultdict(list)
+    for index, item in enumerate(dataset):
+        if item.get("statut") in USABLE_STATUSES:
+            by_relation[item["relation_humaine"]].append((index, item))
+
+    if not by_relation:
+        raise ValueError("Le dataset ne contient aucun exemple utilisable")
+    undersized = {
+        relation: len(items)
+        for relation, items in by_relation.items()
+        if len(items) < n_splits
+    }
+    if undersized:
+        details = ", ".join(f"{relation}={count}" for relation, count in undersized.items())
+        raise ValueError(
+            f"Chaque classe doit contenir au moins {n_splits} exemples ({details})"
+        )
+
+    folds: list[list[tuple[int, dict]]] = [[] for _ in range(n_splits)]
+    rng = random.Random(seed)
+    for relation in sorted(by_relation):
+        examples = by_relation[relation].copy()
+        rng.shuffle(examples)
+        for position, example in enumerate(examples):
+            folds[position % n_splits].append(example)
+
+    for fold in folds:
+        fold.sort(key=lambda pair: pair[0])
+    return folds
 
 def query_sparse_neighbors(
     vector,
@@ -224,8 +268,24 @@ def evaluate_dataset(
     with dataset_path.open(encoding="utf-8") as file:
         dataset = json.load(file)
 
+    return evaluate_items(dataset, collection_name, threshold, limit)
+
+
+def evaluate_items(
+    dataset: Sequence[dict],
+    collection_name: str,
+    threshold: float = THRESHOLD,
+    limit: int = 20,
+) -> tuple[list[EvaluationRow], EvaluationMetrics]:
+    """Evalue une liste d'exemples sans l'ajouter a la collection Qdrant."""
+    usable_items = [
+        (index, item)
+        for index, item in enumerate(dataset, start=1)
+        if item.get("statut") in USABLE_STATUSES
+    ]
+
     rows: list[EvaluationRow] = []
-    for index, item in enumerate(dataset, start=1):
+    for index, item in usable_items:
         expected = item["relation_humaine"]
         phrase = item["texte_complet"]
         try:
@@ -267,14 +327,61 @@ def evaluate_dataset(
         prediction_text = row["prediction"] or "Aucune"
         status = "OK" if row["correct"] else "ERREUR"
         print(
-            f"[{index:>3}/{len(dataset)}] {status:<6} {phrase:<40} "
+            f"[{index:>3}/{len(usable_items)}] {status:<6} {phrase:<40} "
             f"attendu={expected:<24} predit={prediction_text:<24} "
             f"score={row['score']:.4f}"
         )
         if row["error"]:
             print(f"      erreur: {row['error']}")
 
-    return rows, compute_metrics(rows, len(dataset))
+    return rows, compute_metrics(rows, len(usable_items))
+
+
+def evaluate_stratified_kfold(
+    dataset_path: Path,
+    n_splits: int,
+    seed: int,
+    threshold: float,
+    limit: int,
+) -> EvaluationMetrics:
+    """Entraine et evalue une collection Qdrant independante par pli."""
+    with dataset_path.open(encoding="utf-8") as file:
+        dataset = json.load(file)
+
+    folds = stratified_kfold(dataset, n_splits=n_splits, seed=seed)
+    all_rows: list[EvaluationRow] = []
+    for fold_index, test_fold in enumerate(folds):
+        collection_name = f"{COLLECTION_NAME}_kfold_{seed}_{fold_index}"
+        train_ids = {
+            index
+            for current_fold_index, current_fold in enumerate(folds)
+            if current_fold_index != fold_index
+            for index, _ in current_fold
+        }
+        test_items = [item for _, item in test_fold]
+        print(
+            f"\n### Pli {fold_index + 1}/{n_splits}: "
+            f"entrainement={len(train_ids)} test={len(test_items)} ###"
+        )
+        try:
+            clone_collection(COLLECTION_NAME, collection_name, train_ids)
+            fusions = run_learning(collection_name)
+            print(f"Fusions du pli : {fusions}")
+            rows, metrics = evaluate_items(
+                test_items,
+                collection_name,
+                threshold=threshold,
+                limit=limit,
+            )
+            all_rows.extend(rows)
+            print_dataset_report(collection_name, metrics)
+        finally:
+            if client.collection_exists(collection_name=collection_name):
+                client.delete_collection(collection_name=collection_name)
+
+    metrics = compute_metrics(all_rows, len(all_rows))
+    print_dataset_report(f"{COLLECTION_NAME}_kfold", metrics)
+    return metrics
 
 
 def print_dataset_report(collection_name: str, metrics: EvaluationMetrics) -> None:
@@ -321,21 +428,40 @@ def main():
     parser.add_argument("--limit", type=int, default=20, help="Nombre maximum de relations à afficher")
     parser.add_argument(
         "--collection",
-        choices=("principale", "plus_proche", "seuil_05", "toutes"),
+        choices=("principale", "plus_proche", "toutes"),
         default="toutes",
         help="Collection à évaluer (défaut: toutes en mode jeu de test).",
+    )
+    parser.add_argument(
+        "--kfold", type=int, default=None,
+        help="Lance une validation croisée stratifiée (5 pour un 80/20).",
+    )
+    parser.add_argument(
+        "--seed", type=int, default=42,
+        help="Graine du découpage stratifié (défaut: 42).",
     )
     args = parser.parse_args()
 
     collections = {
         "principale": COLLECTION_NAME,
         "plus_proche": COLLECTION_PLUS_PROCHE,
-        "seuil_05": COLLECTION_SEUIL_05,
     }
 
     if args.jeu_test:
+        if args.kfold is not None:
+            if args.kfold < 2:
+                print("Erreur : --kfold doit être au moins égal à 2.", file=sys.stderr)
+                return 1
+            evaluate_stratified_kfold(
+                args.jeu_test,
+                n_splits=args.kfold,
+                seed=args.seed,
+                threshold=args.seuil,
+                limit=args.limit,
+            )
+            return 0
         selected_collections = (
-            [COLLECTION_PLUS_PROCHE, COLLECTION_SEUIL_05]
+            [COLLECTION_NAME, COLLECTION_PLUS_PROCHE]
             if args.collection == "toutes"
             else [collections[args.collection]]
         )

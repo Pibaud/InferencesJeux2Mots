@@ -1,0 +1,37 @@
+[
+    {
+        "texte_complet": "charoïte de sibérie",
+        "mot_a": "charoïte",
+        "mot_b": "sibérie",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "yuzu de shikoku",
+        "mot_a": "yuzu",
+        "mot_b": "shikoku",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "santal de mysore",
+        "mot_a": "santal",
+        "mot_b": "mysore",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "pashmina du ladakh",
+        "mot_a": "pashmina",
+        "mot_b": "ladakh",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "tweed des hébrides",
+        "mot_a": "tweed",
+        "mot_b": "hébrides",
+        "relation_humaine": "r_lieu>origine",
+        "statut": "valide"
+    }
+]
