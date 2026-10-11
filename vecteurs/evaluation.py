@@ -1,5 +1,6 @@
 import argparse
 import json
+import logging
 import random
 import re
 import sys
@@ -16,12 +17,13 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 from apprentissage import COLLECTION_PLUS_PROCHE, clone_collection, run_learning
-from build_vecteurs import COLLECTION_NAME, client, sig2vec, term2sig
+from build_vecteurs import COLLECTION_NAME, client, normaliser_terme_jdm, sig2vec, term2sig
 from model.api import JDM_API
 
-THRESHOLD = 0.3
+THRESHOLD = 0.2
 
 api = JDM_API()
+logger = logging.getLogger(__name__)
 
 USABLE_STATUSES = {"valide", "corrige"}
 
@@ -60,14 +62,21 @@ class EvaluationMetrics(TypedDict):
     confusion: Counter[tuple[str, str]]
 
 def parse_phrase(phrase: str) -> tuple[str, str]:
-    """Extrait les deux termes A et B d'un syntagme génitif."""
-    pattern = r"^\s*(.+?)\s+(?:de\s+la|de\s+l['’]|du|des|de|d['’])\s*(.+?)\s*$"
+    """Extrait deux termes, dont A peut contenir des espaces protégés par `_`."""
+    pattern = (
+        r"^\s*(.+?)\s+(?:"
+        r"de\s+la\b|de\s+l['’]|d['’]un\b|d['’]une\b|"
+        r"du\b|des\b|de|d['’])\s*(.+?)\s*$"
+    )
     match = re.match(pattern, phrase.strip(), flags=re.IGNORECASE)
     
     if not match:
         raise ValueError(f"Le syntagme '{phrase}' n'a pas pu être découpé en forme 'A de B'.")
         
-    return match.group(1).strip(), match.group(2).strip()
+    return (
+        normaliser_terme_jdm(match.group(1)),
+        normaliser_terme_jdm(match.group(2)),
+    )
 
 
 def stratified_kfold(
@@ -124,7 +133,12 @@ def query_sparse_neighbors(
         limit=limit,
     )
 
-def aggregate_relation_scores(left_hits, right_hits, threshold: float):
+def aggregate_relation_scores(
+    left_hits,
+    right_hits,
+    threshold: float,
+    diagnostics: dict[str, int | float] | None = None,
+):
     """Agrège les scores selon la Formule 3 du papier : 1/2(sim(A, sL) + sim(B, sR))."""
     rules_scores = defaultdict(lambda: {
         'score_L': 0.0,
@@ -146,11 +160,24 @@ def aggregate_relation_scores(left_hits, right_hits, threshold: float):
             rules_scores[result.id]['texte_complet'] = result.payload.get("texte_complet")
 
     relation_aggregated = defaultdict(list)
+    candidate_scores = []
     for rule_id, data in rules_scores.items():
         if data['relation']:
             score_formule = 0.5 * (data['score_L'] + data['score_R'])
+            candidate_scores.append(score_formule)
             if score_formule >= threshold:
                 relation_aggregated[data['relation']].append((score_formule, data['texte_complet']))
+
+    if diagnostics is not None:
+        diagnostics.update({
+            "left_hits": len(left_hits.points),
+            "right_hits": len(right_hits.points),
+            "candidate_rules": len(candidate_scores),
+            "candidates_above_threshold": sum(
+                score >= threshold for score in candidate_scores
+            ),
+            "best_candidate_score": max(candidate_scores, default=0.0),
+        })
 
     result = []
     for relation, scores in relation_aggregated.items():
@@ -183,11 +210,11 @@ def find_nearest_relation_types(
     t2 = time.perf_counter()
     timings["IDs (API JDM)"] = (t2 - t1) * 1000
 
-    # 3. Création des signatures brutes (Appels lourds à l'API)
+    # 3. Création des signatures
     sig_a = term2sig(id_a)
     sig_b = term2sig(id_b)
     t3 = time.perf_counter()
-    timings["Signatures (API JDM)"] = (t3 - t2) * 1000
+    timings["Signatures (API JDM ou cache)"] = (t3 - t2) * 1000
 
     # 4. Conversion et normalisation locale en vecteurs
     left_vector = sig2vec(sig_a)
@@ -202,9 +229,32 @@ def find_nearest_relation_types(
     timings["Recherche Qdrant"] = (t5 - t4) * 1000
 
     # 6. Agrégation Formule 3
-    relation_scores = aggregate_relation_scores(left_hits, right_hits, threshold)
+    aggregation_diagnostics: dict[str, int | float] = {}
+    relation_scores = aggregate_relation_scores(
+        left_hits,
+        right_hits,
+        threshold,
+        diagnostics=aggregation_diagnostics,
+    )
     t6 = time.perf_counter()
     timings["Agrégation"] = (t6 - t5) * 1000
+
+    if not relation_scores:
+        logger.warning(
+            "Aucune prédiction pour '%s' (termes=%r, %r, seuil=%.3f, "
+            "hits_gauche=%d, hits_droite=%d, règles_candidates=%d, "
+            "candidates_au-dessus_du_seuil=%d, meilleur_score=%.4f, collection=%s)",
+            phrase,
+            mot_a,
+            mot_b,
+            threshold,
+            aggregation_diagnostics["left_hits"],
+            aggregation_diagnostics["right_hits"],
+            aggregation_diagnostics["candidate_rules"],
+            aggregation_diagnostics["candidates_above_threshold"],
+            aggregation_diagnostics["best_candidate_score"],
+            collection_name,
+        )
     
     timings["Total global"] = (t6 - t0) * 1000
 
@@ -312,6 +362,15 @@ def evaluate_items(
                 "error": None,
             }
         except Exception as exc:
+            logger.error(
+                "Échec de l'évaluation pour l'exemple %d '%s' "
+                "(relation attendue=%s): %s",
+                index,
+                phrase,
+                expected,
+                exc,
+                exc_info=True,
+            )
             row = {
                 "index": index,
                 "phrase": phrase,

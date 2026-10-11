@@ -242,20 +242,20 @@ def run_learning(
             continue
 
         payload = point.payload or {}
-        score_text = f"{score:.6f}"
+        #score_text = f"{score:.6f}"
         fused_point = fuse_points(point, nearest, next_id, collection_name)
         points_a_traiter.remove(nearest)
         point.payload = {**payload, "fus": 1}
         nearest.payload = {**(nearest.payload or {}), "fus": 1}
         points_a_traiter.append(fused_point)
         
-        print(
-            f"[{collection_name}] fusion {point.id} + {nearest.id} -> {fused_point.id} "
-            f"score={score_text} relation={payload.get('relation')!r} "
-            f"traits={payload.get('traits_morpho')}"
-        )
-        print(f"  {payload.get('texte_complet')}")
-        print(f"  voisin: {(nearest.payload or {}).get('texte_complet')}")
+        #print(
+        #    f"[{collection_name}] fusion {point.id} + {nearest.id} -> {fused_point.id} "
+        #    f"score={score_text} relation={payload.get('relation')!r} "
+        #    f"traits={payload.get('traits_morpho')}"
+        #)
+        #print(f"  {payload.get('texte_complet')}")
+        #print(f"  voisin: {(nearest.payload or {}).get('texte_complet')}")
         next_id += 1
         processed += 1
 

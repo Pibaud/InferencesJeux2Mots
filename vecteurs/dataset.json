@@ -16611,7 +16611,7 @@
         "statut": "valide"
     },
     {
-        "texte_complet": "sirop d'érable du Canada",
+        "texte_complet": "sirop_d'_érable du Canada",
         "mot_a": "sirop d'érable",
         "mot_b": "Canada",
         "relation_humaine": "r_lieu>origine",

@@ -17,6 +17,12 @@ api = JDM_API()
 client = QdrantClient(url="http://localhost:6333")
 COLLECTION_NAME = "syntagmes_grasp_it"
 
+def normaliser_terme_jdm(terme: str) -> str:
+    """Convertit la notation protégée du dataset en texte recherché dans JDM."""
+    terme = re.sub(r"(?<=[dD]['’])_", "", terme)
+    return terme.replace("_", " ").strip()
+
+
 def init_qdrant():
     """Vide la collection existante ou la crée avec ses vecteurs creux."""
     if client.collection_exists(collection_name=COLLECTION_NAME):
@@ -155,8 +161,8 @@ def inserer_dataset(trt_aggregation: str = "max"):
         if item.get("statut") not in ["valide", "corrige"]:
             continue
             
-        mot_a = item["mot_a"]
-        mot_b = item["mot_b"]
+        mot_a = normaliser_terme_jdm(item["mot_a"])
+        mot_b = normaliser_terme_jdm(item["mot_b"])
         texte_complet = item["texte_complet"]
         relation = item["relation_humaine"]
 
