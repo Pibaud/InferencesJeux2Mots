@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Explication de « pomme_de_terre de Genève »</title>
+<style>
+:root { color-scheme: light; font-family: system-ui, sans-serif; color: #172033; background: #f3f6fa; }
+body { margin: 0; }
+header { background: #172033; color: #fff; padding: 24px max(24px, calc((100% - 1100px) / 2)); }
+h1 { margin: 0 0 8px; font-size: 1.5rem; }
+header p { margin: 0; color: #d0d9e7; }
+main { max-width: 1100px; margin: 24px auto; padding: 0 20px 40px; }
+.summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin-bottom: 18px; }
+.metric, .panel { background: #fff; border: 1px solid #dce3ed; border-radius: 10px; padding: 16px; }
+.metric strong { display: block; font-size: 1.25rem; margin-top: 5px; }
+.note { color: #4b5c72; line-height: 1.55; }
+.scores { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; list-style: none; }
+.scores li { border: 1px solid #dce3ed; border-radius: 999px; padding: 6px 11px; }
+.scores .winner { border-color: #2874c8; background: #eaf3ff; font-weight: 700; }
+.tree { list-style: none; padding: 0; }
+.branches { list-style: none; margin: 0 0 0 18px; padding: 0 0 0 25px; border-left: 2px solid #ccd6e3; }
+.branches > li { position: relative; padding: 12px 0 2px; }
+.branches > li::before { content: ""; position: absolute; top: 28px; left: -25px; width: 23px; border-top: 2px solid #ccd6e3; }
+.tree-node { background: #fff; border: 1px solid #dce3ed; border-radius: 9px; padding: 12px 14px; }
+.tree-node.selected { border: 2px solid #2874c8; background: #f0f7ff; }
+.tree-node.best { border-style: dashed; border-color: #d18a16; }
+.node-heading, .metrics { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.badge { color: #245b94; font-size: .8rem; font-weight: 700; }
+.best .badge { color: #8a5700; }
+.metrics, .muted { color: #65758a; font-size: .9rem; }
+.tree-node p { margin: 8px 0; }
+.examples { margin: 8px 0 0; padding-left: 20px; color: #405169; }
+.legend { display: flex; gap: 16px; flex-wrap: wrap; margin: 12px 0; color: #526071; font-size: .9rem; }
+@media (max-width: 600px) { header { padding: 20px; } main { padding: 0 12px 28px; } .branches { margin-left: 4px; padding-left: 16px; } .branches > li::before { left: -16px; width: 14px; } }
+</style>
+</head>
+<body>
+<header><h1>Pourquoi « pomme_de_terre de Genève » a été classé « r_lieu&gt;origine »</h1>
+<p>Mode complet · analyse des généralisations de l'arbre appris</p></header>
+<main>
+<section class="summary">
+  <div class="metric">Relation prédite<strong>r_lieu&gt;origine</strong></div>
+  <div class="metric">Similarité à la racine<strong>0.535</strong></div>
+  <div class="metric">Similarité finale<strong>0.536</strong></div>
+  <div class="metric">Dimensions de l'entrée<strong>199</strong></div>
+</section>
+<section class="panel"><h2>Scores des classes candidates</h2><ul class="scores"><li class="winner">r_lieu&gt;origine : 0.536</li><li>r_lieu : 0.527</li><li>r_topic : 0.421</li><li>r_processus&gt;instr-1 : 0.405</li><li>r_depict : 0.402</li><li>r_processus_patient : 0.401</li><li>r_holo : 0.394</li><li>r_product_of : 0.384</li><li>r_has_property-1 : 0.358</li><li>r_has_causatif : 0.334</li><li>r_processus_agent : 0.324</li><li>r_own-1 : 0.296</li><li>r_social_tie : 0.270</li><li>r_quantificateur : 0.201</li></ul></section>
+<section class="panel"><h2>Chemin de généralisation</h2>
+<p class="note">Chaque nœud fusionné généralise plusieurs exemples. Le chemin bleu montre les généralisations retenues : la descente continue lorsque la similarité avec l'entrée ne diminue pas. Les autres enfants sont affichés comme alternatives, avec leurs exemples représentatifs.</p>
+<div class="legend"><span>Bleu : chemin suivi</span><span>Orange pointillé : meilleur enfant comparé, non retenu</span></div>
+<ul class="tree"><li><section class="tree-node selected"><div class="node-heading"><strong>Généralisation fusionnée · 140 ex.</strong><span class="badge">Chemin retenu</span></div><div class="metrics"><span>Similarité à l'entrée : 0.535</span><span>Cohésion de fusion : 0.270</span></div><p>Descente vers le nœud suivant : similarité 0.536 ≥ 0.535.</p><ul class="examples"><li>Vêtement du Jura</li><li>tigre du bengale</li><li>poisson de Nice</li><li>raisins de Corinthe</li><li>or du Klondike</li><li class="muted">… et 135 autre(s) exemple(s)</li></ul></section><ul class="branches"><li><section class="tree-node"><div class="node-heading"><strong>Exemple · 1 ex.</strong><span class="badge">Alternative</span></div><div class="metrics"><span>Similarité à l'entrée : 0.138</span></div><p>Exemple alternatif</p><ul class="examples"><li>Vêtement du Jura</li></ul></section></li><li><section class="tree-node selected"><div class="node-heading"><strong>Généralisation fusionnée · 139 ex.</strong><span class="badge">Chemin retenu</span></div><div class="metrics"><span>Similarité à l'entrée : 0.536</span><span>Cohésion de fusion : 0.292</span></div><p>Descente vers le nœud suivant : similarité 0.536 ≥ 0.536.</p><ul class="examples"><li>tigre du bengale</li><li>poisson de Nice</li><li>raisins de Corinthe</li><li>or du Klondike</li><li>rhum de la martinique</li><li class="muted">… et 134 autre(s) exemple(s)</li></ul></section><ul class="branches"><li><section class="tree-node"><div class="node-heading"><strong>Exemple · 1 ex.</strong><span class="badge">Alternative</span></div><div class="metrics"><span>Similarité à l'entrée : 0.125</span></div><p>Exemple alternatif</p><ul class="examples"><li>tigre du bengale</li></ul></section></li><li><section class="tree-node selected"><div class="node-heading"><strong>Généralisation fusionnée · 138 ex.</strong><span class="badge">Chemin retenu</span></div><div class="metrics"><span>Similarité à l'entrée : 0.536</span><span>Cohésion de fusion : 0.367</span></div><p>Descente vers le nœud suivant : similarité 0.536 ≥ 0.536.</p><ul class="examples"><li>poisson de Nice</li><li>raisins de Corinthe</li><li>or du Klondike</li><li>rhum de la martinique</li><li>thé d&#x27;Assam</li><li class="muted">… et 133 autre(s) exemple(s)</li></ul></section><ul class="branches"><li><section class="tree-node"><div class="node-heading"><strong>Exemple · 1 ex.</strong><span class="badge">Alternative</span></div><div class="metrics"><span>Similarité à l'entrée : 0.202</span></div><p>Exemple alternatif</p><ul class="examples"><li>poisson de Nice</li></ul></section></li><li><section class="tree-node selected"><div class="node-heading"><strong>Généralisation fusionnée · 137 ex.</strong><span class="badge">Chemin retenu</span></div><div class="metrics"><span>Similarité à l'entrée : 0.536</span><span>Cohésion de fusion : 0.398</span></div><p>Arrêt : aucun enfant n&#x27;améliore la similarité du nœud (0.536).</p><ul class="examples"><li>raisins de Corinthe</li><li>or du Klondike</li><li>rhum de la martinique</li><li>thé d&#x27;Assam</li><li>Échalote d&#x27;Anjou</li><li class="muted">… et 132 autre(s) exemple(s)</li></ul></section><ul class="branches"><li><section class="tree-node"><div class="node-heading"><strong>Exemple · 1 ex.</strong><span class="badge">Alternative</span></div><div class="metrics"><span>Similarité à l'entrée : 0.226</span></div><p>Exemple alternatif</p><ul class="examples"><li>raisins de Corinthe</li></ul></section></li><li><section class="tree-node best"><div class="node-heading"><strong>Généralisation fusionnée · 136 ex.</strong><span class="badge">Meilleur enfant comparé</span></div><div class="metrics"><span>Similarité à l'entrée : 0.536</span><span>Cohésion de fusion : 0.405</span></div><p>Branche alternative</p><ul class="examples"><li>or du Klondike</li><li>rhum de la martinique</li><li>thé d&#x27;Assam</li><li>Échalote d&#x27;Anjou</li><li>Porc noir de Bigorre</li><li class="muted">… et 131 autre(s) exemple(s)</li></ul></section></li></ul></li></ul></li></ul></li></ul></li></ul></section>
+</main>
+</body></html>

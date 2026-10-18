@@ -6,6 +6,7 @@ import json
 class JDM_API:
     def __init__(self):
         self.base_url = "https://jdm-api.demo.lirmm.fr/v0"
+        self.timeout = 30
      
         self.session = requests.Session()
 
@@ -20,7 +21,7 @@ class JDM_API:
                 data = json.load(f)
                 return data
         
-        response = self.session.get(url)
+        response = self.session.get(url, timeout=self.timeout)
         response.raise_for_status()
         data =  response.json().get('id')
     
@@ -60,7 +61,7 @@ class JDM_API:
                 data = json.load(f)
                 return data
         
-        response = self.session.get(url, params=kwargs)
+        response = self.session.get(url, params=kwargs, timeout=self.timeout)
         response.raise_for_status()
         data = response.json()
         
@@ -117,7 +118,7 @@ class JDM_API:
             json.dump(data, f, ensure_ascii=False, indent=4)
         return data
 
-    def get_relations_from_by_id(self, node_id, types_ids=None,min_weight=None,limit=300):
+    def get_relations_from_by_id(self, node_id, types_ids=None,min_weight=None,limit=400):
         url = f"{self.base_url}/relations/from_by_id/{node_id}"
         query = {}
         if types_ids is not None:
@@ -140,7 +141,7 @@ class JDM_API:
                 data = json.load(f)
                 return data
 
-        response = self.session.get(url, params=query)
+        response = self.session.get(url, params=query, timeout=self.timeout)
         response.raise_for_status()
         data = response.json()
 
