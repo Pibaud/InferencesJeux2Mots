@@ -151,6 +151,23 @@ class JDM_API:
 
         return data
 
+    def get_annotations_by_rel_id(self, relation_id):
+        """Retourne les noms des annotations portées par une relation JDM."""
+        relation_node_id = self.get_node_id_by_name(f":r{relation_id}")
+        if relation_node_id is None:
+            return []
+
+        data = self.get_relations_from_by_id(relation_node_id, limit=400)
+        annotations = []
+        for relation in data.get("relations", []):
+            if relation.get("type") != 998:
+                continue
+            annotation_node = self.get_node_by_id(relation["node2"])
+            annotation_name = annotation_node.get("name")
+            if annotation_name:
+                annotations.append(annotation_name)
+        return annotations
+
     def get_relation_types(self):
         """
         Récupère tous les types de relations (rtid, name, nom_etendu, info)

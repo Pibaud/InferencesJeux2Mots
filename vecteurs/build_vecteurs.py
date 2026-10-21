@@ -22,6 +22,12 @@ VALID_STATUSES = {"valide", "corrige"}
 H_SIZE = 400
 TRT_SIZE = 400
 INFOSEM_SIZE = 400
+ANNOTATIONS_PEU_PERTINENTES = {
+    "peu pertinent",
+    "peu pertinente",
+    "peu-pertinent",
+    "peu-pertinente",
+}
 api = JDM_API()
 
 
@@ -40,6 +46,14 @@ def regrouper_trt_par_id(relations: list[tuple[int, float]]) -> list[tuple[int, 
     return list(poids_par_id.items())
 
 
+def relation_est_pertinente(relation: dict[str, Any]) -> bool:
+    annotations = api.get_annotations_by_rel_id(relation["id"])
+    return not any(
+        annotation.strip().lower() in ANNOTATIONS_PEU_PERTINENTES
+        for annotation in annotations
+    )
+
+
 def term2sig(
     term_id: int,
     HSize: int = H_SIZE,
@@ -48,21 +62,33 @@ def term2sig(
 ) -> dict[int, float]:
     signature: dict[int, float] = {}
     data = api.get_relations_from_by_id(term_id, types_ids=6,limit=HSize)
-    relations = [(r["node2"], r["w"]) for r in data.get("relations", []) if r["w"] > 0]
+    relations = [
+        (r["node2"], r["w"])
+        for r in data.get("relations", [])
+        if r["w"] > 0 and relation_est_pertinente(r)
+    ]
     maximum = max((weight for _, weight in relations), default=1)
     for node_id, weight in sorted(relations, key=lambda item: item[1], reverse=True)[:HSize]:
         signature[node_id] = max(signature.get(node_id, 0), weight / maximum)
     signature[term_id] = 1.0
 
     data = api.get_relations_to_by_id(term_id)
-    relations = [(r["type"], r["w"]) for r in data.get("relations", []) if r["w"] > 0]
+    relations = [
+        (r["type"], r["w"])
+        for r in data.get("relations", [])
+        if r["w"] > 0 and relation_est_pertinente(r)
+    ]
     relations = regrouper_trt_par_id(relations)
     maximum = max((weight for _, weight in relations), default=1)
     for node_id, weight in sorted(relations, key=lambda item: item[1], reverse=True)[:TRTSize]:
         signature[node_id] = max(signature.get(node_id, 0), weight / maximum)
 
     data = api.get_relations_from_by_id(term_id, types_ids=36,limit=SSTSize)
-    relations = [(r["node2"], r["w"]) for r in data.get("relations", []) if r["w"] > 0]
+    relations = [
+        (r["node2"], r["w"])
+        for r in data.get("relations", [])
+        if r["w"] > 0 and relation_est_pertinente(r)
+    ]
     maximum = max((weight for _, weight in relations), default=1)
     for node_id, weight in sorted(relations, key=lambda item: item[1], reverse=True)[:SSTSize]:
         signature[node_id] = max(signature.get(node_id, 0), weight / maximum)
@@ -79,24 +105,8 @@ def fusionner_signatures(signature_a: dict[int, float], signature_b: dict[int, f
     return vector
 
 
-def relations_directes_a_vers_b(term_id_a: int, term_id_b: int) -> dict[str, float]:
-    data = api.get_relations_from_to_by_id(term_id_a, term_id_b)
-    relations = [
-        (relation.get("type"), relation.get("w", 0))
-        for relation in data.get("relations", [])
-        if relation.get("type") is not None and relation.get("w", 0) > 0
-    ]
-    maximum = max((weight for _, weight in relations), default=1)
-    return {
-        f"ab:{relation_type}": weight / maximum
-        for relation_type, weight in relations
-    }
-
-
 def construire_vecteur_termes(term_id_a: int, term_id_b: int) -> dict[str, float]:
-    vector = fusionner_signatures(term2sig(term_id_a), term2sig(term_id_b))
-    vector.update(relations_directes_a_vers_b(term_id_a, term_id_b))
-    return vector
+    return fusionner_signatures(term2sig(term_id_a), term2sig(term_id_b))
 
 
 def fusionner_vecteurs(left: dict[str, float], right: dict[str, float]) -> dict[str, float]:

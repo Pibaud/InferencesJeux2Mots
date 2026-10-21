@@ -1,4 +1,5 @@
 import argparse
+import csv
 import html
 import json
 import sys
@@ -28,6 +29,7 @@ from vecteurs.build_vecteurs import (
 
 MODES = ("seuil", "complet", "tous")
 RAPPORT_EXPLICATION_PATH = Path(__file__).resolve().parent / "explication_evaluation.html"
+RAPPORT_GRAPHIQUES_PATH = Path(__file__).resolve().parent / "rapport_evaluation.html"
 
 
 def demander_mode() -> str:
@@ -63,10 +65,20 @@ def executer_interactivement() -> int:
         if not chemin:
             raise ValueError("Le chemin du dataset ne peut pas être vide.")
         details = input("Afficher le détail des prédictions ? [o/N] : ").strip().lower()
+        csv_sortie = input("Fichier CSV détaillé [aucun] : ").strip()
+        graphiques_sortie = input("Fichier HTML des graphiques [aucun] : ").strip()
+        ouvrir_graphiques = bool(graphiques_sortie) and input(
+            "Ouvrir les graphiques dans le navigateur ? [O/n] : "
+        ).strip().lower() not in {"n", "non", "no"}
         modes = list(AGENTS_PATHS) if mode == "tous" else [mode]
         for current_mode in modes:
             resultat = evaluer_dataset(
-                Path(chemin), current_mode, details in {"o", "oui", "y", "yes"}
+                Path(chemin),
+                current_mode,
+                details in {"o", "oui", "y", "yes"},
+                Path(csv_sortie) if csv_sortie else None,
+                Path(graphiques_sortie) if graphiques_sortie else None,
+                ouvrir_graphiques,
             )
             if resultat != 0:
                 return resultat
@@ -260,7 +272,85 @@ def evaluer_avec_explication_html(
     return 0
 
 
-def evaluer_dataset(chemin: Path, mode: str, details: bool = False) -> int:
+def creer_graphiques_evaluation(
+    chemin: Path,
+    mode: str,
+    lignes: list[dict[str, str]],
+    stats_par_classe: dict[str, dict[str, int]],
+    predictions_par_classe: Counter[str],
+    sortie: Path,
+    ouvrir: bool,
+) -> None:
+    classes = sorted(stats_par_classe)
+    largeur = 760
+    hauteur = max(300, 130 + len(classes) * 34)
+    marge_gauche = 230
+    zone = largeur - marge_gauche - 30
+    barres = []
+    for index, classe in enumerate(classes):
+        stats = stats_par_classe[classe]
+        taux = stats["correctes"] / stats["classees"] if stats["classees"] else 0
+        y = 55 + index * 34
+        barres.append(
+            f'<text x="{marge_gauche - 10}" y="{y + 16}" text-anchor="end">'
+            f"{html.escape(classe)}</text>"
+            f'<rect x="{marge_gauche}" y="{y}" width="{zone * taux:.1f}" height="20" fill="#2874c8"/>'
+            f'<text x="{marge_gauche + zone * taux + 8:.1f}" y="{y + 16}">{taux:.1%}</text>'
+        )
+    svg = (
+        f'<svg viewBox="0 0 {largeur} {hauteur}" role="img" '
+        'aria-label="Taux de réussite par classe">'
+        f'<line x1="{marge_gauche}" y1="35" x2="{marge_gauche}" y2="{hauteur - 25}" stroke="#9aa8b8"/>'
+        + "".join(barres)
+        + "</svg>"
+    )
+
+    matrice = defaultdict(Counter)
+    for ligne in lignes:
+        attendu = ligne.get("relation_attendue", "")
+        predit = ligne.get("relation_predite", "")
+        if attendu and predit:
+            matrice[attendu][predit] += 1
+    toutes_classes = sorted(set(classes) | {predit for valeurs in matrice.values() for predit in valeurs})
+    entetes = "".join(f"<th>{html.escape(classe)}</th>" for classe in toutes_classes)
+    lignes_matrice = []
+    for attendu in toutes_classes:
+        cellules = "".join(f"<td>{matrice[attendu][predit]}</td>" for predit in toutes_classes)
+        lignes_matrice.append(f"<tr><th>{html.escape(attendu)}</th>{cellules}</tr>")
+    tableau = (
+        f"<table><thead><tr><th>Attendu / prédit</th>{entetes}</tr></thead>"
+        f"<tbody>{''.join(lignes_matrice)}</tbody></table>"
+    )
+    total = sum(stats["exemples"] for stats in stats_par_classe.values())
+    taux_global = sum(stats["correctes"] for stats in stats_par_classe.values()) / max(
+        sum(stats["classees"] for stats in stats_par_classe.values()), 1
+    )
+    sortie.parent.mkdir(parents=True, exist_ok=True)
+    sortie.write_text(
+        f'''<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Graphiques d'évaluation</title>
+<style>body{{font-family:system-ui,sans-serif;color:#172033;background:#f3f6fa;max-width:1100px;margin:0 auto;padding:24px}}section{{background:#fff;border:1px solid #dce3ed;border-radius:10px;padding:18px;margin:16px 0;overflow:auto}}h1{{margin-top:0}}svg{{width:100%;max-height:700px}}table{{border-collapse:collapse;min-width:100%}}th,td{{border:1px solid #dce3ed;padding:8px;text-align:center}}th{{background:#eef3f8}}td{{font-variant-numeric:tabular-nums}}</style></head>
+<body><h1>Évaluation du dataset</h1><p>{html.escape(str(chemin))} · mode {html.escape(mode)} · {total} exemples</p>
+<section><h2>Taux de réussite par classe réelle</h2>{svg}</section>
+<section><h2>Matrice de confusion</h2>{tableau}</section>
+<section><h2>Résumé</h2><p>Taux global sur les exemples classés : <strong>{taux_global:.1%}</strong></p><p>Classes prédites : {sum(predictions_par_classe.values())}</p></section>
+</body></html>''',
+        encoding="utf-8",
+    )
+    print(f"Graphiques créés : {sortie}")
+    if ouvrir:
+        webbrowser.open(sortie.resolve().as_uri())
+
+
+def evaluer_dataset(
+    chemin: Path,
+    mode: str,
+    details: bool = False,
+    csv_sortie: Path | None = None,
+    graphiques_sortie: Path | None = None,
+    ouvrir_graphiques: bool = True,
+) -> int:
     """Évalue les exemples d'un fichier JSON avec les agents déjà entraînés."""
     dataset = json.loads(chemin.read_text(encoding="utf-8"))
     if not isinstance(dataset, list):
@@ -276,16 +366,19 @@ def evaluer_dataset(chemin: Path, mode: str, details: bool = False) -> int:
         lambda: {"exemples": 0, "classees": 0, "correctes": 0}
     )
     predictions_par_classe: Counter[str] = Counter()
+    lignes_csv: list[dict[str, str]] = []
     nombre_eligible = nombre_classe = nombre_correct = nombre_ignore = nombre_exclu = 0
 
     for index, exemple in enumerate(dataset, start=1):
         if not isinstance(exemple, dict):
             nombre_ignore += 1
+            lignes_csv.append({"index": str(index), "resultat": "ignore", "erreur": "entrée JSON invalide"})
             continue
 
         statut = exemple.get("statut")
         if statut is not None and statut not in VALID_STATUSES:
             nombre_exclu += 1
+            lignes_csv.append({"index": str(index), "statut": str(statut), "resultat": "exclu"})
             continue
 
         relation_attendue = exemple.get("relation_humaine")
@@ -300,9 +393,11 @@ def evaluer_dataset(chemin: Path, mode: str, details: bool = False) -> int:
                     mot_a, mot_b = parse_phrase(texte)
                 except ValueError:
                     nombre_ignore += 1
+                    lignes_csv.append({"index": str(index), "resultat": "ignore", "erreur": "phrase invalide"})
                     continue
             else:
                 nombre_ignore += 1
+                lignes_csv.append({"index": str(index), "resultat": "ignore", "erreur": "champs obligatoires manquants"})
                 continue
 
         relation_attendue = relation_attendue.strip()
@@ -336,6 +431,19 @@ def evaluer_dataset(chemin: Path, mode: str, details: bool = False) -> int:
                 nombre_correct += 1
                 stats["correctes"] += 1
 
+        lignes_csv.append({
+            "index": str(index),
+            "texte_complet": str(exemple.get("texte_complet") or f"{mot_a} de {mot_b}"),
+            "mot_a": mot_a,
+            "mot_b": mot_b,
+            "statut": str(statut or ""),
+            "relation_attendue": relation_attendue,
+            "relation_predite": relation_predite or "",
+            "correcte": str(relation_predite == relation_attendue).lower(),
+            "resultat": "classe" if relation_predite is not None else "non_classe",
+            "erreur": erreur or "",
+        })
+
         if details:
             resultat = relation_predite if relation_predite is not None else f"non classé ({erreur})"
             print(f"[{index}] attendu={relation_attendue} | prédit={resultat}")
@@ -367,6 +475,22 @@ def evaluer_dataset(chemin: Path, mode: str, details: bool = False) -> int:
             f"précision des prédictions de cette classe : "
             f"{stats['correctes']}/{precision_denominateur} ({precision})"
         )
+    if csv_sortie:
+        colonnes = [
+            "index", "texte_complet", "mot_a", "mot_b", "statut",
+            "relation_attendue", "relation_predite", "correcte", "resultat", "erreur",
+        ]
+        csv_sortie.parent.mkdir(parents=True, exist_ok=True)
+        with csv_sortie.open("w", newline="", encoding="utf-8-sig") as fichier:
+            ecrivain = csv.DictWriter(fichier, fieldnames=colonnes, extrasaction="ignore")
+            ecrivain.writeheader()
+            ecrivain.writerows(lignes_csv)
+        print(f"CSV détaillé créé : {csv_sortie}")
+    if graphiques_sortie:
+        creer_graphiques_evaluation(
+            chemin, mode, lignes_csv, stats_par_classe, predictions_par_classe,
+            graphiques_sortie, ouvrir_graphiques,
+        )
     return 0
 
 
@@ -387,9 +511,56 @@ def main() -> int:
         choices=MODES,
         help="seuil: forêt; complet: arbre unique; tous: les deux.",
     )
+    parser.add_argument(
+        "--dataset",
+        type=Path,
+        help="Évalue un dataset JSON au lieu d'une expression.",
+    )
+    parser.add_argument(
+        "--csv",
+        type=Path,
+        dest="csv_sortie",
+        help="Écrit le détail des classifications dans ce fichier CSV.",
+    )
+    parser.add_argument(
+        "--graphiques",
+        type=Path,
+        help="Écrit un rapport HTML avec les graphiques d'évaluation.",
+    )
+    parser.add_argument(
+        "--ouvrir-graphiques",
+        action="store_true",
+        help="Ouvre le rapport HTML des graphiques dans le navigateur.",
+    )
     args = parser.parse_args()
 
     try:
+        if args.dataset:
+            if args.expression or args.train:
+                parser.error("--dataset ne peut pas être combiné avec une expression ou --train")
+            modes = list(AGENTS_PATHS) if args.mode == "tous" else [args.mode or "seuil"]
+            for current_mode in modes:
+                csv_sortie = args.csv_sortie
+                graphiques = args.graphiques
+                if len(modes) > 1:
+                    if csv_sortie:
+                        csv_sortie = csv_sortie.with_name(
+                            f"{csv_sortie.stem}_{current_mode}{csv_sortie.suffix or '.csv'}"
+                        )
+                    if graphiques:
+                        graphiques = graphiques.with_name(
+                            f"{graphiques.stem}_{current_mode}{graphiques.suffix or '.html'}"
+                        )
+                resultat = evaluer_dataset(
+                    args.dataset,
+                    current_mode,
+                    csv_sortie=csv_sortie,
+                    graphiques_sortie=graphiques,
+                    ouvrir_graphiques=args.ouvrir_graphiques,
+                )
+                if resultat:
+                    return resultat
+            return 0
         if not args.expression and not args.train and not args.mode:
             return executer_interactivement()
         mode = args.mode or "seuil"
