@@ -847,13 +847,6 @@
         "statut": "valide"
     },
     {
-        "texte_complet": "œuvre d'un mystificateur",
-        "mot_a": "œuvre",
-        "mot_b": "mystificateur",
-        "relation_humaine": "r_product_of",
-        "statut": "valide"
-    },
-    {
         "texte_complet": "réalité des faits",
         "mot_a": "réalité",
         "mot_b": "faits",
@@ -3143,6 +3136,27 @@
         "statut": "valide"
     },
     {
+        "texte_complet": "rayonnement de l'étoile",
+        "mot_a": "rayonnement",
+        "mot_b": "étoile",
+        "relation_humaine": "r_product_of",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "moisissure de la bactérie",
+        "mot_a": "moisissure",
+        "mot_b": "bactérie",
+        "relation_humaine": "r_product_of",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "son du haut-parleur",
+        "mot_a": "son",
+        "mot_b": "haut-parleur",
+        "relation_humaine": "r_product_of",
+        "statut": "valide"
+    },
+    {
         "texte_complet": "trousse d'urgence",
         "mot_a": "trousse",
         "mot_b": "urgence",
@@ -5110,13 +5124,6 @@
         "statut": "valide"
     },
     {
-        "texte_complet": "semoule de minoterie",
-        "mot_a": "semoule",
-        "mot_b": "minoterie",
-        "relation_humaine": "r_product_of",
-        "statut": "valide"
-    },
-    {
         "texte_complet": "venin de serpent",
         "mot_a": "venin",
         "mot_b": "serpent",
@@ -5166,23 +5173,9 @@
         "statut": "valide"
     },
     {
-        "texte_complet": "cidre du pressoir",
-        "mot_a": "cidre",
-        "mot_b": "pressoir",
-        "relation_humaine": "r_product_of",
-        "statut": "valide"
-    },
-    {
         "texte_complet": "fruit des vergers",
         "mot_a": "fruit",
         "mot_b": "vergers",
-        "relation_humaine": "r_product_of",
-        "statut": "valide"
-    },
-    {
-        "texte_complet": "nectar d'agave",
-        "mot_a": "nectar",
-        "mot_b": "agave",
         "relation_humaine": "r_product_of",
         "statut": "valide"
     },
@@ -5194,30 +5187,9 @@
         "statut": "valide"
     },
     {
-        "texte_complet": "tuile de four",
-        "mot_a": "tuile",
-        "mot_b": "four",
-        "relation_humaine": "r_product_of",
-        "statut": "valide"
-    },
-    {
-        "texte_complet": "pollen des fleurs",
-        "mot_a": "pollen",
-        "mot_b": "fleurs",
-        "relation_humaine": "r_product_of",
-        "statut": "valide"
-    },
-    {
         "texte_complet": "acier de haut-fourneau",
         "mot_a": "acier",
         "mot_b": "haut-fourneau",
-        "relation_humaine": "r_product_of",
-        "statut": "valide"
-    },
-    {
-        "texte_complet": "bière de la cuve",
-        "mot_a": "bière",
-        "mot_b": "cuve",
         "relation_humaine": "r_product_of",
         "statut": "valide"
     },
@@ -5236,13 +5208,6 @@
         "statut": "valide"
     },
     {
-        "texte_complet": "huile des olives",
-        "mot_a": "huile",
-        "mot_b": "olives",
-        "relation_humaine": "r_product_of",
-        "statut": "valide"
-    },
-    {
         "texte_complet": "légume du potager",
         "mot_a": "légume",
         "mot_b": "potager",
@@ -5253,13 +5218,6 @@
         "texte_complet": "filament du bombyx",
         "mot_a": "filament",
         "mot_b": "bombyx",
-        "relation_humaine": "r_product_of",
-        "statut": "valide"
-    },
-    {
-        "texte_complet": "cristal d'atelier",
-        "mot_a": "cristal",
-        "mot_b": "atelier",
         "relation_humaine": "r_product_of",
         "statut": "valide"
     },
@@ -5299,37 +5257,9 @@
         "statut": "valide"
     },
     {
-        "texte_complet": "latex d'hévéa",
-        "mot_a": "latex",
-        "mot_b": "hévéa",
-        "relation_humaine": "r_product_of",
-        "statut": "valide"
-    },
-    {
-        "texte_complet": "morve de la limace",
-        "mot_a": "morve",
-        "mot_b": "limace",
-        "relation_humaine": "r_product_of",
-        "statut": "valide"
-    },
-    {
-        "texte_complet": "suie de cheminée",
-        "mot_a": "suie",
-        "mot_b": "cheminée",
-        "relation_humaine": "r_product_of",
-        "statut": "valide"
-    },
-    {
-        "texte_complet": "lingot du creuset",
+        "texte_complet": "lingot du four",
         "mot_a": "lingot",
-        "mot_b": "creuset",
-        "relation_humaine": "r_product_of",
-        "statut": "valide"
-    },
-    {
-        "texte_complet": "copeau de rabot",
-        "mot_a": "copeau",
-        "mot_b": "rabot",
+        "mot_b": "four",
         "relation_humaine": "r_product_of",
         "statut": "valide"
     },
@@ -5348,13 +5278,6 @@
         "statut": "valide"
     },
     {
-        "texte_complet": "charbon de la meule",
-        "mot_a": "charbon",
-        "mot_b": "meule",
-        "relation_humaine": "r_product_of",
-        "statut": "valide"
-    },
-    {
         "texte_complet": "beurre des bufflonnes",
         "mot_a": "beurre",
         "mot_b": "bufflonnes",
@@ -5362,30 +5285,9 @@
         "statut": "valide"
     },
     {
-        "texte_complet": "fil du fuseau",
-        "mot_a": "fil",
-        "mot_b": "fuseau",
-        "relation_humaine": "r_product_of",
-        "statut": "valide"
-    },
-    {
-        "texte_complet": "cendrée du foyer",
-        "mot_a": "cendrée",
-        "mot_b": "foyer",
-        "relation_humaine": "r_product_of",
-        "statut": "valide"
-    },
-    {
         "texte_complet": "raisin du cep",
         "mot_a": "raisin",
         "mot_b": "cep",
-        "relation_humaine": "r_product_of",
-        "statut": "valide"
-    },
-    {
-        "texte_complet": "son de blé",
-        "mot_a": "son",
-        "mot_b": "blé",
         "relation_humaine": "r_product_of",
         "statut": "valide"
     },
@@ -5404,13 +5306,6 @@
         "statut": "valide"
     },
     {
-        "texte_complet": "limaille de la lime",
-        "mot_a": "limaille",
-        "mot_b": "lime",
-        "relation_humaine": "r_product_of",
-        "statut": "valide"
-    },
-    {
         "texte_complet": "eau-de-vie d'alambic",
         "mot_a": "eau-de-vie",
         "mot_b": "alambic",
@@ -5418,9 +5313,9 @@
         "statut": "valide"
     },
     {
-        "texte_complet": "sciure de la scie",
+        "texte_complet": "sciure de la bûche",
         "mot_a": "sciure",
-        "mot_b": "scie",
+        "mot_b": "bûche",
         "relation_humaine": "r_product_of",
         "statut": "valide"
     },
@@ -5446,13 +5341,6 @@
         "statut": "valide"
     },
     {
-        "texte_complet": "pulpe des betteraves",
-        "mot_a": "pulpe",
-        "mot_b": "betteraves",
-        "relation_humaine": "r_product_of",
-        "statut": "valide"
-    },
-    {
         "texte_complet": "scorie de la forge",
         "mot_a": "scorie",
         "mot_b": "forge",
@@ -5460,9 +5348,30 @@
         "statut": "valide"
     },
     {
-        "texte_complet": "béton de centrale",
-        "mot_a": "béton",
-        "mot_b": "centrale",
+        "texte_complet": "pomme du pommier",
+        "mot_a": "pomme",
+        "mot_b": "pommier",
+        "relation_humaine": "r_product_of",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "chanson de Madonna",
+        "mot_a": "chanson",
+        "mot_b": "Madonna",
+        "relation_humaine": "r_product_of",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "logiciel de Microsoft",
+        "mot_a": "logiciel",
+        "mot_b": "Microsoft",
+        "relation_humaine": "r_product_of",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "fumée du volcan",
+        "mot_a": "fumée",
+        "mot_b": "volcan",
         "relation_humaine": "r_product_of",
         "statut": "valide"
     },
@@ -5491,13 +5400,6 @@
         "texte_complet": "gland du chêne",
         "mot_a": "gland",
         "mot_b": "chêne",
-        "relation_humaine": "r_product_of",
-        "statut": "valide"
-    },
-    {
-        "texte_complet": "mâchefer d'incinérateur",
-        "mot_a": "mâchefer",
-        "mot_b": "incinérateur",
         "relation_humaine": "r_product_of",
         "statut": "valide"
     },
@@ -6024,6 +5926,48 @@
         "mot_a": "cuisson",
         "mot_b": "boulanger",
         "relation_humaine": "r_processus_agent",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "électricité de l'éolienne",
+        "mot_a": "électricité",
+        "mot_b": "éolienne",
+        "relation_humaine": "r_product_of",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "tweet de l'internaute",
+        "mot_a": "tweet",
+        "mot_b": "internaute",
+        "relation_humaine": "r_product_of",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "musique de l'orchestre",
+        "mot_a": "musique",
+        "mot_b": "orchestre",
+        "relation_humaine": "r_product_of",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "verdict du juge",
+        "mot_a": "verdict",
+        "mot_b": "juge",
+        "relation_humaine": "r_product_of",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "diagnostic du médecin",
+        "mot_a": "diagnostic",
+        "mot_b": "médecin",
+        "relation_humaine": "r_product_of",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "rapport des experts",
+        "mot_a": "rapport",
+        "mot_b": "experts",
+        "relation_humaine": "r_product_of",
         "statut": "valide"
     },
     {
@@ -11333,6 +11277,90 @@
         "statut": "valide"
     },
     {
+        "texte_complet": "vapeur du geyser",
+        "mot_a": "vapeur",
+        "mot_b": "geyser",
+        "relation_humaine": "r_product_of",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "lumière de la lampe",
+        "mot_a": "lumière",
+        "mot_b": "lampe",
+        "relation_humaine": "r_product_of",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "oxygène de la plante",
+        "mot_a": "oxygène",
+        "mot_b": "plante",
+        "relation_humaine": "r_product_of",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "glace du congélateur",
+        "mot_a": "glace",
+        "mot_b": "congélateur",
+        "relation_humaine": "r_product_of",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "étincelle du feu",
+        "mot_a": "étincelle",
+        "mot_b": "feu",
+        "relation_humaine": "r_product_of",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "salive du chien",
+        "mot_a": "salive",
+        "mot_b": "chien",
+        "relation_humaine": "r_product_of",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "vidéo du youtubeur",
+        "mot_a": "vidéo",
+        "mot_b": "youtubeur",
+        "relation_humaine": "r_product_of",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "larmes de l'enfant",
+        "mot_a": "larmes",
+        "mot_b": "enfant",
+        "relation_humaine": "r_product_of",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "larmes de l'enfant",
+        "mot_a": "larmes",
+        "mot_b": "enfant",
+        "relation_humaine": "r_product_of",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "énergie du réacteur",
+        "mot_a": "énergie",
+        "mot_b": "réacteur",
+        "relation_humaine": "r_product_of",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "fruit du cerisier",
+        "mot_a": "fruit",
+        "mot_b": "cerisier",
+        "relation_humaine": "r_product_of",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "podcast de l'animateur",
+        "mot_a": "podcast",
+        "mot_b": "animateur",
+        "relation_humaine": "r_product_of",
+        "statut": "valide"
+    },
+    {
         "texte_complet": "saucisson du charcutier",
         "mot_a": "saucisson",
         "mot_b": "charcutier",
@@ -11676,6 +11704,13 @@
         "statut": "valide"
     },
     {
+        "texte_complet": "loi du parlement",
+        "mot_a": "loi",
+        "mot_b": "parlement",
+        "relation_humaine": "r_product_of",
+        "statut": "valide"
+    },
+    {
         "texte_complet": "rapport de l'expert",
         "mot_a": "rapport",
         "mot_b": "expert",
@@ -11742,6 +11777,13 @@
         "texte_complet": "sérum de l'institut",
         "mot_a": "sérum",
         "mot_b": "institut",
+        "relation_humaine": "r_product_of",
+        "statut": "valide"
+    },
+    {
+        "texte_complet": "molécule du laboratoire",
+        "mot_a": "molécule",
+        "mot_b": "laboratoire",
         "relation_humaine": "r_product_of",
         "statut": "valide"
     },
@@ -14819,27 +14861,6 @@
         "statut": "valide"
     },
     {
-        "texte_complet": "vin du vigneron",
-        "mot_a": "vin",
-        "mot_b": "vigneron",
-        "relation_humaine": "r_product_of",
-        "statut": "valide"
-    },
-    {
-        "texte_complet": "bière du brasseur",
-        "mot_a": "bière",
-        "mot_b": "brasseur",
-        "relation_humaine": "r_product_of",
-        "statut": "valide"
-    },
-    {
-        "texte_complet": "miel de l'apiculteur",
-        "mot_a": "miel",
-        "mot_b": "apiculteur",
-        "relation_humaine": "r_product_of",
-        "statut": "valide"
-    },
-    {
         "texte_complet": "toile du portraitiste",
         "mot_a": "toile",
         "mot_b": "portraitiste",
@@ -14868,20 +14889,6 @@
         "statut": "valide"
     },
     {
-        "texte_complet": "cire des abeilles",
-        "mot_a": "cire",
-        "mot_b": "abeilles",
-        "relation_humaine": "r_product_of",
-        "statut": "valide"
-    },
-    {
-        "texte_complet": "toile de l'araignée",
-        "mot_a": "toile",
-        "mot_b": "araignée",
-        "relation_humaine": "r_product_of",
-        "statut": "valide"
-    },
-    {
         "texte_complet": "venin du serpent",
         "mot_a": "venin",
         "mot_b": "serpent",
@@ -14896,7 +14903,7 @@
         "statut": "valide"
     },
     {
-        "texte_complet": "huile du moulin",
+        "texte_complet": "farine de la meule",
         "mot_a": "huile",
         "mot_b": "moulin",
         "relation_humaine": "r_product_of",
@@ -15736,13 +15743,6 @@
         "statut": "valide"
     },
     {
-        "texte_complet": "miel des abeilles",
-        "mot_a": "miel",
-        "mot_b": "abeilles",
-        "relation_humaine": "r_product_of",
-        "statut": "valide"
-    },
-    {
         "texte_complet": "toile de picasso",
         "mot_a": "toile",
         "mot_b": "picasso",
@@ -15764,9 +15764,9 @@
         "statut": "valide"
     },
     {
-        "texte_complet": "algorithme du programmeur",
-        "mot_a": "algorithme",
-        "mot_b": "programmeur",
+        "texte_complet": "preuve du mathématicien",
+        "mot_a": "preuve",
+        "mot_b": "mathématicien",
         "relation_humaine": "r_product_of",
         "statut": "valide"
     },
